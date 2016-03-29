@@ -1,0 +1,27 @@
+﻿.btn-toolbar {
+    display: inline-block;
+}
+.page-header .btn-group {
+    margin-left: 20px;
+}
+ul#teamslots {
+    column-count: 6;
+    -webkit-column-count: 6;
+    -moz-column-count: 6;
+}
+textarea {
+    height: auto;
+    width: 100%;
+}
+.pokemon {
+    width: 95%;
+}
+.basics input {
+    width: 8em;
+}
+.stats input {
+    width: 4em;
+}
+.moves input {
+    width: 11em;
+}

@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<!-- License: MIT License -->
+<html lang="en" ng-app="teamGenerator">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ShakeItUp Pok&eacute;mon Team Generator</title>
+    <link rel="icon" type="image/png" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/generator.css" />
+</head>
+
+<body ng-controller="GeneratorController">
+
+    <div class="page-header text-center">
+        <h2>Random Pok&eacute;mon Team Generator <small>created by Honko</small></h2>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'rby'" ng-change="generateNewTeam()">RBY</label>
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'gsc'" ng-change="generateNewTeam()">GSC</label>
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'adv'" ng-change="generateNewTeam()">ADV</label>
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'dpp'" ng-change="generateNewTeam()">DPP</label>
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'bw'" ng-change="generateNewTeam()">B/W</label>
+                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'xy'" ng-change="generateNewTeam()">X/Y</label>
+            </div>
+            <div class="btn-group">
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uber'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('uber')">Uber</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ou'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('ou')">OU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('uu')">UU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ru'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('ru')">RU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'nu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('nu')">NU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'pu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('pu')">PU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'lc'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('lc')">LC</label>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" ng-click="generateTeam()">Shake it up!</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="well">
+        <div>
+            <ul id="teamslots" class="list-unstyled">
+                <li ng-repeat="pokemon in team">
+                    <div class="pokemon">
+                        <div class="text-center">
+                            <button type="button" class="btn btn-default" ng-model="pokemon.locked" uib-btn-checkbox title="Keep this set">
+                                <span class="glyphicon glyphicon-lock"></span>
+                            </button>
+                        </div>
+                        <br />
+                        <table class="table table-condensed basics">
+                            <tr>
+                                <td><label>Pok&eacute;mon</label></td>
+                                <td>
+                                    <input type="text" ng-model="pokemon.name" ng-disabled="pokemon.locked || pokemon.speciesLocked" />
+                                    <button type="button" class="btn btn-default btn-xs" ng-model="pokemon.speciesLocked" uib-btn-checkbox title="Keep this Pok&eacute;mon"><span class="glyphicon glyphicon-lock"></span></button>
+                                </td>
+                            </tr>
+                            <tr><td><label>Item</label></td><td><input type="text" ng-model="pokemon.item" ng-disabled="pokemon.locked" /></td></tr>
+                            <tr><td><label>Ability</label></td><td><input type="text" ng-model="pokemon.ability" ng-disabled="pokemon.locked" /></td></tr>
+                            <tr><td><label>Nature</label></td><td><input type="text" ng-model="pokemon.nature" ng-disabled="pokemon.locked" /></td></tr>
+                        </table>
+                        <table class="table table-condensed stats">
+                            <tr>
+                                <td><label>HP</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.hp" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.hp" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Attack</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.atk" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.atk" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Defense</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.def" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.def" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Sp. Atk.</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.spa" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.spa" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Sp. Def.</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.spd" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.spd" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                            <tr>
+                                <td><label>Speed</label></td>
+                                <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.spe" ng-disabled="pokemon.locked" title="EVs" /></td>
+                                <td><input type="number" min="0" max="31" ng-model="pokemon.ivs.spe" ng-disabled="pokemon.locked" title="IVs" /></td>
+                            </tr>
+                        </table>
+                        <div class="moves">
+                            <label>Moves</label>
+                            <ul>
+                                <li ng-repeat="i in [0,1,2,3] track by $index"><input type="text" ng-model="pokemon.moves[i]" ng-disabled="pokemon.locked" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <br />
+        <div>
+            <p><button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exportModal" ng-click="exportTeam()">Export!</button></p>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exportModal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button class="close" data-dismiss="modal"><span>&times;</span></button>
+                    <h4 class="modal-title text-center">Export</h4>
+                </div>
+                <div class="modal-body">
+                    <textarea rows="30" cols="60" ng-model="teamExport" ng-readonly="teamExportReadOnly"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery-2.2.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ui-bootstrap-custom-tpls-1.2.5.min.js"></script>
+
+    <script src="js/generator.js"></script>
+    <script src="js/data/xy_uber.js"></script>
+    <script src="js/data/xy_ou.js"></script>
+    <script src="js/data/xy_uu.js"></script>
+    <script src="js/data/xy_ru.js"></script>
+    <script src="js/data/xy_nu.js"></script>
+    <script src="js/data/xy_pu.js"></script>
+    <script src="js/data/xy_lc.js"></script>
+    <script src="js/data/bw_uber.js"></script>
+    <script src="js/data/bw_ou.js"></script>
+    <script src="js/data/bw_uu.js"></script>
+    <script src="js/data/bw_ru.js"></script>
+    <script src="js/data/bw_nu.js"></script>
+    <script src="js/data/bw_lc.js"></script>
+    <script src="js/data/dpp_uber.js"></script>
+    <script src="js/data/dpp_ou.js"></script>
+    <script src="js/data/dpp_uu.js"></script>
+    <script src="js/data/dpp_nu.js"></script>
+    <script src="js/data/dpp_lc.js"></script>
+    <script src="js/data/adv_uber.js"></script>
+    <script src="js/data/adv_ou.js"></script>
+    <script src="js/data/adv_uu.js"></script>
+    <script src="js/data/adv_nu.js"></script>
+    <script src="js/data/gsc_ou.js"></script>
+    <script src="js/data/rby_ou.js"></script>
+    <script src="js/data/rby_uu.js"></script>
+</body>
+</html>

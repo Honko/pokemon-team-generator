@@ -32,8 +32,8 @@ var setdex = {
 var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap.buttons']);
 teamGenerator.controller('GeneratorController', function($scope) {
 
-    $scope.invalidMeta = function(meta) {
-        return !setdex[$scope.gen][meta];
+    $scope.validMeta = function(meta) {
+        return !!setdex[$scope.gen][meta];
     };
 
     var _generateTeam = function(oldTeam) {
@@ -68,7 +68,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
     };
 
     $scope.generateNewTeam = function() {
-        if ($scope.invalidMeta($scope.meta)) {
+        if (!$scope.validMeta($scope.meta)) {
             $scope.meta = "ou";
         }
         _generateTeam([]);

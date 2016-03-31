@@ -26,13 +26,13 @@
                 <label class="btn btn-default" ng-model="gen" uib-btn-radio="'xy'" ng-change="generateNewTeam()">X/Y</label>
             </div>
             <div class="btn-group">
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uber'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('uber')">Uber</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ou'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('ou')">OU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('uu')">UU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ru'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('ru')">RU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'nu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('nu')">NU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'pu'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('pu')">PU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'lc'" ng-change="generateNewTeam()" ng-disabled="invalidMeta('lc')">LC</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uber'" ng-change="generateNewTeam()" ng-show="validMeta('uber')">Uber</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ou'" ng-change="generateNewTeam()" ng-show="validMeta('ou')">OU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uu'" ng-change="generateNewTeam()" ng-show="validMeta('uu')">UU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ru'" ng-change="generateNewTeam()" ng-show="validMeta('ru')">RU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'nu'" ng-change="generateNewTeam()" ng-show="validMeta('nu')">NU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'pu'" ng-change="generateNewTeam()" ng-show="validMeta('pu')">PU</label>
+                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'lc'" ng-change="generateNewTeam()" ng-show="validMeta('lc')">LC</label>
             </div>
             <div class="btn-group">
                 <button type="button" class="btn btn-primary" ng-click="generateTeam()">Shake it up!</button>
@@ -59,11 +59,11 @@
                                     <button type="button" class="btn btn-default btn-xs" ng-model="pokemon.speciesLocked" uib-btn-checkbox title="Keep this Pok&eacute;mon"><span class="glyphicon glyphicon-lock"></span></button>
                                 </td>
                             </tr>
-                            <tr><td><label>Item</label></td><td><input type="text" ng-model="pokemon.item" ng-disabled="pokemon.locked" /></td></tr>
-                            <tr><td><label>Ability</label></td><td><input type="text" ng-model="pokemon.ability" ng-disabled="pokemon.locked" /></td></tr>
-                            <tr><td><label>Nature</label></td><td><input type="text" ng-model="pokemon.nature" ng-disabled="pokemon.locked" /></td></tr>
+                            <tr ng-show="gen !== 'rby'"><td><label>Item</label></td><td><input type="text" ng-model="pokemon.item" ng-disabled="pokemon.locked" /></td></tr>
+                            <tr ng-show="gen !== 'rby' && gen !== 'gsc'"><td><label>Ability</label></td><td><input type="text" ng-model="pokemon.ability" ng-disabled="pokemon.locked" /></td></tr>
+                            <tr ng-show="gen !== 'rby' && gen !== 'gsc'"><td><label>Nature</label></td><td><input type="text" ng-model="pokemon.nature" ng-disabled="pokemon.locked" /></td></tr>
                         </table>
-                        <table class="table table-condensed stats">
+                        <table class="table table-condensed stats" ng-show="gen !== 'rby' && gen !== 'gsc'">
                             <tr>
                                 <td><label>HP</label></td>
                                 <td><input type="number" min="0" max="252" step="4" ng-model="pokemon.evs.hp" ng-disabled="pokemon.locked" title="EVs" /></td>

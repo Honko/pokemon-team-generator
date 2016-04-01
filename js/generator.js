@@ -29,11 +29,15 @@ var setdex = {
     xy: {},
 };
 
-var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap.buttons']);
+var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap']);
 teamGenerator.controller('GeneratorController', function($scope) {
 
     $scope.validMeta = function(meta) {
         return !!setdex[$scope.gen][meta];
+    };
+
+    $scope.availablePokemon = function() {
+        return Object.keys(setdex[$scope.gen][$scope.meta]);
     };
 
     var _generateTeam = function(oldTeam) {
@@ -52,7 +56,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
                 newTeam[i] = oldTeam[i];
             } else {
                 if (!pokemonNames[i]) {
-                    pokemonNames[i] = getRandomElement(setdex[$scope.gen][$scope.meta], expandSpeciesFormes(pokemonNames));
+                    pokemonNames[i] = getRandomElement($scope.availablePokemon(), expandSpeciesFormes(pokemonNames));
                     console.log("New Pokemon: " + pokemonNames[i]);
                 }
                 console.log("New set for " + pokemonNames[i]);
@@ -82,7 +86,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         $scope.teamExportReadOnly = false;
         $scope.teamExport = exportText.trim();
         $scope.teamExportReadOnly = true;
-    }
+    };
 
     $scope.gen = "xy";
     $scope.meta = "ou";
@@ -91,7 +95,6 @@ teamGenerator.controller('GeneratorController', function($scope) {
     $scope.teamExport = "";
     $scope.teamExportReadOnly = true;
     $scope.teamExportLength = 1;
-
 });
 
 var expandSpeciesFormes = function(pokemonNames) {

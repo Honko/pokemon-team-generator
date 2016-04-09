@@ -1,4 +1,5 @@
 ﻿/* License: MIT License */
+const STATS = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"];
 const GENS = ["rby", "gsc", "adv", "dpp", "bw", "xy"];
 const METAS = ["uber", "ou", "uu", "ru", "nu", "pu", "lc"];
 const FORMES = {
@@ -43,14 +44,14 @@ teamGenerator.controller('GeneratorController', function($scope) {
     var _generateTeam = function(oldTeam) {
         var pokemonNames = [];
         // loop through once to get all locked pokemon names before we generate new ones
-        for (let i = 0; i < 6; i++) {
+        for (var i = 0; i < 6; i++) {
             if (oldTeam[i] && (oldTeam[i].locked || oldTeam[i].speciesLocked)) {
                 pokemonNames[i] = oldTeam[i].name;
             }
         }
         // loop through again to add new pokemon, excluding ALL locked
         var newTeam = [];
-        for (let i = 0; i < 6; i++) {
+        for (i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].locked) {
                 console.log("Old set for " + oldTeam[i].name);
                 newTeam[i] = oldTeam[i];
@@ -80,7 +81,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
 
     $scope.exportTeam = function() {
         var exportText = "";
-        for (let i = 0; i < 6; i++) {
+        for (var i = 0; i < 6; i++) {
             exportText += exportSet($scope.team[i], $scope.meta);
         }
         $scope.teamExportReadOnly = false;
@@ -99,10 +100,10 @@ teamGenerator.controller('GeneratorController', function($scope) {
 
 var expandSpeciesFormes = function(pokemonNames) {
     var formes = [];
-    for (let i = 0; i < pokemonNames.length; i++) {
+    for (var i = 0; i < pokemonNames.length; i++) {
         if (pokemonNames[i]) {
-            let hasFormes = false;
-            for (let species in FORMES) {
+            var hasFormes = false;
+            for (var species in FORMES) {
                 if (FORMES.hasOwnProperty(species) && pokemonNames[i].startsWith(species)) {
                     hasFormes = true;
                     formes = formes.concat(FORMES[species]);
@@ -128,7 +129,7 @@ var getRandomElement = function(obj, exclusions) {
 var pickSet = function(pokemon, sets) {
     var set = getRandomElement(sets);
     var moves = [];
-    for (let i = 0; i < 4 && i < set.moves.length; i++) {
+    for (var i = 0; i < 4 && i < set.moves.length; i++) {
         moves.push(getRandomElement(set.moves[i], moves));
     }
     return {
@@ -163,7 +164,7 @@ var exportSet = function(set, meta) {
     if (set.ivs) {
         exportText += "IVs: " + exportStats(set.ivs) + "\n";
     }
-    for (let i = 0; i < 4 && i < set.moves.length; i++) {
+    for (var i = 0; i < 4 && i < set.moves.length; i++) {
         exportText += "- " + set.moves[i] + "\n";
     }
     return exportText + "\n";
@@ -171,8 +172,9 @@ var exportSet = function(set, meta) {
 
 var exportStats = function(evs) {
     var exportText = "";
-    for (let stat of ["HP", "Atk", "Def", "SpA", "SpD", "Spe"]) {
-        let statEVs = evs[stat.toLowerCase()];
+    for (var i = 0; i < STATS.length; i++) {
+        var stat = STATS[i];
+        var statEVs = evs[stat.toLowerCase()];
         if (statEVs || statEVs === 0) {
             if (exportText) {
                 exportText += " / ";
@@ -182,3 +184,11 @@ var exportStats = function(evs) {
     }
     return exportText;
 };
+
+// bad browser support
+if (!String.prototype.startsWith) {
+    String.prototype.startsWith = function(searchString, position) {
+        position = position || 0;
+        return this.substr(position, searchString.length) === searchString;
+    };
+}

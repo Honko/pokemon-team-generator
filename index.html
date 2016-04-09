@@ -56,7 +56,7 @@
                             <tr>
                                 <td><label>Pok&eacute;mon</label></td>
                                 <td>
-                                    <input type="text" ng-model="pokemon.name" uib-typeahead="pkmn for pkmn in availablePokemon() | filter:$viewValue | limitTo:8" typeahead-editable="false" ng-disabled="pokemon.locked || pokemon.speciesLocked"></select>
+                                    <input type="text" ng-model="pokemon.name" uib-typeahead="pkmn for pkmn in availablePokemon() | filter:$viewValue | limitTo:8" typeahead-editable="false" ng-disabled="pokemon.locked || pokemon.speciesLocked" />
                                     <button type="button" class="btn btn-default btn-xs" ng-model="pokemon.speciesLocked" uib-btn-checkbox title="Keep this Pok&eacute;mon"><span class="glyphicon glyphicon-lock"></span></button>
                                 </td>
                             </tr>

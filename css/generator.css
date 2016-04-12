@@ -1,32 +1,10 @@
-﻿.btn-toolbar {
-    display: inline-block;
-}
-.page-header .btn-group {
-    margin-left: 20px;
-}
-ul#teamslots {
-    column-count: 6;
-    -webkit-column-count: 6;
-    -moz-column-count: 6;
-}
-textarea {
+﻿textarea {
     height: auto;
     width: 100%;
 }
-.pokemon {
-    width: 95%;
-}
-.basics input {
-    width: 8em;
-}
-.stats input {
-    width: 4em;
-}
-.moves input {
-    width: 11em;
-}
 
 /* Bootstrap overrides */
-.table-condensed > tbody > tr > td, .table-condensed > tbody > tr > th, .table-condensed > tfoot > tr > td, .table-condensed > tfoot > tr > th, .table-condensed > thead > tr > td, .table-condensed > thead > tr > th {
-    padding: 3px;
+.container-fluid {
+    margin-right: 15px;
+    margin-left: 15px;
 }

@@ -41,6 +41,17 @@ teamGenerator.controller('GeneratorController', function($scope) {
         return Object.keys(setdex[$scope.gen][$scope.meta]);
     };
 
+    $scope.toggleLock = function(pokemon) {
+        if (pokemon.locked) {
+            pokemon.locked = false;
+        } else if (pokemon.speciesLocked) {
+            pokemon.locked = true;
+            pokemon.speciesLocked = false;
+        } else {
+            pokemon.speciesLocked = true;
+        }
+    };
+
     var _generateTeam = function(oldTeam) {
         var pokemonNames = [];
         // loop through once to get all locked pokemon names before we generate new ones

@@ -2,25 +2,7 @@
 const STATS = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"];
 const GENS = ["rby", "gsc", "adv", "dpp", "bw", "xy"];
 const METAS = ["uber", "ou", "uu", "ru", "nu", "pu", "lc"];
-const FORMES = {
-    "Arceus": ["Arceus", "Arceus-Bug", "Arceus-Dark", "Arceus-Dragon",
-            "Arceus-Electric", "Arceus-Fairy", "Arceus-Fighting", "Arceus-Fire",
-            "Arceus-Flying", "Arceus-Ghost", "Arceus-Grass", "Arceus-Ground",
-            "Arceus-Ice", "Arceus-Poison", "Arceus-Psychic", "Arceus-Rock",
-            "Arceus-Steel", "Arceus-Water"],
-    "Deoxys": ["Deoxys", "Deoxys-Attack", "Deoxys-Defense", "Deoxys-Speed"],
-    "Giratina": ["Giratina", "Giratina-Origin"],
-    "Gourgeist": ["Gourgeist", "Gourgeist-Large", "Gourgeist-Small", "Gourgeist-Super"],
-    "Hoopa": ["Hoopa", "Hoopa-Unbound"],
-    "Kyurem": ["Kyurem", "Kyurem-Black", "Kyurem-White"],
-    "Landorus": ["Landorus", "Landorus-Therian"],
-    "Pumpkaboo": ["Pumpkaboo", "Pumpkaboo-Large", "Pumpkaboo-Small", "Pumpkaboo-Super"],
-    "Rotom": ["Rotom", "Rotom-Fan", "Rotom-Frost", "Rotom-Heat", "Rotom-Mow", "Rotom-Wash"],
-    "Shaymin": ["Shaymin", "Shaymin-Sky"],
-    "Thundurus": ["Thundurus", "Thundurus-Therian"],
-    "Tornadus": ["Tornadus", "Tornadus-Therian"],
-    "Wormadam": ["Wormadam", "Wormadam-Sandy", "Wormadam-Trash"],
-};
+
 var setdex = {
     rby: {},
     gsc: {},
@@ -39,6 +21,10 @@ teamGenerator.controller('GeneratorController', function($scope) {
 
     $scope.availablePokemon = function() {
         return Object.keys(setdex[$scope.gen][$scope.meta]);
+    };
+
+    $scope.spriteName = function(pokemon) {
+        return pokedex[pokemon.name].spriteName;
     };
 
     $scope.toggleLock = function(pokemon) {
@@ -113,15 +99,10 @@ var expandSpeciesFormes = function(pokemonNames) {
     var formes = [];
     for (var i = 0; i < pokemonNames.length; i++) {
         if (pokemonNames[i]) {
-            var hasFormes = false;
-            for (var species in FORMES) {
-                if (FORMES.hasOwnProperty(species) && pokemonNames[i].startsWith(species)) {
-                    hasFormes = true;
-                    formes = formes.concat(FORMES[species]);
-                    break;
-                }
-            }
-            if (!hasFormes) {
+            var myFormes = pokedex[pokemonNames[i]].formes;
+            if (myFormes) {
+                formes = formes.concat(myFormes);
+            } else {
                 formes.push(pokemonNames[i]);
             }
         }

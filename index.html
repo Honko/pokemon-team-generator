@@ -48,26 +48,36 @@
         </p>
     </div>
 
-    <div class="container-fluid">
+    <div class="container">
         <div class="row">
-            <div class="well col-md-2 col-sm-4 col-xs-6" ng-repeat="pokemon in team">
+            <div class="well col-md-4 col-xs-6" ng-repeat="pokemon in team">
                 <div class="text-center">
                     <button type="button" class="btn btn-default" ng-click="toggleLock(pokemon)">
                         <span class="glyphicon glyphicon-lock"></span>
                     </button>
                 </div>
                 <br />
-                <div>
-                    <input class="form-control" type="text" ng-model="pokemon.name" uib-typeahead="pkmn for pkmn in availablePokemon() | filter:$viewValue | limitTo:8" typeahead-editable="false" ng-disabled="pokemon.locked || pokemon.speciesLocked" />
-                    <br />
+                <div class="row">
+                    <div class="col-xs-6 sprite-container">
+                        <img class="img-responsive center-block sprite" ng-src="https://play.pokemonshowdown.com/sprites/xyani/{{spriteName(pokemon)}}.gif" />
+                    </div>
+                    <div class="col-xs-6 no-pad-left">
+                        <input class="form-control" type="text" ng-model="pokemon.name" uib-typeahead="pkmn for pkmn in availablePokemon() | filter:$viewValue | limitTo:8" typeahead-editable="false" ng-disabled="pokemon.locked || pokemon.speciesLocked" />
+                        <br />
+                        <div ng-show="gen !== 'rby'">
+                            <div><input class="form-control" type="text" ng-model="pokemon.item" ng-disabled="pokemon.locked" /></div>
+                            <div ng-show="gen !== 'gsc'"><input class="form-control" type="text" ng-model="pokemon.ability" ng-disabled="pokemon.locked" /></div>
+                        </div>
+                    </div>
                 </div>
-                <div ng-show="gen !== 'rby'">
-                    <div><input class="form-control" type="text" ng-model="pokemon.item" ng-disabled="pokemon.locked" /></div>
-                    <div ng-show="gen !== 'gsc'"><input class="form-control" type="text" ng-model="pokemon.ability" ng-disabled="pokemon.locked" /></div>
-                    <br />
+                <br />
+                <div class="row">
+                    <div class="col-xs-6 no-pad-right"><input class="form-control" type="text" ng-model="pokemon.moves[0]" ng-disabled="pokemon.locked" /></div>
+                    <div class="col-xs-6 no-pad-left"><input class="form-control" type="text" ng-model="pokemon.moves[1]" ng-disabled="pokemon.locked" /></div>
                 </div>
-                <div>
-                    <div ng-repeat="i in [0,1,2,3] track by $index"><input class="form-control" type="text" ng-model="pokemon.moves[i]" ng-disabled="pokemon.locked" /></div>
+                <div class="row">
+                    <div class="col-xs-6 no-pad-right"><input class="form-control" type="text" ng-model="pokemon.moves[2]" ng-disabled="pokemon.locked" /></div>
+                    <div class="col-xs-6 no-pad-left"><input class="form-control" type="text" ng-model="pokemon.moves[3]" ng-disabled="pokemon.locked" /></div>
                 </div>
             </div>
         </div>
@@ -98,6 +108,7 @@
     <script src="third-party/js/ui-bootstrap-custom-tpls-1.2.5.min.js"></script>
 
     <script src="js/generator.js"></script>
+    <script src="js/data/pokedex.js"></script>
     <script src="js/data/xy_uber.js"></script>
     <script src="js/data/xy_ou.js"></script>
     <script src="js/data/xy_uu.js"></script>

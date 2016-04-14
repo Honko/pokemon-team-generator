@@ -2,9 +2,22 @@
     height: auto;
     width: 100%;
 }
-
-/* Bootstrap overrides */
-.container-fluid {
-    margin-right: 15px;
-    margin-left: 15px;
+.sprite-container {
+    height: 120px;
+    position: relative;
+}
+.sprite {
+    max-height: 120px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.no-pad-right {
+    padding-right: 0;
+}
+.no-pad-left {
+    padding-left: 0;
 }

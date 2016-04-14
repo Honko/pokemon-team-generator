@@ -198,7 +198,7 @@ setdex.dpp.uu = {
     {"moves":[["Ice Beam","Blizzard"],["Signal Beam"],["Water Pulse"],["Hidden Power Grass","Hidden Power Electric"]],"item":["Choice Specs"],"ability":["Vital Spirit"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252},"ivs":{"spa":30}},
   ],
   "Dewgong": [
-    {"moves":[["Rain Dance"],["Surf"],["Ice Beam","Toxic"],["Rest"]],"item":["Damp Rock","Leftovers"],"ability":["Hydration"],"nature":["Timid"],"evs":{"spa":162,"hp":252,"spe":96}},
+    {"moves":[["Rain Dance"],["Surf"],["Ice Beam","Toxic"],["Rest"]],"item":["Damp Rock","Leftovers"],"ability":["Hydration"],"nature":["Timid"],"evs":{"spa":160,"hp":252,"spe":96}},
   ],
   "Ditto": [
     {"moves":[["Transform"]],"item":["Leftovers","Focus Sash"],"ability":["Limber"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
@@ -275,6 +275,12 @@ setdex.dpp.uu = {
   "Exploud": [
     {"moves":[["Return"],["Earthquake"],["Crunch"],["Surf","Ice Beam"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Naughty"],"evs":{"spa":68,"spe":188,"atk":252}},
     {"moves":[["Substitute"],["Return"],["Earthquake"],["Crunch"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Adamant"],"evs":{"hp":224,"spe":32,"atk":252}},
+  ],
+  "Farfetch'd": [
+    {"moves":[["Knock Off"],["Toxic"],["U-turn"],["Return"]],"item":["Stick","Leftovers","Bright Powder"],"ability":["Inner Focus","Keen Eye"],"nature":["Adamant"],"evs":{"hp":252,"spe":4,"atk":252}},
+    {"moves":[["Slash"],["Night Slash"],["Air Cutter"],["Steel Wing","Toxic","Knock Off"]],"item":["Stick"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Return"],["Aerial Ace"],["Quick Attack"],["Night Slash","Hidden Power Ground","Double-Edge","Knock Off"]],"item":["Choice Band"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Endure"],["Flail"],["Swords Dance"],["Substitute","Aerial Ace","Agility"]],"item":["Salac Berry","Liechi Berry"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return"],["U-turn"],["Quick Attack","Pursuit"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -605,6 +611,11 @@ setdex.dpp.uu = {
   ],
   "Mothim": [
     {"moves":[["Bug Buzz"],["Air Slash"],["Hidden Power Ground"],["U-turn","Shadow Ball"]],"item":["Choice Scarf","Choice Specs"],"ability":["Swarm"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Nasty Plot","Calm Mind"],["Baton Pass"],["Taunt","Substitute","Encore"],["Psychic","Charge Beam"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
+    {"moves":[["Trick"],["Psychic"],["Thunderbolt"],["Focus Blast","Baton Pass","Shadow Ball"]],"item":["Choice Scarf","Choice Specs"],"ability":["Filter"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Nasty Plot"],["Psychic"],["Thunderbolt"],["Encore","Focus Blast","Baton Pass"]],"item":["Life Orb"],"ability":["Filter","Soundproof"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Muk": [
     {"moves":[["Curse"],["Poison Jab"],["Brick Break","Ice Punch"],["Explosion","Shadow Sneak","Rest"]],"item":["Black Sludge"],"ability":["Sticky Hold"],"nature":["Careful"],"evs":{"def":80,"spd":176,"hp":252}},

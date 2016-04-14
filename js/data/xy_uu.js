@@ -19,6 +19,10 @@ setdex.xy.uu = {
     {"moves":[["Stealth Rock"],["Roar","Toxic","Thunder Wave"],["Heavy Slam"],["Earthquake"]],"item":["Aggronite"],"ability":["Sturdy"],"nature":["Impish"],"evs":{"def":16,"spd":240,"hp":252}},
     {"moves":[["Curse"],["Heavy Slam","Iron Head"],["Rest"],["Sleep Talk"]],"item":["Aggronite"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
+  "Alakazam": [
+    {"moves":[["Psychic","Psyshock"],["Focus Blast"],["Shadow Ball"],["Dazzling Gleam","Calm Mind","Substitute"]],"item":["Life Orb"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Psychic"],["Shadow Ball"],["Focus Blast","Dazzling Gleam"],["Thunder Wave","Dazzling Gleam"]],"item":["Focus Sash"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
   "Alomomola": [
     {"moves":[["Scald"],["Wish"],["Protect"],["Toxic","Knock Off"]],"item":["Leftovers","Rocky Helmet"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":216,"hp":40}},
   ],
@@ -148,7 +152,7 @@ setdex.xy.uu = {
     {"moves":[["Calm Mind"],["Psyshock","Stored Power"],["Morning Sun","Baton Pass"],["Dazzling Gleam","Baton Pass"]],"item":["Leftovers"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Exploud": [
-    {"moves":[["Boomburst"],["Fire Blast"],["Surf"],["Focus Blast","Sleep Talk"]],"item":["Choice Specs"],"ability":["Scrappy"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Boomburst"],["Focus Blast"],["Fire Blast"],["Sleep Talk","Surf"]],"item":["Choice Specs"],"ability":["Scrappy"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Feraligatr": [
     {"moves":[["Dragon Dance"],["Waterfall"],["Crunch"],["Ice Punch","Substitute"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -191,6 +195,11 @@ setdex.xy.uu = {
   "Granbull": [
     {"moves":[["Play Rough"],["Heal Bell"],["Rest","Earthquake"],["Sleep Talk","Roar"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"hp":252,"atk":4}},
     {"moves":[["Play Rough"],["Heal Bell"],["Earthquake"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},
+  ],
+  "Gyarados": [
+    {"moves":[["Substitute"],["Dragon Dance"],["Waterfall"],["Bounce","Earthquake"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Dragon Dance"],["Waterfall"],["Bounce","Earthquake"],["Earthquake","Double-Edge","Stone Edge"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Rest"],["Sleep Talk"],["Waterfall"],["Roar","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":184,"spd":52,"hp":216,"spe":48}},
   ],
   "Haxorus": [
     {"moves":[["Swords Dance"],["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"]],"item":["Lum Berry"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -398,9 +407,8 @@ setdex.xy.uu = {
     {"moves":[["Spore","Dark Void"],["Stealth Rock"],["Sticky Web","Spikes"],["Taunt"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
   ],
   "Snorlax": [
-    {"moves":[["Curse"],["Body Slam","Return"],["Rest"],["Sleep Talk","Earthquake","Crunch"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Careful"],"evs":{"def":188,"spd":176,"hp":144}},
-    {"moves":[["Return","Body Slam","Double-Edge"],["Pursuit","Crunch"],["Earthquake"],["Fire Punch"]],"item":["Choice Band"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":88,"spd":168,"atk":252}},
-    {"moves":[["Return","Body Slam"],["Pursuit","Crunch"],["Earthquake"],["Fire Punch","Crunch"]],"item":["Assault Vest"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":252,"spd":4,"atk":252}},
+    {"moves":[["Curse"],["Return","Body Slam"],["Rest"],["Sleep Talk","Earthquake"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Careful"],"evs":{"def":144,"spd":176,"hp":188}},
+    {"moves":[["Return"],["Facade"],["Earthquake"],["Fire Punch","Pursuit"]],"item":["Choice Band"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"spd":252,"hp":4,"atk":252}},
   ],
   "Spiritomb": [
     {"moves":[["Sucker Punch"],["Will-O-Wisp"],["Foul Play"],["Taunt","Pursuit","Pain Split"]],"item":["Black Glasses","Leftovers"],"ability":["Infiltrator"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},
@@ -451,12 +459,18 @@ setdex.xy.uu = {
   "Umbreon": [
     {"moves":[["Wish"],["Protect","Moonlight"],["Heal Bell","Baton Pass"],["Foul Play"]],"item":["Leftovers"],"ability":["Synchronize"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
+  "Uxie": [
+    {"moves":[["Psychic","Psyshock"],["U-turn"],["Stealth Rock"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+  ],
   "Vaporeon": [
     {"moves":[["Wish"],["Scald"],["Protect"],["Heal Bell","Roar","Baton Pass"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Calm"],"evs":{"def":248,"spd":56,"hp":204}},
   ],
   "Venomoth": [
     {"moves":[["Quiver Dance"],["Bug Buzz"],["Sleep Powder","Substitute"],["Roost","Substitute"]],"item":["Black Sludge"],"ability":["Tinted Lens"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Quiver Dance"],["Sleep Powder"],["Bug Buzz"],["Sludge Bomb"]],"item":["Life Orb"],"ability":["Tinted Lens"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
+  "Venusaur": [
+    {"moves":[["Growth"],["Sludge Bomb"],["Giga Drain"],["Hidden Power Fire"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Virizion": [
     {"moves":[["Swords Dance"],["Leaf Blade"],["Close Combat"],["Stone Edge","Zen Headbutt"]],"item":["Lum Berry"],"ability":["Justified"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},

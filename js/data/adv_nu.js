@@ -21,10 +21,10 @@ setdex.adv.nu = {
     {"moves":[["Silver Wind"],["Aerial Ace"],["Sleep Powder"],["Hidden Power Fighting","Hidden Power Ground","Hidden Power Rock"]],"item":["Choice Band"],"ability":["Compound Eyes"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Castform": [
-    {"moves":[["Thunderbolt"],["Flamethrower"],["Ice Beam"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":129,"hp":129}},
-    {"moves":[["Thunderbolt","Ice Beam"],["Flamethrower","Weather Ball"],["Solar Beam"],["Sunny Day"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":129,"hp":129}},
-    {"moves":[["Weather Ball"],["Thunder","Thunderbolt"],["Ice Beam"],["Rain Dance"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":129,"hp":129}},
-    {"moves":[["Weather Ball"],["Thunderbolt"],["Thunder Wave","Flamethrower"],["Hail"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":129,"hp":129}},
+    {"moves":[["Thunderbolt"],["Flamethrower"],["Ice Beam"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":128,"hp":128}},
+    {"moves":[["Thunderbolt","Ice Beam"],["Flamethrower","Weather Ball"],["Solar Beam"],["Sunny Day"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":128,"hp":128}},
+    {"moves":[["Weather Ball"],["Thunder","Thunderbolt"],["Ice Beam"],["Rain Dance"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":128,"hp":128}},
+    {"moves":[["Weather Ball"],["Thunderbolt"],["Thunder Wave","Flamethrower"],["Hail"]],"item":["Leftovers"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":128,"hp":128}},
   ],
   "Chimecho": [
     {"moves":[["Calm Mind"],["Heal Bell","Reflect"],["Hidden Power Electric","Hidden Power Dark"],["Psychic"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":116,"spa":80,"spd":60,"hp":252}},
@@ -57,6 +57,11 @@ setdex.adv.nu = {
     {"moves":[["Light Screen"],["Moonlight"],["Whirlwind"],["Sludge Bomb"]],"item":["Leftovers"],"ability":["Shield Dust"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
     {"moves":[["Sludge Bomb"],["Aerial Ace"],["Hidden Power Ground"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Shield Dust"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
     {"moves":[["Sunny Day"],["Solar Beam"],["Hidden Power Fire"],["Toxic"]],"item":["Leftovers"],"ability":["Shield Dust"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+  ],
+  "Farfetch'd": [
+    {"moves":[["Swords Dance"],["Slash"],["Agility"],["Knock Off"]],"item":["Stick"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Attract"],["Swords Dance"],["Agility"],["Baton Pass"]],"item":["Leftovers"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"def":60,"spe":198,"atk":252}},
+    {"moves":[["Substitute","Endure"],["Flail"],["Hidden Power Ghost"],["Swords Dance"]],"item":["Salac Berry"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Furret": [
     {"moves":[["Double-Edge","Return"],["Shadow Ball"],["Focus Punch","Quick Attack"],["Trick"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Adamant","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -131,8 +136,8 @@ setdex.adv.nu = {
     {"moves":[["Spore"],["Giga Drain","Solar Beam"],["Hidden Power Ice","Hidden Power Fire"],["Growth","Sunny Day"]],"item":["Leftovers"],"ability":["Effect Spore"],"nature":["Modest"],"evs":{"spa":252,"hp":236,"spe":24}},
   ],
   "Pelipper": [
-    {"moves":[["Surf"],["Ice Beam"],["Toxic"],["Hidden Power Electric","Protect"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":144,"spa":114,"hp":252}},
-    {"moves":[["Surf"],["Ice Beam"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":144,"spa":114,"hp":252}},
+    {"moves":[["Surf"],["Ice Beam"],["Toxic"],["Hidden Power Electric","Protect"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":144,"spa":112,"hp":252}},
+    {"moves":[["Surf"],["Ice Beam"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":144,"spa":112,"hp":252}},
   ],
   "Pidgeot": [
     {"moves":[["Double-Edge","Return"],["Aerial Ace"],["Hidden Power Ground"],["Quick Attack"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"hp":48,"spe":208,"atk":252}},

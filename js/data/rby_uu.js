@@ -20,6 +20,9 @@ setdex.rby.uu = {
   "Electrode": [
     {"moves":[["Thunderbolt","Thunder"],["Thunder Wave"],["Explosion"],["Screech"]],"item":[],"ability":[],"nature":[]},
   ],
+  "Farfetch'd": [
+    {"moves":[["Sand Attack"],["Substitute"],["Slash","Swords Dance"],["Toxic","Body Slam"]],"item":[],"ability":[],"nature":[]},
+  ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Double-Edge"],["Hyper Beam"],["Mirror Move"]],"item":[],"ability":[],"nature":[]},
   ],
@@ -55,6 +58,9 @@ setdex.rby.uu = {
   ],
   "Marowak": [
     {"moves":[["Earthquake"],["Blizzard"],["Body Slam"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Psychic"],["Thunder Wave"],["Thunderbolt"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
   ],
   "Muk": [
     {"moves":[["Sludge"],["Body Slam"],["Screech","Mega Drain"],["Explosion"]],"item":[],"ability":[],"nature":[]},

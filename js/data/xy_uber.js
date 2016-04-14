@@ -121,7 +121,8 @@ setdex.xy.uber = {
     {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":8,"hp":248},"ivs":{"spe":0}},
   ],
   "Excadrill": [
-    {"moves":[["Rapid Spin","Substitute"],["Earthquake"],["Iron Head"],["Rock Slide","Swords Dance"]],"item":["Life Orb"],"ability":["Sand Rush"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252},"ivs":{"hp":29}},
+    {"moves":[["Stealth Rock"],["Rapid Spin"],["Toxic"],["Earthquake"]],"item":["Focus Sash"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Earthquake"],["Iron Head"],["Rapid Spin","Rock Slide"],["Swords Dance","Rock Slide"]],"item":["Life Orb","Air Balloon"],"ability":["Sand Rush"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Ferrothorn": [
     {"moves":[["Spikes"],["Gyro Ball","Power Whip"],["Leech Seed"],["Protect","Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":["Iron Barbs"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4}},
@@ -129,14 +130,12 @@ setdex.xy.uber = {
   "Flygon": [
     {"moves":[["Defog"],["Roost"],["Toxic"],["Earth Power","U-turn"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
-  "Gastrodon": [
-    {"moves":[["Scald"],["Toxic"],["Clear Smog","Mirror Coat"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Calm"],"evs":{"def":120,"spd":136,"hp":252}},
-  ],
   "Genesect": [
     {"moves":[["U-turn"],["Iron Head"],["Ice Beam","Extreme Speed"],["Explosion"]],"item":["Choice Scarf"],"ability":["Download"],"nature":["Naive","Hasty"],"evs":{"spa":8,"spe":252,"atk":248}},
   ],
   "Gengar": [
     {"moves":[["Destiny Bond"],["Sludge Wave"],["Shadow Ball","Focus Blast"],["Taunt","Protect"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Hex"],["Focus Blast"],["Protect"],["Will-O-Wisp","Sludge Bomb"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Perish Song"],["Protect"],["Taunt","Disable"],["Substitute","Disable"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":84,"hp":248,"spe":176}},
     {"moves":[["Hypnosis"],["Substitute"],["Hex"],["Sludge Wave","Destiny Bond"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
@@ -145,6 +144,7 @@ setdex.xy.uber = {
   ],
   "Giratina-Origin": [
     {"moves":[["Defog"],["Shadow Sneak"],["Dragon Tail"],["Shadow Force","Earthquake"]],"item":["Griseous Orb"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"def":248,"spe":12,"atk":248}},
+    {"moves":[["Hex"],["Draco Meteor"],["Thunder Wave"],["Defog"]],"item":["Griseous Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":252,"spa":244,"spe":12}},
   ],
   "Gothitelle": [
     {"moves":[["Calm Mind"],["Psyshock"],["Rest"],["Thunder Wave","Tickle"]],"item":["Leftovers"],"ability":["Shadow Tag"],"nature":["Sassy","Calm"],"evs":{"spa":4,"spd":252,"hp":252},"ivs":{"spe":3}},
@@ -221,7 +221,7 @@ setdex.xy.uber = {
     {"moves":[["Low Kick"],["Taunt"],["Earthquake"],["Ice Punch","Stone Edge"]],"item":["Mewtwonite X"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":144,"spe":252,"atk":112}},
   ],
   "Palkia": [
-    {"moves":[["Spacial Rend","Draco Meteor"],["Hydro Pump"],["Fire Blast"],["Thunder Wave","Dragon Tail"]],"item":["Lustrous Orb"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Spacial Rend"],["Hydro Pump"],["Thunder"],["Focus Punch","Fire Blast"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"spe":252,"atk":4}},
   ],
   "Rayquaza": [
     {"moves":[["Dragon Ascent"],["Draco Meteor"],["V-create","Earthquake"],["Extreme Speed"]],"item":["Life Orb"],"ability":["Air Lock"],"nature":["Naive"],"evs":{"spa":40,"spe":216,"atk":252},"ivs":{"hp":29}},

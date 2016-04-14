@@ -347,6 +347,9 @@ setdex.bw.ru = {
     {"moves":[["Bug Buzz"],["Air Slash"],["U-turn"],["Giga Drain","Hidden Power Rock"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Rash","Mild"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Quiver Dance"],["Bug Buzz"],["Air Slash"],["Substitute","Hidden Power Ground"]],"item":["Leftovers","Life Orb"],"ability":["Tinted Lens"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
+  "Mr. Mime": [
+    {"moves":[["Baton Pass"],["Nasty Plot","Calm Mind"],["Encore","Substitute"],["Psychic"]],"item":["Leftovers"],"ability":["Filter"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
+  ],
   "Muk": [
     {"moves":[["Poison Jab"],["Fire Punch"],["Thunderbolt"],["Toxic","Haze"]],"item":["Black Sludge"],"ability":["Sticky Hold"],"nature":["Sassy"],"evs":{"spa":4,"spd":252,"hp":252}},
   ],

@@ -169,6 +169,9 @@ setdex.bw.nu = {
   "Exploud": [
     {"moves":[["Hyper Voice"],["Surf"],["Fire Blast"],["Low Kick"]],"item":["Life Orb"],"ability":["Scrappy"],"nature":["Naive"],"evs":{"spa":252,"spe":188,"atk":68}},
   ],
+  "Farfetch'd": [
+    {"moves":[["Swords Dance"],["Brave Bird"],["Leaf Blade"],["Quick Attack"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+  ],
   "Fearow": [
     {"moves":[["Return"],["Drill Peck"],["Drill Run"],["U-turn","Pursuit"]],"item":["Choice Band","Life Orb"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
@@ -398,6 +401,9 @@ setdex.bw.nu = {
   ],
   "Mothim": [
     {"moves":[["Bug Buzz"],["Air Slash"],["Sleep Talk"],["U-turn"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Rash"],"evs":{"spa":252,"spe":252,"atk":4}},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Baton Pass"],["Nasty Plot"],["Substitute","Encore"],["Psychic"]],"item":["Leftovers"],"ability":["Filter"],"nature":["Timid"],"evs":{"spa":112,"hp":144,"spe":252}},
   ],
   "Muk": [
     {"moves":[["Poison Jab"],["Shadow Sneak"],["Ice Punch","Fire Punch"],["Memento","Curse"]],"item":["Black Sludge"],"ability":["Poison Touch"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},

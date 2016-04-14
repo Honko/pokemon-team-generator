@@ -133,9 +133,6 @@ setdex.bw.uber = {
   "Ditto": [
     {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":8,"hp":248},"ivs":{"spe":0}},
   ],
-  "Dugtrio": [
-    {"moves":[["Substitute"],["Hone Claws"],["Earthquake"],["Stone Edge","Sucker Punch"]],"item":["Earth Plate","Air Balloon"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
   "Espeon": [
     {"moves":[["Psyshock","Shadow Ball"],["Yawn","Psyshock"],["Grass Knot"],["Hidden Power Fire"]],"item":["Focus Sash"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],

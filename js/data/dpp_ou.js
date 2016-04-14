@@ -49,7 +49,7 @@ setdex.dpp.ou = {
     {"moves":[["Trick Room"],["Gyro Ball"],["Earthquake"],["Explosion"]],"item":["Macho Brace","Life Orb"],"ability":["Levitate"],"nature":["Brave"],"evs":{"spd":4,"hp":252,"atk":252},"ivs":{"spe":0}},
     {"moves":[["Trick Room"],["Gyro Ball"],["Explosion"],["Light Screen","Reflect","Hypnosis"]],"item":["Lum Berry","Leftovers"],"ability":["Levitate"],"nature":["Relaxed"],"evs":{"def":8,"spd":96,"hp":252,"atk":152},"ivs":{"spe":0}},
     {"moves":[["Rain Dance"],["Explosion"],["Stealth Rock"],["Reflect","Hypnosis"]],"item":["Damp Rock"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":8,"spd":96,"hp":252,"atk":152}},
-    {"moves":[["Trick"],["Gyro Ball"],["Earthquake"],["Explosion","Stealth Rock"]],"item":["Macho Brace","Choice Band"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"def":80,"spd":92,"hp":252,"atk":86},"ivs":{"spe":0}},
+    {"moves":[["Trick"],["Gyro Ball"],["Earthquake"],["Explosion","Stealth Rock"]],"item":["Macho Brace","Choice Band"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"def":80,"spd":92,"hp":252,"atk":84},"ivs":{"spe":0}},
   ],
   "Celebi": [
     {"moves":[["Grass Knot"],["Recover"],["Thunder Wave","Leech Seed","Heal Bell"],["Hidden Power Fire","Earth Power","Hidden Power Ice"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":220,"hp":252,"spe":36}},

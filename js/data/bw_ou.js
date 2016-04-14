@@ -177,6 +177,9 @@ setdex.bw.ou = {
     {"moves":[["Leaf Storm"],["Psyshock","Psychic"],["Hidden Power Fire"],["Nature Power","Sleep Powder","Giga Drain"]],"item":["Life Orb","Choice Specs"],"ability":["Chlorophyll"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Swords Dance"],["Wood Hammer","Seed Bomb"],["Low Kick","Nature Power"],["Zen Headbutt","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Adamant","Naughty"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
+  "Farfetch'd": [
+    {"moves":[["Swords Dance"],["Return"],["Brave Bird"],["Revenge"]],"item":["Stick"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+  ],
   "Feraligatr": [
     {"moves":[["Swords Dance"],["Aqua Jet"],["Waterfall"],["Crunch","Superpower","Ice Punch"]],"item":["Mystic Water"],"ability":["Torrent"],"nature":["Adamant"],"evs":{"hp":184,"spe":72,"atk":252}},
   ],
@@ -393,7 +396,7 @@ setdex.bw.ou = {
     {"moves":[["Substitute"],["Dynamic Punch"],["Payback"],["Stone Edge"]],"item":["Leftovers"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"hp":128,"spe":128,"atk":252}},
   ],
   "Magikarp": [
-    {"moves":[["Splash"],["Tackle"],["Flail"],["Bounce"]],"item":["Choice Scarf","Focus Sash"],"ability":["Rattled","Swift Swim"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Splash"],["Tackle"],["Flail"],["Bounce"]],"item":["Choice Scarf","Focus Sash","Choice Band","Life Orb","Leftovers","Air Balloon","Eject Button","Stick"],"ability":["Rattled","Swift Swim"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Magneton": [
     {"moves":[["Volt Switch"],["Hidden Power Ice","Hidden Power Fire"],["Thunderbolt"],["Flash Cannon"]],"item":["Choice Scarf"],"ability":["Magnet Pull"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},

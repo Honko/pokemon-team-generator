@@ -61,6 +61,10 @@ setdex.gsc.uu = {
     {"moves":[["Thunder Wave"],["Thunderbolt"],["Explosion"],["Hidden Power Grass","Hidden Power Water","Hidden Power Ice"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Thunderbolt"],["Light Screen","Reflect"],["Rest","Explosion"],["Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
+  "Farfetch'd": [
+    {"moves":[["Baton Pass"],["Swords Dance","Psych Up"],["Agility","Swagger"],["Return","Hidden Power Flying"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Swords Dance"],["Return"],["Hidden Power Flying","Gust"],["Agility","Baton Pass","Hidden Power Ground"]],"item":["Stick"],"ability":[],"nature":[]},
+  ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return","Tri Attack"],["Substitute"],["Hidden Power Ground","Hidden Power Fighting"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Rest"],["Sleep Talk"],["Double-Edge"],["Drill Peck","Hidden Power Ground"]],"item":["Leftovers","Mint Berry"],"ability":[],"nature":[]},
@@ -136,6 +140,9 @@ setdex.gsc.uu = {
   ],
   "Mantine": [
     {"moves":[["Hydro Pump"],["Confuse Ray"],["Toxic"],["Haze"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Psychic"],["Thunderbolt"],["Encore"],["Light Screen","Hypnosis"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
   "Murkrow": [
     {"moves":[["Drill Peck"],["Feint Attack"],["Pursuit"],["Night Shade","Toxic"]],"item":["Leftovers"],"ability":[],"nature":[]},

@@ -326,6 +326,13 @@ setdex.adv.ou = {
     {"moves":[["Sunny Day"],["Fire Blast","Flamethrower"],["Hidden Power Grass","Hidden Power Ice"],["Will-O-Wisp","Morning Sun"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":40,"spe":216}},
     {"moves":[["Fire Blast","Flamethrower"],["Hidden Power Grass","Hidden Power Ice"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":40,"spe":216}},
   ],
+  "Mr. Mime": [
+    {"moves":[["Calm Mind"],["Psychic"],["Baton Pass"],["Encore","Substitute","Barrier","Thunderbolt"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+    {"moves":[["Calm Mind"],["Psychic"],["Torment"],["Trick"]],"item":["Choice Band"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":40,"spd":196,"hp":252,"spe":20}},
+    {"moves":[["Encore"],["Baton Pass"],["Substitute"],["Psychic"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+    {"moves":[["Hypnosis"],["Calm Mind","Substitute"],["Psychic"],["Thunderbolt","Baton Pass"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+    {"moves":[["Meditate"],["Shadow Ball"],["Brick Break"],["Thunderbolt","Psychic"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Sassy","Brave"],"evs":{"spa":60,"spd":24,"hp":252,"atk":172}},
+  ],
   "Muk": [
     {"moves":[["Sludge Bomb"],["Substitute"],["Focus Punch"],["Fire Blast","Hidden Power Ghost","Ice Punch"]],"item":["Leftovers"],"ability":["Sticky Hold"],"nature":["Adamant","Brave"],"evs":{"spd":60,"hp":252,"atk":196}},
     {"moves":[["Curse"],["Sludge Bomb"],["Fire Blast","Hidden Power Ghost"],["Explosion","Rest"]],"item":["Leftovers"],"ability":["Sticky Hold"],"nature":["Sassy","Careful"],"evs":{"spd":100,"hp":252,"atk":156}},

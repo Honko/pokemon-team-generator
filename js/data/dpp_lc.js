@@ -330,6 +330,12 @@ setdex.dpp.lc = {
     {"moves":[["Fake Out"],["Return","Seed Bomb"],["Bite","U-turn"],["Hypnosis","Taunt"]],"item":["Focus Sash","Life Orb","Silk Scarf"],"ability":["Technician"],"nature":["Jolly"],"evs":{"def":76,"spe":196,"atk":236}},
     {"moves":[["Nasty Plot"],["Swift"],["Water Pulse"],["Hidden Power Fire","Hidden Power Dark"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Timid"],"evs":{"def":76,"spa":196,"spd":36,"spe":196}},
   ],
+  "Mime Jr.": [
+    {"moves":[["Psychic"],["Hidden Power Fighting","Shadow Ball"],["Thunderbolt"],["Hypnosis","Trick"]],"item":["Choice Scarf"],"ability":["Filter"],"nature":["Timid","Modest"],"evs":{"spa":196,"spd":36,"hp":36,"spe":196}},
+    {"moves":[["Hypnosis","Psychic"],["Substitute"],["Nasty Plot","Calm Mind"],["Baton Pass"]],"item":["Salac Berry"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"def":76,"spd":36,"hp":196,"spe":196}},
+    {"moves":[["Nasty Plot"],["Psychic"],["Hidden Power Fighting","Thunderbolt"],["Encore","Substitute","Hypnosis"]],"item":["Life Orb","Oran Berry"],"ability":["Filter"],"nature":["Timid"],"evs":{"spa":196,"spd":36,"hp":36,"spe":196}},
+    {"moves":[["Reflect"],["Light Screen"],["Hypnosis"],["Psychic"]],"item":["Light Clay"],"ability":["Filter"],"nature":["Timid"],"evs":{"def":76,"spd":36,"hp":196,"spe":196}},
+  ],
   "Mudkip": [
     {"moves":[["Waterfall"],["Rock Slide"],["Double-Edge","Return"],["Superpower","Ice Beam"]],"item":["Choice Scarf"],"ability":["Torrent"],"nature":["Jolly","Naive"],"evs":{"hp":116,"spe":196,"atk":196}},
   ],

@@ -111,6 +111,10 @@ setdex.gsc.ou = {
   "Exeggutor": [
     {"moves":[["Psychic"],["Giga Drain","Hidden Power Fire"],["Sleep Powder","Stun Spore"],["Explosion"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
+  "Farfetch'd": [
+    {"moves":[["Baton Pass"],["Swords Dance","Psych Up"],["Agility","Swagger"],["Return","Hidden Power Flying"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Swords Dance"],["Return"],["Hidden Power Flying","Gust"],["Agility","Baton Pass","Hidden Power Ground"]],"item":["Stick"],"ability":[],"nature":[]},
+  ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return","Tri Attack"],["Substitute"],["Hidden Power Ground","Hidden Power Fighting"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Rest"],["Sleep Talk"],["Double-Edge"],["Drill Peck","Hidden Power Ground"]],"item":["Leftovers","Mint Berry"],"ability":[],"nature":[]},
@@ -245,6 +249,9 @@ setdex.gsc.ou = {
   "Moltres": [
     {"moves":[["Fire Blast"],["Sunny Day"],["Hidden Power Grass","Hidden Power Water"],["Double-Edge","Reflect"]],"item":["Charcoal"],"ability":[],"nature":[]},
     {"moves":[["Rest"],["Sleep Talk"],["Fire Blast"],["Hidden Power Grass","Hidden Power Water"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Psychic"],["Thunderbolt"],["Encore"],["Light Screen","Hypnosis"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
   "Muk": [
     {"moves":[["Fire Blast"],["Explosion"],["Sludge Bomb"],["Curse","Giga Drain"]],"item":["Leftovers"],"ability":[],"nature":[]},

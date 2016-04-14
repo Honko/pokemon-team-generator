@@ -115,8 +115,8 @@ setdex.xy.lc = {
     {"moves":[["Aqua Jet"],["Crabhammer"],["Knock Off"],["Switcheroo"]],"item":["Choice Band"],"ability":["Adaptability"],"nature":["Adamant"],"evs":{"def":76,"spe":236,"atk":196}},
   ],
   "Cottonee": [
-    {"moves":[["Encore"],["Memento"],["Taunt","Knock Off","Stun Spore"],["Dazzling Gleam","Giga Drain","Stun Spore"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":196,"spd":196,"hp":116}},
-    {"moves":[["Dazzling Gleam","Giga Drain"],["Hidden Power Fighting","Giga Drain"],["Encore"],["Memento","Stun Spore","Taunt"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":40,"spa":144,"spd":40,"hp":36,"spe":232}},
+    {"moves":[["Encore","Stun Spore"],["Knock Off","Stun Spore","Dazzling Gleam"],["Giga Drain","Dazzling Gleam"],["Memento","Stun Spore","Taunt"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":196,"spd":196,"hp":116}},
+    {"moves":[["Dazzling Gleam","Giga Drain"],["Hidden Power Fighting","Giga Drain"],["Encore"],["Knock Off","Memento","Stun Spore"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":40,"spa":144,"spd":40,"hp":36,"spe":232}},
   ],
   "Cranidos": [
     {"moves":[["Rock Slide"],["Superpower"],["Zen Headbutt"],["Crunch"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
@@ -161,7 +161,7 @@ setdex.xy.lc = {
     {"moves":[["Trick"],["Shadow Ball"],["Hidden Power Fighting"],["Air Cutter","Thunderbolt","Icy Wind"]],"item":["Choice Specs"],"ability":["Unburden"],"nature":["Timid"],"evs":{"def":88,"spa":200,"spd":8,"spe":200}},
   ],
   "Drilbur": [
-    {"moves":[["Earthquake"],["Rapid Spin","Swords Dance"],["Rock Slide","Rock Tomb"],["Stealth Rock","Swords Dance"]],"item":["Berry Juice","Life Orb"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":36,"spd":76,"hp":36,"spe":212,"atk":76}},
+    {"moves":[["Earthquake"],["Rapid Spin","Swords Dance"],["Rock Slide","Rock Tomb"],["Stealth Rock","Swords Dance"]],"item":["Berry Juice","Life Orb","Eviolite"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":36,"spd":76,"hp":36,"spe":212,"atk":76}},
     {"moves":[["Earthquake"],["Rock Slide"],["Poison Jab"],["Rapid Spin"]],"item":["Choice Scarf"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
   ],
   "Duskull": [
@@ -218,6 +218,7 @@ setdex.xy.lc = {
   ],
   "Gastly": [
     {"moves":[["Shadow Ball"],["Sludge Bomb"],["Hidden Power Fighting","Dazzling Gleam"],["Substitute","Destiny Bond"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":200,"spd":80,"spe":200}},
+    {"moves":[["Hex"],["Will-O-Wisp"],["Substitute"],["Sludge Bomb","Dazzling Gleam"]],"item":["Berry Juice"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":40,"spa":120,"spd":80,"hp":36,"spe":200}},
     {"moves":[["Shadow Ball"],["Sludge Bomb"],["Hidden Power Fighting","Destiny Bond","Dazzling Gleam"],["Trick","Destiny Bond"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":200,"spd":80,"spe":200}},
   ],
   "Geodude": [
@@ -344,6 +345,10 @@ setdex.xy.lc = {
     {"moves":[["High Jump Kick"],["Knock Off"],["Drain Punch"],["U-turn"]],"item":["Choice Scarf"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":36,"spe":236,"atk":236}},
     {"moves":[["High Jump Kick"],["Knock Off"],["U-turn"],["Fake Out","Stone Edge","Poison Jab"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"def":36,"spe":236,"atk":236}},
     {"moves":[["Baton Pass"],["Swords Dance","Bulk Up","Substitute"],["Drain Punch","High Jump Kick"],["Knock Off","Taunt","Substitute"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Impish","Relaxed"],"evs":{"def":116,"spd":196,"hp":76,"atk":76}},
+  ],
+  "Mime Jr.": [
+    {"moves":[["Barrier"],["Calm Mind","Substitute"],["Taunt","Encore"],["Baton Pass"]],"item":["Berry Juice"],"ability":["Soundproof"],"nature":["Bold"],"evs":{"def":236,"spd":36,"hp":196,"spe":36}},
+    {"moves":[["Psychic"],["Hidden Power Fighting"],["Healing Wish"],["Baton Pass","Trick"]],"item":["Choice Scarf"],"ability":["Technician"],"nature":["Timid"],"evs":{"def":80,"spa":200,"spe":200}},
   ],
   "Minccino": [
     {"moves":[["Tail Slap"],["Knock Off"],["U-turn"],["Wake-Up Slap","Seed Bomb"]],"item":["Life Orb"],"ability":["Skill Link"],"nature":["Jolly"],"evs":{"def":36,"spd":36,"spe":236,"atk":196}},
@@ -553,8 +558,8 @@ setdex.xy.lc = {
     {"moves":[["Brave Bird"],["Double-Edge"],["U-turn"],["Hidden Power Grass","Steel Wing"]],"item":["Choice Scarf"],"ability":["Reckless"],"nature":["Naive","Jolly"],"evs":{"spa":36,"hp":36,"spe":196,"atk":236}},
   ],
   "Staryu": [
-    {"moves":[["Rapid Spin"],["Scald"],["Ice Beam","Psychic","Thunderbolt"],["Recover"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"def":156,"hp":116,"spe":236}},
-    {"moves":[["Hydro Pump","Surf"],["Psychic"],["Ice Beam","Thunderbolt"],["Rapid Spin","Hidden Power Fire","Ice Beam"]],"item":["Life Orb"],"ability":["Natural Cure","Analytic"],"nature":["Timid"],"evs":{"def":76,"spa":196,"spe":236}},
+    {"moves":[["Rapid Spin"],["Scald"],["Psychic","Ice Beam","Thunderbolt"],["Recover"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"def":156,"hp":116,"spe":236}},
+    {"moves":[["Hydro Pump","Surf"],["Psychic"],["Ice Beam","Thunderbolt"],["Rapid Spin","Ice Beam"]],"item":["Life Orb"],"ability":["Natural Cure","Analytic"],"nature":["Timid"],"evs":{"def":76,"spa":196,"spe":236}},
     {"moves":[["Rapid Spin"],["Scald","Hydro Pump"],["Ice Beam"],["Recover","Psychic","Thunderbolt"]],"item":["Eviolite","Berry Juice"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":200,"hp":36,"spe":240}},
   ],
   "Stunky": [

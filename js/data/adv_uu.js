@@ -168,6 +168,12 @@ setdex.adv.uu = {
     {"moves":[["Calm Mind"],["Psychic","Hidden Power Ice"],["Thunderbolt"],["Substitute","Taunt"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Calm"],"evs":{"def":176,"spd":16,"hp":252,"spe":64}},
     {"moves":[["Hidden Power Ice"],["Thunderbolt"],["Thunder Wave"],["Imprison"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":68,"spa":124,"spd":80,"hp":236}},
   ],
+  "Mr. Mime": [
+    {"moves":[["Calm Mind"],["Psychic"],["Baton Pass"],["Encore","Substitute","Barrier","Thunderbolt"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+    {"moves":[["Calm Mind"],["Psychic"],["Torment"],["Trick"]],"item":["Choice Band"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":40,"spd":196,"hp":252,"spe":20}},
+    {"moves":[["Psychic"],["Encore"],["Substitute"],["Baton Pass"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+    {"moves":[["Hypnosis"],["Calm Mind","Substitute"],["Psychic"],["Thunderbolt","Baton Pass"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Calm"],"evs":{"spa":60,"spd":196,"hp":252}},
+  ],
   "Muk": [
     {"moves":[["Sludge Bomb"],["Ice Punch"],["Explosion"],["Hidden Power Ghost","Hidden Power Grass"]],"item":["Leftovers"],"ability":["Sticky Hold"],"nature":["Brave"],"evs":{"spd":4,"hp":252,"atk":252}},
     {"moves":[["Sludge Bomb"],["Substitute"],["Focus Punch"],["Hidden Power Ghost","Ice Punch"]],"item":["Leftovers"],"ability":["Sticky Hold"],"nature":["Adamant","Brave"],"evs":{"spd":60,"hp":252,"atk":196}},

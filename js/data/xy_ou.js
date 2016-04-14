@@ -21,7 +21,7 @@ setdex.xy.ou = {
     {"moves":[["Hyper Voice"],["Fire Blast"],["Roost"],["Earthquake","Heal Bell"]],"item":["Altarianite"],"ability":["Cloud Nine","Natural Cure"],"nature":["Modest"],"evs":{"spa":168,"hp":248,"spe":92}},
   ],
   "Amoonguss": [
-    {"moves":[["Spore"],["Giga Drain"],["Sludge Bomb","Hidden Power Fire"],["Clear Smog","Hidden Power Fire"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"def":136,"spd":120,"hp":252}},
+    {"moves":[["Spore"],["Giga Drain"],["Clear Smog","Stun Spore"],["Hidden Power Fire","Foul Play","Sludge Bomb"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":168,"spd":92,"hp":248}},
   ],
   "Ampharos": [
     {"moves":[["Volt Switch"],["Dragon Pulse"],["Rest"],["Sleep Talk"]],"item":["Ampharosite"],"ability":["Static"],"nature":["Calm"],"evs":{"spa":28,"spd":232,"hp":248}},
@@ -225,6 +225,7 @@ setdex.xy.ou = {
     {"moves":[["Earthquake"],["Stealth Rock"],["Slack Off"],["Stone Edge","Toxic","Whirlwind"]],"item":["Leftovers"],"ability":["Sand Stream","Sand Force"],"nature":["Impish"],"evs":{"def":144,"spd":112,"hp":252}},
   ],
   "Hoopa-Unbound": [
+    {"moves":[["Dark Pulse"],["Psyshock"],["Focus Blast"],["Thunderbolt","Trick"]],"item":["Choice Specs"],"ability":["Magician"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Dark Pulse"],["Gunk Shot"],["Drain Punch"],["Psychic","Fire Punch","Hidden Power Ice"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Hasty"],"evs":{"spa":96,"spe":252,"atk":160},"ivs":{"hp":29}},
     {"moves":[["Hyperspace Fury"],["Gunk Shot"],["Drain Punch"],["Fire Punch","Zen Headbutt"]],"item":["Choice Band"],"ability":["Magician"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Hyperspace Fury"],["Psychic","Hidden Power Ice"],["Gunk Shot"],["Drain Punch"]],"item":["Choice Scarf"],"ability":["Magician"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
@@ -233,8 +234,8 @@ setdex.xy.ou = {
     {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Will-O-Wisp","Taunt"]],"item":["Houndoominite"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":8,"spa":208,"hp":40,"spe":252}},
   ],
   "Hydreigon": [
-    {"moves":[["Draco Meteor"],["Dark Pulse"],["Flash Cannon"],["Superpower","Earth Power"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Mild","Modest"],"evs":{"spa":252,"spe":252,"atk":4}},
-    {"moves":[["Draco Meteor"],["Dark Pulse"],["Earth Power"],["U-turn"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Modest","Timid"],"evs":{"spa":252,"spe":252,"atk":4}},
+    {"moves":[["Draco Meteor"],["Flash Cannon"],["Dark Pulse","Roost"],["Fire Blast"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Draco Meteor"],["Dark Pulse"],["Earth Power","Fire Blast"],["U-turn"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Infernape": [
     {"moves":[["Close Combat"],["Fire Blast","Flare Blitz"],["Gunk Shot"],["Grass Knot","Hidden Power Ice"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive"],"evs":{"spa":156,"spe":252,"atk":100}},
@@ -453,9 +454,9 @@ setdex.xy.ou = {
     {"moves":[["Scald"],["Rapid Spin"],["Acid Spray"],["Toxic Spikes","Knock Off"]],"item":["Black Sludge"],"ability":["Liquid Ooze","Rain Dish"],"nature":["Timid"],"evs":{"def":216,"spd":28,"hp":248,"spe":16}},
   ],
   "Terrakion": [
-    {"moves":[["Close Combat"],["Stone Edge"],["Swords Dance"],["Rock Polish","Substitute"]],"item":["Life Orb"],"ability":["Justified"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Stealth Rock"],["Close Combat"],["Stone Edge"],["Taunt"]],"item":["Focus Sash"],"ability":["Justified"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Close Combat"],["Stone Edge"],["Rock Slide"],["Iron Head","X-Scissor","Toxic"]],"item":["Choice Scarf"],"ability":["Justified"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Close Combat"],["Stone Edge"],["Rock Slide","Iron Head"],["Quick Attack"]],"item":["Choice Band"],"ability":["Justified"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Swords Dance"],["Close Combat"],["Stone Edge"],["Substitute","Rock Polish"]],"item":["Life Orb"],"ability":["Justified"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Close Combat"],["Stone Edge"],["Rock Slide","Toxic"],["Iron Head"]],"item":["Choice Scarf"],"ability":["Justified"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Thundurus": [
     {"moves":[["Thunder Wave"],["Thunderbolt"],["Hidden Power Ice","Grass Knot"],["Focus Blast","Grass Knot"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -494,11 +495,8 @@ setdex.xy.ou = {
     {"moves":[["Giga Drain"],["Sludge Bomb"],["Synthesis"],["Hidden Power Fire","Knock Off","Leech Seed"]],"item":["Venusaurite"],"ability":["Chlorophyll"],"nature":["Bold"],"evs":{"def":96,"spd":144,"hp":248,"spe":20}},
   ],
   "Victini": [
-    {"moves":[["V-create"],["Bolt Strike"],["Zen Headbutt","Brick Break"],["U-turn"]],"item":["Choice Band"],"ability":["Victory Star"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Substitute"],["V-create"],["Bolt Strike"],["Power-Up Punch"]],"item":["Leftovers"],"ability":["Victory Star"],"nature":["Adamant"],"evs":{"hp":96,"spe":160,"atk":252}},
-    {"moves":[["Taunt"],["V-create"],["Will-O-Wisp"],["Bolt Strike"]],"item":["Leftovers"],"ability":["Victory Star"],"nature":["Jolly"],"evs":{"def":68,"hp":248,"spe":60,"atk":132}},
-    {"moves":[["Blue Flare","V-create"],["Thunder"],["Glaciate"],["Focus Blast"]],"item":["Expert Belt","Life Orb"],"ability":["Victory Star"],"nature":["Modest","Naughty"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["V-create"],["Bolt Strike"],["U-turn"],["Final Gambit","Zen Headbutt"]],"item":["Choice Scarf"],"ability":["Victory Star"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["V-create"],["Bolt Strike"],["Glaciate"],["Energy Ball","Grass Knot"]],"item":["Life Orb"],"ability":["Victory Star"],"nature":["Naive","Hasty"],"evs":{"spa":160,"spe":252,"atk":96}},
+    {"moves":[["V-create"],["Bolt Strike"],["U-turn"],["Trick"]],"item":["Choice Band"],"ability":["Victory Star"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Volcanion": [
     {"moves":[["Steam Eruption"],["Fire Blast"],["Sludge Bomb","Solar Beam"],["Hidden Power Ice","Earth Power"]],"item":["Leftovers","Power Herb","Choice Specs"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"hp":252,"spe":4}},

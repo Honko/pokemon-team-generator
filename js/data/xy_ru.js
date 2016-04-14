@@ -101,12 +101,6 @@ setdex.xy.ru = {
   "Dugtrio": [
     {"moves":[["Earthquake"],["Stone Edge"],["Sucker Punch"],["Memento"]],"item":["Life Orb","Choice Band"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
-  "Durant": [
-    {"moves":[["Iron Head"],["Superpower"],["X-Scissor"],["Thunder Fang"]],"item":["Life Orb","Choice Band"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Iron Head"],["X-Scissor"],["Superpower"],["Baton Pass"]],"item":["Choice Scarf"],"ability":["Hustle"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Hone Claws"],["Iron Head"],["Superpower"],["X-Scissor"]],"item":["Lum Berry","Life Orb"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Substitute"],["Baton Pass"],["X-Scissor","Superpower"],["Iron Head","Superpower"]],"item":["Insect Plate","Wide Lens"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
   "Eelektross": [
     {"moves":[["Volt Switch"],["Flamethrower"],["Giga Drain","Hidden Power Ice"],["Knock Off","Thunderbolt"]],"item":["Assault Vest"],"ability":["Levitate"],"nature":["Quiet","Modest"],"evs":{"spa":252,"hp":252,"atk":4}},
   ],
@@ -170,8 +164,7 @@ setdex.xy.ru = {
     {"moves":[["Rapid Spin"],["Close Combat"],["Foresight"],["Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Houndoom": [
-    {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Sucker Punch","Hidden Power Grass"]],"item":["Life Orb"],"ability":["Flash Fire"],"nature":["Hasty","Timid"],"evs":{"spa":252,"spe":252,"atk":4}},
-    {"moves":[["Pursuit"],["Sucker Punch"],["Fire Blast"],["Crunch"]],"item":["Life Orb"],"ability":["Flash Fire"],"nature":["Hasty"],"evs":{"spa":36,"spe":252,"atk":220}},
+    {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Hidden Power Water","Hidden Power Steel"]],"item":["Life Orb"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Jellicent": [
     {"moves":[["Taunt"],["Will-O-Wisp"],["Recover"],["Scald","Hex"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold"],"evs":{"def":216,"hp":248,"spe":44}},
@@ -224,6 +217,9 @@ setdex.xy.ru = {
   "Miltank": [
     {"moves":[["Heal Bell"],["Thunder Wave"],["Seismic Toss"],["Milk Drink"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
+  "Mr. Mime": [
+    {"moves":[["Healing Wish"],["Dazzling Gleam"],["Shadow Ball"],["Focus Blast"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
   "Omastar": [
     {"moves":[["Stealth Rock"],["Spikes"],["Scald","Hydro Pump"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Shell Smash"],["Hydro Pump","Surf"],["Ice Beam"],["Hidden Power Grass"]],"item":["White Herb"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -264,6 +260,10 @@ setdex.xy.ru = {
   ],
   "Rotom-Fan": [
     {"moves":[["Air Slash"],["Will-O-Wisp"],["Thunderbolt","Volt Switch"],["Pain Split","Volt Switch"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spa":8,"hp":248}},
+  ],
+  "Rotom-Frost": [
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Blizzard"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Thunderbolt"],["Blizzard"],["Pain Split"],["Substitute"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Rotom-Mow": [
     {"moves":[["Leaf Storm"],["Volt Switch"],["Thunderbolt"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},

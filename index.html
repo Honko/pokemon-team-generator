@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <link rel="stylesheet" href="third-party/css/bootstrap.min.css">
+    <link rel="stylesheet" href="third-party/css/bootstrap_ms.css">
     <link rel="stylesheet" href="css/generator.css" />
 </head>
 
@@ -50,7 +51,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="well col-md-4 col-xs-6" ng-repeat="pokemon in team">
+            <div class="well col-md-4 col-sm-6 col-ms-6 col-xs-12" ng-repeat="pokemon in team">
                 <div class="text-center">
                     <button type="button" class="btn btn-default" ng-click="toggleLock(pokemon)">
                         <span class="glyphicon glyphicon-lock"></span>

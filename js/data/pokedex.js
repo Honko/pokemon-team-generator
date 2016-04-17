@@ -1,12 +1,22 @@
 var pokedex = {
   "Abomasnow": {
     spriteName: "abomasnow",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Abra": {
     spriteName: "abra",
   },
   "Absol": {
     spriteName: "absol",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Accelgor": {
     spriteName: "accelgor",
@@ -16,21 +26,41 @@ var pokedex = {
   },
   "Aerodactyl": {
     spriteName: "aerodactyl",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Aggron": {
     spriteName: "aggron",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Aipom": {
     spriteName: "aipom",
   },
   "Alakazam": {
     spriteName: "alakazam",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Alomomola": {
     spriteName: "alomomola",
   },
   "Altaria": {
     spriteName: "altaria",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Amaura": {
     spriteName: "amaura",
@@ -43,6 +73,11 @@ var pokedex = {
   },
   "Ampharos": {
     spriteName: "ampharos",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Anorith": {
     spriteName: "anorith",
@@ -148,6 +183,11 @@ var pokedex = {
   },
   "Audino": {
     spriteName: "audino",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Aurorus": {
     spriteName: "aurorus",
@@ -175,6 +215,11 @@ var pokedex = {
   },
   "Banette": {
     spriteName: "banette",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Barbaracle": {
     spriteName: "barbaracle",
@@ -199,6 +244,11 @@ var pokedex = {
   },
   "Beedrill": {
     spriteName: "beedrill",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Beheeyem": {
     spriteName: "beheeyem",
@@ -229,9 +279,19 @@ var pokedex = {
   },
   "Blastoise": {
     spriteName: "blastoise",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Blaziken": {
     spriteName: "blaziken",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Blissey": {
     spriteName: "blissey",
@@ -292,6 +352,11 @@ var pokedex = {
   },
   "Camerupt": {
     spriteName: "camerupt",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Carbink": {
     spriteName: "carbink",
@@ -325,6 +390,14 @@ var pokedex = {
   },
   "Charizard": {
     spriteName: "charizard",
+    alts: {
+      "Mega-X": {
+        spriteNameSuffix: "-mega-x",
+      },
+      "Mega-Y": {
+        spriteNameSuffix: "-mega-y",
+      },
+    },
   },
   "Charmander": {
     spriteName: "charmander",
@@ -503,6 +576,11 @@ var pokedex = {
   },
   "Diancie": {
     spriteName: "diancie",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Diggersby": {
     spriteName: "diggersby",
@@ -692,9 +770,11 @@ var pokedex = {
   },
   "Floette": {
     spriteName: "floette",
+    formes: ["Floette","Floette-Eternal"],
   },
   "Floette-Eternal": {
     spriteName: "floette-eternal",
+    formes: ["Floette","Floette-Eternal"],
   },
   "Florges": {
     spriteName: "florges",
@@ -734,6 +814,11 @@ var pokedex = {
   },
   "Gallade": {
     spriteName: "gallade",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Galvantula": {
     spriteName: "galvantula",
@@ -743,9 +828,19 @@ var pokedex = {
   },
   "Garchomp": {
     spriteName: "garchomp",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Gardevoir": {
     spriteName: "gardevoir",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Gastly": {
     spriteName: "gastly",
@@ -758,6 +853,11 @@ var pokedex = {
   },
   "Gengar": {
     spriteName: "gengar",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Geodude": {
     spriteName: "geodude",
@@ -784,6 +884,11 @@ var pokedex = {
   },
   "Glalie": {
     spriteName: "glalie",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Glameow": {
     spriteName: "glameow",
@@ -869,6 +974,11 @@ var pokedex = {
   },
   "Groudon": {
     spriteName: "groudon",
+    alts: {
+      "Primal": {
+        spriteNameSuffix: "-primal",
+      },
+    },
   },
   "Grovyle": {
     spriteName: "grovyle",
@@ -887,6 +997,11 @@ var pokedex = {
   },
   "Gyarados": {
     spriteName: "gyarados",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Happiny": {
     spriteName: "happiny",
@@ -917,6 +1032,11 @@ var pokedex = {
   },
   "Heracross": {
     spriteName: "heracross",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Herdier": {
     spriteName: "herdier",
@@ -964,6 +1084,11 @@ var pokedex = {
   },
   "Houndoom": {
     spriteName: "houndoom",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Houndour": {
     spriteName: "houndour",
@@ -1027,6 +1152,11 @@ var pokedex = {
   },
   "Kangaskhan": {
     spriteName: "kangaskhan",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Karrablast": {
     spriteName: "karrablast",
@@ -1078,6 +1208,11 @@ var pokedex = {
   },
   "Kyogre": {
     spriteName: "kyogre",
+    alts: {
+      "Primal": {
+        spriteNameSuffix: "-primal",
+      },
+    },
   },
   "Kyurem": {
     spriteName: "kyurem",
@@ -1119,9 +1254,19 @@ var pokedex = {
   },
   "Latias": {
     spriteName: "latias",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Latios": {
     spriteName: "latios",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Leafeon": {
     spriteName: "leafeon",
@@ -1167,6 +1312,11 @@ var pokedex = {
   },
   "Lopunny": {
     spriteName: "lopunny",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Lotad": {
     spriteName: "lotad",
@@ -1176,6 +1326,11 @@ var pokedex = {
   },
   "Lucario": {
     spriteName: "lucario",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Ludicolo": {
     spriteName: "ludicolo",
@@ -1248,6 +1403,11 @@ var pokedex = {
   },
   "Manectric": {
     spriteName: "manectric",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Mankey": {
     spriteName: "mankey",
@@ -1278,9 +1438,19 @@ var pokedex = {
   },
   "Mawile": {
     spriteName: "mawile",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Medicham": {
     spriteName: "medicham",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Meditite": {
     spriteName: "meditite",
@@ -1305,6 +1475,11 @@ var pokedex = {
   },
   "Metagross": {
     spriteName: "metagross",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Metang": {
     spriteName: "metang",
@@ -1317,6 +1492,14 @@ var pokedex = {
   },
   "Mewtwo": {
     spriteName: "mewtwo",
+    alts: {
+      "Mega-X": {
+        spriteNameSuffix: "-mega-x",
+      },
+      "Mega-Y": {
+        spriteNameSuffix: "-mega-y",
+      },
+    },
   },
   "Mienfoo": {
     spriteName: "mienfoo",
@@ -1503,6 +1686,11 @@ var pokedex = {
   },
   "Pidgeot": {
     spriteName: "pidgeot",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Pidgeotto": {
     spriteName: "pidgeotto",
@@ -1527,6 +1715,11 @@ var pokedex = {
   },
   "Pinsir": {
     spriteName: "pinsir",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Piplup": {
     spriteName: "piplup",
@@ -1636,6 +1829,11 @@ var pokedex = {
   },
   "Rayquaza": {
     spriteName: "rayquaza",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Regice": {
     spriteName: "regice",
@@ -1711,9 +1909,19 @@ var pokedex = {
   },
   "Sableye": {
     spriteName: "sableye",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Salamence": {
     spriteName: "salamence",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Samurott": {
     spriteName: "samurott",
@@ -1738,9 +1946,19 @@ var pokedex = {
   },
   "Sceptile": {
     spriteName: "sceptile",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Scizor": {
     spriteName: "scizor",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Scolipede": {
     spriteName: "scolipede",
@@ -1789,6 +2007,11 @@ var pokedex = {
   },
   "Sharpedo": {
     spriteName: "sharpedo",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Shaymin": {
     spriteName: "shaymin",
@@ -1878,6 +2101,11 @@ var pokedex = {
   },
   "Slowbro": {
     spriteName: "slowbro",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Slowking": {
     spriteName: "slowking",
@@ -1968,6 +2196,11 @@ var pokedex = {
   },
   "Steelix": {
     spriteName: "steelix",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Stoutland": {
     spriteName: "stoutland",
@@ -2004,6 +2237,11 @@ var pokedex = {
   },
   "Swampert": {
     spriteName: "swampert",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Swanna": {
     spriteName: "swanna",
@@ -2134,6 +2372,11 @@ var pokedex = {
   },
   "Tyranitar": {
     spriteName: "tyranitar",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Tyrantrum": {
     spriteName: "tyrantrum",
@@ -2182,6 +2425,11 @@ var pokedex = {
   },
   "Venusaur": {
     spriteName: "venusaur",
+    alts: {
+      "Mega": {
+        spriteNameSuffix: "-mega",
+      },
+    },
   },
   "Vespiquen": {
     spriteName: "vespiquen",

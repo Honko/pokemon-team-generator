@@ -23,8 +23,19 @@ teamGenerator.controller('GeneratorController', function($scope) {
         return Object.keys(setdex[$scope.gen][$scope.meta]);
     };
 
+    $scope.availableItems = function() {
+        return Object.keys(itemdex).filter(function(item) { return itemdex[item].gens.indexOf($scope.gen) !== -1; });
+    };
+
     $scope.spriteName = function(pokemon) {
-        return pokedex[pokemon.name].spriteName;
+        if (!pokedex[pokemon.name]) {
+            return "unown-question";
+        }
+        var spriteName = pokedex[pokemon.name].spriteName;
+        if (itemdex[pokemon.item] && itemdex[pokemon.item].altTrigger && itemdex[pokemon.item].altTrigger[pokemon.name]) {
+            return spriteName + pokedex[pokemon.name].alts[itemdex[pokemon.item].altTrigger[pokemon.name]].spriteNameSuffix;
+        }
+        return spriteName;
     };
 
     $scope.toggleLock = function(pokemon) {

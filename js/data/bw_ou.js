@@ -177,9 +177,6 @@ setdex.bw.ou = {
     {"moves":[["Leaf Storm"],["Psyshock","Psychic"],["Hidden Power Fire"],["Nature Power","Sleep Powder","Giga Drain"]],"item":["Life Orb","Choice Specs"],"ability":["Chlorophyll"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Swords Dance"],["Wood Hammer","Seed Bomb"],["Low Kick","Nature Power"],["Zen Headbutt","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Adamant","Naughty"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
-  "Farfetch'd": [
-    {"moves":[["Swords Dance"],["Return"],["Brave Bird"],["Revenge"]],"item":["Stick"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
-  ],
   "Feraligatr": [
     {"moves":[["Swords Dance"],["Aqua Jet"],["Waterfall"],["Crunch","Superpower","Ice Punch"]],"item":["Mystic Water"],"ability":["Torrent"],"nature":["Adamant"],"evs":{"hp":184,"spe":72,"atk":252}},
   ],
@@ -394,9 +391,6 @@ setdex.bw.ou = {
   "Machamp": [
     {"moves":[["Dynamic Punch"],["Payback"],["Bullet Punch"],["Ice Punch","Stone Edge"]],"item":["Lum Berry"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"spd":16,"hp":240,"spe":4,"atk":248}},
     {"moves":[["Substitute"],["Dynamic Punch"],["Payback"],["Stone Edge"]],"item":["Leftovers"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"hp":128,"spe":128,"atk":252}},
-  ],
-  "Magikarp": [
-    {"moves":[["Splash"],["Tackle"],["Flail"],["Bounce"]],"item":["Choice Scarf","Focus Sash","Choice Band","Life Orb","Leftovers","Air Balloon","Eject Button","Stick"],"ability":["Rattled","Swift Swim"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Magneton": [
     {"moves":[["Volt Switch"],["Hidden Power Ice","Hidden Power Fire"],["Thunderbolt"],["Flash Cannon"]],"item":["Choice Scarf"],"ability":["Magnet Pull"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -648,10 +642,6 @@ setdex.bw.ou = {
     {"moves":[["Stone Edge"],["Crunch"],["Pursuit"],["Superpower"]],"item":["Choice Band"],"ability":["Sand Stream"],"nature":["Adamant"],"evs":{"hp":180,"spe":76,"atk":252}},
     {"moves":[["Crunch"],["Fire Blast","Ice Beam"],["Low Kick","Ice Beam"],["Stealth Rock"]],"item":["Focus Sash"],"ability":["Sand Stream"],"nature":["Hasty","Mild"],"evs":{"spa":252,"spe":252,"atk":4}},
     {"moves":[["Stealth Rock"],["Pursuit"],["Crunch"],["Fire Blast","Stone Edge","Superpower"]],"item":["Chople Berry","Lum Berry"],"ability":["Sand Stream"],"nature":["Adamant","Brave"],"evs":{"spd":168,"hp":252,"atk":88}},
-  ],
-  "Unown": [
-    {"moves":[["Hidden Power Ice","Hidden Power Fighting","Hidden Power Psychic"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-    {"moves":[["Hidden Power Ice","Hidden Power Fighting","Hidden Power Psychic","Hidden Power Electric"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Uxie": [
     {"moves":[["Stealth Rock"],["U-turn"],["Psychic","Heal Bell"],["Thunder Wave","Yawn"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},

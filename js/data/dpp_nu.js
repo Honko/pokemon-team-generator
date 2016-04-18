@@ -114,9 +114,6 @@ setdex.dpp.nu = {
   "Dewgong": [
     {"moves":[["Rain Dance"],["Surf"],["Ice Beam","Toxic"],["Rest"]],"item":["Damp Rock","Leftovers"],"ability":["Hydration"],"nature":["Timid"],"evs":{"spa":160,"hp":252,"spe":96}},
   ],
-  "Ditto": [
-    {"moves":[["Transform"]],"item":["Leftovers","Focus Sash"],"ability":["Limber"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
-  ],
   "Dodrio": [
     {"moves":[["Brave Bird"],["Return"],["Pursuit","Payback"],["Quick Attack","Toxic"]],"item":["Choice Band"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Brave Bird"],["Return","Quick Attack"],["Roost"],["Taunt","Toxic","Payback"]],"item":["Sharp Beak","Life Orb"],"ability":["Early Bird"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -153,12 +150,6 @@ setdex.dpp.nu = {
   "Exploud": [
     {"moves":[["Return"],["Earthquake"],["Crunch"],["Surf","Ice Beam"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Naughty"],"evs":{"spa":68,"spe":188,"atk":252}},
     {"moves":[["Substitute"],["Return"],["Earthquake"],["Crunch"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Adamant"],"evs":{"hp":224,"spe":32,"atk":252}},
-  ],
-  "Farfetch'd": [
-    {"moves":[["Knock Off"],["Toxic"],["U-turn"],["Return"]],"item":["Stick","Leftovers","Bright Powder"],"ability":["Inner Focus","Keen Eye"],"nature":["Adamant"],"evs":{"hp":252,"spe":4,"atk":252}},
-    {"moves":[["Slash"],["Night Slash"],["Air Cutter"],["Steel Wing","Toxic","Knock Off"]],"item":["Stick"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Return"],["Aerial Ace"],["Quick Attack"],["Night Slash","Hidden Power Ground","Double-Edge","Knock Off"]],"item":["Choice Band"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Endure"],["Flail"],["Swords Dance"],["Substitute","Aerial Ace","Agility"]],"item":["Salac Berry","Liechi Berry"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return"],["U-turn"],["Quick Attack","Pursuit"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -653,9 +644,6 @@ setdex.dpp.nu = {
     {"moves":[["Sunny Day"],["Fire Blast"],["Solar Beam"],["Hidden Power Rock"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Timid"],"evs":{"spa":252,"spd":36,"spe":220}},
     {"moves":[["Eruption"],["Focus Blast"],["Hidden Power Rock","Hidden Power Grass"],["Fire Blast"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Modest","Timid"],"evs":{"spa":252,"hp":32,"spe":224}},
     {"moves":[["Overheat","Eruption"],["Focus Blast"],["Hidden Power Grass","Hidden Power Rock"],["Fire Blast","Flamethrower"]],"item":["Choice Specs"],"ability":["Blaze"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-  ],
-  "Unown": [
-    {"moves":[["Hidden Power Ice","Hidden Power Fighting","Hidden Power Psychic"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Venomoth": [
     {"moves":[["Bug Buzz"],["Psychic","Substitute"],["Sleep Powder"],["Roost"]],"item":["Life Orb"],"ability":["Tinted Lens"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},

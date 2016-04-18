@@ -558,7 +558,7 @@ setdex.xy.lc = {
     {"moves":[["Brave Bird"],["Double-Edge"],["U-turn"],["Hidden Power Grass","Steel Wing"]],"item":["Choice Scarf"],"ability":["Reckless"],"nature":["Naive","Jolly"],"evs":{"spa":36,"hp":36,"spe":196,"atk":236}},
   ],
   "Staryu": [
-    {"moves":[["Rapid Spin"],["Scald"],["Psychic","Ice Beam","Thunderbolt"],["Recover"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"def":156,"hp":116,"spe":236}},
+    {"moves":[["Rapid Spin"],["Scald"],["Psychic","Thunderbolt","Ice Beam"],["Recover"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"def":156,"hp":116,"spe":236}},
     {"moves":[["Hydro Pump","Surf"],["Psychic"],["Ice Beam","Thunderbolt"],["Rapid Spin","Ice Beam"]],"item":["Life Orb"],"ability":["Natural Cure","Analytic"],"nature":["Timid"],"evs":{"def":76,"spa":196,"spe":236}},
     {"moves":[["Rapid Spin"],["Scald","Hydro Pump"],["Ice Beam"],["Recover","Psychic","Thunderbolt"]],"item":["Eviolite","Berry Juice"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":200,"hp":36,"spe":240}},
   ],

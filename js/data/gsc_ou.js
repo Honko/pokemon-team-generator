@@ -72,9 +72,6 @@ setdex.gsc.ou = {
   "Dewgong": [
     {"moves":[["Surf"],["Ice Beam"],["Rest"],["Encore","Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
-  "Ditto": [
-    {"moves":[["Transform"]],"item":["Metal Powder"],"ability":[],"nature":[]},
-  ],
   "Dodrio": [
     {"moves":[["Double-Edge"],["Drill Peck"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
@@ -110,10 +107,6 @@ setdex.gsc.ou = {
   ],
   "Exeggutor": [
     {"moves":[["Psychic"],["Giga Drain","Hidden Power Fire"],["Sleep Powder","Stun Spore"],["Explosion"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
-  "Farfetch'd": [
-    {"moves":[["Baton Pass"],["Swords Dance","Psych Up"],["Agility","Swagger"],["Return","Hidden Power Flying"]],"item":["Leftovers"],"ability":[],"nature":[]},
-    {"moves":[["Swords Dance"],["Return"],["Hidden Power Flying","Gust"],["Agility","Baton Pass","Hidden Power Ground"]],"item":["Stick"],"ability":[],"nature":[]},
   ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return","Tri Attack"],["Substitute"],["Hidden Power Ground","Hidden Power Fighting"]],"item":["Leftovers"],"ability":[],"nature":[]},
@@ -426,9 +419,6 @@ setdex.gsc.ou = {
     {"moves":[["Charm"],["Pursuit"],["Rest"],["Toxic"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Charm"],["Mean Look"],["Baton Pass"],["Rest"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Mean Look"],["Toxic"],["Confuse Ray","Charm"],["Rest"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
-  "Unown": [
-    {"moves":[["Hidden Power Psychic"]],"item":["Twisted Spoon"],"ability":[],"nature":[]},
   ],
   "Ursaring": [
     {"moves":[["Curse"],["Return"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},

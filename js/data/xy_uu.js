@@ -176,7 +176,12 @@ setdex.xy.uu = {
     {"moves":[["Taunt"],["Destiny Bond"],["Spikes"],["Icy Wind","Thunder Wave"]],"item":["Focus Sash"],"ability":["Cursed Body"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
   ],
   "Galvantula": [
-    {"moves":[["Sticky Web"],["Thunder"],["Bug Buzz"],["Thunder Wave","Energy Ball"]],"item":["Focus Sash"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Sticky Web"],["Thunder"],["Bug Buzz"],["Energy Ball","Giga Drain"]],"item":["Life Orb"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
+  "Gardevoir": [
+    {"moves":[["Moonblast"],["Psychic"],["Healing Wish","Memento"],["Trick"]],"item":["Choice Scarf"],"ability":["Trace"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Calm Mind"],["Moonblast"],["Psyshock"],["Substitute","Focus Blast"]],"item":["Leftovers","Life Orb"],"ability":["Trace"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Moonblast"],["Psyshock"],["Focus Blast","Shadow Ball"],["Trick","Shadow Ball"]],"item":["Choice Specs"],"ability":["Trace"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Gastrodon": [
     {"moves":[["Scald"],["Earthquake","Earth Power"],["Toxic","Ice Beam"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":40,"hp":216}},
@@ -363,6 +368,9 @@ setdex.xy.uu = {
     {"moves":[["Volt Switch"],["Leaf Storm"],["Thunderbolt","Hidden Power Ice"],["Trick"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Volt Switch"],["Leaf Storm"],["Thunderbolt"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Volt Switch"],["Leaf Storm"],["Will-O-Wisp"],["Pain Split"]],"item":["Leftovers","Expert Belt"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":64,"spe":192}},
+  ],
+  "Sableye": [
+    {"moves":[["Recover"],["Will-O-Wisp"],["Taunt"],["Knock Off","Snarl"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Careful","Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Salamence": [
     {"moves":[["Dragon Dance"],["Outrage","Dragon Claw"],["Fire Blast","Earthquake"],["Iron Tail","Earthquake"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate","Moxie"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},

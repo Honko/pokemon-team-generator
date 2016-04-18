@@ -169,9 +169,6 @@ setdex.bw.nu = {
   "Exploud": [
     {"moves":[["Hyper Voice"],["Surf"],["Fire Blast"],["Low Kick"]],"item":["Life Orb"],"ability":["Scrappy"],"nature":["Naive"],"evs":{"spa":252,"spe":188,"atk":68}},
   ],
-  "Farfetch'd": [
-    {"moves":[["Swords Dance"],["Brave Bird"],["Leaf Blade"],["Quick Attack"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
   "Fearow": [
     {"moves":[["Return"],["Drill Peck"],["Drill Run"],["U-turn","Pursuit"]],"item":["Choice Band","Life Orb"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],

@@ -156,10 +156,6 @@ setdex.xy.ou = {
   "Ferrothorn": [
     {"moves":[["Stealth Rock","Spikes"],["Leech Seed"],["Gyro Ball","Power Whip"],["Power Whip","Protect","Thunder Wave"]],"item":["Leftovers"],"ability":["Iron Barbs"],"nature":["Relaxed"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
   ],
-  "Floette-Eternal": [
-    {"moves":[["Light of Ruin"],["Wish"],["Protect"],["Hidden Power Fire","Toxic"]],"item":["Life Orb","Leftovers"],"ability":["Flower Veil"],"nature":["Timid"],"evs":{"spa":4,"hp":252,"spe":252}},
-    {"moves":[["Light of Ruin"],["Moonblast"],["Psychic"],["Hidden Power Fire","Hidden Power Ground"]],"item":["Choice Specs"],"ability":["Flower Veil"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-  ],
   "Froslass": [
     {"moves":[["Taunt"],["Spikes"],["Destiny Bond"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Cursed Body"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
@@ -224,12 +220,6 @@ setdex.xy.ou = {
   "Hippowdon": [
     {"moves":[["Earthquake"],["Stealth Rock"],["Slack Off"],["Stone Edge","Toxic","Whirlwind"]],"item":["Leftovers"],"ability":["Sand Stream","Sand Force"],"nature":["Impish"],"evs":{"def":144,"spd":112,"hp":252}},
   ],
-  "Hoopa-Unbound": [
-    {"moves":[["Dark Pulse"],["Psyshock"],["Focus Blast"],["Thunderbolt","Trick"]],"item":["Choice Specs"],"ability":["Magician"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Dark Pulse"],["Gunk Shot"],["Drain Punch"],["Psychic","Fire Punch","Hidden Power Ice"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Hasty"],"evs":{"spa":96,"spe":252,"atk":160},"ivs":{"hp":29}},
-    {"moves":[["Hyperspace Fury"],["Gunk Shot"],["Drain Punch"],["Fire Punch","Zen Headbutt"]],"item":["Choice Band"],"ability":["Magician"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Hyperspace Fury"],["Psychic","Hidden Power Ice"],["Gunk Shot"],["Drain Punch"]],"item":["Choice Scarf"],"ability":["Magician"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
-  ],
   "Houndoom": [
     {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Will-O-Wisp","Taunt"]],"item":["Houndoominite"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":8,"spa":208,"hp":40,"spe":252}},
   ],
@@ -277,9 +267,8 @@ setdex.xy.ou = {
     {"moves":[["Earthquake"],["Stone Edge"],["Substitute"],["Swords Dance"]],"item":["Salac Berry"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Latias": [
-    {"moves":[["Defog"],["Draco Meteor"],["Psyshock","Thunderbolt"],["Healing Wish","Roost"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":184,"hp":72,"spe":252}},
-    {"moves":[["Calm Mind"],["Roost"],["Reflect Type","Substitute"],["Stored Power","Psyshock"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":84,"hp":248,"spe":176}},
-    {"moves":[["Thunder Wave"],["Roar","Reflect Type"],["Recover"],["Dragon Pulse"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":68,"hp":248,"spe":192}},
+    {"moves":[["Thunderbolt"],["Ice Beam"],["Roost"],["Reflect Type","Thunder Wave"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
+    {"moves":[["Draco Meteor"],["Psyshock"],["Healing Wish"],["Defog","Roost"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":184,"hp":72,"spe":252}},
   ],
   "Latios": [
     {"moves":[["Draco Meteor"],["Psyshock"],["Hidden Power Fire","Earthquake","Roost"],["Defog","Roost"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid","Hasty"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
@@ -367,8 +356,7 @@ setdex.xy.ou = {
     {"moves":[["Stealth Rock"],["Earthquake"],["Stone Edge","Rock Blast"],["Ice Punch","Toxic"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"def":252,"hp":212,"atk":44}},
   ],
   "Rotom-Heat": [
-    {"moves":[["Overheat"],["Volt Switch"],["Will-O-Wisp"],["Pain Split","Rest"]],"item":["Leftovers","Chesto Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"hp":248,"spe":8}},
-    {"moves":[["Overheat"],["Volt Switch"],["Hidden Power Ice","Thunderbolt"],["Trick","Thunderbolt"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Overheat"],["Volt Switch"],["Pain Split"],["Thunder Wave","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":40,"hp":248,"spe":220}},
   ],
   "Rotom-Wash": [
     {"moves":[["Volt Switch"],["Hydro Pump"],["Will-O-Wisp"],["Pain Split","Rest"]],"item":["Leftovers","Chesto Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"hp":248,"spe":8}},

@@ -50,18 +50,10 @@ setdex.adv.nu = {
   "Dewgong": [
     {"moves":[["Ice Beam"],["Surf"],["Encore","Sleep Talk","Toxic"],["Rest"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":144,"spa":96,"spd":16,"hp":252}},
   ],
-  "Ditto": [
-    {"moves":[["Transform"]],"item":["Metal Powder","Leppa Berry","Quick Claw"],"ability":["Limber"],"nature":["Impish","Bold"],"evs":{"def":128,"spd":128,"hp":252}},
-  ],
   "Dustox": [
     {"moves":[["Light Screen"],["Moonlight"],["Whirlwind"],["Sludge Bomb"]],"item":["Leftovers"],"ability":["Shield Dust"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
     {"moves":[["Sludge Bomb"],["Aerial Ace"],["Hidden Power Ground"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Shield Dust"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
     {"moves":[["Sunny Day"],["Solar Beam"],["Hidden Power Fire"],["Toxic"]],"item":["Leftovers"],"ability":["Shield Dust"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-  ],
-  "Farfetch'd": [
-    {"moves":[["Swords Dance"],["Slash"],["Agility"],["Knock Off"]],"item":["Stick"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Attract"],["Swords Dance"],["Agility"],["Baton Pass"]],"item":["Leftovers"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"def":60,"spe":198,"atk":252}},
-    {"moves":[["Substitute","Endure"],["Flail"],["Hidden Power Ghost"],["Swords Dance"]],"item":["Salac Berry"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Furret": [
     {"moves":[["Double-Edge","Return"],["Shadow Ball"],["Focus Punch","Quick Attack"],["Trick"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Adamant","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -205,9 +197,6 @@ setdex.adv.nu = {
   "Tropius": [
     {"moves":[["Sunny Day"],["Solar Beam"],["Synthesis"],["Hidden Power Fire","Hidden Power Ice"]],"item":["Leftovers","Petaya Berry"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"spa":204,"hp":68,"spe":232}},
     {"moves":[["Swords Dance"],["Hidden Power Flying"],["Earthquake"],["Substitute","Synthesis"]],"item":["Leftovers","Salac Berry"],"ability":["Chlorophyll"],"nature":["Adamant"],"evs":{"spd":124,"hp":196,"atk":188}},
-  ],
-  "Unown": [
-    {"moves":[["Hidden Power Fighting"]],"item":["Choice Band"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Venomoth": [
     {"moves":[["Baton Pass"],["Substitute"],["Sleep Powder"],["Sludge Bomb","Signal Beam","Silver Wind"]],"item":["Liechi Berry","Salac Berry"],"ability":["Shield Dust"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

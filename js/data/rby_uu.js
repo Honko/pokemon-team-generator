@@ -11,9 +11,6 @@ setdex.rby.uu = {
   "Dewgong": [
     {"moves":[["Surf"],["Blizzard"],["Body Slam"],["Mimic"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Ditto": [
-    {"moves":[["Transform"]],"item":[],"ability":[],"nature":[]},
-  ],
   "Electabuzz": [
     {"moves":[["Thunderbolt"],["Thunder Wave"],["Psychic"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
   ],

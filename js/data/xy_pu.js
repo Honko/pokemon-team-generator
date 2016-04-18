@@ -84,6 +84,9 @@ setdex.xy.pu = {
   "Chimecho": [
     {"moves":[["Healing Wish"],["Recover"],["Psychic"],["Heal Bell","Thunder Wave","Taunt"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Calm"],"evs":{"spa":4,"spd":252,"hp":252}},
   ],
+  "Chinchou": [
+    {"moves":[["Scald"],["Volt Switch"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Volt Absorb"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+  ],
   "Clefairy": [
     {"moves":[["Soft-Boiled"],["Moonblast"],["Thunder Wave","Stealth Rock"],["Knock Off","Healing Wish"]],"item":["Eviolite"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
     {"moves":[["Calm Mind"],["Soft-Boiled"],["Moonblast"],["Thunder Wave","Stored Power"]],"item":["Eviolite"],"ability":["Magic Guard"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
@@ -337,7 +340,7 @@ setdex.xy.pu = {
     {"moves":[["Curse"],["Body Slam"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},
   ],
   "Murkrow": [
-    {"moves":[["Brave Bird"],["Sucker Punch"],["Hidden Power Fighting","Hidden Power Grass"],["Thunder Wave","Taunt"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
+    {"moves":[["Brave Bird"],["Sucker Punch"],["Hidden Power Fighting","Hidden Power Grass"],["Thunder Wave","Pursuit"]],"item":["Life Orb"],"ability":["Prankster","Super Luck"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Natu": [
     {"moves":[["Psychic"],["U-turn"],["Thunder Wave"],["Roost"]],"item":["Eviolite"],"ability":["Magic Bounce"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
@@ -514,9 +517,6 @@ setdex.xy.pu = {
   ],
   "Unfezant": [
     {"moves":[["Tailwind"],["Hypnosis","Taunt"],["U-turn"],["Return"]],"item":["Focus Sash","Scope Lens"],"ability":["Super Luck"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
-  "Unown": [
-    {"moves":[["Hidden Power Psychic"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Ursaring": [
     {"moves":[["Facade"],["Close Combat"],["Crunch"],["Swords Dance","Protect"]],"item":["Toxic Orb"],"ability":["Quick Feet"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

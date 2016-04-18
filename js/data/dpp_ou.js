@@ -232,13 +232,6 @@ setdex.dpp.ou = {
   "Kabutops": [
     {"moves":[["Swords Dance"],["Waterfall"],["Stone Edge"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"def":20,"hp":32,"spe":204,"atk":252}},
   ],
-  "Kakuna": [
-    {"moves":[["Poison Sting"],["Iron Defense"],["String Shot"],["Bug Bite"]],"item":["Leftovers","Black Sludge"],"ability":["Shed Skin"],"nature":["Impish"],"evs":{"def":176,"hp":252,"atk":80}},
-    {"moves":[["Poison Sting"],["Iron Defense"],["String Shot"],["Bug Bite"]],"item":["Metronome"],"ability":["Shed Skin"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Poison Sting"],["Bug Bite"]],"item":["Choice Band","Choice Scarf"],"ability":["Shed Skin"],"nature":["Adamant","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Poison Sting"],["Iron Defense"],["String Shot"],["Bug Bite"]],"item":["Shed Shell"],"ability":["Shed Skin"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
-    {"moves":[["Iron Defense"],["Bug Bite"],["Poison Sting"]],"item":["Sticky Barb"],"ability":["Shed Skin"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
-  ],
   "Kingdra": [
     {"moves":[["Rest"],["Dragon Dance"],["Outrage"],["Waterfall"]],"item":["Chesto Berry","Lum Berry"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"spd":40,"hp":144,"spe":164,"atk":160}},
     {"moves":[["Substitute"],["Dragon Dance"],["Waterfall"],["Outrage"]],"item":["Leftovers","Lum Berry"],"ability":["Sniper","Swift Swim"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},

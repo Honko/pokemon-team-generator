@@ -626,9 +626,6 @@ setdex.dpp.lc = {
   "Wailmer": [
     {"moves":[["Water Spout"],["Surf","Hydro Pump"],["Ice Beam"],["Hidden Power Electric","Hidden Power Ground","Self-Destruct"]],"item":["Choice Scarf"],"ability":["Water Veil"],"nature":["Modest"],"evs":{"def":76,"spa":200,"hp":36,"spe":196}},
   ],
-  "Weedle": [
-    {"moves":[["Bug Bite"],["Poison Sting"],["String Shot"]],"item":["Life Orb","Oran Berry","Choice Band"],"ability":["Shield Dust"],"nature":["Adamant"],"evs":{"def":36,"hp":196,"spe":36,"atk":236}},
-  ],
   "Whismur": [
     {"moves":[["Return"],["Thunder Punch"],["Ice Beam"],["Shadow Ball","Fire Blast"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Brave","Quiet"],"evs":{"def":92,"spa":188,"spd":12,"hp":4,"atk":188}},
   ],

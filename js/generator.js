@@ -20,11 +20,39 @@ teamGenerator.controller('GeneratorController', function($scope) {
     };
 
     $scope.availablePokemon = function() {
-        return Object.keys(setdex[$scope.gen][$scope.meta]);
+        return speciesInMeta().filter(function(species) { return formesInTeam().indexOf(species) === -1; });
     };
 
     $scope.availableItems = function() {
-        return Object.keys(itemdex).filter(function(item) { return itemdex[item].gens.indexOf($scope.gen) !== -1; });
+        return Object.keys(itemdex).filter(function(item) {
+            return itemdex[item].gens.indexOf($scope.gen) !== -1 && (!teamHasMega(true) || MEGA_ITEMS.indexOf(item) === -1);
+        });
+    };
+
+    var speciesInMeta = function() {
+        return Object.keys(setdex[$scope.gen][$scope.meta]);
+    };
+
+    var speciesInTeam = function(lockedOnly) {
+        if (!$scope.team) {
+            return [];
+        }
+        return $scope.team
+                .filter(function(pokemon) { return pokemon.locked || pokemon.speciesLocked || !lockedOnly; })
+                .map(function(pokemon) { return pokemon.name; });
+    };
+
+    var formesInTeam = function(lockedOnly) {
+        return expandSpeciesFormes(speciesInTeam(lockedOnly));
+    };
+
+    var teamHasMega = function(lockedOnly) {
+        if (!$scope.team) {
+            return false;
+        }
+        return $scope.team
+                .filter(function(pokemon) { return (pokemon.locked || !lockedOnly) && MEGA_ITEMS.indexOf(pokemon.item) !== -1; })
+                .length > 0;
     };
 
     $scope.spriteName = function(pokemon) {
@@ -50,30 +78,81 @@ teamGenerator.controller('GeneratorController', function($scope) {
     };
 
     var _generateTeam = function(oldTeam) {
-        var pokemonNames = [];
-        // loop through once to get all locked pokemon names before we generate new ones
-        for (var i = 0; i < 6; i++) {
-            if (oldTeam[i] && (oldTeam[i].locked || oldTeam[i].speciesLocked)) {
-                pokemonNames[i] = oldTeam[i].name;
-            }
-        }
-        // loop through again to add new pokemon, excluding ALL locked
+        var excludeSpecies = speciesInTeam(true);
+        var excludeItems = teamHasMega(true) ? MEGA_ITEMS : [];
+
         var newTeam = [];
-        for (i = 0; i < 6; i++) {
+        for (var i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].locked) {
                 console.log("Old set for " + oldTeam[i].name);
                 newTeam[i] = oldTeam[i];
-            } else {
-                if (!pokemonNames[i]) {
-                    pokemonNames[i] = getRandomElement($scope.availablePokemon(), expandSpeciesFormes(pokemonNames));
-                    console.log("New Pokemon: " + pokemonNames[i]);
+            } else if (oldTeam[i] && oldTeam[i].speciesLocked) {
+                var newSet = createRandomSetForSpecies(oldTeam[i].name, excludeItems);
+                if (newSet) {
+                    newTeam[i] = newSet;
+                    newTeam[i].speciesLocked = true;
+                } else {
+                    excludeSpecies.push(oldTeam[i].name);
+                    newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
                 }
-                console.log("New set for " + pokemonNames[i]);
-                newTeam[i] = pickSet(pokemonNames[i], setdex[$scope.gen][$scope.meta][pokemonNames[i]]);
-                newTeam[i].speciesLocked = oldTeam[i] && oldTeam[i].speciesLocked;
+            } else {
+                newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
+            }
+
+            if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
+                excludeSpecies.push(newTeam[i].name);
+            }
+            if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
+                console.log("Excluding mega items");
+                excludeItems = MEGA_ITEMS;
             }
         }
         $scope.team = newTeam;
+    };
+
+    var createRandomSet = function(excludeSpecies, excludeItems) {
+        var excludeFormes = expandSpeciesFormes(excludeSpecies);
+        console.log("Excluding species: " + excludeFormes);
+        console.log("Excluding items: " + excludeItems);
+        var species = getRandomElement(speciesInMeta(), excludeFormes);
+        var set = createRandomSetForSpecies(species, excludeItems);
+        if (set) {
+            return set;
+        } else {
+            excludeSpecies.push(species);
+            return createRandomSet(excludeSpecies, excludeItems);
+        }
+    };
+
+    var createRandomSetForSpecies = function(species, excludeItems, excludeSets) {
+        console.log("New set for " + species);
+        var possibleSets = setdex[$scope.gen][$scope.meta][species];
+        var myExcludeSets = excludeSets || [];
+        var set = getRandomElement(possibleSets, myExcludeSets);
+        if (set === false) {
+            console.log("Could not create new set for " + species + ".");
+            // no possible sets left
+            return false;
+        }
+        var item = getRandomElement(set.item, excludeItems);
+        if (item === false) {
+            // no possible items left on a set that is intended to have an item
+            myExcludeSets.push(set);
+            return createRandomSetForSpecies(species, excludeItems, myExcludeSets);
+        }
+        var moves = [];
+        for (var i = 0; i < 4 && i < set.moves.length; i++) {
+            moves.push(getRandomElement(set.moves[i], moves));
+        }
+        return {
+            name: species,
+            item: item,
+            ability: getRandomElement(set.ability),
+            nature: getRandomElement(set.nature),
+            evs: set.evs,
+            ivs: set.ivs,
+            moves: moves,
+        };
     };
 
     $scope.generateTeam = function() {
@@ -123,27 +202,14 @@ var expandSpeciesFormes = function(pokemonNames) {
 
 var getRandomElement = function(obj, exclusions) {
     var keys = Array.isArray(obj) ? obj : Object.keys(obj);
+    if (keys.length === 0) {
+        // no options to begin with; intended to be blank (e.g. itemless set)
+        return "";
+    }
     var filteredKeys = !exclusions ? keys : keys.filter(function(element) {
         return exclusions.indexOf(element) === -1;
     });
-    return filteredKeys.length > 0 ? filteredKeys[Math.floor(Math.random() * filteredKeys.length)] : "";
-};
-
-var pickSet = function(pokemon, sets) {
-    var set = getRandomElement(sets);
-    var moves = [];
-    for (var i = 0; i < 4 && i < set.moves.length; i++) {
-        moves.push(getRandomElement(set.moves[i], moves));
-    }
-    return {
-        name: pokemon,
-        item: getRandomElement(set.item),
-        ability: getRandomElement(set.ability),
-        nature: getRandomElement(set.nature),
-        evs: set.evs,
-        ivs: set.ivs,
-        moves: moves,
-    };
+    return filteredKeys.length > 0 ? filteredKeys[Math.floor(Math.random() * filteredKeys.length)] : false;
 };
 
 var exportSet = function(set, meta) {

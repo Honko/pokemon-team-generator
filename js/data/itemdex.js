@@ -1,3 +1,5 @@
+const MEGA_ITEMS = ["Abomasite","Absolite","Aerodactylite","Aggronite","Alakazite","Altarianite","Ampharosite","Audinite","Banettite","Beedrillite","Blastoisinite","Blazikenite","Cameruptite","Charizardite X","Charizardite Y","Diancite","Galladite","Garchompite","Gardevoirite","Gengarite","Glalitite","Gyaradosite","Heracronite","Houndoominite","Kangaskhanite","Latiasite","Latiosite","Lopunnite","Lucarionite","Manectite","Mawilite","Medichamite","Metagrossite","Mewtwonite X","Mewtwonite Y","Pidgeotite","Pinsirite","Sablenite","Salamencite","Sceptilite","Scizorite","Sharpedonite","Slowbronite","Steelixite","Swampertite","Tyranitarite","Venusaurite"];
+
 var itemdex = {
   "Abomasite": {
     gens: ["xy"],

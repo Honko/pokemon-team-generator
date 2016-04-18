@@ -82,6 +82,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         var excludeItems = teamHasMega(true) ? MEGA_ITEMS : [];
 
         var newTeam = [];
+        // do all locked mons first to give them priority on mega items
         for (var i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].locked) {
                 console.log("Old set for " + oldTeam[i].name);
@@ -95,16 +96,21 @@ teamGenerator.controller('GeneratorController', function($scope) {
                     excludeSpecies.push(oldTeam[i].name);
                     newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
                 }
-            } else {
+                if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
+                    excludeItems = MEGA_ITEMS;
+                }
+            }
+        }
+        // now do new mons
+        for (i = 0; i < 6; i++) {
+            if (!newTeam[i]) {
                 newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
-            }
-
-            if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
-                excludeSpecies.push(newTeam[i].name);
-            }
-            if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
-                console.log("Excluding mega items");
-                excludeItems = MEGA_ITEMS;
+                if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
+                    excludeSpecies.push(newTeam[i].name);
+                }
+                if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
+                    excludeItems = MEGA_ITEMS;
+                }
             }
         }
         $scope.team = newTeam;

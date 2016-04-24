@@ -120,7 +120,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         var excludeFormes = expandSpeciesFormes(excludeSpecies);
         console.log("Excluding species: " + excludeFormes);
         console.log("Excluding items: " + excludeItems);
-        var species = getRandomElement(speciesInMeta(), excludeFormes);
+        var species = getRandomElement(weightedAvailableSpecies(), excludeFormes);
         var set = createRandomSetForSpecies(species, excludeItems);
         if (set) {
             return set;
@@ -128,6 +128,33 @@ teamGenerator.controller('GeneratorController', function($scope) {
             excludeSpecies.push(species);
             return createRandomSet(excludeSpecies, excludeItems);
         }
+    };
+
+    var weightedAvailableSpecies = function() {
+        var species = speciesInMeta();
+        var rankings = VIABILITY_RANKINGS[$scope.gen][$scope.meta];
+        if ($scope.viability === "=" || !rankings || !rankings.A) {
+            return species;
+        }
+
+        var weightedSpecies = [];
+        for (var i = 0; i < species.length; i++) {
+            var weight = VIABILITY_WEIGHTS[$scope.viability][getViabilityRanking(species[i], rankings)];
+            for (var j = 0; j < weight; j++) {
+                weightedSpecies.push(species[i]);
+            }
+        }
+        return weightedSpecies;
+    };
+
+    var getViabilityRanking = function(species, rankings) {
+        var ranks = ["S","A","B","C"];
+        for (var i = 0; i < ranks.length; i++) {
+            if (rankings[ranks[i]] && rankings[ranks[i]].indexOf(species) !== -1) {
+                return ranks[i];
+            }
+        }
+        return "D";
     };
 
     var createRandomSetForSpecies = function(species, excludeItems, excludeSets) {
@@ -184,6 +211,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
 
     $scope.gen = "xy";
     $scope.meta = "ou";
+    $scope.viability = "+";
     $scope.generateNewTeam();
 
     $scope.teamExport = "";

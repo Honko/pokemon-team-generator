@@ -44,6 +44,14 @@
         </p>
         <p>
             <div class="btn-group">
+                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'++'" ng-change="generateNewTeam()" title="Strong weighting in favor of the most standard Pokemon">++</label>
+                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'+'" ng-change="generateNewTeam()" title="Slight weighting in favor of standard Pokemon">+</label>
+                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'='" ng-change="generateNewTeam()" title="No weighting">=</label>
+                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'-'" ng-change="generateNewTeam()" title="Slight weighting in favor of non-standard Pokemon">-</label>
+            </div>
+        </p>
+        <p>
+            <div class="btn-group">
                 <button type="button" class="btn btn-primary" ng-click="generateTeam()">Shake it up!</button>
             </div>
         </p>
@@ -111,6 +119,7 @@
     <script src="js/generator.js"></script>
     <script src="js/data/pokedex.js"></script>
     <script src="js/data/itemdex.js"></script>
+    <script src="js/data/viability.js"></script>
     <script src="js/data/smogon-sets/xy_uber.js"></script>
     <script src="js/data/smogon-sets/xy_ou.js"></script>
     <script src="js/data/smogon-sets/xy_uu.js"></script>

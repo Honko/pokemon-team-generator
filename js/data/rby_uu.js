@@ -1,12 +1,24 @@
 setdex.rby.uu = {
+  "Aerodactyl": [
+    {"moves":[["Sky Attack"],["Reflect"],["Double-Edge"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
+  ],
   "Arbok": [
     {"moves":[["Earthquake"],["Wrap"],["Glare"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Arcanine": [
+    {"moves":[["Fire Blast"],["Body Slam"],["Hyper Beam","Mimic"],["Reflect"]],"item":[],"ability":[],"nature":[]},
   ],
   "Beedrill": [
     {"moves":[["Twineedle"],["Hyper Beam"],["Swords Dance"],["Agility"]],"item":[],"ability":[],"nature":[]},
   ],
+  "Blastoise": [
+    {"moves":[["Surf"],["Blizzard"],["Body Slam"],["Mimic"]],"item":[],"ability":[],"nature":[]},
+  ],
   "Butterfree": [
     {"moves":[["Psychic"],["Mega Drain"],["Sleep Powder"],["Stun Spore"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Charizard": [
+    {"moves":[["Fire Blast"],["Earthquake"],["Swords Dance"],["Body Slam","Hyper Beam"]],"item":[],"ability":[],"nature":[]},
   ],
   "Dewgong": [
     {"moves":[["Surf"],["Blizzard"],["Body Slam"],["Mimic"]],"item":[],"ability":[],"nature":[]},
@@ -35,14 +47,17 @@ setdex.rby.uu = {
   "Hitmonlee": [
     {"moves":[["Body Slam"],["Counter"],["High Jump Kick"],["Seismic Toss","Mimic","Substitute"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Kangaskhan": [
-    {"moves":[["Body Slam"],["Hyper Beam"],["Earthquake","Counter"],["Surf","Counter"]],"item":[],"ability":[],"nature":[]},
+  "Kabutops": [
+    {"moves":[["Swords Dance"],["Body Slam"],["Surf"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
   ],
   "Kingler": [
     {"moves":[["Body Slam"],["Hyper Beam"],["Crabhammer","Surf"],["Swords Dance"]],"item":[],"ability":[],"nature":[]},
   ],
   "Lickitung": [
     {"moves":[["Swords Dance"],["Earthquake"],["Hyper Beam"],["Body Slam"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Machamp": [
+    {"moves":[["Body Slam"],["Earthquake"],["Hyper Beam"],["Submission"]],"item":[],"ability":[],"nature":[]},
   ],
   "Magmar": [
     {"moves":[["Fire Blast","Flamethrower"],["Body Slam"],["Confuse Ray"],["Mimic","Hyper Beam"]],"item":[],"ability":[],"nature":[]},
@@ -53,11 +68,11 @@ setdex.rby.uu = {
   "Marowak": [
     {"moves":[["Earthquake"],["Blizzard"],["Body Slam"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Mr. Mime": [
-    {"moves":[["Psychic"],["Thunder Wave"],["Thunderbolt"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
-  ],
   "Muk": [
     {"moves":[["Sludge"],["Body Slam"],["Screech","Mega Drain"],["Explosion"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Ninetales": [
+    {"moves":[["Fire Blast"],["Body Slam"],["Confuse Ray"],["Fire Spin"]],"item":[],"ability":[],"nature":[]},
   ],
   "Omastar": [
     {"moves":[["Hydro Pump","Surf"],["Blizzard"],["Mimic","Rest"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
@@ -67,6 +82,9 @@ setdex.rby.uu = {
   ],
   "Parasect": [
     {"moves":[["Spore"],["Stun Spore","Swords Dance"],["Slash","Body Slam"],["Mega Drain"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Pidgeot": [
+    {"moves":[["Double-Edge"],["Hyper Beam"],["Mimic","Agility"],["Mirror Move"]],"item":[],"ability":[],"nature":[]},
   ],
   "Pinsir": [
     {"moves":[["Swords Dance"],["Hyper Beam"],["Body Slam"],["Submission"]],"item":[],"ability":[],"nature":[]},
@@ -88,6 +106,9 @@ setdex.rby.uu = {
   ],
   "Raticate": [
     {"moves":[["Super Fang"],["Body Slam"],["Hyper Beam"],["Bubble Beam"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Sandslash": [
+    {"moves":[["Earthquake"],["Swords Dance"],["Hyper Beam"],["Substitute","Rock Slide","Body Slam"]],"item":[],"ability":[],"nature":[]},
   ],
   "Scyther": [
     {"moves":[["Slash"],["Swords Dance"],["Agility"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},

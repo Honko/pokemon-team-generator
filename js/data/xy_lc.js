@@ -121,6 +121,7 @@ setdex.xy.lc = {
   "Cranidos": [
     {"moves":[["Rock Slide"],["Superpower"],["Zen Headbutt"],["Crunch"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
     {"moves":[["Stone Edge","Rock Slide"],["Earthquake","Pursuit"],["Superpower","Pursuit"],["Zen Headbutt"]],"item":["Choice Scarf"],"ability":["Mold Breaker","Sheer Force"],"nature":["Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
+    {"moves":[["Pursuit"],["Rock Slide"],["Zen Headbutt","Fire Punch"],["Stealth Rock","Superpower","Rock Polish"]],"item":["Berry Juice","Eviolite"],"ability":["Sheer Force"],"nature":["Jolly"],"evs":{"def":116,"spe":212,"atk":156}},
   ],
   "Croagunk": [
     {"moves":[["Knock Off"],["Sludge Bomb"],["Vacuum Wave"],["Drain Punch","Sucker Punch"]],"item":["Eviolite"],"ability":["Dry Skin"],"nature":["Quiet"],"evs":{"def":116,"spa":108,"spd":116,"hp":132,"atk":28}},
@@ -172,7 +173,7 @@ setdex.xy.lc = {
     {"moves":[["Shell Smash"],["Rock Blast"],["Earthquake"],["Substitute","Aerial Ace","Knock Off"]],"item":["Berry Juice"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spe":236,"atk":236}},
   ],
   "Eevee": [
-    {"moves":[["Return","Double-Edge"],["Quick Attack"],["Bite"],["Iron Tail"]],"item":["Choice Band","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":236,"atk":236}},
+    {"moves":[["Wish"],["Return"],["Protect"],["Baton Pass","Quick Attack","Heal Bell"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Adamant"],"evs":{"def":196,"spd":76,"hp":236}},
   ],
   "Ekans": [
     {"moves":[["Coil"],["Gunk Shot"],["Earthquake"],["Sucker Punch","Glare"]],"item":["Berry Juice","Eviolite"],"ability":["Intimidate","Shed Skin"],"nature":["Careful"],"evs":{"def":84,"spd":244,"hp":156}},
@@ -326,6 +327,7 @@ setdex.xy.lc = {
   "Magnemite": [
     {"moves":[["Volt Switch"],["Flash Cannon"],["Recycle"],["Endure","Hidden Power Ground","Thunderbolt"]],"item":["Berry Juice"],"ability":["Sturdy"],"nature":["Modest","Timid"],"evs":{"def":36,"spa":236,"spe":236}},
     {"moves":[["Volt Switch"],["Flash Cannon"],["Thunderbolt"],["Hidden Power Ground","Hidden Power Grass"]],"item":["Choice Scarf"],"ability":["Analytic","Sturdy"],"nature":["Timid","Modest"],"evs":{"spa":240,"spe":236}},
+    {"moves":[["Volt Switch"],["Hidden Power Fighting"],["Flash Cannon"],["Thunderbolt"]],"item":["Eviolite"],"ability":["Magnet Pull"],"nature":["Modest"],"evs":{"def":200,"spa":160,"hp":76}},
   ],
   "Mankey": [
     {"moves":[["Close Combat"],["U-turn"],["Earthquake"],["Gunk Shot","Ice Punch"]],"item":["Choice Scarf"],"ability":["Defiant"],"nature":["Jolly","Adamant"],"evs":{"def":76,"hp":36,"spe":196,"atk":196}},

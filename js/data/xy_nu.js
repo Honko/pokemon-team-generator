@@ -163,6 +163,7 @@ setdex.xy.nu = {
   ],
   "Kabutops": [
     {"moves":[["Swords Dance","Rapid Spin"],["Stone Edge"],["Aqua Jet"],["Waterfall","Rapid Spin"]],"item":["Life Orb","Lum Berry"],"ability":["Swift Swim"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Waterfall"],["Stone Edge"],["Rapid Spin"],["Superpower"]],"item":["Choice Scarf"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Kadabra": [
     {"moves":[["Psychic","Psyshock"],["Signal Beam"],["Hidden Power Ground","Energy Ball"],["Thunder Wave","Encore"]],"item":["Focus Sash"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},

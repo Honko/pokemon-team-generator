@@ -327,9 +327,6 @@ setdex.bw.ru = {
     {"moves":[["Psyshock","Psychic"],["Thunderbolt"],["Hidden Power Fire","Ice Beam"],["U-turn","Ice Beam","Trick"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":36,"spe":220}},
     {"moves":[["Substitute"],["Calm Mind"],["Psyshock"],["Thunderbolt","Ice Beam"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":40,"spe":216}},
   ],
-  "Metang": [
-    {"moves":[["Stealth Rock"],["Meteor Mash"],["Earthquake"],["Explosion"]],"item":["Eviolite","Cell Battery"],"ability":["Clear Body","Light Metal"],"nature":["Adamant"],"evs":{"spd":4,"hp":252,"atk":252}},
-  ],
   "Miltank": [
     {"moves":[["Stealth Rock"],["Milk Drink"],["Body Slam"],["Heal Bell","Earthquake"]],"item":["Leftovers"],"ability":["Sap Sipper","Thick Fat"],"nature":["Careful"],"evs":{"spd":192,"hp":252,"spe":64}},
     {"moves":[["Double-Edge","Return"],["Earthquake"],["Milk Drink"],["Heal Bell","Fire Punch","Stealth Rock"]],"item":["Life Orb"],"ability":["Sap Sipper"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

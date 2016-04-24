@@ -80,9 +80,6 @@ setdex.bw.nu = {
     {"moves":[["Shell Smash"],["Waterfall"],["Stone Edge"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Solid Rock"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Stealth Rock"],["Waterfall"],["Stone Edge"],["Aqua Jet","Toxic"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"def":8,"hp":248,"atk":252}},
   ],
-  "Castform": [
-    {"moves":[["Sunny Day","Rain Dance"],["Weather Ball"],["Thunderbolt"],["Ice Beam"]],"item":["Life Orb","Expert Belt"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-  ],
   "Charizard": [
     {"moves":[["Fire Blast"],["Air Slash"],["Hidden Power Grass"],["Flamethrower"]],"item":["Choice Specs"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Fire Blast"],["Flamethrower"],["Focus Blast"],["Air Slash","Hidden Power Grass"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -168,6 +165,9 @@ setdex.bw.nu = {
   ],
   "Exploud": [
     {"moves":[["Hyper Voice"],["Surf"],["Fire Blast"],["Low Kick"]],"item":["Life Orb"],"ability":["Scrappy"],"nature":["Naive"],"evs":{"spa":252,"spe":188,"atk":68}},
+  ],
+  "Farfetch'd": [
+    {"moves":[["Swords Dance"],["Brave Bird"],["Leaf Blade"],["Quick Attack"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
     {"moves":[["Return"],["Drill Peck"],["Drill Run"],["U-turn","Pursuit"]],"item":["Choice Band","Life Orb"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -333,9 +333,6 @@ setdex.bw.nu = {
   "Lunatone": [
     {"moves":[["Stealth Rock"],["Moonlight"],["Hidden Power Rock"],["Toxic","Psychic"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Calm"],"evs":{"spa":4,"spd":252,"hp":252}},
     {"moves":[["Rock Polish"],["Psychic"],["Hidden Power Rock"],["Baton Pass","Earth Power"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-  ],
-  "Luvdisc": [
-    {"moves":[["Rain Dance"],["Surf","Hydro Pump"],["Ice Beam"],["Hidden Power Grass"]],"item":["Damp Rock","Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"hp":156,"spe":100}},
   ],
   "Luxray": [
     {"moves":[["Wild Charge"],["Superpower"],["Facade"],["Crunch"]],"item":["Flame Orb"],"ability":["Guts"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

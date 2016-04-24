@@ -77,8 +77,8 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Spikes"],["Stone Edge"],["Knock Off","Earthquake"]],"item":["Custap Berry"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Delphox": [
-    {"moves":[["Fire Blast"],["Psychic"],["Calm Mind"],["Grass Knot","Substitute"]],"item":["Life Orb","Salac Berry"],"ability":["Blaze"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Fire Blast"],["Psyshock"],["Dazzling Gleam"],["Trick"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Fire Blast"],["Psychic"],["Calm Mind"],["Grass Knot","Substitute","Dazzling Gleam"]],"item":["Life Orb","Salac Berry"],"ability":["Blaze"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Fire Blast"],["Psyshock"],["Dazzling Gleam"],["Trick","Hidden Power Ice"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Diancie": [
     {"moves":[["Stealth Rock"],["Heal Bell"],["Moonblast"],["Diamond Storm"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
@@ -330,9 +330,9 @@ setdex.xy.ru = {
     {"moves":[["Eruption"],["Fire Blast"],["Hidden Power Grass"],["Focus Blast"]],"item":["Choice Specs"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Tyrantrum": [
-    {"moves":[["Head Smash"],["Outrage"],["Dragon Claw"],["Superpower"]],"item":["Choice Scarf"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Head Smash"],["Outrage"],["Superpower"],["Dragon Claw","Aerial Ace"]],"item":["Choice Scarf"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Rock Polish"],["Head Smash"],["Outrage","Dragon Claw"],["Earthquake"]],"item":["Life Orb","Stone Plate"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Head Smash"],["Outrage"],["Superpower"],["Earthquake"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Head Smash"],["Outrage"],["Superpower"],["Earthquake"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Uxie": [
     {"moves":[["Stealth Rock"],["Psyshock"],["Thunder Wave"],["U-turn","Dazzling Gleam"]],"item":["Leftovers","Colbur Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":64,"hp":252,"spe":192}},

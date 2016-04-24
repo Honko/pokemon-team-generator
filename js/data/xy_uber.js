@@ -34,7 +34,7 @@ setdex.xy.uber = {
     {"moves":[["Judgment"],["Recover"],["Thunder Wave"],["Ice Beam","Stone Edge"]],"item":["Fist Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":252,"hp":160,"spe":96}},
   ],
   "Arceus-Fire": [
-    {"moves":[["Calm Mind"],["Overheat"],["Earth Power"],["Thunder"]],"item":["Flame Plate"],"ability":["Multitype"],"nature":["Modest"],"evs":{"spa":252,"hp":200,"spe":56}},
+    {"moves":[["Calm Mind"],["Judgment"],["Thunder"],["Ice Beam","Earth Power"]],"item":["Flame Plate"],"ability":["Multitype"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Arceus-Flying": [
     {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Refresh","Earth Power"]],"item":["Sky Plate"],"ability":["Multitype"],"nature":["Modest"],"evs":{"spa":200,"hp":132,"spe":176}},
@@ -180,7 +180,6 @@ setdex.xy.uber = {
     {"moves":[["Calm Mind"],["Origin Pulse"],["Blizzard","Ice Beam"],["Thunder","Hidden Power Ground"]],"item":["Blue Orb"],"ability":["Drizzle"],"nature":["Modest"],"evs":{"spa":252,"hp":172,"spe":84}},
     {"moves":[["Rest"],["Sleep Talk"],["Scald"],["Ice Beam","Roar"]],"item":["Blue Orb"],"ability":["Drizzle"],"nature":["Bold"],"evs":{"def":248,"hp":248,"spe":12}},
     {"moves":[["Waterfall"],["Earthquake"],["Ice Beam"],["Thunder Wave"]],"item":["Blue Orb"],"ability":["Primordial Sea"],"nature":["Adamant","Brave"],"evs":{"spd":8,"hp":248,"atk":252}},
-    {"moves":[["Water Spout"],["Origin Pulse","Surf"],["Ice Beam"],["Thunder"]],"item":["Choice Scarf"],"ability":["Drizzle"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Kyurem-White": [
     {"moves":[["Ice Beam"],["Draco Meteor"],["Fusion Flare"],["Focus Blast","Earth Power","Sleep Talk"]],"item":["Choice Specs"],"ability":["Turboblaze"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -276,6 +275,7 @@ setdex.xy.uber = {
     {"moves":[["Geomancy"],["Moonblast"],["Thunder","Aromatherapy"],["Focus Blast","Hidden Power Ground"]],"item":["Power Herb"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":28,"spa":252,"hp":184,"spe":44}},
     {"moves":[["Moonblast"],["Focus Blast"],["Sleep Talk","Aromatherapy"],["Thunder","Grass Knot"]],"item":["Choice Scarf"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":32,"spa":252,"spe":224}},
     {"moves":[["Moonblast"],["Aromatherapy"],["Thunder","Rock Slide"],["Close Combat","Focus Blast"]],"item":["Life Orb","Expert Belt"],"ability":["Fairy Aura"],"nature":["Mild","Rash"],"evs":{"spa":252,"spe":224,"atk":32}},
+    {"moves":[["Moonblast"],["Hidden Power Fire","Focus Blast"],["Grass Knot","Thunder"],["Psyshock","Aromatherapy"]],"item":["Choice Specs"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Moonblast"],["Sleep Talk"],["Rest"],["Aromatherapy","Roar"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Calm Mind"],["Sleep Talk"],["Rest"],["Moonblast"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],

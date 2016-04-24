@@ -17,9 +17,6 @@ setdex.rby.uu = {
   "Electrode": [
     {"moves":[["Thunderbolt","Thunder"],["Thunder Wave"],["Explosion"],["Screech"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Farfetch'd": [
-    {"moves":[["Sand Attack"],["Substitute"],["Slash","Swords Dance"],["Toxic","Body Slam"]],"item":[],"ability":[],"nature":[]},
-  ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Double-Edge"],["Hyper Beam"],["Mirror Move"]],"item":[],"ability":[],"nature":[]},
   ],

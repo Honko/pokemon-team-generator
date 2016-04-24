@@ -71,9 +71,6 @@ setdex.xy.pu = {
   "Carnivine": [
     {"moves":[["Sleep Powder"],["Power Whip"],["Knock Off"],["Natural Gift"]],"item":["Watmel Berry"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"hp":188,"spe":68,"atk":252}},
   ],
-  "Castform": [
-    {"moves":[["Rain Dance"],["Sunny Day"],["Hail"],["Weather Ball"]],"item":["Damp Rock","Heat Rock","Icy Rock"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
-  ],
   "Chatot": [
     {"moves":[["Boomburst"],["Heat Wave"],["Hidden Power Fighting"],["U-turn"]],"item":["Choice Scarf"],"ability":["Tangled Feet"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Boomburst"],["Heat Wave"],["Hidden Power Fighting"],["U-turn"]],"item":["Choice Specs"],"ability":["Tangled Feet"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -138,9 +135,6 @@ setdex.xy.pu = {
   ],
   "Dustox": [
     {"moves":[["Quiver Dance"],["Iron Defense"],["Bug Buzz"],["Roost"]],"item":["Black Sludge"],"ability":["Shield Dust"],"nature":["Calm"],"evs":{"spd":192,"hp":248,"spe":68}},
-  ],
-  "Dwebble": [
-    {"moves":[["Stealth Rock"],["Spikes"],["Counter","Endure","Knock Off"],["Rock Blast"]],"item":["Custap Berry"],"ability":["Sturdy"],"nature":["Jolly"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
   "Electabuzz": [
     {"moves":[["Thunderbolt"],["Volt Switch"],["Focus Blast"],["Hidden Power Ice"]],"item":["Eviolite"],"ability":["Vital Spirit"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
@@ -256,7 +250,7 @@ setdex.xy.pu = {
     {"moves":[["Stealth Rock"],["Taunt"],["Knock Off"],["Earthquake"]],"item":["Eviolite"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Lapras": [
-    {"moves":[["Hydro Pump"],["Ice Beam"],["Freeze-Dry"],["Protect","Surf"]],"item":["Leftovers","Choice Specs"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"def":4,"spa":252,"hp":208,"spe":44}},
+    {"moves":[["Freeze-Dry"],["Ice Beam"],["Hydro Pump"],["Surf"]],"item":["Choice Specs"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"hp":120,"spe":136}},
   ],
   "Leafeon": [
     {"moves":[["Swords Dance"],["Leaf Blade"],["Knock Off"],["Return"]],"item":["Yache Berry"],"ability":["Chlorophyll"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -279,9 +273,6 @@ setdex.xy.pu = {
   ],
   "Lunatone": [
     {"moves":[["Rock Polish"],["Psychic"],["Ancient Power"],["Earth Power","Baton Pass"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
-  ],
-  "Luvdisc": [
-    {"moves":[["Attract"],["Charm"],["Rain Dance"],["Sweet Kiss"]],"item":["Destiny Knot"],"ability":["Hydration"],"nature":["Bold","Bashful"],"evs":{"def":8,"hp":248,"spe":252}},
   ],
   "Luxray": [
     {"moves":[["Wild Charge"],["Ice Fang"],["Superpower"],["Volt Switch"]],"item":["Choice Band"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -470,9 +461,6 @@ setdex.xy.pu = {
     {"moves":[["Stealth Rock"],["Morning Sun"],["Will-O-Wisp"],["Rock Slide"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":252,"hp":252,"atk":4}},
     {"moves":[["Light Screen"],["Reflect"],["Stealth Rock"],["Explosion"]],"item":["Light Clay"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
-  "Spinda": [
-    {"moves":[["Recycle"],["Teeter Dance"],["Dizzy Punch","Sucker Punch"],["Sing"]],"item":["Berry Juice"],"ability":["Tangled Feet"],"nature":["Sassy"],"evs":{"def":72,"spa":168,"spd":12,"hp":100,"spe":68,"atk":88}},
-  ],
   "Stantler": [
     {"moves":[["Double-Edge"],["Sucker Punch"],["Jump Kick","Earthquake"],["Energy Ball","Signal Beam"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Lonely","Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
@@ -562,9 +550,6 @@ setdex.xy.pu = {
   ],
   "Wigglytuff": [
     {"moves":[["Stealth Rock"],["Hyper Voice"],["Dazzling Gleam"],["Focus Blast","Fire Blast"]],"item":["Life Orb"],"ability":["Competitive"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
-  ],
-  "Wobbuffet": [
-    {"moves":[["Encore"],["Destiny Bond"],["Counter"],["Mirror Coat"]],"item":["Leftovers"],"ability":["Telepathy"],"nature":["Bold"],"evs":{"def":252,"spd":252,"hp":4}},
   ],
   "Wormadam": [
     {"moves":[["Signal Beam"],["Leaf Storm"],["Giga Drain"],["Hidden Power Rock"]],"item":["Choice Specs"],"ability":["Anticipation"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},

@@ -447,9 +447,6 @@ setdex.gsc.ou = {
   "Wigglytuff": [
     {"moves":[["Double-Edge"],["Ice Beam"],["Thunderbolt"],["Thunder Wave","Counter","Sing"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
-  "Wobbuffet": [
-    {"moves":[["Counter"],["Mirror Coat"],["Destiny Bond"],["Safeguard"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
   "Xatu": [
     {"moves":[["Psychic"],["Drill Peck"],["Confuse Ray","Night Shade"],["Giga Drain","Feint Attack","Haze"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],

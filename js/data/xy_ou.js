@@ -255,9 +255,10 @@ setdex.xy.ou = {
     {"moves":[["Reflect"],["Light Screen"],["Fairy Lock"],["Foul Play"]],"item":["Light Clay"],"ability":["Prankster"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Kyurem-Black": [
-    {"moves":[["Ice Beam"],["Earth Power"],["Fusion Bolt"],["Roost","Outrage"]],"item":["Life Orb"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":252,"spe":236,"atk":20}},
-    {"moves":[["Substitute"],["Ice Beam"],["Fusion Bolt"],["Earth Power","Roost"]],"item":["Leftovers"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":216,"hp":56,"spe":236}},
-    {"moves":[["Ice Beam"],["Outrage"],["Fusion Bolt"],["Dragon Claw","Iron Head"]],"item":["Choice Scarf"],"ability":["Teravolt"],"nature":["Naive"],"evs":{"spa":32,"spe":224,"atk":252}},
+    {"moves":[["Ice Beam"],["Earth Power"],["Fusion Bolt"],["Roost","Outrage"]],"item":["Life Orb"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":252,"spe":252,"atk":4}},
+    {"moves":[["Ice Beam"],["Draco Meteor"],["Earth Power"],["Hidden Power Fire","Focus Blast"]],"item":["Choice Specs"],"ability":["Teravolt"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Substitute"],["Ice Beam"],["Fusion Bolt"],["Earth Power","Roost"]],"item":["Leftovers"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":200,"hp":56,"spe":252}},
+    {"moves":[["Ice Beam"],["Outrage"],["Fusion Bolt"],["Dragon Claw","Iron Head"]],"item":["Choice Scarf"],"ability":["Teravolt"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Landorus-Therian": [
     {"moves":[["Earthquake"],["U-turn"],["Stone Edge","Rock Slide","Knock Off"],["Stealth Rock"]],"item":["Leftovers","Rocky Helmet"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":240,"spd":8,"hp":252,"spe":8}},

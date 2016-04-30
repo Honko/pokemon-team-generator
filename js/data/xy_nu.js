@@ -301,8 +301,8 @@ setdex.xy.nu = {
     {"moves":[["Ice Beam"],["Thunderbolt"],["Focus Blast","Toxic"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Modest"],"evs":{"spa":252,"hp":216,"spe":40}},
   ],
   "Regirock": [
-    {"moves":[["Stealth Rock"],["Stone Edge","Rock Slide"],["Thunder Wave","Toxic"],["Drain Punch","Earthquake"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Impish"],"evs":{"def":16,"spd":196,"hp":252,"atk":44}},
-    {"moves":[["Sunny Day"],["Stealth Rock"],["Rock Slide","Stone Edge"],["Explosion"]],"item":["Heat Rock"],"ability":["Clear Body"],"nature":["Impish"],"evs":{"def":16,"spd":56,"hp":252,"atk":184}},
+    {"moves":[["Stealth Rock"],["Stone Edge","Rock Slide"],["Thunder Wave"],["Earthquake"]],"item":["Leftovers"],"ability":["Clear Body","Sturdy"],"nature":["Impish"],"evs":{"def":16,"spd":56,"hp":252,"atk":184}},
+    {"moves":[["Stealth Rock"],["Sunny Day"],["Explosion"],["Stone Edge"]],"item":["Heat Rock"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},
   ],
   "Relicanth": [
     {"moves":[["Head Smash"],["Waterfall"],["Earthquake"],["Zen Headbutt"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},

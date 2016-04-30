@@ -131,7 +131,8 @@ setdex.xy.pu = {
     {"moves":[["Calm Mind"],["Rest"],["Will-O-Wisp","Shadow Ball"],["Ice Beam","Dark Pulse"]],"item":["Eviolite"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":124,"spa":132,"hp":252}},
   ],
   "Dusknoir": [
-    {"moves":[["Shadow Sneak"],["Earthquake"],["Thunder Punch"],["Trick","Will-O-Wisp","Sucker Punch"]],"item":["Choice Band","Spell Tag"],"ability":["Frisk"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
+    {"moves":[["Shadow Sneak"],["Sucker Punch"],["Earthquake"],["Ice Punch","Pursuit"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
+    {"moves":[["Shadow Sneak"],["Earthquake"],["Ice Punch"],["Trick","Will-O-Wisp"]],"item":["Choice Band","Spell Tag"],"ability":["Frisk"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
   ],
   "Dustox": [
     {"moves":[["Quiver Dance"],["Iron Defense"],["Bug Buzz"],["Roost"]],"item":["Black Sludge"],"ability":["Shield Dust"],"nature":["Calm"],"evs":{"spd":192,"hp":248,"spe":68}},

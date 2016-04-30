@@ -154,7 +154,7 @@ setdex.xy.ou = {
     {"moves":[["Dragon Dance"],["Waterfall"],["Ice Punch","Crunch"],["Crunch","Superpower"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Ferrothorn": [
-    {"moves":[["Stealth Rock","Spikes"],["Leech Seed"],["Gyro Ball","Power Whip"],["Power Whip","Protect","Thunder Wave"]],"item":["Leftovers"],"ability":["Iron Barbs"],"nature":["Relaxed"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
+    {"moves":[["Stealth Rock","Spikes"],["Leech Seed"],["Gyro Ball","Power Whip"],["Power Whip","Protect","Thunder Wave"]],"item":["Leftovers","Chople Berry"],"ability":["Iron Barbs"],"nature":["Relaxed"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
   ],
   "Froslass": [
     {"moves":[["Taunt"],["Spikes"],["Destiny Bond"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Cursed Body"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},

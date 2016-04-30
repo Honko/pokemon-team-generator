@@ -91,6 +91,10 @@ setdex.xy.uu = {
   "Cofagrigus": [
     {"moves":[["Trick Room"],["Shadow Ball"],["Nasty Plot"],["Hidden Power Fighting","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Mummy"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
+  "Crawdaunt": [
+    {"moves":[["Swords Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Focus Sash","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Knock Off"],["Crabhammer"],["Aqua Jet"],["Aerial Ace","Crunch"]],"item":["Choice Band"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+  ],
   "Cresselia": [
     {"moves":[["Calm Mind"],["Psyshock"],["Moonblast","Ice Beam"],["Moonlight","Substitute"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"hp":240,"spe":16}},
     {"moves":[["Moonlight"],["Thunder Wave","Toxic"],["Psychic"],["Moonblast","Ice Beam"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
@@ -184,7 +188,7 @@ setdex.xy.uu = {
     {"moves":[["Moonblast"],["Psyshock"],["Focus Blast","Shadow Ball"],["Trick","Shadow Ball"]],"item":["Choice Specs"],"ability":["Trace"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Gastrodon": [
-    {"moves":[["Scald"],["Earthquake","Earth Power"],["Toxic","Ice Beam"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":40,"hp":216}},
+    {"moves":[["Curse"],["Recover"],["Earthquake"],["Scald"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Sassy"],"evs":{"def":148,"spd":108,"hp":252}},
   ],
   "Glalie": [
     {"moves":[["Double-Edge","Return"],["Explosion"],["Super Fang","Earthquake"],["Freeze-Dry","Ice Shard"]],"item":["Glalitite"],"ability":["Ice Body"],"nature":["Naive","Jolly"],"evs":{"spa":4,"spe":252,"atk":252}},
@@ -320,6 +324,9 @@ setdex.xy.uu = {
   "Noivern": [
     {"moves":[["Draco Meteor"],["Hurricane"],["Flamethrower","Air Slash"],["Switcheroo","U-turn"]],"item":["Choice Specs"],"ability":["Infiltrator"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Draco Meteor"],["Flamethrower","Air Slash"],["Taunt"],["Roost"]],"item":["Leftovers","Life Orb"],"ability":["Infiltrator"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
+  "Omastar": [
+    {"moves":[["Shell Smash"],["Hydro Pump"],["Ice Beam"],["Hidden Power Electric"]],"item":["Focus Sash","Life Orb"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Pangoro": [
     {"moves":[["Hammer Arm"],["Knock Off"],["Gunk Shot","Poison Jab"],["Parting Shot","Drain Punch"]],"item":["Choice Band","Life Orb"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},

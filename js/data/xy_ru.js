@@ -1,4 +1,7 @@
 setdex.xy.ru = {
+  "Abomasnow": [
+    {"moves":[["Blizzard"],["Giga Drain"],["Ice Shard"],["Focus Blast","Earthquake"]],"item":["Life Orb"],"ability":["Snow Warning"],"nature":["Mild","Hasty"],"evs":{"spa":252,"spe":252,"atk":4}},
+  ],
   "Absol": [
     {"moves":[["Knock Off"],["Sucker Punch"],["Superpower","Fire Blast"],["Play Rough","Iron Tail","Pursuit"]],"item":["Life Orb"],"ability":["Super Luck"],"nature":["Adamant","Naughty"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Swords Dance"],["Knock Off"],["Sucker Punch"],["Superpower"]],"item":["Life Orb","Dread Plate"],"ability":["Super Luck"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -156,6 +159,9 @@ setdex.xy.ru = {
   "Gurdurr": [
     {"moves":[["Drain Punch"],["Mach Punch"],["Knock Off"],["Bulk Up"]],"item":["Eviolite"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spd":4,"hp":252,"atk":252}},
   ],
+  "Hariyama": [
+    {"moves":[["Close Combat"],["Knock Off"],["Heavy Slam","Bullet Punch"],["Ice Punch","Fake Out"]],"item":["Assault Vest"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":152,"spd":136,"atk":220}},
+  ],
   "Hitmonlee": [
     {"moves":[["High Jump Kick"],["Knock Off"],["Mach Punch","Sucker Punch"],["Rapid Spin"]],"item":["Life Orb"],"ability":["Reckless"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["High Jump Kick"],["Knock Off"],["Stone Edge"],["Close Combat","Rapid Spin"]],"item":["Choice Scarf"],"ability":["Reckless"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -198,6 +204,9 @@ setdex.xy.ru = {
   ],
   "Malamar": [
     {"moves":[["Superpower"],["Knock Off"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Jolly"],"evs":{"spd":108,"hp":248,"spe":152}},
+  ],
+  "Mawile": [
+    {"moves":[["Play Rough"],["Stealth Rock"],["Baton Pass"],["Swords Dance","Super Fang"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"hp":252,"atk":4}},
   ],
   "Medicham": [
     {"moves":[["High Jump Kick"],["Zen Headbutt"],["Thunder Punch"],["Drain Punch","Fire Punch","Bullet Punch"]],"item":["Life Orb"],"ability":["Pure Power"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -256,7 +265,7 @@ setdex.xy.ru = {
     {"moves":[["Spikes"],["Synthesis"],["Giga Drain"],["Sludge Bomb"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Calm"],"evs":{"def":172,"spd":88,"hp":248}},
   ],
   "Rotom": [
-    {"moves":[["Substitute"],["Will-O-Wisp"],["Discharge"],["Hex"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":132,"hp":124,"spe":252}},
+    {"moves":[["Will-O-Wisp"],["Hex"],["Volt Switch","Discharge"],["Pain Split","Substitute"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
   "Rotom-Fan": [
     {"moves":[["Air Slash"],["Will-O-Wisp"],["Thunderbolt","Volt Switch"],["Pain Split","Volt Switch"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spa":8,"hp":248}},

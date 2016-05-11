@@ -71,6 +71,9 @@ setdex.xy.pu = {
   "Carnivine": [
     {"moves":[["Sleep Powder"],["Power Whip"],["Knock Off"],["Natural Gift"]],"item":["Watmel Berry"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"hp":188,"spe":68,"atk":252}},
   ],
+  "Castform": [
+    {"moves":[["Rain Dance"],["Sunny Day"],["Hail"],["Weather Ball"]],"item":["Damp Rock","Heat Rock","Icy Rock"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
   "Chatot": [
     {"moves":[["Boomburst"],["Heat Wave"],["Hidden Power Fighting"],["U-turn"]],"item":["Choice Scarf"],"ability":["Tangled Feet"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Boomburst"],["Heat Wave"],["Hidden Power Fighting"],["U-turn"]],"item":["Choice Specs"],"ability":["Tangled Feet"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -151,7 +154,7 @@ setdex.xy.pu = {
     {"moves":[["Swords Dance"],["Brave Bird"],["Leaf Blade"],["Quick Attack"]],"item":["Stick"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
-    {"moves":[["Drill Peck"],["Return"],["Drill Run"],["U-turn"]],"item":["Choice Band"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Drill Peck"],["Double-Edge"],["Drill Run"],["U-turn"]],"item":["Choice Band"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Flareon": [
     {"moves":[["Flare Blitz"],["Superpower"],["Quick Attack"],["Baton Pass","Double-Edge"]],"item":["Choice Band"],"ability":["Flash Fire"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -274,6 +277,9 @@ setdex.xy.pu = {
   ],
   "Lunatone": [
     {"moves":[["Rock Polish"],["Psychic"],["Ancient Power"],["Earth Power","Baton Pass"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
+  "Luvdisc": [
+    {"moves":[["Attract"],["Charm"],["Rain Dance"],["Sweet Kiss"]],"item":["Destiny Knot"],"ability":["Hydration"],"nature":["Bold","Bashful"],"evs":{"def":8,"hp":248,"spe":252}},
   ],
   "Luxray": [
     {"moves":[["Wild Charge"],["Ice Fang"],["Superpower"],["Volt Switch"]],"item":["Choice Band"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -461,6 +467,9 @@ setdex.xy.pu = {
   "Solrock": [
     {"moves":[["Stealth Rock"],["Morning Sun"],["Will-O-Wisp"],["Rock Slide"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":252,"hp":252,"atk":4}},
     {"moves":[["Light Screen"],["Reflect"],["Stealth Rock"],["Explosion"]],"item":["Light Clay"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"def":4,"hp":252,"spe":252}},
+  ],
+  "Spinda": [
+    {"moves":[["Recycle"],["Teeter Dance"],["Dizzy Punch","Sucker Punch"],["Sing"]],"item":["Berry Juice"],"ability":["Tangled Feet"],"nature":["Sassy"],"evs":{"def":72,"spa":168,"spd":12,"hp":100,"spe":68,"atk":88}},
   ],
   "Stantler": [
     {"moves":[["Double-Edge"],["Sucker Punch"],["Jump Kick","Earthquake"],["Energy Ball","Signal Beam"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Lonely","Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},

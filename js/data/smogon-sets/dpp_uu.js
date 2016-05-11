@@ -125,6 +125,9 @@ setdex.dpp.uu = {
   "Carnivine": [
     {"moves":[["Swords Dance"],["Power Whip"],["Return","Substitute"],["Sleep Powder","Synthesis"]],"item":["Life Orb","Leftovers"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
+  "Castform": [
+    {"moves":[["Ice Beam"],["Thunderbolt"],["Flamethrower","Fire Blast"],["Energy Ball","Shadow Ball"]],"item":["Life Orb","Expert Belt"],"ability":["Forecast"],"nature":["Modest"],"evs":{"spa":252,"hp":28,"spe":228}},
+  ],
   "Chansey": [
     {"moves":[["Wish"],["Protect"],["Seismic Toss"],["Toxic","Thunder Wave"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Calm","Bold"],"evs":{"def":252,"spd":252,"hp":4}},
     {"moves":[["Aromatherapy"],["Soft-Boiled"],["Seismic Toss"],["Stealth Rock","Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Calm","Bold"],"evs":{"def":252,"spd":252,"hp":4}},
@@ -269,6 +272,12 @@ setdex.dpp.uu = {
   "Exploud": [
     {"moves":[["Return"],["Earthquake"],["Crunch"],["Surf","Ice Beam"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Naughty"],"evs":{"spa":68,"spe":188,"atk":252}},
     {"moves":[["Substitute"],["Return"],["Earthquake"],["Crunch"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Adamant"],"evs":{"hp":224,"spe":32,"atk":252}},
+  ],
+  "Farfetch'd": [
+    {"moves":[["Knock Off"],["Toxic"],["U-turn"],["Return"]],"item":["Stick","Leftovers","Bright Powder"],"ability":["Inner Focus","Keen Eye"],"nature":["Adamant"],"evs":{"hp":252,"spe":4,"atk":252}},
+    {"moves":[["Slash"],["Night Slash"],["Air Cutter"],["Steel Wing","Toxic","Knock Off"]],"item":["Stick"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Return"],["Aerial Ace"],["Quick Attack"],["Night Slash","Hidden Power Ground","Double-Edge","Knock Off"]],"item":["Choice Band"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Endure"],["Flail"],["Swords Dance"],["Substitute","Aerial Ace","Agility"]],"item":["Salac Berry","Liechi Berry"],"ability":["Inner Focus","Keen Eye"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
     {"moves":[["Drill Peck"],["Return"],["U-turn"],["Quick Attack","Pursuit"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -491,6 +500,11 @@ setdex.dpp.uu = {
     {"moves":[["Rock Polish"],["Psychic"],["Earth Power"],["Shadow Ball","Grass Knot","Baton Pass"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":28,"spe":228}},
     {"moves":[["Trick Room"],["Explosion"],["Stealth Rock"],["Psychic"]],"item":["Leftovers","Focus Sash"],"ability":["Levitate"],"nature":["Brave"],"evs":{"spd":4,"hp":252,"atk":252},"ivs":{"spe":0}},
   ],
+  "Luvdisc": [
+    {"moves":[["Rain Dance"],["Surf"],["Ice Beam"],["Toxic","Hidden Power Electric"]],"item":["Damp Rock","Lum Berry","Leftovers"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"hp":252,"spe":4}},
+    {"moves":[["Toxic"],["Sweet Kiss"],["Attract"],["Protect"]],"item":["Leftovers"],"ability":["Swift Swim"],"nature":["Calm"],"evs":{"spd":252,"hp":252,"spe":4}},
+    {"moves":[["Substitute","Endure"],["Flail"],["Agility","Rain Dance"],["Safeguard","Waterfall","Surf"]],"item":["Liechi Berry"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+  ],
   "Luxray": [
     {"moves":[["Thunderbolt"],["Superpower"],["Crunch"],["Hidden Power Grass","Hidden Power Water","Ice Fang"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Naughty"],"evs":{"spa":156,"spe":148,"atk":204}},
     {"moves":[["Spark"],["Ice Fang"],["Superpower"],["Crunch"]],"item":["Choice Band"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"hp":40,"spe":216,"atk":252}},
@@ -551,6 +565,9 @@ setdex.dpp.uu = {
     {"moves":[["Calm Mind"],["Psychic"],["Ice Beam"],["Substitute","Hidden Power Ground"]],"item":["Life Orb","Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Zen Headbutt"],["U-turn","Trick"],["Fire Punch"],["Ice Punch"]],"item":["Choice Scarf","Choice Band"],"ability":["Levitate"],"nature":["Adamant","Jolly"],"evs":{"hp":44,"spe":212,"atk":252}},
     {"moves":[["Psychic"],["Ice Beam"],["Thunderbolt"],["Trick"]],"item":["Choice Scarf","Choice Specs"],"ability":["Levitate"],"nature":["Modest","Timid"],"evs":{"spa":252,"hp":16,"spe":240}},
+  ],
+  "Metang": [
+    {"moves":[["Light Screen"],["Reflect"],["Stealth Rock","Meteor Mash"],["Explosion"]],"item":["Light Clay"],"ability":["Clear Body"],"nature":["Careful"],"evs":{"def":48,"spd":208,"hp":252}},
   ],
   "Mightyena": [
     {"moves":[["Taunt"],["Super Fang"],["Crunch","Rest"],["Sucker Punch","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"hp":248,"spe":144,"atk":116}},
@@ -863,6 +880,13 @@ setdex.dpp.uu = {
   "Solrock": [
     {"moves":[["Rock Polish"],["Baton Pass"],["Stone Edge","Rock Slide"],["Explosion","Earthquake"]],"item":["Leftovers","Liechi Berry"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":28,"hp":252,"spe":228}},
     {"moves":[["Trick Room"],["Explosion"],["Stealth Rock"],["Stone Edge","Zen Headbutt"]],"item":["Leftovers","Focus Sash"],"ability":["Levitate"],"nature":["Brave"],"evs":{"def":4,"hp":252,"atk":252},"ivs":{"spe":0}},
+  ],
+  "Spinda": [
+    {"moves":[["Wish"],["Baton Pass"],["Protect","Calm Mind"],["Hypnosis"]],"item":["Leftovers"],"ability":["Own Tempo"],"nature":["Calm"],"evs":{"def":160,"spd":96,"hp":252}},
+    {"moves":[["Substitute"],["Body Slam"],["Teeter Dance"],["Rock Slide"]],"item":["Leftovers"],"ability":["Own Tempo"],"nature":["Adamant"],"evs":{"hp":252,"spe":4,"atk":252}},
+    {"moves":[["Trick"],["Hypnosis"],["Sucker Punch"],["Return","Double-Edge"]],"item":["Choice Band","Choice Scarf"],"ability":["Own Tempo"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Endure"],["Flail"],["Baton Pass"],["Feint Attack","Sucker Punch"]],"item":["Salac Berry"],"ability":["Own Tempo"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Counter"],["Focus Punch"],["Return"],["Feint Attack"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Adamant","Jolly"],"evs":{"hp":252,"spe":252,"atk":4}},
   ],
   "Spiritomb": [
     {"moves":[["Shadow Sneak","Sucker Punch"],["Pursuit"],["Psychic"],["Dark Pulse","Rest","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},

@@ -60,6 +60,9 @@ setdex.rby.ou = {
   "Kabutops": [
     {"moves":[["Swords Dance"],["Body Slam"],["Surf"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
   ],
+  "Kangaskhan": [
+    {"moves":[["Body Slam"],["Hyper Beam"],["Earthquake","Counter"],["Surf","Counter"]],"item":[],"ability":[],"nature":[]},
+  ],
   "Lapras": [
     {"moves":[["Blizzard","Ice Beam"],["Thunderbolt","Rest"],["Body Slam","Rest"],["Confuse Ray"]],"item":[],"ability":[],"nature":[]},
   ],
@@ -68,6 +71,9 @@ setdex.rby.ou = {
   ],
   "Moltres": [
     {"moves":[["Agility"],["Fire Blast"],["Fire Spin"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
+  ],
+  "Mr. Mime": [
+    {"moves":[["Psychic"],["Thunder Wave"],["Thunderbolt"],["Seismic Toss"]],"item":[],"ability":[],"nature":[]},
   ],
   "Nidoking": [
     {"moves":[["Earthquake"],["Blizzard"],["Thunder","Thunderbolt"],["Body Slam"]],"item":[],"ability":[],"nature":[]},

@@ -143,8 +143,8 @@ setdex.xy.ru = {
     {"moves":[["Double-Edge","Return"],["Freeze-Dry"],["Ice Shard"],["Spikes","Earthquake","Explosion"]],"item":["Glalitite"],"ability":["Inner Focus"],"nature":["Naive"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Golbat": [
-    {"moves":[["Defog"],["Roost"],["Brave Bird"],["Toxic","Super Fang","Taunt"]],"item":["Eviolite"],"ability":["Infiltrator"],"nature":["Impish"],"evs":{"def":252,"spd":8,"hp":248}},
-    {"moves":[["Defog"],["Roost"],["Brave Bird"],["Toxic","Super Fang","Taunt"]],"item":["Eviolite"],"ability":["Infiltrator"],"nature":["Careful"],"evs":{"spd":180,"hp":248,"spe":80}},
+    {"moves":[["Defog"],["Roost"],["Brave Bird"],["Toxic","Super Fang","Taunt"]],"item":["Eviolite"],"ability":["Infiltrator"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Defog"],["Roost"],["Brave Bird"],["Toxic","Super Fang","Taunt"]],"item":["Eviolite"],"ability":["Infiltrator"],"nature":["Careful"],"evs":{"spd":176,"hp":252,"spe":80}},
   ],
   "Gourgeist-Small": [
     {"moves":[["Substitute"],["Leech Seed"],["Will-O-Wisp"],["Protect","Phantom Force"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Jolly"],"evs":{"def":132,"hp":152,"spe":224}},
@@ -242,9 +242,6 @@ setdex.xy.ru = {
   "Poliwrath": [
     {"moves":[["Circle Throw"],["Scald"],["Rest","Protect"],["Sleep Talk","Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
-  "Quagsire": [
-    {"moves":[["Recover"],["Earthquake"],["Toxic","Curse"],["Scald","Ice Punch"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed","Impish"],"evs":{"def":108,"spd":148,"hp":252}},
-  ],
   "Qwilfish": [
     {"moves":[["Spikes"],["Taunt"],["Scald","Waterfall"],["Thunder Wave","Toxic Spikes"]],"item":["Black Sludge"],"ability":["Intimidate"],"nature":["Timid","Jolly"],"evs":{"def":200,"hp":252,"spe":56}},
     {"moves":[["Spikes"],["Taunt"],["Explosion"],["Scald","Toxic Spikes"]],"item":["Focus Sash"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -257,7 +254,7 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Toxic","Thunder Wave"],["Seismic Toss"],["Protect"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Rhyperior": [
-    {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Roar","Megahorn","Protect"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":232,"hp":248,"atk":28}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Roar","Megahorn","Protect"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":228,"hp":252,"atk":28}},
     {"moves":[["Earthquake"],["Stone Edge"],["Megahorn"],["Rock Blast"]],"item":["Choice Band"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
     {"moves":[["Rock Polish"],["Earthquake"],["Stone Edge"],["Megahorn"]],"item":["Life Orb"],"ability":["Solid Rock"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
@@ -289,8 +286,8 @@ setdex.xy.ru = {
     {"moves":[["Dragon Dance"],["High Jump Kick"],["Knock Off"],["Iron Head","Head Smash"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate","Shed Skin"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Seismitoad": [
-    {"moves":[["Stealth Rock"],["Scald","Hydro Pump"],["Earth Power"],["Sludge Wave"]],"item":["Leftovers","Life Orb"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},
-    {"moves":[["Stealth Rock"],["Scald"],["Earth Power","Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Relaxed"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Stealth Rock"],["Scald","Hydro Pump"],["Earth Power"],["Sludge Wave"]],"item":["Leftovers","Life Orb"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"hp":252}},
+    {"moves":[["Stealth Rock"],["Scald"],["Earth Power","Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
     {"moves":[["Substitute"],["Toxic"],["Earth Power"],["Sludge Wave","Hydro Pump"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},
   ],
   "Shiftry": [
@@ -324,8 +321,8 @@ setdex.xy.ru = {
     {"moves":[["Double-Edge"],["Earthquake"],["Zen Headbutt"],["Flamethrower"]],"item":["Choice Scarf"],"ability":["Intimidate","Sheer Force"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Togetic": [
-    {"moves":[["Dazzling Gleam","Seismic Toss"],["Roost"],["Defog"],["Heal Bell","Encore","Thunder Wave"]],"item":["Eviolite"],"ability":["Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
-    {"moves":[["Nasty Plot"],["Baton Pass"],["Roost"],["Fire Blast","Dazzling Gleam"]],"item":["Eviolite"],"ability":["Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Dazzling Gleam","Seismic Toss"],["Roost"],["Defog"],["Heal Bell","Encore","Thunder Wave"]],"item":["Eviolite"],"ability":["Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Nasty Plot"],["Baton Pass"],["Roost"],["Fire Blast","Dazzling Gleam"]],"item":["Eviolite"],"ability":["Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Torterra": [
     {"moves":[["Rock Polish"],["Wood Hammer"],["Earthquake"],["Stone Edge"]],"item":["Life Orb"],"ability":["Overgrow"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

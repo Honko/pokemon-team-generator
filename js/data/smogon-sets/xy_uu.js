@@ -13,7 +13,7 @@ setdex.xy.uu = {
     {"moves":[["Stone Edge"],["Wing Attack","Earthquake"],["Earthquake","Aqua Tail"],["Roost","Pursuit"]],"item":["Aerodactylite"],"ability":["Unnerve"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Hone Claws"],["Stone Edge"],["Wing Attack","Aqua Tail"],["Earthquake","Aqua Tail","Roost"]],"item":["Aerodactylite"],"ability":["Unnerve"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Taunt"],["Roost"],["Toxic","Stealth Rock","Stone Edge"],["Stone Edge","Earthquake"]],"item":["Aerodactylite"],"ability":["Unnerve"],"nature":["Jolly"],"evs":{"def":156,"hp":248,"spe":104}},
-    {"moves":[["Stealth Rock"],["Taunt"],["Double-Edge"],["Fire Blast","Stone Edge"]],"item":["Focus Sash"],"ability":["Unnerve"],"nature":["Hasty","Jolly"],"evs":{"spa":72,"spe":252,"atk":184}},
+    {"moves":[["Stealth Rock"],["Taunt"],["Double-Edge"],["Fire Blast","Stone Edge"]],"item":["Focus Sash"],"ability":["Pressure"],"nature":["Hasty","Jolly"],"evs":{"spa":72,"spe":252,"atk":184}},
   ],
   "Aggron": [
     {"moves":[["Stealth Rock"],["Roar","Toxic","Thunder Wave"],["Heavy Slam"],["Earthquake"]],"item":["Aggronite"],"ability":["Sturdy"],"nature":["Impish"],"evs":{"def":16,"spd":240,"hp":252}},
@@ -344,9 +344,6 @@ setdex.xy.uu = {
     {"moves":[["Recover"],["Tri Attack"],["Ice Beam"],["Thunder Wave","Toxic"]],"item":["Eviolite"],"ability":["Trace"],"nature":["Calm"],"evs":{"def":120,"spd":136,"hp":252}},
     {"moves":[["Trick Room"],["Recover"],["Thunderbolt","Tri Attack"],["Ice Beam"]],"item":["Eviolite"],"ability":["Download"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
-  "Quagsire": [
-    {"moves":[["Scald"],["Earthquake"],["Toxic"],["Recover"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
-  ],
   "Qwilfish": [
     {"moves":[["Spikes","Toxic Spikes"],["Waterfall","Scald"],["Taunt"],["Thunder Wave","Pain Split"]],"item":["Black Sludge"],"ability":["Intimidate"],"nature":["Impish","Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Swords Dance"],["Waterfall"],["Poison Jab"],["Explosion"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -457,10 +454,10 @@ setdex.xy.uu = {
     {"moves":[["Nasty Plot"],["Baton Pass"],["Roost"],["Dazzling Gleam","Magic Coat"]],"item":["Eviolite"],"ability":["Super Luck"],"nature":["Sassy"],"evs":{"spa":8,"spd":252,"hp":248},"ivs":{"spe":0}},
   ],
   "Tornadus": [
+    {"moves":[["Hurricane"],["Focus Blast","Heat Wave"],["Grass Knot","Heat Wave"],["Tailwind","Taunt"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Bulk Up"],["Acrobatics"],["Rest"],["Knock Off","Sleep Talk"]],"item":["Chesto Berry"],"ability":["Prankster"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Acrobatics"],["Knock Off"],["Superpower"],["U-turn"]],"item":[],"ability":["Defiant"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Hurricane","Air Slash"],["Heat Wave","Focus Blast"],["Grass Knot"],["Taunt","U-turn"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Rain Dance","Tailwind"],["Taunt"],["U-turn"],["Hurricane"]],"item":["Damp Rock","Sky Plate"],"ability":["Prankster"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Acrobatics"],["Knock Off"],["Superpower"],["U-turn","Iron Tail"]],"item":[],"ability":["Defiant"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Rain Dance"],["Taunt"],["Hurricane"],["Focus Blast","U-turn"]],"item":["Damp Rock"],"ability":["Prankster"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Toxicroak": [
     {"moves":[["Swords Dance"],["Gunk Shot"],["Drain Punch","Low Kick"],["Sucker Punch","Ice Punch","Knock Off"]],"item":["Life Orb"],"ability":["Dry Skin"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},

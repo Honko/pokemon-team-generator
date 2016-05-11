@@ -3,6 +3,9 @@ setdex.xy.nu = {
     {"moves":[["Blizzard"],["Giga Drain"],["Earthquake"],["Ice Shard"]],"item":["Life Orb"],"ability":["Snow Warning"],"nature":["Hasty"],"evs":{"spa":252,"spe":252,"atk":4}},
     {"moves":[["Swords Dance"],["Ice Shard"],["Seed Bomb"],["Blizzard","Earthquake"]],"item":["Life Orb"],"ability":["Snow Warning","Soundproof"],"nature":["Hasty","Jolly"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
+  "Aggron": [
+    {"moves":[["Head Smash"],["Heavy Slam"],["Low Kick"],["Fire Punch","Sleep Talk"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+  ],
   "Altaria": [
     {"moves":[["Draco Meteor"],["Fire Blast"],["Dragon Pulse"],["Rest","Sleep Talk"]],"item":["Choice Specs"],"ability":["Natural Cure"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
@@ -10,7 +13,7 @@ setdex.xy.nu = {
     {"moves":[["Coil"],["Gunk Shot"],["Earthquake","Seed Bomb"],["Sucker Punch"]],"item":["Life Orb","Lum Berry"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Archeops": [
-    {"moves":[["Acrobatics"],["Stone Edge"],["Earth Power"],["Roost"]],"item":[],"ability":["Defeatist"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
+    {"moves":[["Acrobatics"],["Stone Edge"],["Earth Power"],["Roost"]],"item":[],"ability":["Defeatist"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
     {"moves":[["Acrobatics"],["Roost"],["Taunt","Defog"],["Earthquake","Defog"]],"item":[],"ability":["Defeatist"],"nature":["Jolly"],"evs":{"def":4,"hp":252,"spe":252}},
     {"moves":[["Stealth Rock"],["Taunt"],["Endeavor"],["Head Smash"]],"item":["Focus Sash"],"ability":["Defeatist"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
@@ -100,8 +103,7 @@ setdex.xy.nu = {
     {"moves":[["Flare Blitz"],["Superpower"],["Quick Attack"],["Baton Pass"]],"item":["Choice Band"],"ability":["Flash Fire"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Floatzel": [
-    {"moves":[["Hydro Pump"],["Ice Beam"],["Focus Blast","Hidden Power Electric"],["Taunt","Hidden Power Electric","Baton Pass"]],"item":["Life Orb"],"ability":["Swift Swim","Water Veil"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Bulk Up"],["Baton Pass"],["Waterfall"],["Taunt","Ice Punch"]],"item":["Leftovers"],"ability":["Water Veil"],"nature":["Jolly"],"evs":{"hp":252,"spe":252,"atk":4}},
+    {"moves":[["Hydro Pump"],["Ice Beam"],["Focus Blast"],["Baton Pass","Taunt"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Fraxure": [
     {"moves":[["Dragon Dance"],["Outrage","Dragon Claw"],["Superpower"],["Iron Tail"]],"item":["Eviolite"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -113,6 +115,9 @@ setdex.xy.nu = {
   "Garbodor": [
     {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Toxic Spikes","Seed Bomb"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Impish"],"evs":{"def":160,"hp":252,"spe":96}},
     {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Seed Bomb","Toxic Spikes"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+  ],
+  "Gastrodon": [
+    {"moves":[["Scald"],["Earth Power"],["Toxic"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":244,"spd":12,"hp":252}},
   ],
   "Gogoat": [
     {"moves":[["Bulk Up"],["Horn Leech"],["Substitute"],["Earthquake"]],"item":["Leftovers"],"ability":["Sap Sipper"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
@@ -235,7 +240,7 @@ setdex.xy.nu = {
     {"moves":[["Body Slam"],["Milk Drink"],["Toxic","Thunder Wave"],["Stealth Rock","Heal Bell"]],"item":["Leftovers","Rocky Helmet"],"ability":["Sap Sipper","Thick Fat"],"nature":["Impish"],"evs":{"def":240,"hp":252,"spe":16}},
   ],
   "Misdreavus": [
-    {"moves":[["Will-O-Wisp"],["Shadow Ball"],["Taunt"],["Pain Split"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":240,"hp":252,"spe":16}},
+    {"moves":[["Will-O-Wisp"],["Hex"],["Pain Split"],["Taunt"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":200,"hp":252,"spe":56}},
   ],
   "Mismagius": [
     {"moves":[["Hex"],["Will-O-Wisp"],["Taunt"],["Pain Split","Thunder Wave"]],"item":["Colbur Berry","Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":80,"hp":252,"spe":176}},
@@ -256,6 +261,11 @@ setdex.xy.nu = {
   ],
   "Ninjask": [
     {"moves":[["U-turn"],["Final Gambit"],["Aerial Ace"],["X-Scissor"]],"item":["Choice Band"],"ability":["Infiltrator"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+  ],
+  "Omastar": [
+    {"moves":[["Stealth Rock"],["Spikes","Toxic Spikes"],["Scald"],["Hidden Power Electric","Icy Wind"]],"item":["Leftovers"],"ability":["Shell Armor"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Shell Smash"],["Surf","Hydro Pump"],["Ice Beam"],["Hidden Power Electric"]],"item":["Shuca Berry","White Herb"],"ability":["Swift Swim"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Stealth Rock"],["Spikes"],["Scald","Hydro Pump"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Pawniard": [
     {"moves":[["Swords Dance"],["Knock Off"],["Sucker Punch"],["Iron Head"]],"item":["Eviolite"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -286,9 +296,6 @@ setdex.xy.nu = {
   ],
   "Pyroar": [
     {"moves":[["Fire Blast"],["Hyper Voice"],["Hidden Power Grass"],["Will-O-Wisp","Flamethrower"]],"item":["Life Orb","Choice Specs"],"ability":["Unnerve"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-  ],
-  "Quagsire": [
-    {"moves":[["Earthquake"],["Scald"],["Recover"],["Curse","Toxic"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Raichu": [
     {"moves":[["Nasty Plot"],["Thunderbolt"],["Focus Blast"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -356,6 +363,9 @@ setdex.xy.nu = {
   "Sliggoo": [
     {"moves":[["Curse"],["Outrage"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Sap Sipper"],"nature":["Careful"],"evs":{"def":168,"spd":88,"hp":252}},
     {"moves":[["Draco Meteor"],["Sludge Bomb"],["Muddy Water"],["Thunderbolt"]],"item":["Eviolite"],"ability":["Sap Sipper"],"nature":["Modest"],"evs":{"spa":252,"hp":92,"spe":164}},
+  ],
+  "Smeargle": [
+    {"moves":[["Sticky Web"],["Stealth Rock"],["Dark Void"],["Nuzzle","Skill Swap"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
   "Steelix": [
     {"moves":[["Stealth Rock"],["Heavy Slam"],["Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spd":128,"hp":244,"atk":136}},

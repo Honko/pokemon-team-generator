@@ -166,6 +166,9 @@ setdex.xy.uber = {
     {"moves":[["Brave Bird"],["Sacred Fire"],["Recover"],["Thunder Wave","Earthquake"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":52,"hp":248,"spe":12,"atk":196}},
     {"moves":[["Brave Bird"],["Sacred Fire"],["Earthquake"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":52,"hp":248,"spe":12,"atk":196}},
   ],
+  "Hoopa-Unbound": [
+    {"moves":[["Psyshock"],["Dark Pulse"],["Focus Blast"],["Nasty Plot"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+  ],
   "Jirachi": [
     {"moves":[["Iron Head"],["U-turn"],["Healing Wish"],["Ice Punch","Fire Punch"]],"item":["Choice Scarf"],"ability":["Serene Grace"],"nature":["Adamant"],"evs":{"hp":176,"spe":180,"atk":152}},
     {"moves":[["Wish"],["Thunder Wave","Body Slam"],["Iron Head"],["Protect","U-turn","Toxic"]],"item":["Leftovers"],"ability":["Serene Grace"],"nature":["Careful"],"evs":{"spd":224,"hp":252,"spe":32}},

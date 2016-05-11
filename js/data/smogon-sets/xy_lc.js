@@ -408,6 +408,9 @@ setdex.xy.lc = {
     {"moves":[["Knock Off"],["Iron Head"],["Sucker Punch"],["Swords Dance","Low Sweep"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spd":36,"spe":196,"atk":236},"ivs":{"hp":9}},
     {"moves":[["Knock Off"],["Iron Head"],["Pursuit","Sucker Punch"],["Brick Break","Sucker Punch"]],"item":["Choice Scarf"],"ability":["Defiant"],"nature":["Jolly"],"evs":{"def":36,"spd":36,"spe":196,"atk":236}},
   ],
+  "Petilil": [
+    {"moves":[["Giga Drain","Solar Beam"],["Sleep Powder"],["Healing Wish"],["Hidden Power Fire","Hidden Power Ice","Stun Spore"]],"item":["Eviolite"],"ability":["Chlorophyll"],"nature":["Timid"],"evs":{"def":120,"spa":120,"spd":36,"spe":200}},
+  ],
   "Phanpy": [
     {"moves":[["Stealth Rock"],["Knock Off"],["Earthquake"],["Roar","Ice Shard"]],"item":["Eviolite"],"ability":["Pickup"],"nature":["Impish"],"evs":{"def":196,"spd":36,"hp":116,"spe":36,"atk":116}},
   ],
@@ -571,6 +574,9 @@ setdex.xy.lc = {
   "Surskit": [
     {"moves":[["Sticky Web"],["Scald","Hydro Pump"],["Giga Drain","Ice Beam"],["Protect","Aqua Jet","Haze","Thief"]],"item":["Focus Sash"],"ability":["Swift Swim"],"nature":["Timid"],"evs":{"def":20,"spa":196,"spd":20,"hp":36,"spe":236}},
   ],
+  "Swablu": [
+    {"moves":[["Return"],["Roost"],["Cotton Guard","Heat Wave"],["Agility","Heat Wave"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Adamant"],"evs":{"spd":156,"hp":156,"atk":196}},
+  ],
   "Swinub": [
     {"moves":[["Stealth Rock"],["Ice Shard"],["Earthquake"],["Endeavor"]],"item":["Focus Sash"],"ability":["Oblivious"],"nature":["Jolly"],"evs":{"hp":116,"spe":196,"atk":196}},
   ],
@@ -638,6 +644,7 @@ setdex.xy.lc = {
   "Vullaby": [
     {"moves":[["Roost"],["Knock Off"],["Brave Bird"],["Defog","U-turn"]],"item":["Eviolite"],"ability":["Overcoat"],"nature":["Impish"],"evs":{"def":236,"spd":76,"hp":116,"atk":76}},
     {"moves":[["Brave Bird"],["Knock Off"],["Roost"],["U-turn","Heat Wave"]],"item":["Eviolite"],"ability":["Overcoat"],"nature":["Jolly"],"evs":{"spd":76,"hp":116,"spe":116,"atk":156}},
+    {"moves":[["Brave Bird"],["Knock Off"],["U-turn"],["Rock Smash","Heat Wave"]],"item":["Choice Scarf"],"ability":["Overcoat"],"nature":["Jolly","Adamant"],"evs":{"spd":76,"spe":196,"atk":236}},
     {"moves":[["Nasty Plot"],["Dark Pulse"],["Air Slash"],["Hidden Power Fighting","Heat Wave"]],"item":["Eviolite","Berry Juice"],"ability":["Weak Armor"],"nature":["Modest"],"evs":{"spa":240,"hp":116,"spe":120}},
   ],
   "Vulpix": [
@@ -663,7 +670,7 @@ setdex.xy.lc = {
     {"moves":[["Encore"],["Counter"],["Mirror Coat"],["Safeguard","Tickle","Destiny Bond"]],"item":["Berry Juice"],"ability":["Shadow Tag"],"nature":["Bold"],"evs":{"def":132,"spd":132,"hp":236}},
   ],
   "Yamask": [
-    {"moves":[["Memento"],["Will-O-Wisp"],["Shadow Ball","Hex","Knock Off"],["Pain Split"]],"item":["Eviolite"],"ability":["Mummy"],"nature":["Calm","Careful"],"evs":{"def":236,"spd":156,"hp":52,"spe":36}},
+    {"moves":[["Toxic Spikes"],["Will-O-Wisp","Knock Off"],["Hex"],["Knock Off","Memento"]],"item":["Eviolite"],"ability":["Mummy"],"nature":["Sassy"],"evs":{"def":236,"spd":156,"hp":52,"atk":36}},
   ],
   "Zigzagoon": [
     {"moves":[["Belly Drum"],["Extreme Speed"],["Thief"],["Seed Bomb","Protect"]],"item":["Berry Juice"],"ability":["Pickup"],"nature":["Adamant"],"evs":{"def":108,"spd":28,"hp":132,"spe":36,"atk":196}},

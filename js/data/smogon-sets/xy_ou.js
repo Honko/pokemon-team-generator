@@ -16,9 +16,9 @@ setdex.xy.ou = {
   ],
   "Altaria": [
     {"moves":[["Dragon Dance"],["Return"],["Earthquake"],["Roost","Fire Blast"]],"item":["Altarianite"],"ability":["Natural Cure","Cloud Nine"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Dragon Dance"],["Roost"],["Return"],["Heal Bell","Substitute","Earthquake"]],"item":["Altarianite"],"ability":["Cloud Nine","Natural Cure"],"nature":["Impish"],"evs":{"def":136,"spd":96,"hp":248,"spe":28}},
-    {"moves":[["Roost"],["Hyper Voice","Return"],["Heal Bell"],["Flamethrower","Earthquake"]],"item":["Altarianite"],"ability":["Cloud Nine"],"nature":["Bold","Impish","Relaxed"],"evs":{"def":104,"spd":156,"hp":248}},
-    {"moves":[["Hyper Voice"],["Fire Blast"],["Roost"],["Earthquake","Heal Bell"]],"item":["Altarianite"],"ability":["Cloud Nine","Natural Cure"],"nature":["Modest"],"evs":{"spa":168,"hp":248,"spe":92}},
+    {"moves":[["Dragon Dance"],["Roost"],["Return"],["Heal Bell","Substitute","Earthquake"]],"item":["Altarianite"],"ability":["Cloud Nine","Natural Cure"],"nature":["Impish"],"evs":{"def":136,"spd":92,"hp":252,"spe":28}},
+    {"moves":[["Roost"],["Hyper Voice","Return"],["Heal Bell"],["Flamethrower","Earthquake"]],"item":["Altarianite"],"ability":["Cloud Nine"],"nature":["Bold","Impish","Relaxed"],"evs":{"def":100,"spd":156,"hp":252}},
+    {"moves":[["Hyper Voice"],["Fire Blast"],["Roost"],["Earthquake","Heal Bell"]],"item":["Altarianite"],"ability":["Cloud Nine","Natural Cure"],"nature":["Modest"],"evs":{"spa":164,"hp":252,"spe":92}},
   ],
   "Amoonguss": [
     {"moves":[["Spore"],["Giga Drain"],["Clear Smog","Stun Spore"],["Hidden Power Fire","Foul Play","Sludge Bomb"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":168,"spd":92,"hp":248}},
@@ -77,7 +77,6 @@ setdex.xy.ou = {
   ],
   "Chesnaught": [
     {"moves":[["Leech Seed"],["Drain Punch"],["Spikes"],["Wood Hammer","Spiky Shield"]],"item":["Leftovers"],"ability":["Bulletproof"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
-    {"moves":[["Belly Drum"],["Substitute"],["Drain Punch"],["Seed Bomb"]],"item":["Salac Berry"],"ability":["Overgrow","Bulletproof"],"nature":["Jolly"],"evs":{"hp":12,"spe":252,"atk":244}},
   ],
   "Clefable": [
     {"moves":[["Calm Mind"],["Moonblast"],["Soft-Boiled"],["Thunder Wave","Flamethrower"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
@@ -105,10 +104,8 @@ setdex.xy.ou = {
     {"moves":[["Trick Room"],["Psychic"],["Ice Beam"],["Lunar Dance"]],"item":["Mental Herb","Leftovers"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"def":40,"spd":220,"hp":248},"ivs":{"spe":0}},
   ],
   "Diancie": [
-    {"moves":[["Moonblast"],["Diamond Storm"],["Earth Power","Hidden Power Fire"],["Protect","Hidden Power Fire"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Naive"],"evs":{"spa":224,"spe":252,"atk":32}},
+    {"moves":[["Moonblast"],["Diamond Storm"],["Hidden Power Fire","Earth Power"],["Protect"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Naive"],"evs":{"spa":248,"spe":252,"atk":8}},
     {"moves":[["Rock Polish"],["Moonblast"],["Diamond Storm"],["Earth Power","Hidden Power Fire"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Rash"],"evs":{"spa":252,"hp":36,"spe":188,"atk":32}},
-    {"moves":[["Calm Mind"],["Moonblast"],["Earth Power"],["Hidden Power Fire","Psyshock"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Trick Room"],["Stealth Rock"],["Explosion"],["Diamond Storm","Moonblast"]],"item":["Mental Herb"],"ability":["Clear Body"],"nature":["Sassy"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
   ],
   "Diggersby": [
     {"moves":[["Return"],["Earthquake"],["Quick Attack"],["Swords Dance","Fire Punch"]],"item":["Life Orb","Focus Sash"],"ability":["Huge Power"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -172,7 +169,6 @@ setdex.xy.ou = {
   ],
   "Gardevoir": [
     {"moves":[["Hyper Voice"],["Psyshock"],["Focus Blast"],["Will-O-Wisp","Taunt","Calm Mind"]],"item":["Gardevoirite"],"ability":["Trace"],"nature":["Timid","Modest"],"evs":{"def":8,"spa":232,"hp":16,"spe":252}},
-    {"moves":[["Hyper Voice"],["Will-O-Wisp","Calm Mind"],["Wish"],["Protect"]],"item":["Gardevoirite"],"ability":["Trace"],"nature":["Timid"],"evs":{"def":244,"hp":248,"spe":16}},
   ],
   "Gastrodon": [
     {"moves":[["Scald"],["Earthquake","Ice Beam"],["Toxic"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":4,"hp":252}},
@@ -214,8 +210,7 @@ setdex.xy.ou = {
     {"moves":[["Overheat","Fire Blast"],["Flash Cannon"],["Earth Power","Hidden Power Ice"],["Stone Edge","Ancient Power"]],"item":["Choice Scarf"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"spa":252,"hp":28,"spe":228}},
   ],
   "Heracross": [
-    {"moves":[["Close Combat"],["Pin Missile"],["Rock Blast"],["Swords Dance","Substitute"]],"item":["Heracronite"],"ability":["Moxie","Guts"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Close Combat"],["Megahorn"],["Facade"],["Swords Dance"]],"item":["Toxic Orb"],"ability":["Guts"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Close Combat"],["Pin Missile"],["Rock Blast"],["Substitute","Swords Dance"]],"item":["Heracronite"],"ability":["Moxie"],"nature":["Adamant"],"evs":{"hp":240,"spe":132,"atk":136}},
   ],
   "Hippowdon": [
     {"moves":[["Earthquake"],["Stealth Rock"],["Slack Off"],["Stone Edge","Toxic","Whirlwind"]],"item":["Leftovers"],"ability":["Sand Stream","Sand Force"],"nature":["Impish"],"evs":{"def":144,"spd":112,"hp":252}},
@@ -340,7 +335,7 @@ setdex.xy.ou = {
     {"moves":[["Scald"],["Toxic","Hypnosis"],["Encore"],["Rest"]],"item":["Damp Rock"],"ability":["Drizzle"],"nature":["Calm"],"evs":{"spd":164,"hp":248,"spe":96}},
   ],
   "Porygon2": [
-    {"moves":[["Ice Beam"],["Thunderbolt"],["Recover"],["Toxic","Thunder Wave"]],"item":["Eviolite"],"ability":["Trace"],"nature":["Calm"],"evs":{"def":204,"spd":56,"hp":248}},
+    {"moves":[["Ice Beam"],["Thunderbolt"],["Recover"],["Toxic","Thunder Wave"]],"item":["Eviolite"],"ability":["Trace"],"nature":["Calm"],"evs":{"def":200,"spd":56,"hp":252}},
   ],
   "Quagsire": [
     {"moves":[["Scald"],["Recover"],["Earthquake"],["Toxic","Encore"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
@@ -437,6 +432,7 @@ setdex.xy.ou = {
     {"moves":[["Brave Bird"],["Flare Blitz"],["U-turn"],["Steel Wing","Tailwind"]],"item":["Choice Band"],"ability":["Gale Wings"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Tangrowth": [
+    {"moves":[["Sleep Powder"],["Giga Drain"],["Knock Off"],["Hidden Power Fire","Leech Seed"]],"item":["Leftovers","Rocky Helmet"],"ability":["Regenerator"],"nature":["Relaxed"],"evs":{"def":216,"spd":48,"hp":244}},
     {"moves":[["Leaf Storm","Giga Drain"],["Knock Off"],["Earthquake"],["Hidden Power Ice","Hidden Power Fire"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Tentacruel": [

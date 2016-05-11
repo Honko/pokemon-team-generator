@@ -177,6 +177,9 @@ setdex.bw.ou = {
     {"moves":[["Leaf Storm"],["Psyshock","Psychic"],["Hidden Power Fire"],["Nature Power","Sleep Powder","Giga Drain"]],"item":["Life Orb","Choice Specs"],"ability":["Chlorophyll"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Swords Dance"],["Wood Hammer","Seed Bomb"],["Low Kick","Nature Power"],["Zen Headbutt","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Adamant","Naughty"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
+  "Farfetch'd": [
+    {"moves":[["Swords Dance"],["Return"],["Brave Bird"],["Revenge"]],"item":["Stick"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+  ],
   "Feraligatr": [
     {"moves":[["Swords Dance"],["Aqua Jet"],["Waterfall"],["Crunch","Superpower","Ice Punch"]],"item":["Mystic Water"],"ability":["Torrent"],"nature":["Adamant"],"evs":{"hp":184,"spe":72,"atk":252}},
   ],

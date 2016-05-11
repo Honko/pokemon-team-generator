@@ -655,9 +655,6 @@ setdex.bw.lc = {
   "Tympole": [
     {"moves":[["Hydro Pump","Surf"],["Sludge Wave"],["Earth Power"],["Hidden Power Electric","Rain Dance"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"def":36,"spa":200,"spe":244}},
   ],
-  "Tynamo": [
-    {"moves":[["Charge Beam"],["Spark"],["Tackle"],["Thunder Wave"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Quiet"],"evs":{"def":36,"spa":236,"atk":236}},
-  ],
   "Tyrogue": [
     {"moves":[["High Jump Kick"],["Fake Out"],["Mach Punch"],["Bullet Punch"]],"item":["Toxic Orb"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spe":236,"atk":236}},
   ],

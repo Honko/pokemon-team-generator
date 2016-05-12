@@ -19,9 +19,6 @@ setdex.xy.ru = {
   "Ambipom": [
     {"moves":[["Fake Out"],["Return"],["Low Kick"],["Knock Off"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
-  "Amoonguss": [
-    {"moves":[["Spore"],["Giga Drain"],["Sludge Bomb","Clear Smog"],["Stun Spore","Foul Play","Synthesis"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":160,"spd":96,"hp":252}},
-  ],
   "Archeops": [
     {"moves":[["Stealth Rock"],["Taunt"],["Endeavor"],["Head Smash"]],"item":["Focus Sash"],"ability":["Defeatist"],"nature":["Naive"],"evs":{"spe":252,"atk":252},"ivs":{"spd":0}},
   ],

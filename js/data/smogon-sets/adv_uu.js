@@ -225,7 +225,7 @@ setdex.adv.uu = {
     {"moves":[["Substitute","Hydro Pump"],["Sludge Bomb"],["Destiny Bond","Self-Destruct"],["Spikes"]],"item":["Leftovers","Salac Berry"],"ability":["Poison Point"],"nature":["Jolly","Hasty"],"evs":{"spd":24,"hp":252,"spe":232}},
     {"moves":[["Swords Dance"],["Sludge Bomb"],["Hydro Pump"],["Self-Destruct"]],"item":["Leftovers"],"ability":["Poison Point"],"nature":["Hasty"],"evs":{"hp":4,"spe":252,"atk":252}},
     {"moves":[["Sludge Bomb"],["Shadow Ball"],["Hydro Pump","Ice Beam"],["Self-Destruct"]],"item":["Choice Band"],"ability":["Swift Swim"],"nature":["Lonely","Naughty"],"evs":{"hp":200,"spe":56,"atk":252}},
-    {"moves":[["Endure"],["Flail"],["Shadow Ball","Destiny Bond"],["Swords Dance"]],"item":["Salac Berry"],"ability":["Poison Point","Swift Swim"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Endure"],["Flail"],["Shadow Ball","Destiny Bond"],["Swords Dance"]],"item":["Salac Berry"],"ability":["Poison Point"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Raichu": [
     {"moves":[["Thunderbolt"],["Encore"],["Hidden Power Grass","Substitute"],["Focus Punch"]],"item":["Leftovers"],"ability":["Static"],"nature":["Mild","Rash"],"evs":{"spa":200,"spe":240,"atk":68}},

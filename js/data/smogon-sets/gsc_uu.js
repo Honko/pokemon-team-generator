@@ -1,4 +1,7 @@
 setdex.gsc.uu = {
+  "Aipom": [
+    {"moves":[["Agility"],["Baton Pass"],["Return"],["Counter"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
   "Arbok": [
     {"moves":[["Sludge Bomb"],["Glare"],["Earthquake"],["Giga Drain","Substitute","Screech"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],

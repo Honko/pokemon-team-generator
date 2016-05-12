@@ -86,13 +86,13 @@ setdex.adv.nu = {
   ],
   "Ledian": [
     {"moves":[["Swords Dance"],["Aerial Ace","Silver Wind"],["Agility","Substitute"],["Baton Pass"]],"item":["Leftovers","Salac Berry"],"ability":["Early Bird","Swarm"],"nature":["Careful"],"evs":{"def":200,"spd":56,"hp":252}},
-    {"moves":[["Ice Punch","Hidden Power Fire"],["Thunder Punch","Hidden Power Dark"],["Giga Drain"],["Reflect"]],"item":["Leftovers"],"ability":["Early Bird","Swarm"],"nature":["Calm"],"evs":{"def":4,"spa":252,"hp":252}},
+    {"moves":[["Ice Punch","Hidden Power Fire"],["Thunder Punch","Hidden Power Dark"],["Giga Drain"],["Reflect"]],"item":["Leftovers"],"ability":["Early Bird"],"nature":["Calm"],"evs":{"def":4,"spa":252,"hp":252}},
   ],
   "Lickitung": [
-    {"moves":[["Seismic Toss","Body Slam"],["Heal Bell"],["Wish","Toxic"],["Protect","Knock Off"]],"item":["Leftovers"],"ability":["Oblivious","Own Tempo"],"nature":["Careful"],"evs":{"spd":168,"hp":252,"spe":88}},
-    {"moves":[["Body Slam","Return"],["Earthquake"],["Rock Slide"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Oblivious","Own Tempo"],"nature":["Adamant"],"evs":{"hp":168,"spe":88,"atk":252}},
-    {"moves":[["Substitute"],["Focus Punch"],["Body Slam"],["Earthquake","Wish"]],"item":["Leftovers"],"ability":["Oblivious","Own Tempo"],"nature":["Brave","Adamant"],"evs":{"def":4,"hp":252,"atk":252},"ivs":{"spe":0}},
-    {"moves":[["Curse"],["Return","Body Slam"],["Rest","Wish"],["Earthquake"]],"item":["Leftovers"],"ability":["Oblivious","Own Tempo"],"nature":["Careful"],"evs":{"spd":144,"hp":252,"atk":112}},
+    {"moves":[["Seismic Toss","Body Slam"],["Heal Bell"],["Wish","Toxic"],["Protect","Knock Off"]],"item":["Leftovers"],"ability":["Own Tempo"],"nature":["Careful"],"evs":{"spd":168,"hp":252,"spe":88}},
+    {"moves":[["Body Slam","Return"],["Earthquake"],["Rock Slide"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Own Tempo"],"nature":["Adamant"],"evs":{"hp":168,"spe":88,"atk":252}},
+    {"moves":[["Substitute"],["Focus Punch"],["Body Slam"],["Earthquake","Wish"]],"item":["Leftovers"],"ability":["Own Tempo"],"nature":["Brave","Adamant"],"evs":{"def":4,"hp":252,"atk":252},"ivs":{"spe":0}},
+    {"moves":[["Curse"],["Return","Body Slam"],["Rest","Wish"],["Earthquake"]],"item":["Leftovers"],"ability":["Own Tempo"],"nature":["Careful"],"evs":{"spd":144,"hp":252,"atk":112}},
   ],
   "Luvdisc": [
     {"moves":[["Rain Dance"],["Surf"],["Ice Beam","Blizzard"],["Hidden Power Grass"]],"item":["Lum Berry"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"def":228,"spa":252,"hp":28}},
@@ -125,7 +125,7 @@ setdex.adv.nu = {
     {"moves":[["Psychic"],["Feint Attack"],["Hidden Power Ice","Hidden Power Grass","Hidden Power Fire"],["Hypnosis","Toxic"]],"item":["Leftovers"],"ability":["Insomnia"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Nosepass": [
-    {"moves":[["Thunderbolt","Thunder"],["Taunt"],["Mimic","Thunder Wave","Fire Punch"],["Explosion","Fire Punch"]],"item":["Leftovers"],"ability":["Magnet Pull","Sturdy"],"nature":["Relaxed","Bold"],"evs":{"def":4,"spa":252,"hp":252}},
+    {"moves":[["Thunderbolt","Thunder"],["Taunt"],["Mimic","Thunder Wave","Fire Punch"],["Explosion","Fire Punch"]],"item":["Leftovers"],"ability":["Magnet Pull"],"nature":["Relaxed","Bold"],"evs":{"def":4,"spa":252,"hp":252}},
   ],
   "Parasect": [
     {"moves":[["Spore"],["Aromatherapy"],["Sludge Bomb"],["Hidden Power Rock","Hidden Power Bug"]],"item":["Leftovers"],"ability":["Effect Spore"],"nature":["Adamant"],"evs":{"def":168,"hp":252,"spe":24,"atk":64}},
@@ -155,7 +155,7 @@ setdex.adv.nu = {
     {"moves":[["Return"],["Super Fang"],["Shadow Ball"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Guts"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Relicanth": [
-    {"moves":[["Rock Slide"],["Earthquake"],["Sleep Talk"],["Rest"]],"item":["Leftovers"],"ability":["Rock Head","Swift Swim"],"nature":["Impish"],"evs":{"def":80,"hp":252,"atk":176}},
+    {"moves":[["Rock Slide"],["Earthquake"],["Sleep Talk"],["Rest"]],"item":["Leftovers"],"ability":["Swift Swim"],"nature":["Impish"],"evs":{"def":80,"hp":252,"atk":176}},
     {"moves":[["Rock Slide"],["Earthquake"],["Double-Edge"],["Hidden Power Bug","Sleep Talk"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":16,"hp":240,"atk":252}},
   ],
   "Roselia": [

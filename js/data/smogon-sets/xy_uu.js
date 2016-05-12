@@ -26,9 +26,6 @@ setdex.xy.uu = {
   "Alomomola": [
     {"moves":[["Scald"],["Wish"],["Protect"],["Toxic","Knock Off"]],"item":["Leftovers","Rocky Helmet"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":216,"hp":40}},
   ],
-  "Amoonguss": [
-    {"moves":[["Spore"],["Sludge Bomb"],["Foul Play","Giga Drain","Clear Smog"],["Giga Drain","Stun Spore"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
-  ],
   "Ampharos": [
     {"moves":[["Rest"],["Sleep Talk"],["Volt Switch"],["Dragon Pulse"]],"item":["Ampharosite"],"ability":["Static"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
     {"moves":[["Thunderbolt"],["Dragon Pulse"],["Focus Blast"],["Volt Switch"]],"item":["Ampharosite"],"ability":["Static"],"nature":["Modest"],"evs":{"spa":252,"hp":132,"spe":124}},

@@ -177,7 +177,7 @@ setdex.xy.nu = {
     {"moves":[["Fake Out"],["Double-Edge"],["Sucker Punch"],["Earthquake","Aqua Tail"]],"item":["Silk Scarf"],"ability":["Scrappy"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Kecleon": [
-    {"moves":[["Knock Off"],["Drain Punch"],["Sucker Punch"],["Shadow Sneak","Fake Out","Stealth Rock"]],"item":["Life Orb"],"ability":["Protean"],"nature":["Adamant"],"evs":{"hp":132,"spe":124,"atk":252}},
+    {"moves":[["Fire Blast"],["Sucker Punch"],["Iron Tail"],["Knock Off","Grass Knot"]],"item":["Life Orb"],"ability":["Protean"],"nature":["Mild"],"evs":{"spa":200,"spe":116,"atk":192}},
   ],
   "Klinklang": [
     {"moves":[["Shift Gear"],["Gear Grind"],["Return"],["Substitute","Magnet Rise"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Adamant"],"evs":{"hp":80,"spe":176,"atk":252}},
@@ -275,7 +275,7 @@ setdex.xy.nu = {
     {"moves":[["Scald"],["Roost"],["U-turn","Hurricane"],["Defog"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":156,"spd":104,"hp":248}},
   ],
   "Piloswine": [
-    {"moves":[["Earthquake"],["Stealth Rock"],["Icicle Crash"],["Ice Shard"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"hp":252,"spe":36,"atk":220}},
+    {"moves":[["Earthquake"],["Stealth Rock"],["Icicle Crash"],["Ice Shard"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"hp":220,"spe":36,"atk":252}},
   ],
   "Pinsir": [
     {"moves":[["Swords Dance"],["X-Scissor"],["Earthquake"],["Stone Edge","Quick Attack"]],"item":["Life Orb","Lum Berry"],"ability":["Mold Breaker","Moxie"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -382,7 +382,7 @@ setdex.xy.nu = {
     {"moves":[["Giga Drain"],["Hidden Power Fire"],["Sleep Powder","Toxic"],["Leech Seed","Synthesis"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
   ],
   "Tauros": [
-    {"moves":[["Rock Climb"],["Earthquake"],["Fire Blast"],["Zen Headbutt"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
+    {"moves":[["Rock Climb"],["Earthquake"],["Fire Blast"],["Iron Tail","Zen Headbutt"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Throh": [
     {"moves":[["Circle Throw"],["Knock Off","Sleep Talk"],["Bulk Up"],["Rest"]],"item":["Leftovers","Chesto Berry"],"ability":["Guts"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},

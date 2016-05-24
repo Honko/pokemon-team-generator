@@ -1,8 +1,8 @@
 setdex.xy.pu = {
   "Altaria": [
     {"moves":[["Draco Meteor"],["Fire Blast"],["Roost"],["Toxic","Tailwind","Earthquake"]],"item":["Life Orb"],"ability":["Natural Cure"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"],["Roost"]],"item":["Yache Berry","Leftovers"],"ability":["Natural Cure"],"nature":["Adamant"],"evs":{"hp":68,"spe":188,"atk":252}},
-    {"moves":[["Dragon Dance"],["Dragon Claw"],["Roost"],["Cotton Guard","Heal Bell","Substitute"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Careful"],"evs":{"spd":72,"hp":248,"spe":188}},
+    {"moves":[["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"],["Roost"]],"item":["Yache Berry","Leftovers"],"ability":["Natural Cure"],"nature":["Adamant"],"evs":{"hp":64,"spe":192,"atk":252}},
+    {"moves":[["Dragon Dance"],["Dragon Claw"],["Roost"],["Cotton Guard","Heal Bell","Substitute"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Careful"],"evs":{"spd":68,"hp":248,"spe":192}},
     {"moves":[["Flamethrower"],["Dragon Pulse","Toxic"],["Heal Bell","Toxic"],["Roost"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":164,"hp":248,"spe":96}},
   ],
   "Ampharos": [
@@ -154,7 +154,7 @@ setdex.xy.pu = {
     {"moves":[["Swords Dance"],["Brave Bird"],["Leaf Blade"],["Quick Attack"]],"item":["Stick"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Fearow": [
-    {"moves":[["Drill Peck"],["Double-Edge"],["Drill Run"],["U-turn"]],"item":["Choice Band"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Drill Peck"],["Double-Edge"],["Drill Run"],["U-turn"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Flareon": [
     {"moves":[["Flare Blitz"],["Superpower"],["Quick Attack"],["Baton Pass","Double-Edge"]],"item":["Choice Band"],"ability":["Flash Fire"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -201,6 +201,9 @@ setdex.xy.pu = {
   ],
   "Gorebyss": [
     {"moves":[["Shell Smash"],["Hydro Pump"],["Ice Beam"],["Psychic"]],"item":["White Herb","Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
+  "Gothitelle": [
+    {"moves":[["Mean Look"],["Psychic"],["Calm Mind"],["Rest"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Gourgeist": [
     {"moves":[["Trick"],["Will-O-Wisp"],["Seed Bomb"],["Destiny Bond"]],"item":["Choice Scarf"],"ability":["Frisk"],"nature":["Adamant"],"evs":{"hp":44,"spe":212,"atk":252}},
@@ -273,7 +276,7 @@ setdex.xy.pu = {
     {"moves":[["Switcheroo"],["Healing Wish"],["Return"],["High Jump Kick"]],"item":["Flame Orb"],"ability":["Klutz"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Lumineon": [
-    {"moves":[["Defog"],["Scald"],["U-turn"],["Toxic"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Defog"],["Scald"],["U-turn"],["Toxic"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":248,"hp":252,"spe":8}},
   ],
   "Lunatone": [
     {"moves":[["Rock Polish"],["Psychic"],["Ancient Power"],["Earth Power","Baton Pass"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -338,7 +341,7 @@ setdex.xy.pu = {
     {"moves":[["Curse"],["Body Slam"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},
   ],
   "Murkrow": [
-    {"moves":[["Brave Bird"],["Sucker Punch"],["Hidden Power Fighting","Hidden Power Grass"],["Thunder Wave","Pursuit"]],"item":["Life Orb"],"ability":["Prankster","Super Luck"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
+    {"moves":[["Brave Bird"],["Sucker Punch"],["Hidden Power Fighting","Hidden Power Grass"],["Pursuit","Thunder Wave"]],"item":["Life Orb"],"ability":["Super Luck","Prankster"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Natu": [
     {"moves":[["Psychic"],["U-turn"],["Thunder Wave"],["Roost"]],"item":["Eviolite"],"ability":["Magic Bounce"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},

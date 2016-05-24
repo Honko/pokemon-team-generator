@@ -278,7 +278,7 @@ setdex.xy.uber = {
     {"moves":[["Geomancy"],["Moonblast"],["Thunder","Aromatherapy"],["Focus Blast","Hidden Power Ground"]],"item":["Power Herb"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":28,"spa":252,"hp":184,"spe":44}},
     {"moves":[["Moonblast"],["Focus Blast"],["Sleep Talk","Aromatherapy"],["Thunder","Grass Knot"]],"item":["Choice Scarf"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":32,"spa":252,"spe":224}},
     {"moves":[["Moonblast"],["Aromatherapy"],["Thunder","Rock Slide"],["Close Combat","Focus Blast"]],"item":["Life Orb","Expert Belt"],"ability":["Fairy Aura"],"nature":["Mild","Rash"],"evs":{"spa":252,"spe":224,"atk":32}},
-    {"moves":[["Moonblast"],["Hidden Power Fire","Focus Blast"],["Grass Knot","Thunder"],["Psyshock","Aromatherapy"]],"item":["Choice Specs"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Moonblast"],["Hidden Power Fire","Focus Blast"],["Grass Knot","Thunder"],["Psyshock","Aromatherapy"]],"item":["Choice Specs"],"ability":["Fairy Aura"],"nature":["Modest","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Moonblast"],["Sleep Talk"],["Rest"],["Aromatherapy","Roar"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Calm Mind"],["Sleep Talk"],["Rest"],["Moonblast"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],

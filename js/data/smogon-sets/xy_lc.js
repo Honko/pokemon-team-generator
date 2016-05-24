@@ -109,6 +109,9 @@ setdex.xy.lc = {
   "Clauncher": [
     {"moves":[["Scald","Water Pulse"],["Aqua Jet"],["Ice Beam"],["U-turn"]],"item":["Eviolite"],"ability":["Mega Launcher"],"nature":["Relaxed"],"evs":{"def":180,"spa":132,"spd":92,"atk":92}},
   ],
+  "Cleffa": [
+    {"moves":[["Counter"],["Endeavor"],["Thunder Wave"],["Encore"]],"item":["Focus Sash"],"ability":["Magic Guard"],"nature":["Hasty"],"evs":{"spa":76,"hp":196,"spe":236},"ivs":{"def":3,"spd":9}},
+  ],
   "Corphish": [
     {"moves":[["Crabhammer"],["Knock Off"],["Aqua Jet"],["Swords Dance"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Adamant"],"evs":{"def":76,"spe":236,"atk":196}},
     {"moves":[["Dragon Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Eviolite","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"def":76,"spe":236,"atk":196}},
@@ -298,6 +301,7 @@ setdex.xy.lc = {
   ],
   "Larvitar": [
     {"moves":[["Dragon Dance"],["Rock Slide","Stone Edge"],["Earthquake"],["Superpower"]],"item":["Eviolite","Flame Orb"],"ability":["Guts"],"nature":["Jolly"],"evs":{"def":36,"spd":36,"spe":188,"atk":244}},
+    {"moves":[["Rock Slide","Stone Edge"],["Earthquake"],["Superpower"],["Crunch","Pursuit"]],"item":["Choice Scarf"],"ability":["Guts"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":188,"atk":244}},
   ],
   "Lickitung": [
     {"moves":[["Wish"],["Protect"],["Body Slam","Heal Bell"],["Knock Off","Heal Bell"]],"item":["Eviolite"],"ability":["Oblivious"],"nature":["Impish"],"evs":{"def":76,"spd":236,"hp":196}},
@@ -589,6 +593,7 @@ setdex.xy.lc = {
   ],
   "Tentacool": [
     {"moves":[["Rapid Spin"],["Sludge Bomb"],["Scald"],["Knock Off","Toxic Spikes"]],"item":["Berry Juice"],"ability":["Liquid Ooze"],"nature":["Calm"],"evs":{"def":76,"spd":196,"hp":196,"spe":36}},
+    {"moves":[["Hydro Pump"],["Sludge Bomb"],["Knock Off"],["Acid Spray","Rapid Spin","Giga Drain"]],"item":["Life Orb"],"ability":["Clear Body"],"nature":["Timid"],"evs":{"def":76,"spa":196,"spd":36,"spe":196},"ivs":{"hp":19}},
   ],
   "Tepig": [
     {"moves":[["Flare Blitz"],["Head Smash"],["Sucker Punch"],["Wild Charge","Superpower"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Jolly"],"evs":{"spe":236,"atk":252}},

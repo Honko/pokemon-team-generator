@@ -449,8 +449,8 @@ setdex.adv.ou = {
     {"moves":[["Rest"],["Sleep Talk"],["Body Slam"],["Curse"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":132,"spd":140,"hp":116,"atk":120}},
   ],
   "Starmie": [
-    {"moves":[["Rapid Spin"],["Recover"],["Surf"],["Thunderbolt","Ice Beam"]],"item":["Leftovers"],"ability":["Illuminate","Natural Cure"],"nature":["Timid"],"evs":{"spa":40,"hp":252,"spe":216}},
-    {"moves":[["Surf","Hydro Pump"],["Thunderbolt"],["Ice Beam"],["Recover"]],"item":["Leftovers"],"ability":["Illuminate","Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Rapid Spin"],["Recover"],["Surf"],["Thunderbolt","Ice Beam"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":40,"hp":252,"spe":216}},
+    {"moves":[["Surf","Hydro Pump"],["Thunderbolt"],["Ice Beam"],["Recover"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Steelix": [
     {"moves":[["Earthquake"],["Toxic","Hidden Power Rock"],["Roar"],["Rest","Explosion"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Impish"],"evs":{"spd":220,"hp":252,"atk":36}},

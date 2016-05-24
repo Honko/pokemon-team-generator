@@ -306,7 +306,7 @@ setdex.xy.uu = {
     {"moves":[["Substitute"],["Baton Pass"],["High Jump Kick"],["Stone Edge","Knock Off","Swords Dance"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Milotic": [
-    {"moves":[["Scald"],["Recover"],["Haze","Dragon Tail"],["Ice Beam"]],"item":["Leftovers"],"ability":["Marvel Scale"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Scald"],["Ice Beam"],["Haze"],["Recover"]],"item":["Leftovers"],"ability":["Marvel Scale"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Moltres": [
     {"moves":[["Fire Blast"],["Hurricane"],["Hidden Power Grass","Will-O-Wisp"],["Roost"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},

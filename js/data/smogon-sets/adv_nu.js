@@ -213,10 +213,10 @@ setdex.adv.nu = {
     {"moves":[["Tail Glow"],["Thunderbolt"],["Ice Punch"],["Baton Pass"]],"item":["Leftovers"],"ability":["Illuminate","Swarm"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Wailord": [
-    {"moves":[["Surf"],["Ice Beam"],["Toxic"],["Rest"]],"item":["Leftovers"],"ability":["Oblivious","Water Veil"],"nature":["Modest","Bold"],"evs":{"def":252,"spa":4,"spd":252}},
+    {"moves":[["Surf"],["Ice Beam"],["Toxic"],["Rest"]],"item":["Leftovers"],"ability":["Water Veil"],"nature":["Modest","Bold"],"evs":{"def":252,"spa":4,"spd":252}},
     {"moves":[["Self-Destruct"],["Hidden Power Ghost"],["Surf"],["Ice Beam","Earthquake"]],"item":["Leftovers"],"ability":["Water Veil"],"nature":["Brave","Quiet"],"evs":{"def":252,"spd":252,"atk":4}},
-    {"moves":[["Water Spout"],["Ice Beam","Body Slam"],["Sleep Talk"],["Rest"]],"item":["Leftovers"],"ability":["Oblivious","Water Veil"],"nature":["Modest","Quiet"],"evs":{"def":252,"spa":4,"spd":252}},
-    {"moves":[["Curse"],["Earthquake"],["Ice Beam","Surf"],["Rest","Self-Destruct"]],"item":["Leftovers"],"ability":["Oblivious","Water Veil"],"nature":["Brave"],"evs":{"def":188,"spd":252,"atk":68}},
+    {"moves":[["Water Spout"],["Ice Beam","Body Slam"],["Sleep Talk"],["Rest"]],"item":["Leftovers"],"ability":["Water Veil"],"nature":["Modest","Quiet"],"evs":{"def":252,"spa":4,"spd":252}},
+    {"moves":[["Curse"],["Earthquake"],["Ice Beam","Surf"],["Rest","Self-Destruct"]],"item":["Leftovers"],"ability":["Water Veil"],"nature":["Brave"],"evs":{"def":188,"spd":252,"atk":68}},
   ],
   "Whiscash": [
     {"moves":[["Earthquake"],["Ice Beam"],["Surf","Sleep Talk"],["Rest"]],"item":["Leftovers"],"ability":["Oblivious"],"nature":["Relaxed"],"evs":{"def":192,"spa":64,"hp":252}},

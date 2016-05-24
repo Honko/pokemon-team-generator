@@ -319,8 +319,8 @@ setdex.adv.uu = {
     {"moves":[["Curse"],["Earthquake"],["Ice Beam"],["Rest"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Sassy"],"evs":{"spa":52,"spd":16,"hp":224,"atk":216}},
   ],
   "Xatu": [
-    {"moves":[["Baton Pass"],["Calm Mind"],["Wish"],["Psychic"]],"item":["Leftovers"],"ability":["Early Bird","Synchronize"],"nature":["Quiet","Modest"],"evs":{"def":184,"spa":74,"hp":252}},
-    {"moves":[["Reflect"],["Calm Mind"],["Psychic"],["Wish"]],"item":["Leftovers"],"ability":["Early Bird","Synchronize"],"nature":["Timid"],"evs":{"spa":32,"hp":252,"spe":224}},
+    {"moves":[["Baton Pass"],["Calm Mind"],["Wish"],["Psychic"]],"item":["Leftovers"],"ability":["Synchronize"],"nature":["Quiet","Modest"],"evs":{"def":184,"spa":74,"hp":252}},
+    {"moves":[["Reflect"],["Calm Mind"],["Psychic"],["Wish"]],"item":["Leftovers"],"ability":["Synchronize"],"nature":["Timid"],"evs":{"spa":32,"hp":252,"spe":224}},
     {"moves":[["Calm Mind","Hidden Power Dark"],["Thief"],["Psychic"],["Wish"]],"item":["Lum Berry"],"ability":["Synchronize"],"nature":["Timid"],"evs":{"spa":32,"hp":252,"spe":224}},
   ],
   "Yanma": [

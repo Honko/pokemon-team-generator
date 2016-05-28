@@ -142,10 +142,10 @@ const VIABILITY_RANKINGS = {
         },
         nu: {
             // http://www.smogon.com/forums/threads/dpp-nu-viability-ranking.3512254/
-            S: ["Charizard","Jynx","Medicham","Tauros"],
-            A: ["Haunter","Hypno","Magmortar","Regirock","Skuntank","Slowking","Vileplume","Gardevoir","Gligar","Hitmonchan","Lickilicky","Manectric","Sandslash","Cacturne","Dodrio","Floatzel","Magneton","Meganium","Nidoqueen","Quagsire","Whiscash"],
-            B: ["Drifblim","Electrode","Golduck","Golem","Lapras","Ninetales","Politoed","Shiftry","Typhlosion","Venomoth","Victreebel","Cradily","Dusclops","Gabite","Glalie","Gorebyss","Piloswine","Pinsir","Poliwrath","Camerupt","Grumpig","Jumpluff","Linoone","Mantine","Marowak","Porygon2","Regice","Rhydon"],
-            C: ["Articuno","Banette","Electabuzz","Gastrodon","Glaceon","Machoke","Muk","Persian","Probopass","Purugly","Raichu","Roselia","Sharpedo","Slaking","Sneasel","Torkoal","Ampharos","Armaldo","Crawdaunt","Huntail","Kadabra","Lopunny","Mr. Mime","Monferno","Raticate","Relicanth","Xatu","Bastiodon","Bellossom","Butterfree","Chatot","Dewgong","Dragonair","Flareon","Girafarig","Golbat","Luxray","Metang","Rampardos","Rapidash","Swalot","Vigoroth","Zangoose"],
+            S: ["Charizard","Medicham","Tauros","Regirock","Skuntank","Slowking"],
+            A: ["Haunter","Jynx","Magmortar","Gardevoir","Gligar","Hitmonchan","Hypno","Lickilicky","Manectric","Sandslash","Dodrio","Drifblim","Floatzel","Magneton","Meganium","Nidoqueen","Vileplume"],
+            B: ["Cacturne","Electrode","Golem","Ninetales","Politoed","Quagsire","Shiftry","Typhlosion","Venomoth","Victreebel","Whiscash","Cradily","Dusclops","Glalie","Gorebyss","Grumpig","Jumpluff","Lapras","Piloswine","Pinsir","Poliwrath","Porygon2","Regice","Camerupt","Gabite","Gastrodon","Golduck","Linoone","Mantine","Marowak","Muk","Rhydon","Sharpedo"],
+            C: ["Articuno","Crawdaunt","Electabuzz","Glaceon","Machoke","Persian","Probopass","Purugly","Raichu","Rapidash","Roselia","Slaking","Sneasel","Torkoal","Walrein","Ampharos","Armaldo","Banette","Huntail","Kadabra","Lopunny","Mr. Mime","Monferno","Raticate","Relicanth","Solrock","Xatu","Bastiodon","Bellossom","Butterfree","Chatot","Dewgong","Dragonair","Flareon","Girafarig","Golbat","Luxray","Metang","Rampardos","Swalot","Vigoroth","Zangoose"],
         },
         // couldn't find anything for DPP LC :(
     },

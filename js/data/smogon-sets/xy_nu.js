@@ -217,6 +217,9 @@ setdex.xy.nu = {
   "Malamar": [
     {"moves":[["Knock Off"],["Superpower"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
+  "Manectric": [
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Manectite"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
   "Mantine": [
     {"moves":[["Defog"],["Scald"],["Air Slash"],["Toxic","Protect"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Calm"],"evs":{"def":240,"spd":16,"hp":252}},
     {"moves":[["Hydro Pump"],["Scald"],["Air Slash"],["Signal Beam"]],"item":["Choice Specs"],"ability":["Water Absorb"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -301,8 +304,7 @@ setdex.xy.nu = {
     {"moves":[["Nasty Plot"],["Thunderbolt"],["Focus Blast"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Rampardos": [
-    {"moves":[["Stealth Rock"],["Stone Edge"],["Endeavor"],["Earthquake"]],"item":["Focus Sash"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Rock Slide"],["Zen Headbutt"],["Fire Punch"],["Superpower"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Head Smash"],["Rock Slide"],["Superpower"],["Zen Headbutt","Earthquake"]],"item":["Choice Scarf"],"ability":["Sheer Force"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Regice": [
     {"moves":[["Ice Beam"],["Thunderbolt"],["Focus Blast","Toxic"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Modest"],"evs":{"spa":252,"hp":216,"spe":40}},

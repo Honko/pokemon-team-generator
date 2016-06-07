@@ -156,6 +156,10 @@ setdex.xy.ru = {
   "Hitmontop": [
     {"moves":[["Rapid Spin"],["Close Combat"],["Foresight"],["Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
+  "Hoopa": [
+    {"moves":[["Trick Room"],["Shadow Ball"],["Psyshock","Psychic"],["Focus Blast"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Shadow Ball"],["Focus Blast"],["Psyshock","Nasty Plot"],["Substitute","Nasty Plot"]],"item":["Salac Berry","Life Orb","Leftovers"],"ability":["Magician"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+  ],
   "Houndoom": [
     {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Hidden Power Water","Hidden Power Steel"]],"item":["Life Orb"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
@@ -205,7 +209,7 @@ setdex.xy.ru = {
     {"moves":[["Reflect"],["Light Screen"],["Thunder Wave"],["Psyshock"]],"item":["Light Clay"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":236,"hp":248,"spe":24}},
   ],
   "Mesprit": [
-    {"moves":[["Psychic"],["Ice Beam"],["Stealth Rock"],["Healing Wish"]],"item":["Colbur Berry","Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Stealth Rock"],["Healing Wish"],["Psyshock"],["Dazzling Gleam"]],"item":["Colbur Berry"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mr. Mime": [
     {"moves":[["Healing Wish"],["Dazzling Gleam"],["Shadow Ball"],["Focus Blast"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -276,6 +280,13 @@ setdex.xy.ru = {
     {"moves":[["Psyshock","Psychic"],["Heat Wave"],["Roost"],["Energy Ball","Dazzling Gleam"]],"item":["Life Orb"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Calm Mind"],["Psycho Shift"],["Roost"],["Air Slash"]],"item":["Flame Orb"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"spa":4,"hp":252,"spe":252}},
   ],
+  "Slowking": [
+    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psyshock","Dragon Tail","Ice Beam"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Trick Room"],["Scald","Surf"],["Psyshock"],["Fire Blast","Ice Beam","Nasty Plot"]],"item":["Leftovers","Life Orb"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":8,"hp":248},"ivs":{"spe":0}},
+    {"moves":[["Calm Mind","Nasty Plot"],["Scald"],["Psyshock"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":8,"hp":248}},
+    {"moves":[["Scald"],["Psychic","Psyshock"],["Dragon Tail"],["Fire Blast","Ice Beam"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
+    {"moves":[["Surf","Scald"],["Psyshock","Future Sight"],["Fire Blast","Ice Beam"],["Trick"]],"item":["Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
+  ],
   "Smeargle": [
     {"moves":[["Spore","Dark Void"],["Stealth Rock"],["Sticky Web"],["Explosion","Whirlwind","Nuzzle"]],"item":["Focus Sash"],"ability":["Own Tempo","Technician"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
@@ -314,6 +325,11 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Psyshock"],["Thunder Wave"],["U-turn","Dazzling Gleam"]],"item":["Leftovers","Colbur Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":64,"hp":252,"spe":192}},
     {"moves":[["Reflect"],["Light Screen"],["Memento"],["Stealth Rock"]],"item":["Light Clay"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
+  "Venusaur": [
+    {"moves":[["Leaf Storm"],["Sludge Bomb"],["Synthesis"],["Sleep Powder","Knock Off"]],"item":["Life Orb"],"ability":["Overgrow","Chlorophyll"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Growth"],["Giga Drain"],["Sludge Bomb"],["Sleep Powder","Hidden Power Fire","Solar Beam"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Giga Drain"],["Sludge Bomb"],["Synthesis"],["Leech Seed","Knock Off"]],"item":["Black Sludge"],"ability":["Overgrow"],"nature":["Bold"],"evs":{"def":216,"spa":24,"spd":16,"hp":252}},
+  ],
   "Virizion": [
     {"moves":[["Swords Dance"],["Close Combat"],["Leaf Blade"],["Stone Edge","Zen Headbutt"]],"item":["Lum Berry","Life Orb"],"ability":["Justified"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Calm Mind"],["Giga Drain"],["Focus Blast"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Justified"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -322,6 +338,6 @@ setdex.xy.ru = {
     {"moves":[["Quiver Dance"],["Hurricane"],["Sleep Powder"],["Substitute","Energy Ball"]],"item":["Sky Plate","Focus Sash"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Weezing": [
-    {"moves":[["Toxic Spikes"],["Will-O-Wisp"],["Sludge Bomb"],["Flamethrower","Pain Split"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Will-O-Wisp"],["Sludge Bomb"],["Pain Split","Toxic Spikes"],["Taunt","Toxic Spikes"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":28,"spd":228,"hp":252}},
   ],
 };

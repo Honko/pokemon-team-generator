@@ -364,7 +364,7 @@ setdex.dpp.nu = {
     {"moves":[["Agility"],["Air Slash","Bug Buzz"],["Hydro Pump","Roost"],["Baton Pass"]],"item":["Leftovers","Life Orb"],"ability":["Intimidate"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mawile": [
-    {"moves":[["Swords Dance"],["Baton Pass"],["Taunt"],["Substitute","Iron Head"]],"item":["Leftovers"],"ability":["Hyper Cutter","Intimidate"],"nature":["Jolly"],"evs":{"def":28,"hp":252,"spe":228}},
+    {"moves":[["Swords Dance"],["Baton Pass"],["Taunt"],["Substitute","Iron Head"]],"item":["Leftovers"],"ability":["Intimidate","Hyper Cutter"],"nature":["Jolly"],"evs":{"def":28,"hp":252,"spe":228}},
   ],
   "Medicham": [
     {"moves":[["High Jump Kick","Brick Break"],["Psycho Cut"],["Ice Punch","Thunder Punch"],["Trick","Ice Punch"]],"item":["Choice Scarf"],"ability":["Pure Power"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

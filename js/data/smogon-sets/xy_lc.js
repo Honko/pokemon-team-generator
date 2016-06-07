@@ -260,8 +260,7 @@ setdex.xy.lc = {
     {"moves":[["Earthquake"],["Slack Off"],["Stealth Rock"],["Whirlwind","Rock Tomb"]],"item":["Eviolite"],"ability":["Sand Stream"],"nature":["Careful"],"evs":{"def":132,"spd":180,"hp":132,"spe":20,"atk":20}},
   ],
   "Honedge": [
-    {"moves":[["Swords Dance"],["Iron Head"],["Sacred Sword"],["Shadow Sneak","Shadow Claw"]],"item":["Eviolite"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"def":116,"spd":140,"spe":52,"atk":196}},
-    {"moves":[["Autotomize"],["Iron Head"],["Sacred Sword","Shadow Claw"],["Destiny Bond"]],"item":["Eviolite","Berry Juice"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"def":116,"spd":60,"spe":132,"atk":196}},
+    {"moves":[["Iron Head"],["Shadow Sneak"],["Pursuit","Swords Dance"],["Sacred Sword","Rock Slide"]],"item":["Berry Juice","Eviolite"],"ability":["No Guard"],"nature":["Careful"],"evs":{"def":36,"spd":220,"hp":76,"spe":52,"atk":116}},
   ],
   "Hoppip": [
     {"moves":[["Sleep Powder"],["Acrobatics","Bullet Seed"],["Substitute","U-turn"],["Swords Dance","Aromatherapy","U-turn"]],"item":["Berry Juice"],"ability":["Infiltrator"],"nature":["Jolly","Adamant"],"evs":{"hp":76,"spe":196,"atk":236}},
@@ -440,6 +439,7 @@ setdex.xy.lc = {
   "Porygon": [
     {"moves":[["Recover"],["Ice Beam","Tri Attack"],["Psychic","Tri Attack"],["Thunder Wave"]],"item":["Eviolite"],"ability":["Trace","Download"],"nature":["Calm"],"evs":{"def":196,"spd":76,"hp":236}},
     {"moves":[["Tri Attack"],["Psychic"],["Hidden Power Fire","Hidden Power Fighting","Ice Beam"],["Recover"]],"item":["Eviolite"],"ability":["Download"],"nature":["Modest"],"evs":{"def":40,"spa":240,"hp":156,"spe":40}},
+    {"moves":[["Tri Attack"],["Psychic"],["Ice Beam"],["Trick","Thunderbolt","Hyper Beam"]],"item":["Choice Scarf"],"ability":["Download"],"nature":["Timid","Modest"],"evs":{"def":36,"spa":236,"spe":196}},
   ],
   "Pumpkaboo-Small": [
     {"moves":[["Bullet Seed"],["Fire Blast"],["Shadow Sneak"],["Rock Slide","Destiny Bond"]],"item":["Life Orb"],"ability":["Frisk"],"nature":["Naughty","Naive"],"evs":{"def":36,"spa":4,"spe":228,"atk":228},"ivs":{"hp":0}},
@@ -647,8 +647,8 @@ setdex.xy.lc = {
     {"moves":[["Taunt"],["Thunderbolt"],["Volt Switch"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Static","Aftermath"],"nature":["Timid"],"evs":{"def":40,"spa":236,"spe":196},"ivs":{"hp":1}},
   ],
   "Vullaby": [
-    {"moves":[["Roost"],["Knock Off"],["Brave Bird"],["Defog","U-turn"]],"item":["Eviolite"],"ability":["Overcoat"],"nature":["Impish"],"evs":{"def":236,"spd":76,"hp":116,"atk":76}},
     {"moves":[["Brave Bird"],["Knock Off"],["Roost"],["U-turn","Heat Wave"]],"item":["Eviolite"],"ability":["Overcoat"],"nature":["Jolly"],"evs":{"spd":76,"hp":116,"spe":116,"atk":156}},
+    {"moves":[["Roost"],["Knock Off"],["Brave Bird"],["Defog","U-turn"]],"item":["Eviolite"],"ability":["Overcoat"],"nature":["Impish"],"evs":{"def":236,"spd":76,"hp":116,"atk":76}},
     {"moves":[["Brave Bird"],["Knock Off"],["U-turn"],["Rock Smash","Heat Wave"]],"item":["Choice Scarf"],"ability":["Overcoat"],"nature":["Jolly","Adamant"],"evs":{"spd":76,"spe":196,"atk":236}},
     {"moves":[["Nasty Plot"],["Dark Pulse"],["Air Slash"],["Hidden Power Fighting","Heat Wave"]],"item":["Eviolite","Berry Juice"],"ability":["Weak Armor"],"nature":["Modest"],"evs":{"spa":240,"hp":116,"spe":120}},
   ],

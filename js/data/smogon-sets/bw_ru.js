@@ -455,7 +455,7 @@ setdex.bw.ru = {
   "Sceptile": [
     {"moves":[["Substitute"],["Giga Drain"],["Focus Blast"],["Hidden Power Rock"]],"item":["Life Orb"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Leaf Storm"],["Focus Blast"],["Hidden Power Rock"],["Giga Drain"]],"item":["Life Orb","Choice Specs"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
-    {"moves":[["Swords Dance"],["Leaf Blade"],["Drain Punch","Earthquake"],["Acrobatics","Rock Slide"]],"item":["Flying Gem","Life Orb"],"ability":["Overgrow","Unburden"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Swords Dance"],["Leaf Blade"],["Drain Punch","Earthquake"],["Acrobatics","Rock Slide"]],"item":["Flying Gem","Life Orb"],"ability":["Unburden","Overgrow"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Substitute"],["Leech Seed"],["Leaf Storm","Giga Drain"],["Hidden Power Fire","Focus Blast"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Scolipede": [

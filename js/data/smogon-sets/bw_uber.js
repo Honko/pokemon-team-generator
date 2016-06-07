@@ -315,10 +315,10 @@ setdex.bw.uber = {
     {"moves":[["Stealth Rock"],["Taunt","Magic Coat"],["U-turn"],["Fake Out","Magic Coat"]],"item":["Lum Berry"],"ability":["Synchronize"],"nature":["Jolly"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
   "Mewtwo": [
-    {"moves":[["Psystrike"],["Ice Beam"],["Aura Sphere","Fire Blast"],["Fire Blast","Calm Mind"]],"item":["Life Orb"],"ability":["Pressure","Unnerve"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Calm Mind"],["Psystrike"],["Recover"],["Flamethrower","Aura Sphere","Ice Beam"]],"item":["Leftovers"],"ability":["Pressure","Unnerve"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
-    {"moves":[["Taunt"],["Recover"],["Will-O-Wisp","Toxic"],["Psystrike","Light Screen","Substitute"]],"item":["Leftovers"],"ability":["Pressure","Unnerve"],"nature":["Timid"],"evs":{"spd":72,"hp":252,"spe":184}},
-    {"moves":[["Psystrike"],["Ice Beam"],["Aura Sphere","Fire Blast","Flamethrower"],["Fire Blast","Trick","Flamethrower"]],"item":["Choice Scarf"],"ability":["Pressure","Unnerve"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Psystrike"],["Ice Beam"],["Aura Sphere","Fire Blast"],["Fire Blast","Calm Mind"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Calm Mind"],["Psystrike"],["Recover"],["Flamethrower","Aura Sphere","Ice Beam"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
+    {"moves":[["Taunt"],["Recover"],["Will-O-Wisp","Toxic"],["Psystrike","Light Screen","Substitute"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spd":72,"hp":252,"spe":184}},
+    {"moves":[["Psystrike"],["Ice Beam"],["Aura Sphere","Fire Blast","Flamethrower"],["Fire Blast","Trick","Flamethrower"]],"item":["Choice Scarf"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Omastar": [
     {"moves":[["Hydro Pump"],["Ice Beam"],["Surf"],["Earth Power","Hidden Power Rock"]],"item":["Choice Specs"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},

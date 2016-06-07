@@ -41,9 +41,9 @@ const VIABILITY_RANKINGS = {
         uu: {
             // http://www.smogon.com/forums/threads/oras-uu-viability-rankings-v4.3555277/
             S: ["Hydreigon","Aerodactyl","Salamence","Suicune"],
-            A: ["Entei","Swampert","Alakazam","Cobalion","Mamoswine","Gyarados","Florges","Krookodile","Celebi","Sceptile","Beedrill","Sharpedo","Sableye","Whimsicott","Reuniclus","Feraligatr","Blastoise","Nidoqueen","Infernape","Empoleon","Toxicroak","Heracross","Snorlax","Crawdaunt","Sylveon","Cresselia","Azelf"],
-            B: ["Tentacruel","Alomomola","Kyurem","Tornadus","Houndoom","Slowking","Lucario","Crobat","Mienshao","Rotom-Mow","Gardevoir","Escavalier","Milotic","Roserade","Chandelure","Conkeldurr","Absol","Froslass","Nidoking","Porygon2","Abomasnow","Aggron","Ampharos","Bronzong","Chesnaught","Diancie","Doublade","Dragalge","Forretress","Gligar","Hoopa","Heliolisk","Jellicent","Machamp","Mandibuzz","Metagross","Porygon-Z","Rotom-Heat","Shaymin","Slurpuff","Tyrantrum","Umbreon","Venomoth","Arcanine","Aromatisse","Blissey","Cloyster","Darmanitan","Espeon","Galvantula","Qwilfish","Shuckle","Steelix","Tangrowth","Virizion"],
-            C: ["Donphan","Dugtrio","Fletchinder","Haxorus","Honchkrow","Kingdra","Magneton","Meloetta","Seismitoad","Weezing","Uxie","Yanmega","Zoroark","Gastrodon","Goodra","Moltres","Noivern","Omastar","Pangoro","Rhyperior","Togetic","Accelgor","Druddigon","Exploud","Flygon","Glalie","Granbull","Hitmonlee","Jolteon","Shedinja","Venusaur"],
+            A: ["Entei","Swampert","Alakazam","Cobalion","Mamoswine","Krookodile","Gyarados","Celebi","Florges","Sceptile","Beedrill","Sharpedo","Sableye","Whimsicott","Reuniclus","Blastoise","Nidoqueen","Infernape","Feraligatr","Empoleon","Sylveon","Toxicroak","Heracross","Snorlax","Cresselia"],
+            B: ["Tentacruel","Crobat","Mienshao","Alomomola","Kyurem","Tornadus","Escavalier","Lucario","Crawdaunt","Houndoom","Slowking","Gardevoir","Roserade","Chandelure","Azelf","Rotom-Mow","Conkeldurr","Nidoking","Milotic","Froslass","Porygon2","Absol","Abomasnow","Arcanine","Aggron","Ampharos","Bronzong","Chesnaught","Diancie","Doublade","Dragalge","Forretress","Gligar","Heliolisk","Jellicent","Machamp","Mandibuzz","Metagross","Porygon-Z","Rotom-Heat","Shaymin","Slurpuff","Tyrantrum","Umbreon","Venomoth","Aromatisse","Blissey","Cloyster","Darmanitan","Espeon","Galvantula","Hoopa","Qwilfish","Shuckle","Steelix","Tangrowth","Virizion"],
+            C: ["Donphan","Dugtrio","Fletchinder","Haxorus","Honchkrow","Kingdra","Magneton","Meloetta","Seismitoad","Weezing","Uxie","Yanmega","Zoroark","Gastrodon","Goodra","Moltres","Noivern","Omastar","Pangoro","Rhyperior","Togetic","Accelgor","Druddigon","Exploud","Glalie","Granbull","Hitmonlee","Jolteon","Shedinja","Venusaur"],
         },
         ru: {
             // http://www.smogon.com/forums/threads/ru-viability-rankings-thread.3558546/
@@ -55,16 +55,16 @@ const VIABILITY_RANKINGS = {
         nu: {
             // http://www.smogon.com/forums/threads/oras-nu-viability-rankings.3555650/
             S: ["Tauros"],
-            A: ["Audino","Garbodor","Jynx","Kangaskhan","Magmortar","Musharna","Pyroar","Rhydon","Rotom","Samurott","Shiftry","Steelix","Swellow","Archeops","Barbaracle","Charizard","Combusken","Floatzel","Lanturn","Lilligant","Ludicolo","Mesprit","Scyther","Vivillon","Weezing","Xatu","Abomasnow","Aurorus","Hariyama","Hitmonchan","Kabutops","Malamar","Mismagius","Omastar","Skuntank"],
-            B: ["Aggron","Ferroseed","Gastrodon","Gourgeist-Super","Haunter","Piloswine","Pinsir","Primeape","Rotom-Fan","Vileplume","Carracosta","Claydol","Grumpig","Liepard","Manectric","Mantine","Miltank","Pelipper","Poliwrath","Smeargle","Sliggoo","Articuno","Cacturne","Camerupt","Chatot","Electivire","Golurk","Gourgeist-Small","Misdreavus","Mr. Mime","Ninetales","Prinplup","Regirock","Roselia","Torterra","Zangoose"],
-            C: ["Bouffalant","Clefairy","Cradily","Exeggutor","Gorebyss","Kecleon","Klinklang","Lapras","Mawile","Raichu","Tangela","Throh","Victreebel","Altaria","Beheeyem","Drifblim","Duosion","Gogoat","Jumpluff","Kadabra","Leafeon","Linoone","Marowak","Muk","Rampardos","Regice","Relicanth","Vanilluxe","Cryogonal","Dodrio","Electrode","Fraxure","Frogadier","Golem","Metang","Ninjask","Pawniard","Rotom-Frost","Sandslash","Shedinja","Vigoroth","Volbeat","Vullaby"],
+            A: ["Garbodor","Jynx","Kangaskhan","Magmortar","Mesprit","Musharna","Pyroar","Rhydon","Rotom","Samurott","Shiftry","Steelix","Swellow","Archeops","Audino","Barbaracle","Charizard","Combusken","Floatzel","Lanturn","Lilligant","Ludicolo","Scyther","Vivillon","Weezing","Xatu","Abomasnow","Aurorus","Hariyama","Hitmonchan","Kabutops","Malamar","Mismagius","Omastar","Skuntank"],
+            B: ["Aggron","Ferroseed","Gastrodon","Gourgeist-Super","Haunter","Piloswine","Pinsir","Primeape","Rotom-Fan","Vileplume","Carracosta","Claydol","Grumpig","Liepard","Manectric","Mantine","Miltank","Pelipper","Poliwrath","Smeargle","Sliggoo","Torterra","Articuno","Cacturne","Camerupt","Chatot","Electivire","Golurk","Gourgeist-Small","Misdreavus","Mr. Mime","Ninetales","Prinplup","Regirock","Roselia","Zangoose"],
+            C: ["Bouffalant","Clefairy","Cradily","Exeggutor","Kecleon","Klinklang","Lapras","Mawile","Raichu","Tangela","Throh","Sawsbuck","Victreebel","Altaria","Beheeyem","Drifblim","Duosion","Gogoat","Gorebyss","Jumpluff","Kadabra","Leafeon","Linoone","Marowak","Muk","Rampardos","Regice","Relicanth","Vanilluxe","Cryogonal","Dodrio","Electrode","Fraxure","Frogadier","Golem","Metang","Ninjask","Pawniard","Rotom-Frost","Sandslash","Shedinja","Vigoroth","Volbeat","Vullaby"],
         },
         pu: {
             // http://www.smogon.com/forums/threads/pu-viability-rankings.3528743/
             S: ["Floatzel","Machoke"],
-            A: ["Rotom-Frost","Leafeon","Monferno","Golem","Mr. Mime","Grumpig","Stoutland","Roselia","Stunfisk","Audino","Zebstrika","Pawniard","Dodrio","Regice","Vullaby","Chatot","Relicanth","Mawile","Jumpluff","Simipour","Gourgeist-Super","Simisage","Electrode","Arbok","Kadabra","Metang","Cryogonal","Politoed","Bouffalant","Raichu","Crustle","Articuno","Dusknoir","Tangela","Probopass","Ursaring"],
-            B: ["Ninjask","Murkrow","Misdreavus","Quilladin","Altaria","Swanna","Rapidash","Fraxure","Gabite","Huntail","Simisear","Clefairy","Ninetales","Camerupt","Gogoat","Basculin","Drifblim","Duosion","Golduck","Gorebyss","Gourgeist-Small","Hippopotas","Lapras","Leavanny","Lumineon","Mightyena","Prinplup","Purugly","Sawsbuck","Solrock","Armaldo","Beheeyem","Electabuzz","Kingler","Klang","Seaking","Venipede","Vibrava","Volbeat"],
-            C: ["Avalugg","Beartic","Glalie","Krokorok","Marowak","Meowstic-M","Rampardos","Regigigas","Trapinch","Zweilous","Butterfree","Carbink","Dusclops","Luxray","Munchlax","Weepinbell","Ampharos","Banette","Chinchou","Furfrou","Glaceon","Hypno","Lickilicky","Lopunny","Shedinja","Swoobat","Swalot","Torkoal","Vanilluxe","Wartortle","Wigglytuff"],
+            A: ["Rotom-Frost","Leafeon","Monferno","Golem","Mr. Mime","Grumpig","Stoutland","Roselia","Stunfisk","Zebstrika","Pawniard","Dodrio","Regice","Vullaby","Chatot","Relicanth","Mawile","Jumpluff","Simipour","Gourgeist-Super","Simisage","Arbok","Metang","Electrode","Audino","Kadabra","Politoed","Articuno","Swanna","Crustle","Cryogonal","Bouffalant","Raichu","Clefairy","Dusknoir","Quilladin","Tangela","Probopass","Ursaring"],
+            B: ["Ninjask","Murkrow","Misdreavus","Rapidash","Altaria","Gabite","Duosion","Huntail","Simisear","Fraxure","Ninetales","Camerupt","Gogoat","Basculin","Beheeyem","Drifblim","Golduck","Gorebyss","Gourgeist-Small","Hippopotas","Lapras","Leavanny","Lumineon","Mightyena","Prinplup","Purugly","Solrock","Armaldo","Electabuzz","Kingler","Klang","Sawsbuck","Seaking","Vibrava","Volbeat"],
+            C: ["Avalugg","Beartic","Chinchou","Krokorok","Marowak","Meowstic-M","Rampardos","Regigigas","Trapinch","Venipede","Zweilous","Butterfree","Carbink","Dusclops","Glalie","Luxray","Munchlax","Weepinbell","Ampharos","Banette","Furfrou","Glaceon","Hypno","Lickilicky","Lopunny","Shedinja","Swoobat","Swalot","Torkoal","Vanilluxe","Wartortle","Wigglytuff"],
         },
         lc: {
             // http://www.smogon.com/forums/threads/lc-viability-rankings-2-0.3547566/
@@ -209,8 +209,8 @@ const VIABILITY_RANKINGS = {
             // http://www.smogon.com/forums/threads/rby-ou-viability-ranking-mark-ii.3572352/
             S: ["Chansey","Exeggutor","Snorlax","Tauros"],
             A: ["Alakazam","Lapras","Starmie","Zapdos"],
-            B: ["Gengar","Golem","Jolteon","Jynx","Rhydon","Slowbro"],
-            C: ["Articuno","Cloyster","Dragonite","Hypno","Persian","Victreebel"],
+            B: ["Cloyster","Gengar","Golem","Jolteon","Jynx","Rhydon","Slowbro"],
+            C: ["Articuno","Dragonite","Hypno","Persian","Victreebel"],
         },
         // couldn't find anything for RBY UU :(
     },

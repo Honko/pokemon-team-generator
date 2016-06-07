@@ -172,6 +172,10 @@ setdex.bw.ou = {
     {"moves":[["Baton Pass"],["Calm Mind","Substitute"],["Stored Power"],["Hidden Power Fighting"]],"item":["Leftovers"],"ability":["Magic Bounce"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
     {"moves":[["Psyshock","Psychic"],["Hidden Power Fire"],["Signal Beam","Grass Knot"],["Baton Pass","Protect"]],"item":["Life Orb"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
+  "Excadrill": [
+    {"moves":[["Rapid Spin"],["Earthquake"],["Swords Dance"],["Rock Slide","Substitute"]],"item":["Leftovers"],"ability":["Mold Breaker"],"nature":["Adamant"],"evs":{"spd":252,"hp":176,"spe":20,"atk":60}},
+    {"moves":[["Swords Dance"],["Earthquake"],["Rock Slide","Rapid Spin"],["Iron Head","Rapid Spin","Shadow Claw"]],"item":["Life Orb","Air Balloon"],"ability":["Sand Rush"],"nature":["Adamant","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
+  ],
   "Exeggutor": [
     {"moves":[["Leaf Storm","Psychic"],["Wood Hammer"],["Nature Power"],["Hidden Power Fire","Sleep Powder"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Rash"],"evs":{"spa":140,"spe":212,"atk":156}},
     {"moves":[["Leaf Storm"],["Psyshock","Psychic"],["Hidden Power Fire"],["Nature Power","Sleep Powder","Giga Drain"]],"item":["Life Orb","Choice Specs"],"ability":["Chlorophyll"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":4,"spe":252}},

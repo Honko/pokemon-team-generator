@@ -2,17 +2,11 @@ setdex.rby.uber = {
   "Alakazam": [
     {"moves":[["Psychic"],["Recover"],["Thunder Wave"],["Reflect","Seismic Toss"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Articuno": [
-    {"moves":[["Blizzard"],["Agility"],["Double-Edge","Ice Beam","Rest"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
-  ],
   "Chansey": [
     {"moves":[["Ice Beam"],["Soft-Boiled"],["Thunder Wave","Counter"],["Thunderbolt","Counter"]],"item":[],"ability":[],"nature":[]},
   ],
   "Cloyster": [
     {"moves":[["Clamp"],["Blizzard"],["Hyper Beam"],["Explosion"]],"item":[],"ability":[],"nature":[]},
-  ],
-  "Dragonite": [
-    {"moves":[["Agility"],["Wrap"],["Hyper Beam"],["Surf","Blizzard"]],"item":[],"ability":[],"nature":[]},
   ],
   "Exeggutor": [
     {"moves":[["Sleep Powder"],["Psychic"],["Explosion"],["Stun Spore","Double-Edge","Mega Drain"]],"item":[],"ability":[],"nature":[]},
@@ -42,9 +36,6 @@ setdex.rby.uber = {
     {"moves":[["Submission","Body Slam"],["Psychic"],["Hyper Beam"],["Recover"]],"item":[],"ability":[],"nature":[]},
     {"moves":[["Psychic"],["Barrier"],["Thunder Wave"],["Recover"]],"item":[],"ability":[],"nature":[]},
   ],
-  "Persian": [
-    {"moves":[["Slash"],["Bubble Beam"],["Hyper Beam"],["Thunderbolt","Body Slam","Screech"]],"item":[],"ability":[],"nature":[]},
-  ],
   "Rhydon": [
     {"moves":[["Earthquake"],["Rock Slide"],["Substitute"],["Body Slam"]],"item":[],"ability":[],"nature":[]},
   ],
@@ -60,10 +51,6 @@ setdex.rby.uber = {
   ],
   "Tauros": [
     {"moves":[["Body Slam"],["Hyper Beam"],["Earthquake"],["Blizzard"]],"item":[],"ability":[],"nature":[]},
-  ],
-  "Victreebel": [
-    {"moves":[["Razor Leaf"],["Swords Dance"],["Sleep Powder"],["Hyper Beam","Body Slam"]],"item":[],"ability":[],"nature":[]},
-    {"moves":[["Razor Leaf"],["Stun Spore"],["Wrap"],["Hyper Beam"]],"item":[],"ability":[],"nature":[]},
   ],
   "Zapdos": [
     {"moves":[["Thunderbolt"],["Drill Peck"],["Thunder Wave"],["Agility"]],"item":[],"ability":[],"nature":[]},

@@ -94,6 +94,9 @@ setdex.xy.pu = {
   "Corsola": [
     {"moves":[["Stealth Rock"],["Recover"],["Scald"],["Toxic"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"spa":4,"spd":252,"hp":252}},
   ],
+  "Crustle": [
+    {"moves":[["Stealth Rock"],["Spikes"],["Shell Smash","Knock Off"],["Rock Blast"]],"item":["Custap Berry"],"ability":["Sturdy"],"nature":["Naughty"],"evs":{"def":4,"spe":252,"atk":252},"ivs":{"def":0,"spd":0,"hp":0}},
+  ],
   "Cryogonal": [
     {"moves":[["Freeze-Dry"],["Rapid Spin"],["Recover"],["Hidden Power Fighting"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
@@ -196,7 +199,7 @@ setdex.xy.pu = {
   ],
   "Golem": [
     {"moves":[["Stealth Rock"],["Earthquake"],["Stone Edge","Rock Blast"],["Explosion","Sucker Punch"]],"item":["Custap Berry","Weakness Policy"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Stealth Rock"],["Earthquake"],["Stone Edge","Rock Blast"],["Sucker Punch","Toxic"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spd":240,"hp":248,"atk":20}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["Stone Edge"],["Toxic","Sucker Punch"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"spd":224,"hp":252,"atk":32}},
     {"moves":[["Sunny Day"],["Stealth Rock"],["Explosion"],["Earthquake","Stone Edge"]],"item":["Heat Rock"],"ability":["Sturdy"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Gorebyss": [
@@ -215,10 +218,10 @@ setdex.xy.pu = {
     {"moves":[["Substitute"],["Leech Seed"],["Will-O-Wisp"],["Rock Slide","Disable"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Jolly","Timid"],"evs":{"def":104,"hp":152,"spe":252}},
   ],
   "Gourgeist-Super": [
-    {"moves":[["Will-O-Wisp"],["Synthesis"],["Seed Bomb"],["Foul Play"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Will-O-Wisp"],["Synthesis"],["Foul Play"],["Leech Seed"]],"item":["Colbur Berry","Leftovers"],"ability":["Frisk"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Grumpig": [
-    {"moves":[["Psychic"],["Focus Blast"],["Taunt"],["Shadow Ball","Toxic","Thunder Wave"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Modest"],"evs":{"spa":252,"hp":160,"spe":96}},
+    {"moves":[["Psychic"],["Focus Blast"],["Taunt"],["Shadow Ball","Toxic","Thunder Wave"]],"item":["Leftovers","Colbur Berry"],"ability":["Thick Fat"],"nature":["Timid"],"evs":{"spa":252,"hp":80,"spe":176}},
     {"moves":[["Psychic"],["Toxic","Thunder Wave"],["Heal Bell","Taunt"],["Protect","Whirlwind"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Heatmor": [
@@ -302,6 +305,9 @@ setdex.xy.pu = {
   ],
   "Masquerain": [
     {"moves":[["Quiver Dance"],["Bug Buzz"],["Air Slash"],["Ice Beam","Hydro Pump"]],"item":["Focus Sash"],"ability":["Intimidate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+  ],
+  "Mawile": [
+    {"moves":[["Play Rough"],["Iron Head"],["Fire Blast"],["Sucker Punch"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Naughty"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Meganium": [
     {"moves":[["Aromatherapy"],["Synthesis"],["Giga Drain"],["Dragon Tail","Toxic"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},

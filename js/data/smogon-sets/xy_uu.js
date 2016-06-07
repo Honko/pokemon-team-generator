@@ -64,6 +64,11 @@ setdex.xy.uu = {
   "Camerupt": [
     {"moves":[["Fire Blast"],["Earth Power"],["Ancient Power"],["Hidden Power Grass","Will-O-Wisp"]],"item":["Cameruptite"],"ability":["Solid Rock"],"nature":["Modest"],"evs":{"def":4,"spa":252,"hp":252}},
   ],
+  "Celebi": [
+    {"moves":[["Recover"],["Baton Pass"],["Giga Drain","Seed Bomb"],["Nasty Plot","Substitute","Swords Dance"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold","Impish"],"evs":{"def":148,"hp":252,"spe":108}},
+    {"moves":[["Giga Drain"],["Recover"],["Baton Pass","Thunder Wave"],["Stealth Rock","Healing Wish","Perish Song"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":156,"spd":84,"hp":252,"spe":16}},
+    {"moves":[["Nasty Plot"],["Giga Drain"],["Recover"],["Earth Power","Hidden Power Fire"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":148,"hp":252,"spe":108}},
+  ],
   "Chandelure": [
     {"moves":[["Fire Blast"],["Shadow Ball"],["Energy Ball"],["Trick","Memento"]],"item":["Choice Scarf"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Fire Blast","Flamethrower"],["Shadow Ball"],["Energy Ball"],["Trick"]],"item":["Choice Specs"],"ability":["Flash Fire"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -87,6 +92,10 @@ setdex.xy.uu = {
   ],
   "Cofagrigus": [
     {"moves":[["Trick Room"],["Shadow Ball"],["Nasty Plot"],["Hidden Power Fighting","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Mummy"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
+  ],
+  "Conkeldurr": [
+    {"moves":[["Drain Punch"],["Mach Punch"],["Knock Off","Ice Punch"],["Ice Punch","Stone Edge"]],"item":["Assault Vest"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spd":236,"spe":20,"atk":252}},
+    {"moves":[["Mach Punch"],["Drain Punch","Superpower"],["Ice Punch"],["Thunder Punch","Poison Jab"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"hp":48,"spe":208,"atk":252}},
   ],
   "Crawdaunt": [
     {"moves":[["Swords Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Focus Sash","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -300,6 +309,10 @@ setdex.xy.uu = {
     {"moves":[["Perish Song"],["Hyper Voice","U-turn"],["Heal Bell","U-turn","Knock Off"],["Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":["Serene Grace"],"nature":["Calm","Careful"],"evs":{"def":4,"spd":252,"hp":252}},
     {"moves":[["Relic Song"],["Close Combat"],["Return"],["Knock Off"]],"item":["Life Orb"],"ability":["Serene Grace"],"nature":["Naive"],"evs":{"spa":40,"spe":216,"atk":252}},
   ],
+  "Metagross": [
+    {"moves":[["Stealth Rock"],["Meteor Mash"],["Earthquake"],["Explosion","Zen Headbutt"]],"item":["Life Orb","Shuca Berry"],"ability":["Clear Body"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Meteor Mash"],["Earthquake"],["Zen Headbutt"],["Explosion","Trick"]],"item":["Choice Band"],"ability":["Clear Body"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+  ],
   "Mienshao": [
     {"moves":[["High Jump Kick"],["U-turn"],["Knock Off"],["Stone Edge"]],"item":["Choice Scarf"],"ability":["Reckless","Regenerator"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["High Jump Kick"],["Knock Off"],["U-turn"],["Poison Jab","Stone Edge","Fake Out","Hidden Power Ice"]],"item":["Life Orb"],"ability":["Regenerator","Reckless"],"nature":["Jolly","Naive"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -438,6 +451,9 @@ setdex.xy.uu = {
     {"moves":[["Stealth Rock"],["Waterfall"],["Earthquake"],["Ice Punch"]],"item":["Swampertite"],"ability":["Damp"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
     {"moves":[["Scald"],["Earthquake"],["Rest"],["Sleep Talk"]],"item":["Swampertite"],"ability":["Damp"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
     {"moves":[["Curse"],["Earthquake"],["Rest"],["Ice Punch","Scald"]],"item":["Swampertite"],"ability":["Damp"],"nature":["Careful","Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
+  ],
+  "Sylveon": [
+    {"moves":[["Hyper Voice"],["Psyshock"],["Hidden Power Fire","Hidden Power Ground"],["Baton Pass"]],"item":["Choice Specs"],"ability":["Pixilate"],"nature":["Modest"],"evs":{"spa":252,"hp":240,"spe":16}},
   ],
   "Tangrowth": [
     {"moves":[["Sleep Powder"],["Leech Seed","Synthesis"],["Giga Drain","Leaf Storm"],["Knock Off","Toxic","Protect"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":4,"hp":252}},

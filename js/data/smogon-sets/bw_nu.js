@@ -345,6 +345,10 @@ setdex.bw.nu = {
     {"moves":[["Thunderbolt"],["Superpower"],["Hidden Power Grass"],["Volt Switch","Signal Beam"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Rash"],"evs":{"spa":252,"spe":196,"atk":60}},
     {"moves":[["Wild Charge"],["Superpower"],["Ice Fang"],["Volt Switch","Crunch"]],"item":["Choice Band","Choice Scarf"],"ability":["Intimidate","Guts"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
+  "Machoke": [
+    {"moves":[["Dynamic Punch"],["Payback"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},
+    {"moves":[["Dynamic Punch"],["Substitute"],["Payback"],["Toxic"]],"item":["Eviolite"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"def":4,"hp":252,"atk":252}},
+  ],
   "Magcargo": [
     {"moves":[["Stealth Rock"],["Recover"],["Lava Plume"],["Toxic"]],"item":["Leftovers"],"ability":["Flame Body"],"nature":["Bold"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
@@ -606,7 +610,7 @@ setdex.bw.nu = {
     {"moves":[["Double-Edge"],["Superpower"],["Sucker Punch"],["Trick Room"]],"item":["Life Orb"],"ability":["Contrary"],"nature":["Brave"],"evs":{"spd":4,"hp":252,"atk":252},"ivs":{"spe":0}},
   ],
   "Stantler": [
-    {"moves":[["Double-Edge"],["Sucker Punch"],["Earthquake"],["Toxic"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Jolly","Adamant"],"evs":{"spd":252,"hp":4,"atk":252}},
+    {"moves":[["Double-Edge"],["Sucker Punch"],["Earthquake"],["Toxic"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Stoutland": [
     {"moves":[["Return"],["Crunch"],["Superpower"],["Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"spd":4,"hp":252,"atk":252}},

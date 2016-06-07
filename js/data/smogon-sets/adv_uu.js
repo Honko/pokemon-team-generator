@@ -64,6 +64,9 @@ setdex.adv.uu = {
   "Electrode": [
     {"moves":[["Thunderbolt"],["Thunder Wave","Substitute"],["Hidden Power Grass"],["Explosion"]],"item":["Leftovers","Liechi Berry"],"ability":["Soundproof","Static"],"nature":["Hasty"],"evs":{"spa":168,"spe":176,"atk":164}},
   ],
+  "Exploud": [
+    {"moves":[["Return"],["Shadow Ball","Earthquake"],["Substitute","Earthquake"],["Flamethrower","Fire Blast","Overheat"]],"item":["Leftovers"],"ability":["Soundproof"],"nature":["Adamant"],"evs":{"hp":220,"spe":108,"atk":180}},
+  ],
   "Fearow": [
     {"moves":[["Quick Attack"],["Drill Peck"],["Return"],["Hidden Power Ground"]],"item":["Choice Band"],"ability":["Keen Eye"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
     {"moves":[["Baton Pass"],["Agility","Substitute"],["Return"],["Hidden Power Ground"]],"item":["Leftovers","Liechi Berry"],"ability":["Keen Eye"],"nature":["Adamant","Jolly"],"evs":{"def":4,"hp":252,"atk":252}},
@@ -151,6 +154,9 @@ setdex.adv.uu = {
   "Lunatone": [
     {"moves":[["Baton Pass"],["Calm Mind"],["Hypnosis"],["Psychic","Ice Beam"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":240,"hp":252,"spe":16}},
     {"moves":[["Hypnosis"],["Psychic"],["Ice Beam"],["Calm Mind"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":240,"hp":252,"spe":16}},
+  ],
+  "Magmar": [
+    {"moves":[["Flamethrower","Fire Blast"],["Cross Chop","Focus Punch"],["Thunder Punch"],["Hidden Power Grass","Hidden Power Ice"]],"item":["Leftovers"],"ability":["Flame Body"],"nature":["Mild"],"evs":{"spa":252,"spe":192,"atk":64}},
   ],
   "Manectric": [
     {"moves":[["Thunderbolt"],["Substitute"],["Crunch"],["Hidden Power Ice","Hidden Power Grass"]],"item":["Petaya Berry"],"ability":["Static"],"nature":["Timid"],"evs":{"spa":248,"hp":44,"spe":216}},

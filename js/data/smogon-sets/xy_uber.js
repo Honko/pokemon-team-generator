@@ -27,8 +27,8 @@ setdex.xy.uber = {
     {"moves":[["Judgment"],["Recover"],["Will-O-Wisp"],["Toxic"]],"item":["Zap Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":84,"hp":248,"spe":176}},
   ],
   "Arceus-Fairy": [
-    {"moves":[["Judgment"],["Recover"],["Defog"],["Toxic","Will-O-Wisp"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":204,"hp":248,"spe":56}},
-    {"moves":[["Calm Mind"],["Recover"],["Judgment"],["Earth Power","Will-O-Wisp"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":8,"hp":248,"spe":252}},
+    {"moves":[["Recover"],["Stone Edge"],["Earth Power"],["Judgment"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
+    {"moves":[["Stealth Rock"],["Recover"],["Judgment"],["Toxic","Earth Power"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Bold","Timid"],"evs":{"def":204,"hp":248,"spe":56}},
   ],
   "Arceus-Fighting": [
     {"moves":[["Judgment"],["Recover"],["Thunder Wave"],["Ice Beam","Stone Edge"]],"item":["Fist Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":252,"hp":160,"spe":96}},

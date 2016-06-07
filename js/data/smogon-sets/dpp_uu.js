@@ -544,7 +544,7 @@ setdex.dpp.uu = {
     {"moves":[["Agility"],["Air Slash","Bug Buzz"],["Hydro Pump","Roost"],["Baton Pass"]],"item":["Leftovers","Life Orb"],"ability":["Intimidate"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mawile": [
-    {"moves":[["Swords Dance"],["Baton Pass"],["Taunt"],["Substitute","Iron Head"]],"item":["Leftovers"],"ability":["Hyper Cutter","Intimidate"],"nature":["Jolly"],"evs":{"def":28,"hp":252,"spe":228}},
+    {"moves":[["Swords Dance"],["Baton Pass"],["Taunt"],["Substitute","Iron Head"]],"item":["Leftovers"],"ability":["Intimidate","Hyper Cutter"],"nature":["Jolly"],"evs":{"def":28,"hp":252,"spe":228}},
   ],
   "Medicham": [
     {"moves":[["High Jump Kick","Brick Break"],["Psycho Cut"],["Ice Punch","Thunder Punch"],["Trick","Ice Punch"]],"item":["Choice Scarf"],"ability":["Pure Power"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -901,10 +901,10 @@ setdex.dpp.uu = {
     {"moves":[["Gravity"],["Hypnosis"],["Earthquake"],["Return"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Steelix": [
-    {"moves":[["Stealth Rock"],["Earthquake"],["Gyro Ball","Stone Edge"],["Roar","Toxic","Explosion"]],"item":["Leftovers"],"ability":["Rock Head","Sturdy"],"nature":["Sassy","Relaxed"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
-    {"moves":[["Earthquake"],["Explosion"],["Stealth Rock"],["Stone Edge","Iron Head","Roar"]],"item":["Passho Berry","Occa Berry"],"ability":["Rock Head","Sturdy"],"nature":["Adamant"],"evs":{"spd":244,"hp":100,"atk":164}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["Gyro Ball","Stone Edge"],["Roar","Toxic","Explosion"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Sassy","Relaxed"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
+    {"moves":[["Earthquake"],["Explosion"],["Stealth Rock"],["Stone Edge","Iron Head","Roar"]],"item":["Passho Berry","Occa Berry"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spd":244,"hp":100,"atk":164}},
     {"moves":[["Torment"],["Substitute"],["Toxic"],["Earthquake","Gyro Ball"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful","Sassy"],"evs":{"spd":132,"hp":252,"atk":124}},
-    {"moves":[["Curse"],["Earthquake"],["Gyro Ball"],["Explosion","Rest"]],"item":["Leftovers","Chesto Berry"],"ability":["Rock Head","Sturdy"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
+    {"moves":[["Curse"],["Earthquake"],["Gyro Ball"],["Explosion","Rest"]],"item":["Leftovers","Chesto Berry"],"ability":["Sturdy"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
   ],
   "Sudowoodo": [
     {"moves":[["Stone Edge"],["Wood Hammer"],["Low Kick","Earthquake"],["Explosion","Sucker Punch"]],"item":["Choice Band","Life Orb"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},

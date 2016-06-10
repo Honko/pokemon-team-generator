@@ -47,10 +47,10 @@ const VIABILITY_RANKINGS = {
         },
         ru: {
             // http://www.smogon.com/forums/threads/ru-viability-rankings-thread.3558546/
-            S: ["Steelix","Tyrantrum","Virizion"],
-            A: ["Alomomola","Diancie","Flygon","Meloetta","Sigilyph","Sneasel","Venusaur","Abomasnow","Camerupt","Emboar","Glalie","Hoopa","Fletchinder","Medicham","Seismitoad","Slowking","Spiritomb","Blastoise","Delphox","Drapion","Hitmonlee","Houndoom","Jellicent","Registeel","Rhyperior","Tangrowth"],
-            B: ["Absol","Aerodactyl","Dugtrio","Escavalier","Exploud","Gallade","Gurdurr","Jolteon","Malamar","Manectric","Qwilfish","Rotom","Rotom-Mow","Sawk","Scrafty","Accelgor","Aromatisse","Audino","Braviary","Bronzong","Druddigon","Garbodor","Granbull","Magneton","Mawile","Mesprit","Togetic","Weezing","Aggron","Eelektross","Musharna","Piloswine","Poliwrath","Pelipper","Roselia","Samurott","Smeargle","Vivillon"],
-            C: ["Clawitzer","Hariyama","Hitmontop","Jynx","Omastar","Rotom-Fan","Sceptile","Shiftry","Skuntank","Uxie","Archeops","Articuno","Ferroseed","Golbat","Gourgeist-Super","Kabutops","Ludicolo","Mr. Mime","Trevenant","Xatu","Aurorus","Banette","Barbaracle","Cofagrigus","Gastrodon","Klinklang","Lanturn","Liepard","Linoone","Rotom-Frost"],
+            S: ["Flygon","Venusaur","Virizion"],
+            A: ["Alomomola","Diancie","Medicham","Meloetta","Sigilyph","Slowking","Sneasel","Blastoise","Drapion","Dugtrio","Emboar","Glalie","Fletchinder","Magneton","Registeel","Rhyperior","Aerodactyl","Camerupt","Delphox","Escavalier","Hitmonlee","Hoopa","Jellicent","Sawk","Spiritomb","Tangrowth"],
+            B: ["Abomasnow","Absol","Audino","Braviary","Exploud","Gallade","Houndoom","Jolteon","Rotom-Mow","Seismitoad","Steelix","Uxie","Aggron","Aromatisse","Banette","Bronzong","Garbodor","Granbull","Gurdurr","Malamar","Mesprit","Qwilfish","Rotom","Vivillon","Weezing","Accelgor","Druddigon","Manectric","Mawile","Musharna","Piloswine","Poliwrath","Pelipper","Roselia","Samurott","Scrafty","Scyther","Togetic"],
+            C: ["Clawitzer","Eelektross","Golbat","Gourgeist-Super","Hitmontop","Jynx","Omastar","Sceptile","Skuntank","Smeargle","Archeops","Articuno","Ferroseed","Hariyama","Kabutops","Klinklang","Liepard","Ludicolo","Shiftry","Xatu","Aurorus","Barbaracle","Cofagrigus","Combusken","Gastrodon","Lanturn","Lilligant","Linoone","Rotom-Fan","Rotom-Frost","Trevenant"],
         },
         nu: {
             // http://www.smogon.com/forums/threads/oras-nu-viability-rankings.3555650/

@@ -28,6 +28,9 @@ setdex.xy.pu = {
   "Avalugg": [
     {"moves":[["Rapid Spin"],["Recover"],["Avalanche"],["Earthquake","Roar"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
+  "Banette": [
+    {"moves":[["Destiny Bond"],["Will-O-Wisp"],["Knock Off","Shadow Claw"],["Gunk Shot"]],"item":["Banettite"],"ability":["Frisk","Insomnia"],"nature":["Adamant"],"evs":{"def":56,"spe":200,"atk":252}},
+  ],
   "Basculin": [
     {"moves":[["Waterfall"],["Zen Headbutt"],["Ice Beam"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Adaptability"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
@@ -163,7 +166,7 @@ setdex.xy.pu = {
     {"moves":[["Flare Blitz"],["Superpower"],["Quick Attack"],["Baton Pass","Double-Edge"]],"item":["Choice Band"],"ability":["Flash Fire"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Floatzel": [
-    {"moves":[["Hydro Pump"],["Ice Beam"],["Hidden Power Grass"],["Surf","Switcheroo","Baton Pass"]],"item":["Life Orb","Choice Specs"],"ability":["Water Veil"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Hydro Pump"],["Ice Beam"],["Hidden Power Electric"],["Surf","Switcheroo","Baton Pass"]],"item":["Life Orb","Choice Specs"],"ability":["Water Veil"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Waterfall"],["Ice Punch"],["Aqua Jet"],["Return","Switcheroo","Pursuit"]],"item":["Choice Band"],"ability":["Water Veil"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Fraxure": [

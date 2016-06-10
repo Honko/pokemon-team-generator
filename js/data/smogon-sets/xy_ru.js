@@ -211,9 +211,6 @@ setdex.xy.ru = {
   "Mesprit": [
     {"moves":[["Stealth Rock"],["Healing Wish"],["Psyshock"],["Dazzling Gleam"]],"item":["Colbur Berry"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
-  "Mr. Mime": [
-    {"moves":[["Healing Wish"],["Dazzling Gleam"],["Shadow Ball"],["Focus Blast"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-  ],
   "Omastar": [
     {"moves":[["Stealth Rock"],["Spikes"],["Scald","Hydro Pump"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Shell Smash"],["Hydro Pump","Surf"],["Ice Beam"],["Hidden Power Grass"]],"item":["White Herb"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -298,9 +295,6 @@ setdex.xy.ru = {
     {"moves":[["Sucker Punch"],["Pursuit"],["Taunt"],["Will-O-Wisp"]],"item":["Black Glasses"],"ability":["Infiltrator"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
     {"moves":[["Calm Mind"],["Dark Pulse","Snarl"],["Rest"],["Sleep Talk","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Infiltrator"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
-  "Steelix": [
-    {"moves":[["Heavy Slam"],["Earthquake"],["Stealth Rock"],["Toxic","Roar"]],"item":["Steelixite"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spd":76,"hp":252,"spe":84,"atk":96}},
-  ],
   "Tangrowth": [
     {"moves":[["Leaf Storm"],["Focus Blast"],["Sludge Bomb"],["Sleep Powder","Giga Drain","Knock Off"]],"item":["Life Orb","Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":132,"spe":124}},
     {"moves":[["Giga Drain","Leaf Storm"],["Knock Off"],["Focus Blast","Hidden Power Fire"],["Earthquake","Rock Slide"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252}},
@@ -315,11 +309,6 @@ setdex.xy.ru = {
   ],
   "Typhlosion": [
     {"moves":[["Eruption"],["Fire Blast"],["Hidden Power Grass"],["Focus Blast"]],"item":["Choice Specs"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-  ],
-  "Tyrantrum": [
-    {"moves":[["Head Smash"],["Outrage"],["Superpower"],["Dragon Claw","Aerial Ace"]],"item":["Choice Scarf"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Rock Polish"],["Head Smash"],["Outrage","Dragon Claw"],["Earthquake"]],"item":["Life Orb","Stone Plate"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Head Smash"],["Outrage"],["Superpower"],["Earthquake"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Uxie": [
     {"moves":[["Stealth Rock"],["Psyshock"],["Thunder Wave"],["U-turn","Dazzling Gleam"]],"item":["Leftovers","Colbur Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":64,"hp":252,"spe":192}},

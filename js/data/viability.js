@@ -212,6 +212,12 @@ const VIABILITY_RANKINGS = {
             B: ["Cloyster","Gengar","Golem","Jolteon","Jynx","Rhydon","Slowbro"],
             C: ["Articuno","Dragonite","Hypno","Persian","Victreebel"],
         },
-        // couldn't find anything for RBY UU :(
+        uu: {
+            // http://www.smogon.com/forums/threads/rby-uu-general-discussion-roa-rotational-ladder.3573896/
+            S: ["Dragonite","Articuno","Moltres","Hypno"],
+            A: ["Persian","Dodrio","Raichu","Haunter","Golduck","Kadabra"],
+            B: ["Venusaur","Gyarados","Kangaskhan","Victreebel","Dugtrio","Vaporeon","Tentacruel","Sandslash","Omastar"],
+            C: ["Pinsir","Clefable","Poliwrath","Charizard","Electabuzz","Kingler","Nidoking","Machamp","Electrode","Tangela","Staryu","Rapidash","Raticate"],
+        },
     },
 };

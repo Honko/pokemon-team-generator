@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>ShakeItUp Pok&eacute;mon Team Generator</title>
+    <title>Random Pok&eacute;mon Team Generator</title>
     <link rel="icon" type="image/png" href="favicon.png" />
 
     <link rel="stylesheet" href="third-party/css/bootstrap.min.css">
@@ -16,11 +16,8 @@
 
 <body ng-controller="GeneratorController">
 
-    <div class="page-header text-center">
-        <h2>Random Pok&eacute;mon Team Generator<br /><small>created by Honko</small></h2>
-    </div>
-
     <div class="text-center">
+        <h3>Random Pok&eacute;mon Team Generator<br /><small>created by Honko</small></h3>
         <p>
             <div class="btn-group">
                 <label class="btn btn-default" ng-model="gen" uib-btn-radio="'rby'" ng-change="generateNewTeam()">RBY</label>
@@ -53,6 +50,9 @@
         <p>
             <div class="btn-group">
                 <button type="button" class="btn btn-primary" ng-click="generateTeam()">Shake it up!</button>
+            </div>
+            <div class="btn-group">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exportModal" ng-click="exportTeam()">Export!</button>
             </div>
         </p>
     </div>
@@ -88,11 +88,6 @@
                     <div class="col-xs-6 no-pad-right"><input class="form-control" type="text" ng-model="pokemon.moves[2]" ng-disabled="pokemon.locked" /></div>
                     <div class="col-xs-6 no-pad-left"><input class="form-control" type="text" ng-model="pokemon.moves[3]" ng-disabled="pokemon.locked" /></div>
                 </div>
-            </div>
-        </div>
-        <div class="text-center">
-            <div class="btn-group">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exportModal" ng-click="exportTeam()">Export!</button>
             </div>
         </div>
     </div>

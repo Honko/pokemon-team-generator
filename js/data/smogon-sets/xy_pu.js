@@ -343,8 +343,9 @@ setdex.xy.pu = {
     {"moves":[["Bug Buzz"],["Air Slash"],["Hidden Power Ground"],["U-turn"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mr. Mime": [
-    {"moves":[["Psychic"],["Dazzling Gleam"],["Healing Wish"],["Focus Blast","Baton Pass"]],"item":["Choice Scarf"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Psychic"],["Dazzling Gleam"],["Focus Blast"],["Healing Wish"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Psychic","Psyshock"],["Dazzling Gleam"],["Focus Blast"],["Healing Wish"]],"item":["Choice Scarf"],"ability":["Soundproof","Filter"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Nasty Plot"],["Dazzling Gleam"],["Psyshock"],["Focus Blast"]],"item":["Life Orb","Twisted Spoon"],"ability":["Soundproof","Filter"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Psyshock"],["Dazzling Gleam"],["Focus Blast"],["Healing Wish"]],"item":["Choice Specs"],"ability":["Soundproof","Filter"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Munchlax": [
     {"moves":[["Curse"],["Body Slam"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},
@@ -488,7 +489,7 @@ setdex.xy.pu = {
   ],
   "Stoutland": [
     {"moves":[["Return"],["Facade"],["Superpower"],["Crunch","Pursuit"]],"item":["Choice Band"],"ability":["Scrappy"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Return"],["Superpower"],["Crunch"],["Wild Charge"]],"item":["Life Orb","Choice Band"],"ability":["Sand Rush"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Return"],["Superpower"],["Crunch"],["Facade"]],"item":["Life Orb","Choice Band"],"ability":["Sand Rush"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Stunfisk": [
     {"moves":[["Stealth Rock"],["Discharge"],["Earth Power"],["Toxic"]],"item":["Leftovers","Passho Berry"],"ability":["Static"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
@@ -571,7 +572,7 @@ setdex.xy.pu = {
     {"moves":[["Dragon Dance"],["Earthquake"],["Waterfall"],["Stone Edge","Ice Beam"]],"item":["Life Orb"],"ability":["Hydration"],"nature":["Jolly","Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Wigglytuff": [
-    {"moves":[["Stealth Rock"],["Hyper Voice"],["Dazzling Gleam"],["Focus Blast","Fire Blast"]],"item":["Life Orb"],"ability":["Competitive"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Stealth Rock"],["Hyper Voice"],["Dazzling Gleam"],["Fire Blast","Focus Blast"]],"item":["Life Orb"],"ability":["Competitive"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Wormadam": [
     {"moves":[["Signal Beam"],["Leaf Storm"],["Giga Drain"],["Hidden Power Rock"]],"item":["Choice Specs"],"ability":["Anticipation"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},

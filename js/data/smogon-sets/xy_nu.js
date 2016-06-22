@@ -85,6 +85,9 @@ setdex.xy.nu = {
   "Dodrio": [
     {"moves":[["Brave Bird"],["Return"],["Knock Off"],["Quick Attack"]],"item":["Choice Band"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
+  "Drifblim": [
+    {"moves":[["Substitute"],["Acrobatics"],["Will-O-Wisp"],["Hex"]],"item":["Sitrus Berry"],"ability":["Unburden"],"nature":["Rash"],"evs":{"spa":240,"spe":180,"atk":88},"ivs":{"hp":30}},
+  ],
   "Duosion": [
     {"moves":[["Calm Mind"],["Psyshock"],["Acid Armor"],["Recover"]],"item":["Eviolite"],"ability":["Magic Guard"],"nature":["Bold"],"evs":{"def":252,"hp":252,"spe":4}},
   ],
@@ -113,8 +116,8 @@ setdex.xy.nu = {
     {"moves":[["Hydro Pump"],["Ice Beam"],["Gunk Shot","Grass Knot"],["Toxic Spikes"]],"item":["Life Orb"],"ability":["Protean"],"nature":["Naive","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Garbodor": [
-    {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Toxic Spikes","Seed Bomb"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Impish"],"evs":{"def":160,"hp":252,"spe":96}},
-    {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Seed Bomb","Toxic Spikes"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Spikes"],["Toxic Spikes"],["Gunk Shot"],["Seed Bomb","Drain Punch"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Impish"],"evs":{"def":200,"hp":252,"spe":56}},
+    {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Seed Bomb","Explosion"]],"item":["Rocky Helmet","Life Orb"],"ability":["Aftermath"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Gastrodon": [
     {"moves":[["Scald"],["Earth Power"],["Toxic"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":244,"spd":12,"hp":252}},
@@ -400,7 +403,8 @@ setdex.xy.nu = {
     {"moves":[["Solar Beam"],["Sludge Bomb"],["Weather Ball"],["Sleep Powder"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Vileplume": [
-    {"moves":[["Giga Drain"],["Moonlight"],["Sludge Bomb"],["Hidden Power Fire","Hidden Power Ground","Sleep Powder"]],"item":["Black Sludge"],"ability":["Effect Spore"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Giga Drain"],["Moonlight"],["Sludge Bomb"],["Sleep Powder","Hidden Power Fire","Worry Seed"]],"item":["Black Sludge"],"ability":["Effect Spore"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Giga Drain"],["Sludge Bomb"],["Moonlight"],["Hidden Power Ground","Hidden Power Fire"]],"item":["Black Sludge"],"ability":["Effect Spore"],"nature":["Modest"],"evs":{"spa":252,"hp":204,"spe":52}},
   ],
   "Vivillon": [
     {"moves":[["Quiver Dance"],["Hurricane"],["Sleep Powder"],["Energy Ball"]],"item":["Focus Sash"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},

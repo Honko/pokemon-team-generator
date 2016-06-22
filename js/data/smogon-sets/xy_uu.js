@@ -19,10 +19,6 @@ setdex.xy.uu = {
     {"moves":[["Stealth Rock"],["Roar","Toxic","Thunder Wave"],["Heavy Slam"],["Earthquake"]],"item":["Aggronite"],"ability":["Sturdy"],"nature":["Impish"],"evs":{"def":16,"spd":240,"hp":252}},
     {"moves":[["Curse"],["Heavy Slam","Iron Head"],["Rest"],["Sleep Talk"]],"item":["Aggronite"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
-  "Alakazam": [
-    {"moves":[["Psychic","Psyshock"],["Focus Blast"],["Shadow Ball"],["Dazzling Gleam","Calm Mind","Substitute"]],"item":["Life Orb"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Psychic"],["Shadow Ball"],["Focus Blast","Dazzling Gleam"],["Thunder Wave","Dazzling Gleam"]],"item":["Focus Sash"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-  ],
   "Alomomola": [
     {"moves":[["Scald"],["Wish"],["Protect"],["Toxic","Knock Off"]],"item":["Leftovers","Rocky Helmet"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":216,"hp":40}},
   ],

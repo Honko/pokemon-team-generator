@@ -17,6 +17,7 @@ setdex.xy.uber = {
   ],
   "Arceus-Dark": [
     {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Refresh"]],"item":["Dread Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":80,"hp":252,"spe":176}},
+    {"moves":[["Perish Song"],["Whirlpool"],["Judgment"],["Recover"]],"item":["Dread Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":84,"hp":248,"spe":176}},
   ],
   "Arceus-Dragon": [
     {"moves":[["Judgment"],["Toxic","Will-O-Wisp"],["Recover"],["Defog"]],"item":["Draco Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":204,"hp":248,"spe":56}},

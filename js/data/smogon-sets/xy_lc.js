@@ -88,6 +88,9 @@ setdex.xy.lc = {
   "Charmander": [
     {"moves":[["Fire Blast"],["Hidden Power Grass","Overheat"],["Ancient Power","Flamethrower"],["Dragon Pulse","Flamethrower"]],"item":["Choice Scarf","Life Orb"],"ability":["Solar Power"],"nature":["Modest","Timid"],"evs":{"def":12,"spa":200,"hp":44,"spe":236}},
   ],
+  "Cherubi": [
+    {"moves":[["Solar Beam"],["Weather Ball"],["Dazzling Gleam"],["Healing Wish"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"def":76,"spa":180,"spe":236},"ivs":{"hp":9}},
+  ],
   "Chespin": [
     {"moves":[["Seed Bomb"],["Synthesis"],["Spikes","Drain Punch"],["Zen Headbutt","Rock Slide","Drain Punch"]],"item":["Eviolite"],"ability":["Bulletproof"],"nature":["Impish"],"evs":{"def":156,"spd":236,"hp":68,"atk":28}},
     {"moves":[["Bulk Up"],["Synthesis"],["Seed Bomb"],["Rock Slide"]],"item":["Eviolite"],"ability":["Bulletproof"],"nature":["Impish"],"evs":{"spd":236,"hp":228,"atk":28}},
@@ -167,6 +170,9 @@ setdex.xy.lc = {
   "Drilbur": [
     {"moves":[["Earthquake"],["Rapid Spin","Swords Dance"],["Rock Slide","Rock Tomb"],["Stealth Rock","Swords Dance"]],"item":["Berry Juice","Life Orb","Eviolite"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":36,"spd":76,"hp":36,"spe":212,"atk":76}},
     {"moves":[["Earthquake"],["Rock Slide"],["Poison Jab"],["Rapid Spin"]],"item":["Choice Scarf"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
+  ],
+  "Drowzee": [
+    {"moves":[["Wish"],["Protect"],["Psychic"],["Thunder Wave"]],"item":["Eviolite"],"ability":["Insomnia"],"nature":["Bold"],"evs":{"def":156,"spa":12,"spd":196,"hp":116,"spe":20}},
   ],
   "Duskull": [
     {"moves":[["Pain Split"],["Will-O-Wisp"],["Substitute"],["Shadow Sneak"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Careful"],"evs":{"def":196,"spd":116,"hp":196}},
@@ -343,7 +349,8 @@ setdex.xy.lc = {
     {"moves":[["Light Screen"],["Reflect"],["Thunder Wave","Heal Bell","Toxic"],["Thunderbolt","Discharge"]],"item":["Eviolite","Berry Juice"],"ability":["Static"],"nature":["Bold"],"evs":{"def":196,"spd":76,"hp":236}},
   ],
   "Meowth": [
-    {"moves":[["Fake Out"],["Covet","Return"],["U-turn"],["Knock Off"]],"item":["Normal Gem","Life Orb"],"ability":["Technician"],"nature":["Jolly"],"evs":{"spd":36,"hp":36,"spe":196,"atk":236}},
+    {"moves":[["Fake Out"],["Feint","Return"],["Water Pulse"],["Aerial Ace","Knock Off","U-turn"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Hasty"],"evs":{"spa":36,"spd":36,"spe":196,"atk":236},"ivs":{"hp":19}},
+    {"moves":[["Nasty Plot"],["Round"],["Water Pulse"],["Hidden Power Fire","Thunderbolt"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Modest","Timid"],"evs":{"def":76,"spa":200,"spe":200},"ivs":{"hp":19}},
   ],
   "Mienfoo": [
     {"moves":[["Drain Punch"],["Knock Off"],["U-turn"],["Taunt","High Jump Kick","Acrobatics","Stone Edge"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"def":196,"spd":36,"spe":236}},
@@ -468,6 +475,7 @@ setdex.xy.lc = {
     {"moves":[["Return"],["Aerial Ace"],["Superpower"],["U-turn"]],"item":["Choice Scarf"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":36,"spe":196,"atk":252}},
   ],
   "Sandile": [
+    {"moves":[["Stealth Rock"],["Taunt","Pursuit"],["Earthquake"],["Stone Edge","Pursuit","Crunch"]],"item":["Eviolite"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":156,"spe":236,"atk":100}},
     {"moves":[["Earthquake"],["Crunch"],["Fire Fang"],["Pursuit","Stone Edge"]],"item":["Choice Scarf"],"ability":["Moxie"],"nature":["Adamant","Jolly"],"evs":{"def":76,"spe":236,"atk":180}},
   ],
   "Sandshrew": [

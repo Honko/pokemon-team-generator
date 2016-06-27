@@ -95,6 +95,9 @@ setdex.xy.nu = {
     {"moves":[["Wild Charge"],["Earthquake"],["Ice Punch"],["Hidden Power Grass","Meditate"]],"item":["Life Orb"],"ability":["Motor Drive","Vital Spirit"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Thunderbolt"],["Flamethrower"],["Earthquake"],["Hidden Power Grass"]],"item":["Life Orb"],"ability":["Motor Drive","Vital Spirit"],"nature":["Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
   ],
+  "Electrode": [
+    {"moves":[["Thunderbolt"],["Volt Switch"],["Hidden Power Grass"],["Signal Beam"]],"item":["Life Orb"],"ability":["Soundproof"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
   "Exeggutor": [
     {"moves":[["Leaf Storm"],["Giga Drain"],["Psychic","Psyshock"],["Hidden Power Fire","Sleep Powder"]],"item":["Life Orb","Choice Specs"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Solar Beam"],["Psychic","Psyshock"],["Hidden Power Fire"],["Sunny Day","Sleep Powder"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -221,7 +224,7 @@ setdex.xy.nu = {
     {"moves":[["Knock Off"],["Superpower"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Manectric": [
-    {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Manectite"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Life Orb","Expert Belt"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mantine": [
     {"moves":[["Defog"],["Scald"],["Air Slash"],["Toxic","Protect"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Calm"],"evs":{"def":240,"spd":16,"hp":252}},
@@ -329,8 +332,8 @@ setdex.xy.nu = {
     {"moves":[["Spikes"],["Leaf Storm"],["Sludge Bomb"],["Sleep Powder"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Modest"],"evs":{"spa":252,"hp":80,"spe":176}},
   ],
   "Rotom": [
-    {"moves":[["Hex"],["Will-O-Wisp"],["Volt Switch"],["Discharge","Shadow Ball"]],"item":["Spell Tag"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Volt Switch"],["Shadow Ball"],["Thunderbolt","Will-O-Wisp"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Hex"],["Will-O-Wisp"],["Volt Switch"],["Discharge","Shadow Ball"]],"item":["Spell Tag"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Shadow Ball"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Substitute"],["Will-O-Wisp"],["Hex"],["Discharge"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":8,"hp":248,"spe":252}},
     {"moves":[["Volt Switch"],["Hex"],["Will-O-Wisp"],["Pain Split"]],"item":["Sitrus Berry","Colbur Berry"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
   ],
@@ -397,7 +400,7 @@ setdex.xy.nu = {
     {"moves":[["Wood Hammer"],["Earthquake"],["Stealth Rock"],["Synthesis"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Adamant"],"evs":{"def":128,"hp":252,"atk":128}},
   ],
   "Vanilluxe": [
-    {"moves":[["Ice Beam"],["Freeze-Dry"],["Hidden Power Ground"],["Ice Shard","Signal Beam"]],"item":["Life Orb"],"ability":["Weak Armor"],"nature":["Mild","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Freeze-Dry"],["Ice Beam"],["Explosion"],["Ice Shard","Flash Cannon"]],"item":["Life Orb"],"ability":["Ice Body"],"nature":["Rash","Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
   ],
   "Victreebel": [
     {"moves":[["Solar Beam"],["Sludge Bomb"],["Weather Ball"],["Sleep Powder"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},

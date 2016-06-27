@@ -29,6 +29,10 @@ setdex.xy.ru = {
     {"moves":[["Wish"],["Protect"],["Moonblast"],["Aromatherapy"]],"item":["Leftovers"],"ability":["Aroma Veil"],"nature":["Bold"],"evs":{"def":244,"hp":252,"spe":12}},
     {"moves":[["Calm Mind"],["Moonblast"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Aroma Veil"],"nature":["Bold"],"evs":{"def":244,"hp":252,"spe":12}},
   ],
+  "Articuno": [
+    {"moves":[["Freeze-Dry"],["Hurricane"],["Roost"],["Ice Beam","Substitute"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Roost"],["Heal Bell"],["Freeze-Dry"],["Toxic","Haze"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Calm"],"evs":{"def":8,"spd":252,"hp":248}},
+  ],
   "Audino": [
     {"moves":[["Wish"],["Heal Bell"],["Protect"],["Knock Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
     {"moves":[["Dazzling Gleam"],["Fire Blast"],["Surf"],["Healing Wish"]],"item":["Audinite"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},
@@ -196,6 +200,9 @@ setdex.xy.ru = {
   "Malamar": [
     {"moves":[["Superpower"],["Knock Off"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Jolly"],"evs":{"spd":108,"hp":248,"spe":152}},
   ],
+  "Manectric": [
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Life Orb","Expert Belt"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+  ],
   "Mawile": [
     {"moves":[["Play Rough"],["Stealth Rock"],["Baton Pass"],["Swords Dance","Super Fang"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"hp":252,"atk":4}},
   ],
@@ -327,7 +334,7 @@ setdex.xy.ru = {
     {"moves":[["Calm Mind"],["Giga Drain"],["Focus Blast"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Justified"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Vivillon": [
-    {"moves":[["Quiver Dance"],["Hurricane"],["Sleep Powder"],["Substitute","Energy Ball"]],"item":["Sky Plate","Focus Sash"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Quiver Dance"],["Hurricane"],["Energy Ball"],["Sleep Powder"]],"item":["Focus Sash"],"ability":["Compound Eyes"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Weezing": [
     {"moves":[["Will-O-Wisp"],["Sludge Bomb"],["Pain Split","Toxic Spikes"],["Taunt","Toxic Spikes"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":28,"spd":228,"hp":252}},

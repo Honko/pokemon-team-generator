@@ -61,9 +61,10 @@ setdex.xy.uu = {
     {"moves":[["Fire Blast"],["Earth Power"],["Ancient Power"],["Hidden Power Grass","Will-O-Wisp"]],"item":["Cameruptite"],"ability":["Solid Rock"],"nature":["Modest"],"evs":{"def":4,"spa":252,"hp":252}},
   ],
   "Celebi": [
-    {"moves":[["Recover"],["Baton Pass"],["Giga Drain","Seed Bomb"],["Nasty Plot","Substitute","Swords Dance"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold","Impish"],"evs":{"def":148,"hp":252,"spe":108}},
-    {"moves":[["Giga Drain"],["Recover"],["Baton Pass","Thunder Wave"],["Stealth Rock","Healing Wish","Perish Song"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":156,"spd":84,"hp":252,"spe":16}},
-    {"moves":[["Nasty Plot"],["Giga Drain"],["Recover"],["Earth Power","Hidden Power Fire"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":148,"hp":252,"spe":108}},
+    {"moves":[["Nasty Plot"],["Giga Drain"],["Psychic"],["Dazzling Gleam","Recover"]],"item":["Leftovers","Life Orb"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Giga Drain","Psychic"],["Recover"],["Thunder Wave","Perish Song","Stealth Rock"],["Baton Pass","Perish Song","Stealth Rock"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":244,"hp":240,"spe":24}},
+    {"moves":[["Swords Dance","Nasty Plot"],["Baton Pass"],["Recover"],["Seed Bomb","Giga Drain"]],"item":["Leftovers","Weakness Policy"],"ability":["Natural Cure"],"nature":["Careful","Calm"],"evs":{"spd":244,"hp":240,"spe":24}},
+    {"moves":[["Stealth Rock"],["Leaf Storm","Energy Ball"],["Psychic"],["Earth Power","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Chandelure": [
     {"moves":[["Fire Blast"],["Shadow Ball"],["Energy Ball"],["Trick","Memento"]],"item":["Choice Scarf"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -456,7 +457,8 @@ setdex.xy.uu = {
     {"moves":[["Leaf Storm","Giga Drain"],["Focus Blast","Hidden Power Fire"],["Hidden Power Ice","Ancient Power","Knock Off"],["Sleep Powder"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":172,"spe":80}},
   ],
   "Tentacruel": [
-    {"moves":[["Rapid Spin"],["Toxic Spikes"],["Scald"],["Knock Off","Toxic","Sludge Bomb"]],"item":["Black Sludge"],"ability":["Liquid Ooze"],"nature":["Bold"],"evs":{"def":244,"hp":240,"spe":24}},
+    {"moves":[["Rapid Spin"],["Scald"],["Toxic Spikes"],["Haze","Acid Spray"]],"item":["Black Sludge"],"ability":["Liquid Ooze"],"nature":["Bold"],"evs":{"def":244,"hp":240,"spe":24}},
+    {"moves":[["Hydro Pump"],["Sludge Bomb"],["Ice Beam"],["Rapid Spin","Toxic Spikes"]],"item":["Black Sludge","Expert Belt"],"ability":["Clear Body"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Togetic": [
     {"moves":[["Seismic Toss","Dazzling Gleam"],["Roost"],["Defog"],["Heal Bell","Thunder Wave","Toxic"]],"item":["Eviolite"],"ability":["Serene Grace"],"nature":["Calm"],"evs":{"def":8,"spd":252,"hp":248}},

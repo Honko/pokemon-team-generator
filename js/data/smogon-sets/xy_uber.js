@@ -28,11 +28,11 @@ setdex.xy.uber = {
     {"moves":[["Judgment"],["Recover"],["Will-O-Wisp"],["Toxic"]],"item":["Zap Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":84,"hp":248,"spe":176}},
   ],
   "Arceus-Fairy": [
-    {"moves":[["Recover"],["Stone Edge"],["Earth Power"],["Judgment"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
+    {"moves":[["Recover"],["Stone Edge"],["Earth Power","Toxic"],["Judgment"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
     {"moves":[["Stealth Rock"],["Recover"],["Judgment"],["Toxic","Earth Power"]],"item":["Pixie Plate"],"ability":["Multitype"],"nature":["Bold","Timid"],"evs":{"def":204,"hp":248,"spe":56}},
   ],
   "Arceus-Fighting": [
-    {"moves":[["Judgment"],["Recover"],["Thunder Wave"],["Ice Beam","Stone Edge"]],"item":["Fist Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":252,"hp":160,"spe":96}},
+    {"moves":[["Judgment"],["Recover"],["Stone Edge"],["Ice Beam","Thunder Wave"]],"item":["Fist Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":252,"hp":160,"spe":96}},
   ],
   "Arceus-Fire": [
     {"moves":[["Calm Mind"],["Judgment"],["Thunder"],["Ice Beam","Earth Power"]],"item":["Flame Plate"],"ability":["Multitype"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -93,7 +93,7 @@ setdex.xy.uber = {
     {"moves":[["Trick Room"],["Lunar Dance"],["Toxic"],["Ice Beam","Magic Coat"]],"item":["Mental Herb","Rocky Helmet"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Darkrai": [
-    {"moves":[["Dark Void"],["Dark Pulse"],["Nasty Plot","Thunder"],["Sludge Bomb","Thunder"]],"item":["Life Orb"],"ability":["Bad Dreams"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Dark Void"],["Dark Pulse"],["Nasty Plot"],["Thunder","Sludge Bomb"]],"item":["Life Orb","Focus Sash"],"ability":["Bad Dreams"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Deoxys": [
     {"moves":[["Psycho Boost"],["Spikes"],["Taunt"],["Counter","Superpower"]],"item":["Chilan Berry"],"ability":["Pressure"],"nature":["Timid","Naive"],"evs":{"def":200,"hp":252,"spe":56}},
@@ -175,7 +175,7 @@ setdex.xy.uber = {
     {"moves":[["Wish"],["Thunder Wave","Body Slam"],["Iron Head"],["Protect","U-turn","Toxic"]],"item":["Leftovers"],"ability":["Serene Grace"],"nature":["Careful"],"evs":{"spd":224,"hp":252,"spe":32}},
   ],
   "Kangaskhan": [
-    {"moves":[["Fake Out"],["Earthquake"],["Sucker Punch","Crunch"],["Return","Double-Edge","Body Slam"]],"item":["Kangaskhanite"],"ability":["Scrappy"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Fake Out"],["Earthquake"],["Sucker Punch","Crunch"],["Return","Double-Edge","Body Slam"]],"item":["Kangaskhanite"],"ability":["Scrappy"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Klefki": [
     {"moves":[["Spikes"],["Thunder Wave"],["Toxic"],["Play Rough"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},

@@ -126,7 +126,7 @@ setdex.xy.pu = {
     {"moves":[["Outrage"],["Dragon Dance"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Marvel Scale"],"nature":["Careful"],"evs":{"spd":188,"hp":252,"spe":24,"atk":44}},
   ],
   "Drifblim": [
-    {"moves":[["Acrobatics"],["Will-O-Wisp"],["Substitute"],["Destiny Bond","Knock Off"]],"item":["Sitrus Berry","Liechi Berry"],"ability":["Unburden"],"nature":["Adamant"],"evs":{"def":32,"spd":36,"hp":12,"spe":176,"atk":252}},
+    {"moves":[["Acrobatics"],["Will-O-Wisp"],["Substitute"],["Knock Off","Destiny Bond"]],"item":["Liechi Berry"],"ability":["Unburden"],"nature":["Adamant"],"evs":{"def":32,"spd":36,"hp":12,"spe":176,"atk":252}},
     {"moves":[["Calm Mind"],["Shadow Ball"],["Hidden Power Fighting","Thunderbolt"],["Rest"]],"item":["Chesto Berry"],"ability":["Unburden"],"nature":["Modest"],"evs":{"def":32,"spa":252,"spd":40,"hp":8,"spe":176}},
   ],
   "Dunsparce": [

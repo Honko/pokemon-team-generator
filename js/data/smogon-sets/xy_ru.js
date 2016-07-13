@@ -43,7 +43,7 @@ setdex.xy.ru = {
     {"moves":[["Rock Polish"],["Hyper Voice"],["Earth Power"],["Freeze-Dry"]],"item":["Life Orb"],"ability":["Refrigerate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Banette": [
-    {"moves":[["Destiny Bond"],["Will-O-Wisp"],["Knock Off","Shadow Claw"],["Gunk Shot"]],"item":["Banettite"],"ability":["Frisk","Insomnia"],"nature":["Adamant"],"evs":{"def":56,"spe":200,"atk":252}},
+    {"moves":[["Knock Off"],["Will-O-Wisp"],["Shadow Claw"],["Shadow Sneak","Sucker Punch","Destiny Bond"]],"item":["Banettite"],"ability":["Insomnia","Frisk"],"nature":["Adamant"],"evs":{"hp":228,"spe":28,"atk":252}},
   ],
   "Barbaracle": [
     {"moves":[["Shell Smash"],["Razor Shell"],["Stone Edge"],["Poison Jab"]],"item":["Lum Berry","Shuca Berry"],"ability":["Tough Claws"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -222,8 +222,8 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Healing Wish"],["Psyshock"],["Dazzling Gleam"]],"item":["Colbur Berry"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Omastar": [
-    {"moves":[["Stealth Rock"],["Spikes"],["Scald","Hydro Pump"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Shell Smash"],["Hydro Pump","Surf"],["Ice Beam"],["Hidden Power Grass"]],"item":["White Herb"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Shell Smash"],["Hydro Pump"],["Ice Beam"],["Hidden Power Grass"]],"item":["Shuca Berry"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Stealth Rock"],["Spikes"],["Scald"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Weak Armor"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Pelipper": [
     {"moves":[["Roost"],["Scald"],["Defog"],["U-turn","Hurricane"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},

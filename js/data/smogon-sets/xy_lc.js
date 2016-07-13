@@ -468,7 +468,8 @@ setdex.xy.lc = {
     {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Megahorn","Aqua Tail"]],"item":["Eviolite"],"ability":["Lightning Rod"],"nature":["Adamant"],"evs":{"def":76,"spd":36,"hp":76,"spe":76,"atk":236}},
   ],
   "Riolu": [
-    {"moves":[["Swords Dance"],["High Jump Kick"],["Copycat"],["Iron Tail","Blaze Kick","Protect"]],"item":["Eviolite","Berry Juice"],"ability":["Prankster"],"nature":["Jolly","Adamant"],"evs":{"hp":116,"spe":196,"atk":196}},
+    {"moves":[["Swords Dance"],["High Jump Kick"],["Copycat"],["Zen Headbutt","Protect","Crunch"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Jolly","Adamant"],"evs":{"def":116,"spe":196,"atk":196},"ivs":{"hp":0}},
+    {"moves":[["Swords Dance"],["High Jump Kick"],["Copycat"],["Protect","Iron Tail"]],"item":["Eviolite","Roseli Berry"],"ability":["Prankster"],"nature":["Adamant"],"evs":{"spd":36,"hp":116,"spe":116,"atk":196}},
   ],
   "Rufflet": [
     {"moves":[["Bulk Up"],["Aerial Ace"],["Superpower","Return"],["Roost","Substitute"]],"item":["Eviolite","Berry Juice"],"ability":["Hustle"],"nature":["Impish"],"evs":{"def":116,"spd":196,"hp":116,"spe":36,"atk":12}},

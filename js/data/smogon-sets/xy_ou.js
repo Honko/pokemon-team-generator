@@ -58,9 +58,6 @@ setdex.xy.ou = {
     {"moves":[["Gyro Ball"],["Earthquake"],["Stealth Rock"],["Hidden Power Ice","Protect","Toxic"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
     {"moves":[["Trick Room"],["Stealth Rock"],["Gyro Ball"],["Explosion"]],"item":["Mental Herb","Focus Sash"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
   ],
-  "Camerupt": [
-    {"moves":[["Fire Blast"],["Earth Power"],["Ancient Power"],["Will-O-Wisp","Stealth Rock","Toxic"]],"item":["Cameruptite"],"ability":["Solid Rock"],"nature":["Modest"],"evs":{"spa":252,"hp":168,"spe":88}},
-  ],
   "Celebi": [
     {"moves":[["Recover"],["Baton Pass"],["Giga Drain","Seed Bomb"],["Nasty Plot","Substitute","Swords Dance"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold","Impish"],"evs":{"def":148,"hp":252,"spe":108}},
     {"moves":[["Giga Drain"],["Recover"],["Baton Pass","Thunder Wave"],["Stealth Rock","Healing Wish","Perish Song"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":156,"spd":84,"hp":252,"spe":16}},
@@ -140,7 +137,7 @@ setdex.xy.ou = {
     {"moves":[["Sacred Fire"],["Extreme Speed"],["Stone Edge"],["Bulldoze"]],"item":["Choice Band"],"ability":["Pressure"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Excadrill": [
-    {"moves":[["Earthquake"],["Iron Head"],["Rock Slide"],["Swords Dance","Rapid Spin"]],"item":["Life Orb","Air Balloon"],"ability":["Sand Rush"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Earthquake"],["Iron Head"],["Rock Slide"],["Swords Dance","Rapid Spin"]],"item":["Life Orb","Air Balloon"],"ability":["Sand Rush"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Earthquake"],["Iron Head"],["Rapid Spin"],["Toxic","Stealth Rock"]],"item":["Leftovers"],"ability":["Mold Breaker"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
     {"moves":[["Earthquake"],["Iron Head"],["Rock Slide"],["Rapid Spin"]],"item":["Choice Scarf"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
@@ -177,9 +174,6 @@ setdex.xy.ou = {
   "Gengar": [
     {"moves":[["Shadow Ball"],["Sludge Wave"],["Focus Blast"],["Taunt","Substitute","Icy Wind"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252},"ivs":{"hp":29}},
     {"moves":[["Hex"],["Taunt"],["Will-O-Wisp"],["Sludge Wave","Substitute"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},
-  ],
-  "Glalie": [
-    {"moves":[["Explosion"],["Double-Edge","Return"],["Earthquake"],["Freeze-Dry","Ice Shard"]],"item":["Glalitite"],"ability":["Inner Focus"],"nature":["Naughty","Naive"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Gliscor": [
     {"moves":[["Swords Dance"],["Earthquake"],["Knock Off","Facade"],["Roost"]],"item":["Toxic Orb"],"ability":["Poison Heal"],"nature":["Careful"],"evs":{"def":8,"spd":200,"hp":244,"spe":56}},
@@ -361,9 +355,6 @@ setdex.xy.ou = {
     {"moves":[["Knock Off"],["Will-O-Wisp"],["Recover"],["Foul Play","Toxic"]],"item":["Sablenite"],"ability":["Prankster"],"nature":["Careful"],"evs":{"def":112,"spd":144,"hp":252}},
     {"moves":[["Calm Mind"],["Shadow Ball"],["Recover"],["Will-O-Wisp"]],"item":["Sablenite"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
-  "Salamence": [
-    {"moves":[["Defog"],["Fire Blast"],["Hydro Pump","Earthquake"],["Roost"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Timid","Jolly"],"evs":{"def":180,"hp":248,"spe":80}},
-  ],
   "Sceptile": [
     {"moves":[["Leaf Storm"],["Dragon Pulse"],["Earthquake"],["Hidden Power Fire","Focus Blast"]],"item":["Sceptilite"],"ability":["Overgrow"],"nature":["Naive","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Dragon Pulse"],["Giga Drain"],["Focus Blast"],["Substitute"]],"item":["Sceptilite"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -413,8 +404,8 @@ setdex.xy.ou = {
     {"moves":[["Brave Bird"],["Double-Edge"],["Close Combat","Final Gambit"],["U-turn"]],"item":["Choice Scarf"],"ability":["Reckless"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Starmie": [
-    {"moves":[["Rapid Spin","Recover"],["Hydro Pump"],["Psychic","Thunderbolt"],["Ice Beam","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Analytic"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252},"ivs":{"hp":29}},
     {"moves":[["Scald"],["Rapid Spin"],["Recover"],["Psyshock","Reflect Type"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":4,"hp":252,"spe":252}},
+    {"moves":[["Rapid Spin","Recover"],["Hydro Pump"],["Psychic","Thunderbolt"],["Ice Beam","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Analytic"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252},"ivs":{"hp":29}},
   ],
   "Suicune": [
     {"moves":[["Scald"],["Rest"],["Roar"],["Calm Mind","Sleep Talk"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
@@ -427,9 +418,9 @@ setdex.xy.ou = {
     {"moves":[["Hyper Voice"],["Psyshock"],["Hidden Power Fire","Hidden Power Ground"],["Baton Pass"]],"item":["Choice Specs"],"ability":["Pixilate"],"nature":["Modest"],"evs":{"spa":252,"hp":240,"spe":16}},
   ],
   "Talonflame": [
-    {"moves":[["Brave Bird","Acrobatics"],["Flare Blitz"],["Swords Dance"],["Roost"]],"item":["Sharp Beak"],"ability":["Gale Wings"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Acrobatics","Brave Bird"],["Roost"],["Bulk Up","Taunt"],["Will-O-Wisp","Taunt"]],"item":[],"ability":["Gale Wings"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"spe":8}},
     {"moves":[["Acrobatics","Brave Bird"],["Roost"],["Swords Dance"],["Will-O-Wisp","Taunt"]],"item":[],"ability":["Gale Wings"],"nature":["Adamant"],"evs":{"hp":248,"spe":8,"atk":252}},
+    {"moves":[["Brave Bird","Acrobatics"],["Flare Blitz"],["Swords Dance"],["Roost"]],"item":["Sharp Beak"],"ability":["Gale Wings"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Brave Bird"],["Flare Blitz"],["U-turn"],["Steel Wing","Tailwind"]],"item":["Choice Band"],"ability":["Gale Wings"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Tangrowth": [

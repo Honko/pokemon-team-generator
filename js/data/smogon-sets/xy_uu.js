@@ -211,7 +211,7 @@ setdex.xy.uu = {
   "Gyarados": [
     {"moves":[["Substitute"],["Dragon Dance"],["Waterfall"],["Bounce","Earthquake"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Dragon Dance"],["Waterfall"],["Bounce","Earthquake"],["Earthquake","Double-Edge","Stone Edge"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Rest"],["Sleep Talk"],["Waterfall"],["Roar","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":184,"spd":52,"hp":216,"spe":48}},
+    {"moves":[["Rest"],["Sleep Talk"],["Waterfall"],["Roar","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":184,"spd":60,"hp":216,"spe":48}},
   ],
   "Haxorus": [
     {"moves":[["Swords Dance"],["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"]],"item":["Lum Berry"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},

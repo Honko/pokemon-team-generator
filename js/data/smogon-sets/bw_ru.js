@@ -342,6 +342,7 @@ setdex.bw.ru = {
     {"moves":[["Fire Blast"],["Hurricane"],["Hidden Power Grass"],["U-turn"]],"item":["Choice Specs"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Agility"],["Hurricane"],["Flamethrower"],["Roost","Hidden Power Grass"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Substitute"],["Roost"],["Toxic"],["Flamethrower"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":32,"hp":248,"spe":228}},
+    {"moves":[["Hurricane"],["Fire Blast"],["U-turn"],["Sleep Talk","Flamethrower"]],"item":["Choice Scarf"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mothim": [
     {"moves":[["Bug Buzz"],["Air Slash"],["U-turn"],["Giga Drain","Hidden Power Rock"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Rash","Mild"],"evs":{"spa":252,"spd":4,"spe":252}},

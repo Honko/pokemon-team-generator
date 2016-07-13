@@ -29,7 +29,7 @@ setdex.xy.pu = {
     {"moves":[["Rapid Spin"],["Recover"],["Avalanche"],["Earthquake","Roar"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Banette": [
-    {"moves":[["Destiny Bond"],["Will-O-Wisp"],["Knock Off","Shadow Claw"],["Gunk Shot"]],"item":["Banettite"],"ability":["Frisk","Insomnia"],"nature":["Adamant"],"evs":{"def":56,"spe":200,"atk":252}},
+    {"moves":[["Knock Off"],["Will-O-Wisp"],["Shadow Claw"],["Shadow Sneak","Sucker Punch","Destiny Bond"]],"item":["Banettite"],"ability":["Insomnia","Frisk"],"nature":["Adamant"],"evs":{"hp":228,"spe":28,"atk":252}},
   ],
   "Basculin": [
     {"moves":[["Waterfall"],["Zen Headbutt"],["Ice Beam"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Adaptability"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
@@ -150,7 +150,7 @@ setdex.xy.pu = {
     {"moves":[["Thunderbolt"],["Volt Switch"],["Focus Blast"],["Hidden Power Ice"]],"item":["Eviolite"],"ability":["Vital Spirit"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Electrode": [
-    {"moves":[["Thunderbolt"],["Volt Switch"],["Hidden Power Ice"],["Signal Beam","Taunt"]],"item":["Life Orb","Choice Specs"],"ability":["Soundproof"],"nature":["Modest"],"evs":{"spa":252,"hp":60,"spe":196}},
+    {"moves":[["Thunderbolt"],["Volt Switch"],["Hidden Power Ice"],["Signal Beam","Taunt"]],"item":["Life Orb","Choice Specs"],"ability":["Soundproof"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Rain Dance"],["Taunt"],["Thunder"],["Explosion","Volt Switch"]],"item":["Damp Rock"],"ability":["Soundproof"],"nature":["Timid"],"evs":{"spa":192,"hp":252,"spe":64}},
   ],
   "Emolga": [
@@ -276,7 +276,7 @@ setdex.xy.pu = {
     {"moves":[["Reflect"],["Light Screen"],["Encore"],["U-turn"]],"item":["Light Clay"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"hp":248,"spe":252,"atk":8}},
   ],
   "Lickilicky": [
-    {"moves":[["Wish"],["Protect"],["Body Slam"],["Knock Off","Dragon Tail","Heal Bell"]],"item":["Leftovers"],"ability":["Oblivious"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},
+    {"moves":[["Swords Dance"],["Return"],["Knock Off"],["Earthquake"]],"item":["Lum Berry","Leftovers"],"ability":["Oblivious"],"nature":["Adamant"],"evs":{"def":4,"hp":168,"spe":84,"atk":252}},
   ],
   "Lopunny": [
     {"moves":[["Switcheroo"],["Healing Wish"],["Return"],["High Jump Kick"]],"item":["Flame Orb"],"ability":["Klutz"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -292,10 +292,6 @@ setdex.xy.pu = {
   ],
   "Luxray": [
     {"moves":[["Wild Charge"],["Ice Fang"],["Superpower"],["Volt Switch"]],"item":["Choice Band"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
-  "Machoke": [
-    {"moves":[["Close Combat"],["Knock Off"],["Bullet Punch"],["Ice Punch"]],"item":["Eviolite"],"ability":["Guts"],"nature":["Adamant"],"evs":{"def":24,"spd":28,"hp":160,"spe":44,"atk":252}},
-    {"moves":[["Close Combat"],["Knock Off"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Guts"],"nature":["Adamant"],"evs":{"def":24,"spd":28,"hp":160,"spe":44,"atk":252}},
   ],
   "Magcargo": [
     {"moves":[["Stealth Rock"],["Lava Plume"],["Toxic","Ancient Power"],["Recover"]],"item":["Leftovers"],"ability":["Flame Body"],"nature":["Calm"],"evs":{"def":8,"spd":252,"hp":248}},
@@ -340,7 +336,7 @@ setdex.xy.pu = {
     {"moves":[["Close Combat"],["Flare Blitz"],["U-turn"],["Mach Punch","Rock Slide"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Mothim": [
-    {"moves":[["Bug Buzz"],["Air Slash"],["Hidden Power Ground"],["U-turn"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Bug Buzz"],["Air Slash"],["Hidden Power Ground"],["U-turn"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Rash"],"evs":{"spa":252,"spe":252,"atk":4}},
   ],
   "Mr. Mime": [
     {"moves":[["Psychic","Psyshock"],["Dazzling Gleam"],["Focus Blast"],["Healing Wish"]],"item":["Choice Scarf"],"ability":["Soundproof","Filter"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -557,7 +553,7 @@ setdex.xy.pu = {
     {"moves":[["Roar"],["Toxic"],["Surf"],["Protect","Super Fang","Encore"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Wartortle": [
-    {"moves":[["Rapid Spin"],["Scald"],["Foresight"],["Toxic"]],"item":["Eviolite"],"ability":["Torrent"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Rapid Spin"],["Scald"],["Foresight"],["Toxic"]],"item":["Eviolite"],"ability":["Torrent"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Watchog": [
     {"moves":[["Return"],["Low Kick"],["Knock Off"],["Seed Bomb"]],"item":["Life Orb"],"ability":["Analytic"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},

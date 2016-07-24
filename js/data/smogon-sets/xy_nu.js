@@ -123,7 +123,7 @@ setdex.xy.nu = {
     {"moves":[["Spikes"],["Gunk Shot"],["Drain Punch","Focus Blast"],["Seed Bomb","Explosion"]],"item":["Rocky Helmet","Life Orb"],"ability":["Aftermath"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Gastrodon": [
-    {"moves":[["Scald"],["Earth Power"],["Toxic"],["Recover"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":244,"spd":12,"hp":252}},
+    {"moves":[["Scald"],["Earth Power","Earthquake"],["Recover"],["Toxic"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold","Relaxed"],"evs":{"def":244,"hp":252,"spe":12}},
   ],
   "Gogoat": [
     {"moves":[["Bulk Up"],["Horn Leech"],["Substitute"],["Earthquake"]],"item":["Leftovers"],"ability":["Sap Sipper"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
@@ -225,7 +225,7 @@ setdex.xy.nu = {
     {"moves":[["Knock Off"],["Superpower"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Manectric": [
-    {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Life Orb","Expert Belt"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Thunderbolt"],["Volt Switch"],["Overheat","Flamethrower"],["Hidden Power Grass"]],"item":["Life Orb"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Mantine": [
     {"moves":[["Defog"],["Scald"],["Air Slash"],["Toxic","Protect"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Calm"],"evs":{"def":240,"spd":16,"hp":252}},
@@ -423,7 +423,7 @@ setdex.xy.nu = {
     {"moves":[["Will-O-Wisp"],["Sludge Bomb"],["Taunt"],["Toxic Spikes","Pain Split"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":148,"hp":252,"spe":108}},
   ],
   "Xatu": [
-    {"moves":[["Psychic","Psyshock"],["Roost"],["Heat Wave"],["U-turn","Thunder Wave"]],"item":["Colbur Berry","Rocky Helmet"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"def":240,"hp":252,"spe":16}},
+    {"moves":[["Psychic","Psyshock"],["Roost"],["Grass Knot","Heat Wave"],["U-turn","Thunder Wave"]],"item":["Rocky Helmet","Colbur Berry"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"def":240,"hp":252,"spe":16}},
     {"moves":[["Psychic","Psyshock"],["Grass Knot"],["Heat Wave"],["Roost"]],"item":["Life Orb"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Calm Mind"],["Roost"],["Psyshock"],["Heat Wave","Signal Beam"]],"item":["Leftovers","Colbur Berry"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"def":240,"hp":252,"spe":16}},
   ],

@@ -91,8 +91,8 @@ setdex.xy.uu = {
     {"moves":[["Trick Room"],["Shadow Ball"],["Nasty Plot"],["Hidden Power Fighting","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Mummy"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
   "Conkeldurr": [
-    {"moves":[["Drain Punch"],["Mach Punch"],["Knock Off","Ice Punch"],["Ice Punch","Stone Edge"]],"item":["Assault Vest"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spd":236,"spe":20,"atk":252}},
-    {"moves":[["Mach Punch"],["Drain Punch","Superpower"],["Ice Punch"],["Thunder Punch","Poison Jab"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"hp":48,"spe":208,"atk":252}},
+    {"moves":[["Drain Punch"],["Knock Off"],["Thunder Punch"],["Mach Punch"]],"item":["Assault Vest"],"ability":["Guts"],"nature":["Adamant"],"evs":{"def":4,"spd":252,"atk":252}},
+    {"moves":[["Hammer Arm"],["Mach Punch"],["Knock Off"],["Poison Jab","Ice Punch"]],"item":["Choice Band"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Crawdaunt": [
     {"moves":[["Swords Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Focus Sash","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -450,7 +450,8 @@ setdex.xy.uu = {
     {"moves":[["Curse"],["Earthquake"],["Rest"],["Ice Punch","Scald"]],"item":["Swampertite"],"ability":["Damp"],"nature":["Careful","Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Sylveon": [
-    {"moves":[["Hyper Voice"],["Psyshock"],["Hidden Power Fire","Hidden Power Ground"],["Baton Pass"]],"item":["Choice Specs"],"ability":["Pixilate"],"nature":["Modest"],"evs":{"spa":252,"hp":240,"spe":16}},
+    {"moves":[["Hyper Voice"],["Psyshock"],["Hidden Power Fire"],["Baton Pass","Shadow Ball"]],"item":["Choice Specs"],"ability":["Pixilate"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Hyper Voice"],["Heal Bell"],["Wish"],["Protect"]],"item":["Leftovers"],"ability":["Pixilate"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Tangrowth": [
     {"moves":[["Sleep Powder"],["Leech Seed","Synthesis"],["Giga Drain","Leaf Storm"],["Knock Off","Toxic","Protect"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":4,"hp":252}},

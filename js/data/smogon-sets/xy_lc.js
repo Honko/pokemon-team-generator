@@ -161,12 +161,6 @@ setdex.xy.lc = {
     {"moves":[["Dragon Dance"],["Outrage"],["Extreme Speed"],["Iron Tail","Fire Blast"]],"item":["Life Orb"],"ability":["Shed Skin"],"nature":["Adamant","Naughty"],"evs":{"spd":36,"spe":196,"atk":244},"ivs":{"hp":0}},
     {"moves":[["Draco Meteor"],["Extreme Speed"],["Fire Blast"],["Iron Tail"]],"item":["Life Orb"],"ability":["Shed Skin"],"nature":["Rash"],"evs":{"spa":196,"spe":116,"atk":164},"ivs":{"hp":0}},
   ],
-  "Drifloon": [
-    {"moves":[["Recycle"],["Will-O-Wisp"],["Acrobatics"],["Substitute","Knock Off"]],"item":["Berry Juice"],"ability":["Unburden"],"nature":["Jolly"],"evs":{"def":84,"spd":84,"hp":36,"spe":196,"atk":36}},
-    {"moves":[["Calm Mind"],["Hex","Shadow Ball"],["Recycle"],["Will-O-Wisp","Thunderbolt"]],"item":["Berry Juice"],"ability":["Unburden"],"nature":["Modest"],"evs":{"def":164,"spa":36,"spd":84,"hp":116,"spe":36}},
-    {"moves":[["Acrobatics"],["Shadow Ball","Knock Off"],["Substitute"],["Destiny Bond","Will-O-Wisp","Hidden Power Fighting","Sucker Punch"]],"item":["Berry Juice"],"ability":["Unburden"],"nature":["Naive"],"evs":{"spa":116,"spe":196,"atk":196}},
-    {"moves":[["Trick"],["Shadow Ball"],["Hidden Power Fighting"],["Air Cutter","Thunderbolt","Icy Wind"]],"item":["Choice Specs"],"ability":["Unburden"],"nature":["Timid"],"evs":{"def":88,"spa":200,"spd":8,"spe":200}},
-  ],
   "Drilbur": [
     {"moves":[["Earthquake"],["Rapid Spin","Swords Dance"],["Rock Slide","Rock Tomb"],["Stealth Rock","Swords Dance"]],"item":["Berry Juice","Life Orb","Eviolite"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"def":36,"spd":76,"hp":36,"spe":212,"atk":76}},
     {"moves":[["Earthquake"],["Rock Slide"],["Poison Jab"],["Rapid Spin"]],"item":["Choice Scarf"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},

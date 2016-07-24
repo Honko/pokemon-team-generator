@@ -51,6 +51,7 @@ setdex.xy.uber = {
   ],
   "Arceus-Ground": [
     {"moves":[["Swords Dance"],["Earthquake"],["Stone Edge"],["Recover"]],"item":["Earth Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Judgment"],["Ice Beam"],["Recover"],["Toxic"]],"item":["Earth Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":88,"hp":252,"spe":168}},
   ],
   "Arceus-Ice": [
     {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Thunder","Fire Blast"]],"item":["Icicle Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":8,"hp":248,"spe":252}},
@@ -81,6 +82,9 @@ setdex.xy.uber = {
   ],
   "Bronzong": [
     {"moves":[["Stealth Rock"],["Gyro Ball"],["Toxic"],["Protect","Trick Room","Skill Swap"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4}},
+  ],
+  "Chansey": [
+    {"moves":[["Thunder Wave"],["Toxic","Heal Bell"],["Soft-Boiled"],["Seismic Toss"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Bold"],"evs":{"def":252,"spd":252,"spe":4}},
   ],
   "Clefable": [
     {"moves":[["Wish"],["Protect"],["Heal Bell","Toxic","Calm Mind"],["Moonblast"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Calm"],"evs":{"spd":248,"hp":248,"spe":12}},

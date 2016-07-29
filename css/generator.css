@@ -1,4 +1,7 @@
-﻿textarea {
+﻿body {
+    background-color: #f2fafe;
+}
+textarea {
     height: auto;
     width: 100%;
 }

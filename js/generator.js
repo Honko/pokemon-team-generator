@@ -84,6 +84,15 @@ teamGenerator.controller('GeneratorController', function($scope) {
         if (["dpp","bw","xy"].indexOf($scope.gen) !== -1) {
             requiredRoles.push(ROLES.StealthRock);
         }
+        // TODO move mega check into this
+        var restrictedRoles = [
+            ROLES.StealthRock,
+            ROLES.Spikes,
+            ROLES.ToxicSpikes,
+            ROLES.StickyWeb,
+            ROLES.HazardRemover,
+            ROLES.ChoiceScarf,
+        ];
 
         var newTeam = [];
         // do fully locked mons first to count any roles they fill
@@ -96,13 +105,14 @@ teamGenerator.controller('GeneratorController', function($scope) {
         for (i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].speciesLocked) {
                 var requiredRole = pickRequiredRole(requiredRoles, newTeam);
-                var newSet = createRandomSetForSpecies(oldTeam[i].name, excludeItems, requiredRole);
+                var filledRoles = getFilledRoles(restrictedRoles, newTeam);
+                var newSet = createRandomSetForSpecies(oldTeam[i].name, excludeItems, filledRoles, requiredRole);
                 if (newSet) {
                     newTeam[i] = newSet;
                     newTeam[i].speciesLocked = true;
                 } else {
                     excludeSpecies.push(oldTeam[i].name);
-                    newTeam[i] = createRandomSet(excludeSpecies, excludeItems, requiredRole);
+                    newTeam[i] = createRandomSet(excludeSpecies, excludeItems, filledRoles, requiredRole);
                 }
                 if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
                     excludeItems = MEGA_ITEMS;
@@ -112,7 +122,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         // do new mons last
         for (i = 0; i < 6; i++) {
             if (!newTeam[i]) {
-                newTeam[i] = createRandomSet(excludeSpecies, excludeItems, pickRequiredRole(requiredRoles, newTeam));
+                newTeam[i] = createRandomSet(excludeSpecies, excludeItems, getFilledRoles(restrictedRoles, newTeam), pickRequiredRole(requiredRoles, newTeam));
                 if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
                     excludeSpecies.push(newTeam[i].name);
                 }
@@ -124,22 +134,25 @@ teamGenerator.controller('GeneratorController', function($scope) {
         $scope.team = newTeam;
     };
 
-    var createRandomSet = function(excludeSpecies, excludeItems, requiredRole) {
+    var createRandomSet = function(excludeSpecies, excludeItems, filledRoles, requiredRole) {
         var excludeFormes = expandSpeciesFormes(excludeSpecies);
         var roleFillers = requiredRole ? getPossibleSpeciesForRole(requiredRole, setdex[$scope.gen][$scope.meta]) : null;
+        var filledRoleAvoiders = getPossibleSpeciesToAvoidRoles(filledRoles, setdex[$scope.gen][$scope.meta]);
         var possibleSpecies = speciesInMeta().filter(function(species) {
-            return excludeFormes.indexOf(species) === -1 && (!requiredRole || roleFillers.indexOf(species) !== -1);
+            return excludeFormes.indexOf(species) === -1 &&
+                    (!requiredRole || roleFillers.indexOf(species) !== -1) &&
+                    filledRoleAvoiders.indexOf(species) !== -1;
         });
         if (requiredRole) {
             console.log("Possible species for " + requiredRole.name + ": " + possibleSpecies);
         }
         var species = getRandomElement(weightByViability(possibleSpecies));
-        var set = createRandomSetForSpecies(species, excludeItems, requiredRole);
+        var set = createRandomSetForSpecies(species, excludeItems, filledRoles, requiredRole);
         if (set) {
             return set;
         } else {
             excludeSpecies.push(species);
-            return createRandomSet(excludeSpecies, excludeItems, requiredRole);
+            return createRandomSet(excludeSpecies, excludeItems, filledRoles, requiredRole);
         }
     };
 
@@ -169,7 +182,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         return "D";
     };
 
-    var createRandomSetForSpecies = function(species, excludeItems, requiredRole, excludeSets) {
+    var createRandomSetForSpecies = function(species, excludeItems, filledRoles, requiredRole, excludeSets) {
         console.log("Building set for: " + species);
         var possibleSets = setdex[$scope.gen][$scope.meta][species];
         if (excludeSets) {
@@ -181,6 +194,10 @@ teamGenerator.controller('GeneratorController', function($scope) {
             console.log("Required role: " + requiredRole.name);
             possibleSets = possibleSets.filter(requiredRole.setCanMatch);
         }
+        filledRoles.forEach(function(role) {
+            console.log("Already filled role: " + role.name);
+            possibleSets = possibleSets.filter(role.setCanAvoidMatch);
+        });
         if (possibleSets.length === 0) {
             console.log("No sets found that can be used on this team. Giving up.");
             return false;
@@ -189,7 +206,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         var item = getRandomElement(set.item, excludeItems);
         if (item === false) {
             console.log("Set required an item that could not be selected, retrying.");
-            return createRandomSetForSpecies(species, excludeItems, requiredRole, (excludeSets ? excludeSets : []).concat(set));
+            return createRandomSetForSpecies(species, excludeItems, filledRoles, requiredRole, (excludeSets ? excludeSets : []).concat(set));
         }
         var moves = [];
         for (var i = 0; i < 4 && i < set.moves.length; i++) {
@@ -206,7 +223,11 @@ teamGenerator.controller('GeneratorController', function($scope) {
         };
         if (requiredRole && !requiredRole.setMatches(finalSet)) {
             console.log("Generated set did not meet required role, retrying.");
-            return createRandomSetForSpecies(species, excludeItems, requiredRole, excludeSets);
+            return createRandomSetForSpecies(species, excludeItems, filledRoles, requiredRole, excludeSets);
+        }
+        if (filledRoles.some(function(role) { return role.setMatches(finalSet); })) {
+            console.log("Generated set filled an already filled role, retrying.");
+            return createRandomSetForSpecies(species, excludeItems, filledRoles, requiredRole, excludeSets);
         }
         return finalSet;
     };

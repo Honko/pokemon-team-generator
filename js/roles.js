@@ -7,11 +7,77 @@ const ROLES = {
         setCanMatch: function(set) {
             return setCanIncludeMove(set, "Stealth Rock");
         },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeMove(set, "Stealth Rock");
+        },
+    },
+    Spikes: {
+        name: "Spikes user",
+        setMatches: function(set) {
+            return setHasMove(set, "Spikes");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeMove(set, "Spikes");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeMove(set, "Spikes");
+        },
+    },
+    ToxicSpikes: {
+        name: "Toxic Spikes user",
+        setMatches: function(set) {
+            return setHasMove(set, "Toxic Spikes");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeMove(set, "Toxic Spikes");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeMove(set, "Toxic Spikes");
+        },
+    },
+    StickyWeb: {
+        name: "Sticky Web user",
+        setMatches: function(set) {
+            return setHasMove(set, "Sticky Web");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeMove(set, "Sticky Web");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeMove(set, "Sticky Web");
+        },
+    },
+    HazardRemover: {
+        name: "hazard remover",
+        setMatches: function(set) {
+            return setHasMove(set, "Rapid Spin") || setHasMove(set, "Defog");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeMove(set, "Rapid Spin") || setCanIncludeMove(set, "Defog");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeMove(set, "Rapid Spin") && setCanExcludeMove(set, "Defog");
+        },
+    },
+    ChoiceScarf: {
+        name: "Choice Scarf user",
+        setMatches: function(set) {
+            return setHasItem(set, "Choice Scarf");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeItem(set, "Choice Scarf");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeItem(set, "Choice Scarf");
+        },
     },
 };
 
 var setHasMove = function(set, move) {
     return set.moves.indexOf(move) !== -1;
+};
+var setHasItem = function(set, item) {
+    return set.item === item;
 };
 
 var setCanIncludeMove = function(set, move) {
@@ -19,10 +85,32 @@ var setCanIncludeMove = function(set, move) {
         return moveslot.indexOf(move) !== -1;
     });
 };
+var setCanIncludeItem = function(set, item) {
+    return set.item.indexOf(item) !== -1;
+};
+
+var setCanExcludeMove = function(set, move) {
+    return set.moves.every(function(moveslot) {
+        return moveslot.length > 1 || moveslot.indexOf(move) === -1;
+    });
+};
+var setCanExcludeItem = function(set, item) {
+    return set.item.length > 1 || set.item.indexOf(item) === -1;
+};
 
 var getPossibleSpeciesForRole = function(role, currentDex) {
     return Object.keys(currentDex).filter(function(species) {
         return currentDex[species].some(role.setCanMatch);
+    });
+};
+
+var getPossibleSpeciesToAvoidRoles = function(roles, currentDex) {
+    return Object.keys(currentDex).filter(function(species) {
+        return currentDex[species].some(function(set) {
+            return roles.every(function(role) {
+                return role.setCanAvoidMatch(set);
+            });
+        });
     });
 };
 
@@ -37,6 +125,12 @@ var pickRequiredRole = function(requiredRoles, team) {
         return null;
     }
     return getRandomElement(rolesRemaining);
+};
+
+var getFilledRoles = function(restrictedRoles, team) {
+    return restrictedRoles.filter(function(role) {
+        return team.some(role.setMatches);
+    });
 };
 
 var updateRequiredRoles = function(roles, team) {

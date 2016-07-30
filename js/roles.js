@@ -1,4 +1,18 @@
 const ROLES = {
+    Mega: {
+        name: "mega evolution",
+        setMatches: function(set) {
+            return MEGA_ITEMS.indexOf(set.item) !== -1;
+        },
+        setCanMatch: function(set) {
+            return set.item.some(function(item) {
+                return MEGA_ITEMS.indexOf(item) !== -1;
+            });
+        },
+        setCanAvoidMatch: function(set) {
+            return set.item.length !== 1 || MEGA_ITEMS.indexOf(set.item[0]) === -1;
+        },
+    },
     StealthRock: {
         name: "Stealth Rock user",
         setMatches: function(set) {
@@ -91,11 +105,11 @@ var setCanIncludeItem = function(set, item) {
 
 var setCanExcludeMove = function(set, move) {
     return set.moves.every(function(moveslot) {
-        return moveslot.length > 1 || moveslot.indexOf(move) === -1;
+        return moveslot.length !== 1 || moveslot.indexOf(move) === -1;
     });
 };
 var setCanExcludeItem = function(set, item) {
-    return set.item.length > 1 || set.item.indexOf(item) === -1;
+    return set.item.length !== 1 || set.item.indexOf(item) === -1;
 };
 
 var getPossibleSpeciesForRole = function(role, currentDex) {

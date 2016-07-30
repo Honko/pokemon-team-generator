@@ -80,31 +80,39 @@ teamGenerator.controller('GeneratorController', function($scope) {
     var _generateTeam = function(oldTeam) {
         var excludeSpecies = speciesInTeam(true);
         var excludeItems = teamHasMega(true) ? MEGA_ITEMS : [];
+        var requiredRoles = [];
+        if (["dpp","bw","xy"].indexOf($scope.gen) !== -1) {
+            requiredRoles.push(ROLES.StealthRock);
+        }
 
         var newTeam = [];
-        // do all locked mons first to give them priority on mega items
+        // do fully locked mons first to count any roles they fill
         for (var i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].locked) {
-                console.log("Old set for " + oldTeam[i].name);
                 newTeam[i] = oldTeam[i];
-            } else if (oldTeam[i] && oldTeam[i].speciesLocked) {
-                var newSet = createRandomSetForSpecies(oldTeam[i].name, excludeItems);
+            }
+        }
+        // do species-locked mons next to give them priority on restricted roles if needed (e.g. lock a mega-only mon)
+        for (i = 0; i < 6; i++) {
+            if (oldTeam[i] && oldTeam[i].speciesLocked) {
+                var requiredRole = pickRequiredRole(requiredRoles, newTeam);
+                var newSet = createRandomSetForSpecies(oldTeam[i].name, excludeItems, requiredRole);
                 if (newSet) {
                     newTeam[i] = newSet;
                     newTeam[i].speciesLocked = true;
                 } else {
                     excludeSpecies.push(oldTeam[i].name);
-                    newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
+                    newTeam[i] = createRandomSet(excludeSpecies, excludeItems, requiredRole);
                 }
                 if (excludeItems.length === 0 && MEGA_ITEMS.indexOf(newTeam[i].item) !== -1) {
                     excludeItems = MEGA_ITEMS;
                 }
             }
         }
-        // now do new mons
+        // do new mons last
         for (i = 0; i < 6; i++) {
             if (!newTeam[i]) {
-                newTeam[i] = createRandomSet(excludeSpecies, excludeItems);
+                newTeam[i] = createRandomSet(excludeSpecies, excludeItems, pickRequiredRole(requiredRoles, newTeam));
                 if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
                     excludeSpecies.push(newTeam[i].name);
                 }
@@ -116,22 +124,26 @@ teamGenerator.controller('GeneratorController', function($scope) {
         $scope.team = newTeam;
     };
 
-    var createRandomSet = function(excludeSpecies, excludeItems) {
+    var createRandomSet = function(excludeSpecies, excludeItems, requiredRole) {
         var excludeFormes = expandSpeciesFormes(excludeSpecies);
-        console.log("Excluding species: " + excludeFormes);
-        console.log("Excluding items: " + excludeItems);
-        var species = getRandomElement(weightedAvailableSpecies(), excludeFormes);
-        var set = createRandomSetForSpecies(species, excludeItems);
+        var roleFillers = requiredRole ? getPossibleSpeciesForRole(requiredRole, setdex[$scope.gen][$scope.meta]) : null;
+        var possibleSpecies = speciesInMeta().filter(function(species) {
+            return excludeFormes.indexOf(species) === -1 && (!requiredRole || roleFillers.indexOf(species) !== -1);
+        });
+        if (requiredRole) {
+            console.log("Possible species for " + requiredRole.name + ": " + possibleSpecies);
+        }
+        var species = getRandomElement(weightByViability(possibleSpecies));
+        var set = createRandomSetForSpecies(species, excludeItems, requiredRole);
         if (set) {
             return set;
         } else {
             excludeSpecies.push(species);
-            return createRandomSet(excludeSpecies, excludeItems);
+            return createRandomSet(excludeSpecies, excludeItems, requiredRole);
         }
     };
 
-    var weightedAvailableSpecies = function() {
-        var species = speciesInMeta();
+    var weightByViability = function(species) {
         var rankings = VIABILITY_RANKINGS[$scope.gen][$scope.meta];
         if ($scope.viability === "=" || !rankings || !rankings.A) {
             return species;
@@ -157,27 +169,33 @@ teamGenerator.controller('GeneratorController', function($scope) {
         return "D";
     };
 
-    var createRandomSetForSpecies = function(species, excludeItems, excludeSets) {
-        console.log("New set for " + species);
+    var createRandomSetForSpecies = function(species, excludeItems, requiredRole, excludeSets) {
+        console.log("Building set for: " + species);
         var possibleSets = setdex[$scope.gen][$scope.meta][species];
-        var myExcludeSets = excludeSets || [];
-        var set = getRandomElement(possibleSets, myExcludeSets);
-        if (set === false) {
-            console.log("Could not create new set for " + species + ".");
-            // no possible sets left
+        if (excludeSets) {
+            possibleSets = possibleSets.filter(function(set) {
+                return excludeSets.indexOf(set) === -1;
+            });
+        }
+        if (requiredRole) {
+            console.log("Required role: " + requiredRole.name);
+            possibleSets = possibleSets.filter(requiredRole.setCanMatch);
+        }
+        if (possibleSets.length === 0) {
+            console.log("No sets found that can be used on this team. Giving up.");
             return false;
         }
+        var set = getRandomElement(possibleSets);
         var item = getRandomElement(set.item, excludeItems);
         if (item === false) {
-            // no possible items left on a set that is intended to have an item
-            myExcludeSets.push(set);
-            return createRandomSetForSpecies(species, excludeItems, myExcludeSets);
+            console.log("Set required an item that could not be selected, retrying.");
+            return createRandomSetForSpecies(species, excludeItems, requiredRole, (excludeSets ? excludeSets : []).concat(set));
         }
         var moves = [];
         for (var i = 0; i < 4 && i < set.moves.length; i++) {
             moves.push(getRandomElement(set.moves[i], moves));
         }
-        return {
+        var finalSet = {
             name: species,
             item: item,
             ability: getRandomElement(set.ability),
@@ -186,6 +204,11 @@ teamGenerator.controller('GeneratorController', function($scope) {
             ivs: set.ivs,
             moves: moves,
         };
+        if (requiredRole && !requiredRole.setMatches(finalSet)) {
+            console.log("Generated set did not meet required role, retrying.");
+            return createRandomSetForSpecies(species, excludeItems, requiredRole, excludeSets);
+        }
+        return finalSet;
     };
 
     $scope.generateTeam = function() {

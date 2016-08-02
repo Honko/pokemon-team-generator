@@ -85,6 +85,18 @@ const ROLES = {
             return setCanExcludeItem(set, "Choice Scarf");
         },
     },
+    FocusSashLead: {
+        name: "Focus Sash lead",
+        setMatches: function(set) {
+            return setHasItem(set, "Focus Sash") && !setHasAbility(set, "Magic Guard");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeItem(set, "Focus Sash") && setCanExcludeAbility(set, "Magic Guard");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeItem(set, "Focus Sash") || setCanIncludeAbility(set, "Magic Guard");
+        },
+    },
 };
 
 var setHasMove = function(set, move) {
@@ -92,6 +104,9 @@ var setHasMove = function(set, move) {
 };
 var setHasItem = function(set, item) {
     return set.item === item;
+};
+var setHasAbility = function(set, ability) {
+    return set.ability === ability;
 };
 
 var setCanIncludeMove = function(set, move) {
@@ -102,6 +117,9 @@ var setCanIncludeMove = function(set, move) {
 var setCanIncludeItem = function(set, item) {
     return set.item.indexOf(item) !== -1;
 };
+var setCanIncludeAbility = function(set, ability) {
+    return set.ability.indexOf(ability) !== -1;
+};
 
 var setCanExcludeMove = function(set, move) {
     return set.moves.every(function(moveslot) {
@@ -110,6 +128,9 @@ var setCanExcludeMove = function(set, move) {
 };
 var setCanExcludeItem = function(set, item) {
     return set.item.length !== 1 || set.item.indexOf(item) === -1;
+};
+var setCanExcludeAbility = function(set, ability) {
+    return set.ability.length !== 1 || set.ability.indexOf(ability) === -1;
 };
 
 var getPossibleSpeciesForRole = function(role, currentDex) {

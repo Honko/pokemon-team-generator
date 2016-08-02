@@ -91,6 +91,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
             ROLES.StickyWeb,
             ROLES.HazardRemover,
             ROLES.ChoiceScarf,
+            ROLES.FocusSashLead,
         ];
 
         var newTeam = [];
@@ -124,6 +125,19 @@ teamGenerator.controller('GeneratorController', function($scope) {
                 }
             }
         }
+
+        // if the first spot is not locked, move the most lead-like non-locked mon to that spot
+        if (!newTeam[0].locked && !newTeam[0].speciesLocked) {
+            for (i = 1; i < 6; i++) {
+                if (!newTeam[i].locked && !newTeam[i].speciesLocked && ROLES.FocusSashLead.setMatches(newTeam[i])) {
+                    var lead = newTeam[i];
+                    console.log("Moving " + lead.name + " to lead spot");
+                    newTeam[i] = newTeam[0];
+                    newTeam[0] = lead;
+                }
+            }
+        }
+
         $scope.team = newTeam;
     };
 

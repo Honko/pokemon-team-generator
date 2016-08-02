@@ -202,7 +202,7 @@ setdex.dpp.uber = {
     {"moves":[["Close Combat"],["Extreme Speed"],["Payback"],["Ice Punch","Swords Dance","Counter"]],"item":["Focus Sash"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Ludicolo": [
-    {"moves":[["Leech Seed"],["Protect"],["Grass Knot"],["Ice Beam","Toxic"]],"item":["Leftovers"],"ability":["Rain Dish"],"nature":["Calm"],"evs":{"def":40,"spd":216,"hp":252}},
+    {"moves":[["Leech Seed"],["Substitute"],["Protect"],["Ice Beam","Surf"]],"item":["Leftovers"],"ability":["Rain Dish"],"nature":["Calm"],"evs":{"def":56,"spd":252,"hp":200}},
   ],
   "Lugia": [
     {"moves":[["Roost"],["Reflect"],["Whirlwind","Ice Beam"],["Ice Beam","Toxic","Light Screen"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":64,"hp":252,"spe":192}},

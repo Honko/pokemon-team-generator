@@ -2,6 +2,10 @@ setdex.gsc.uu = {
   "Aipom": [
     {"moves":[["Agility"],["Baton Pass"],["Return"],["Counter"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
+  "Ampharos": [
+    {"moves":[["Thunderbolt"],["Fire Punch"],["Thunder Wave"],["Dynamic Punch"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Thunderbolt"],["Fire Punch"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
   "Arbok": [
     {"moves":[["Sludge Bomb"],["Glare"],["Earthquake"],["Giga Drain","Substitute","Screech"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
@@ -233,11 +237,6 @@ setdex.gsc.uu = {
   "Slowking": [
     {"moves":[["Surf"],["Psychic"],["Thunder Wave"],["Rest"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
-  "Smeargle": [
-    {"moves":[["Spider Web"],["Protect"],["Disable"],["Baton Pass"]],"item":["Leftovers"],"ability":[],"nature":[]},
-    {"moves":[["Spore"],["Belly Drum","Agility","Swords Dance"],["Recover","Encore","Super Fang"],["Baton Pass"]],"item":["Leftovers"],"ability":[],"nature":[]},
-    {"moves":[["Spikes"],["Encore"],["Destiny Bond"],["Mirror Coat"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
   "Sneasel": [
     {"moves":[["Dynamic Punch","Hidden Power Fighting"],["Shadow Ball"],["Return"],["Reflect"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
@@ -263,10 +262,6 @@ setdex.gsc.uu = {
   ],
   "Venomoth": [
     {"moves":[["Curse"],["Sludge Bomb"],["Stun Spore","Sleep Powder"],["Hidden Power Bug"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
-  "Venusaur": [
-    {"moves":[["Synthesis"],["Leech Seed"],["Razor Leaf"],["Sleep Powder","Reflect"]],"item":["Leftovers"],"ability":[],"nature":[]},
-    {"moves":[["Swords Dance"],["Body Slam"],["Giga Drain"],["Sleep Powder"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
   "Victreebel": [
     {"moves":[["Sleep Powder"],["Swords Dance"],["Sludge Bomb"],["Giga Drain"]],"item":["Leftovers"],"ability":[],"nature":[]},

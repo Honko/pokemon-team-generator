@@ -68,7 +68,7 @@ setdex.dpp.lc = {
     {"moves":[["Bulk Up","Agility"],["Baton Pass"],["Aqua Jet","Waterfall"],["Return"]],"item":["Oran Berry"],"ability":["Swift Swim"],"nature":["Jolly"],"evs":{"spd":36,"hp":236,"spe":236}},
   ],
   "Bulbasaur": [
-    {"moves":[["Sleep Powder"],["Sludge Bomb"],["Leaf Storm"],["Hidden Power Ground","Hidden Power Fire"]],"item":["Choice Scarf"],"ability":["Overgrow"],"nature":["Modest","Timid"],"evs":{"spa":236,"spe":236}},
+    {"moves":[["Sleep Powder"],["Sludge Bomb"],["Leaf Storm"],["Hidden Power Ground","Hidden Power Fire"]],"item":["Choice Scarf"],"ability":["Overgrow"],"nature":["Modest","Timid"],"evs":{"spa":240,"spe":240}},
   ],
   "Buneary": [
     {"moves":[["Fake Out"],["Quick Attack"],["Ice Punch","Fire Punch"],["Endeavor","Protect","Encore"]],"item":["Focus Sash","Life Orb"],"ability":["Run Away"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":236,"atk":228}},
@@ -77,7 +77,7 @@ setdex.dpp.lc = {
     {"moves":[["Switcheroo"],["Quick Attack","Return"],["Thunder Wave"],["Encore"]],"item":["Choice Band","Choice Specs"],"ability":["Klutz"],"nature":["Jolly"],"evs":{"def":4,"hp":236,"spe":236}},
   ],
   "Burmy": [
-    {"moves":[["Bug Bite"],["String Shot"],["Protect"],["Hidden Power Ice"]],"item":["Oran Berry"],"ability":["Shed Skin"],"nature":["Relaxed"],"evs":{"def":76,"hp":196,"atk":204}},
+    {"moves":[["Bug Bite"],["String Shot"],["Protect"],["Hidden Power Ice"]],"item":["Oran Berry"],"ability":["Shed Skin"],"nature":["Relaxed"],"evs":{"def":80,"hp":196,"atk":208}},
   ],
   "Cacnea": [
     {"moves":[["Swords Dance"],["Sucker Punch"],["Focus Punch","Seed Bomb"],["Substitute","Encore"]],"item":["Bright Powder","Focus Sash"],"ability":["Sand Veil"],"nature":["Adamant"],"evs":{"hp":36,"spe":236,"atk":236}},

@@ -496,10 +496,6 @@ setdex.bw.lc = {
     {"moves":[["Swords Dance"],["Earthquake"],["Rock Slide"],["Night Slash"]],"item":["Eviolite"],"ability":["Sand Rush"],"nature":["Adamant","Jolly"],"evs":{"spd":36,"hp":36,"spe":196,"atk":236}},
     {"moves":[["Earthquake"],["Rock Slide","Stealth Rock"],["Rapid Spin"],["Night Slash","Stealth Rock"]],"item":["Eviolite"],"ability":["Sand Rush"],"nature":["Adamant"],"evs":{"spd":36,"hp":116,"spe":116,"atk":236}},
   ],
-  "Scraggy": [
-    {"moves":[["Dragon Dance"],["High Jump Kick"],["Crunch"],["Drain Punch","Knock Off"]],"item":["Eviolite"],"ability":["Shed Skin","Moxie"],"nature":["Jolly"],"evs":{"spd":36,"spe":212,"atk":236}},
-    {"moves":[["High Jump Kick"],["Crunch"],["Zen Headbutt"],["Head Smash","Drain Punch"]],"item":["Choice Scarf"],"ability":["Moxie"],"nature":["Jolly"],"evs":{"hp":36,"spe":212,"atk":236}},
-  ],
   "Seedot": [
     {"moves":[["Growth"],["Solar Beam"],["Explosion"],["Hidden Power Fire","Sunny Day"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Naive"],"evs":{"def":36,"spa":200,"spe":200,"atk":40},"ivs":{"spa":30,"hp":3,"spe":30,"atk":30}},
   ],

@@ -88,7 +88,7 @@ setdex.dpp.ou = {
     {"moves":[["Earthquake"],["Stone Edge","Ice Shard"],["Assurance"],["Rapid Spin","Seed Bomb"]],"item":["Choice Band"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
   ],
   "Dragonite": [
-    {"moves":[["Draco Meteor"],["Flamethrower","Fire Blast"],["Superpower","Earthquake"],["Roost","Extreme Speed"]],"item":["Life Orb"],"ability":["Inner Focus"],"nature":["Mild","Lonely"],"evs":{"spa":252,"spe":200,"atk":56}},
+    {"moves":[["Draco Meteor"],["Fire Blast","Flamethrower"],["Superpower","Earthquake"],["Roost","Extreme Speed"]],"item":["Life Orb"],"ability":["Inner Focus"],"nature":["Mild","Lonely"],"evs":{"spa":252,"spe":200,"atk":56}},
     {"moves":[["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"],["Extreme Speed","Fire Punch"]],"item":["Life Orb"],"ability":["Inner Focus"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Dragon Dance"],["Dragon Claw","Outrage"],["Roost"],["Earthquake","Fire Punch"]],"item":["Leftovers","Life Orb"],"ability":["Inner Focus"],"nature":["Adamant"],"evs":{"hp":252,"spe":212,"atk":44}},
     {"moves":[["Extreme Speed"],["Outrage"],["Earthquake","Fire Punch"],["Dragon Claw","Superpower"]],"item":["Choice Band"],"ability":["Inner Focus"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},

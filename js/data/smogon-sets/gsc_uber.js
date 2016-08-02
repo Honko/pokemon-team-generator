@@ -7,10 +7,6 @@ setdex.gsc.uber = {
   "Alakazam": [
     {"moves":[["Recover"],["Thunder Wave"],["Fire Punch"],["Psychic"]],"item":["Leftovers","Miracle Berry"],"ability":[],"nature":[]},
   ],
-  "Ampharos": [
-    {"moves":[["Thunderbolt"],["Fire Punch"],["Thunder Wave"],["Dynamic Punch"]],"item":["Leftovers"],"ability":[],"nature":[]},
-    {"moves":[["Thunderbolt"],["Fire Punch"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},
-  ],
   "Articuno": [
     {"moves":[["Rest"],["Sleep Talk"],["Ice Beam"],["Toxic","Hidden Power Electric"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Ice Beam"],["Toxic","Hidden Power Electric","Roar"],["Reflect"],["Rest"]],"item":["Leftovers"],"ability":[],"nature":[]},
@@ -145,6 +141,11 @@ setdex.gsc.uber = {
   "Skarmory": [
     {"moves":[["Whirlwind"],["Drill Peck"],["Rest"],["Curse"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
+  "Smeargle": [
+    {"moves":[["Spider Web"],["Protect"],["Disable"],["Baton Pass"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Spore"],["Belly Drum","Agility","Swords Dance"],["Recover","Encore","Super Fang"],["Baton Pass"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Spikes"],["Encore"],["Destiny Bond"],["Mirror Coat"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
   "Snorlax": [
     {"moves":[["Double-Edge","Body Slam"],["Curse"],["Rest"],["Sleep Talk","Lovely Kiss","Earthquake","Fire Blast"]],"item":["Leftovers"],"ability":[],"nature":[]},
     {"moves":[["Belly Drum"],["Body Slam","Return","Double-Edge"],["Earthquake","Lovely Kiss","Curse"],["Rest","Lovely Kiss"]],"item":["Leftovers"],"ability":[],"nature":[]},
@@ -185,6 +186,10 @@ setdex.gsc.uber = {
   ],
   "Vaporeon": [
     {"moves":[["Surf","Hydro Pump"],["Growth"],["Rest"],["Sleep Talk","Acid Armor"]],"item":["Leftovers"],"ability":[],"nature":[]},
+  ],
+  "Venusaur": [
+    {"moves":[["Synthesis"],["Leech Seed"],["Razor Leaf"],["Sleep Powder","Reflect"]],"item":["Leftovers"],"ability":[],"nature":[]},
+    {"moves":[["Swords Dance"],["Body Slam"],["Giga Drain"],["Sleep Powder"]],"item":["Leftovers"],"ability":[],"nature":[]},
   ],
   "Zapdos": [
     {"moves":[["Thunder","Thunderbolt"],["Hidden Power Ice","Hidden Power Water"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":[],"nature":[]},

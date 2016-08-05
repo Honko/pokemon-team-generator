@@ -4,7 +4,7 @@ setdex.xy.nu = {
     {"moves":[["Swords Dance"],["Ice Shard"],["Seed Bomb"],["Blizzard","Earthquake"]],"item":["Life Orb"],"ability":["Snow Warning","Soundproof"],"nature":["Hasty","Jolly"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Aggron": [
-    {"moves":[["Head Smash"],["Heavy Slam"],["Low Kick"],["Fire Punch","Sleep Talk"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Head Smash"],["Heavy Slam"],["Superpower"],["Ice Punch"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Altaria": [
     {"moves":[["Draco Meteor"],["Fire Blast"],["Dragon Pulse"],["Rest","Sleep Talk"]],"item":["Choice Specs"],"ability":["Natural Cure"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -151,6 +151,9 @@ setdex.xy.nu = {
     {"moves":[["Psychic","Psyshock"],["Focus Blast"],["Taunt"],["Thunder Wave","Toxic"]],"item":["Leftovers","Colbur Berry"],"ability":["Thick Fat"],"nature":["Modest"],"evs":{"spa":160,"hp":252,"spe":96}},
     {"moves":[["Psychic"],["Heal Bell"],["Thunder Wave","Toxic"],["Whirlwind","Taunt"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
+  "Gurdurr": [
+    {"moves":[["Drain Punch"],["Mach Punch"],["Knock Off"],["Bulk Up"]],"item":["Eviolite"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spd":4,"hp":252,"atk":252}},
+  ],
   "Hariyama": [
     {"moves":[["Close Combat"],["Knock Off"],["Bullet Punch"],["Fake Out","Earthquake","Stone Edge"]],"item":["Assault Vest"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":4,"spd":252,"atk":252}},
     {"moves":[["Close Combat"],["Knock Off"],["Stone Edge"],["Bullet Punch","Earthquake"]],"item":["Choice Band"],"ability":["Guts","Thick Fat"],"nature":["Adamant"],"evs":{"def":108,"spd":112,"spe":36,"atk":252}},
@@ -243,6 +246,7 @@ setdex.xy.nu = {
     {"moves":[["Stealth Rock"],["Psychic"],["U-turn"],["Thunder Wave","Healing Wish"]],"item":["Leftovers","Colbur Berry"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":240,"hp":252,"spe":16}},
     {"moves":[["Stealth Rock"],["Psychic"],["Hidden Power Ground","Ice Beam"],["Healing Wish","Signal Beam","U-turn"]],"item":["Life Orb","Leftovers"],"ability":["Levitate"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Psychic"],["Ice Beam","Signal Beam"],["U-turn"],["Healing Wish"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Rain Dance","Sunny Day"],["Stealth Rock"],["U-turn"],["Psychic"]],"item":["Damp Rock","Heat Rock"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":240,"hp":252,"spe":16}},
   ],
   "Metang": [
     {"moves":[["Stealth Rock"],["Meteor Mash"],["Earthquake"],["Toxic","Bullet Punch"]],"item":["Eviolite"],"ability":["Clear Body"],"nature":["Impish"],"evs":{"def":56,"spd":200,"hp":252}},
@@ -404,6 +408,9 @@ setdex.xy.nu = {
   "Torterra": [
     {"moves":[["Rock Polish"],["Wood Hammer"],["Earthquake"],["Stone Edge"]],"item":["Soft Sand","Lum Berry"],"ability":["Overgrow"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Wood Hammer"],["Earthquake"],["Stealth Rock"],["Synthesis"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Adamant"],"evs":{"def":128,"hp":252,"atk":128}},
+  ],
+  "Trevenant": [
+    {"moves":[["Wood Hammer"],["Shadow Claw"],["Earthquake"],["Horn Leech","Rest"]],"item":["Choice Band"],"ability":["Natural Cure"],"nature":["Adamant"],"evs":{"hp":180,"spe":76,"atk":252}},
   ],
   "Vanilluxe": [
     {"moves":[["Freeze-Dry"],["Ice Beam"],["Explosion"],["Ice Shard","Flash Cannon"]],"item":["Life Orb"],"ability":["Ice Body"],"nature":["Rash","Naive"],"evs":{"spa":252,"spe":252,"atk":4}},

@@ -174,7 +174,7 @@ setdex.xy.ru = {
     {"moves":[["Taunt"],["Will-O-Wisp"],["Recover"],["Scald","Hex"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold"],"evs":{"def":216,"hp":248,"spe":44}},
   ],
   "Jolteon": [
-    {"moves":[["Substitute"],["Baton Pass"],["Thunderbolt"],["Wish","Hidden Power Ice","Hidden Power Grass"]],"item":["Leftovers"],"ability":["Volt Absorb"],"nature":["Timid"],"evs":{"spa":252,"hp":80,"spe":176}},
+    {"moves":[["Substitute"],["Baton Pass"],["Thunderbolt"],["Wish","Hidden Power Ice","Hidden Power Grass"]],"item":["Leftovers"],"ability":["Volt Absorb"],"nature":["Timid"],"evs":{"spa":176,"hp":80,"spe":252}},
     {"moves":[["Thunderbolt"],["Signal Beam"],["Hidden Power Ice","Hidden Power Grass"],["Volt Switch"]],"item":["Life Orb","Choice Specs"],"ability":["Volt Absorb"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Jynx": [
@@ -281,6 +281,11 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Scald"],["Earth Power","Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
     {"moves":[["Substitute"],["Toxic"],["Earth Power"],["Sludge Wave","Hydro Pump"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},
   ],
+  "Shaymin": [
+    {"moves":[["Seed Flare"],["Dazzling Gleam","Earth Power"],["Psychic","Air Slash"],["Synthesis","Rest"]],"item":["Life Orb"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Seed Flare"],["Dazzling Gleam","Earth Power"],["Psychic","Air Slash"],["Healing Wish","Energy Ball"]],"item":["Choice Specs"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Leech Seed"],["Seed Flare"],["Psychic","Air Slash"],["Substitute","Protect"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+  ],
   "Shiftry": [
     {"moves":[["Defog"],["Knock Off"],["Sucker Punch"],["Leaf Storm"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
     {"moves":[["Swords Dance"],["Knock Off"],["Sucker Punch"],["Seed Bomb"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -296,6 +301,9 @@ setdex.xy.ru = {
     {"moves":[["Scald"],["Psychic","Psyshock"],["Dragon Tail"],["Fire Blast","Ice Beam"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
     {"moves":[["Surf","Scald"],["Psyshock","Future Sight"],["Fire Blast","Ice Beam"],["Trick"]],"item":["Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
   ],
+  "Slurpuff": [
+    {"moves":[["Belly Drum"],["Play Rough"],["Return","Substitute"],["Drain Punch"]],"item":["Sitrus Berry"],"ability":["Unburden"],"nature":["Jolly"],"evs":{"hp":28,"spe":228,"atk":252}},
+  ],
   "Smeargle": [
     {"moves":[["Spore","Dark Void"],["Stealth Rock"],["Sticky Web"],["Explosion","Whirlwind","Nuzzle"]],"item":["Focus Sash"],"ability":["Own Tempo","Technician"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
@@ -305,11 +313,6 @@ setdex.xy.ru = {
   "Spiritomb": [
     {"moves":[["Sucker Punch"],["Pursuit"],["Taunt"],["Will-O-Wisp"]],"item":["Black Glasses"],"ability":["Infiltrator"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
     {"moves":[["Calm Mind"],["Dark Pulse","Snarl"],["Rest"],["Sleep Talk","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Infiltrator"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
-  ],
-  "Tangrowth": [
-    {"moves":[["Leaf Storm"],["Focus Blast"],["Sludge Bomb"],["Sleep Powder","Giga Drain","Knock Off"]],"item":["Life Orb","Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":132,"spe":124}},
-    {"moves":[["Giga Drain","Leaf Storm"],["Knock Off"],["Focus Blast","Hidden Power Fire"],["Earthquake","Rock Slide"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252}},
-    {"moves":[["Giga Drain"],["Sludge Bomb"],["Knock Off"],["Sleep Powder","Stun Spore"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold","Relaxed"],"evs":{"def":136,"spd":120,"hp":252}},
   ],
   "Togetic": [
     {"moves":[["Nasty Plot"],["Baton Pass"],["Dazzling Gleam","Fire Blast"],["Roost"]],"item":["Eviolite"],"ability":["Super Luck","Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spe":30}},

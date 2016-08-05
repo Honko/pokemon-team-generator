@@ -397,6 +397,9 @@ setdex.xy.lc = {
   "Onix": [
     {"moves":[["Earthquake"],["Rock Blast"],["Stealth Rock"],["Taunt","Dragon Tail","Roar"]],"item":["Berry Juice"],"ability":["Sturdy"],"nature":["Jolly"],"evs":{"hp":76,"spe":196,"atk":236}},
   ],
+  "Oshawott": [
+    {"moves":[["Hydro Pump"],["Ice Beam"],["Air Slash"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Torrent"],"nature":["Rash"],"evs":{"spa":252,"spe":236}},
+  ],
   "Pancham": [
     {"moves":[["Parting Shot"],["Drain Punch"],["Knock Off"],["Gunk Shot","Zen Headbutt"]],"item":["Eviolite"],"ability":["Mold Breaker"],"nature":["Adamant"],"evs":{"def":100,"spd":212,"spe":12,"atk":180}},
     {"moves":[["Swords Dance"],["Drain Punch"],["Knock Off"],["Gunk Shot","Zen Headbutt"]],"item":["Eviolite"],"ability":["Mold Breaker"],"nature":["Adamant"],"evs":{"def":100,"spd":212,"spe":12,"atk":180}},

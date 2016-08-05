@@ -351,6 +351,9 @@ setdex.xy.uu = {
     {"moves":[["Recover"],["Tri Attack"],["Ice Beam"],["Thunder Wave","Toxic"]],"item":["Eviolite"],"ability":["Trace"],"nature":["Calm"],"evs":{"def":120,"spd":136,"hp":252}},
     {"moves":[["Trick Room"],["Recover"],["Thunderbolt","Tri Attack"],["Ice Beam"]],"item":["Eviolite"],"ability":["Download"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
+  "Quagsire": [
+    {"moves":[["Scald"],["Recover"],["Earthquake"],["Toxic","Encore"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
+  ],
   "Qwilfish": [
     {"moves":[["Spikes","Toxic Spikes"],["Waterfall","Scald"],["Taunt"],["Thunder Wave","Pain Split"]],"item":["Black Sludge"],"ability":["Intimidate"],"nature":["Impish","Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Swords Dance"],["Waterfall"],["Poison Jab"],["Explosion"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -382,12 +385,6 @@ setdex.xy.uu = {
   ],
   "Sableye": [
     {"moves":[["Recover"],["Will-O-Wisp"],["Taunt"],["Knock Off","Snarl"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Careful","Calm"],"evs":{"def":4,"spd":252,"hp":252}},
-  ],
-  "Salamence": [
-    {"moves":[["Dragon Dance"],["Outrage","Dragon Claw"],["Fire Blast","Earthquake"],["Iron Tail","Earthquake"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate","Moxie"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
-    {"moves":[["Draco Meteor"],["Fire Blast"],["Outrage","Defog","Iron Tail"],["Roost","Iron Tail","Earthquake"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
-    {"moves":[["Roost"],["Dragon Claw"],["Earthquake","Toxic"],["Dragon Tail","Roar","Defog"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":236,"hp":248,"spe":24}},
-    {"moves":[["Outrage"],["Dragon Claw"],["Earthquake","Fire Blast"],["Iron Tail"]],"item":["Choice Scarf"],"ability":["Moxie"],"nature":["Jolly","Naive"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Sceptile": [
     {"moves":[["Giga Drain","Energy Ball"],["Leaf Storm"],["Dragon Pulse"],["Focus Blast","Hidden Power Fire"]],"item":["Sceptilite"],"ability":["Overgrow"],"nature":["Timid","Naive"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -452,10 +449,6 @@ setdex.xy.uu = {
   "Sylveon": [
     {"moves":[["Hyper Voice"],["Psyshock"],["Hidden Power Fire"],["Baton Pass","Shadow Ball"]],"item":["Choice Specs"],"ability":["Pixilate"],"nature":["Modest"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Hyper Voice"],["Heal Bell"],["Wish"],["Protect"]],"item":["Leftovers"],"ability":["Pixilate"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
-  ],
-  "Tangrowth": [
-    {"moves":[["Sleep Powder"],["Leech Seed","Synthesis"],["Giga Drain","Leaf Storm"],["Knock Off","Toxic","Protect"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":4,"hp":252}},
-    {"moves":[["Leaf Storm","Giga Drain"],["Focus Blast","Hidden Power Fire"],["Hidden Power Ice","Ancient Power","Knock Off"],["Sleep Powder"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Modest","Rash"],"evs":{"spa":252,"hp":172,"spe":80}},
   ],
   "Tentacruel": [
     {"moves":[["Rapid Spin"],["Scald"],["Toxic Spikes"],["Haze","Acid Spray"]],"item":["Black Sludge"],"ability":["Liquid Ooze"],"nature":["Bold"],"evs":{"def":244,"hp":240,"spe":24}},

@@ -41,13 +41,11 @@ setdex.xy.uber = {
     {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Refresh","Earth Power"]],"item":["Sky Plate"],"ability":["Multitype"],"nature":["Modest"],"evs":{"spa":200,"hp":132,"spe":176}},
   ],
   "Arceus-Ghost": [
-    {"moves":[["Defog"],["Will-O-Wisp"],["Judgment"],["Recover"]],"item":["Spooky Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
-    {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Will-O-Wisp","Focus Blast","Thunder"]],"item":["Spooky Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
-    {"moves":[["Swords Dance"],["Shadow Force"],["Brick Break"],["Shadow Claw","Extreme Speed"]],"item":["Spooky Plate"],"ability":["Multitype"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Swords Dance"],["Shadow Force"],["Brick Break"],["Extreme Speed","Shadow Claw"]],"item":["Spooky Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Calm Mind"],["Judgment"],["Focus Blast"],["Substitute","Recover"]],"item":["Spooky Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Arceus-Grass": [
-    {"moves":[["Recover"],["Defog","Toxic"],["Grass Knot","Judgment"],["Ice Beam","Stone Edge","Toxic"]],"item":["Meadow Plate"],"ability":["Multitype"],"nature":["Calm"],"evs":{"spd":200,"hp":252,"spe":56}},
-    {"moves":[["Calm Mind"],["Recover"],["Grass Knot","Judgment"],["Ice Beam"]],"item":["Meadow Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":4,"hp":252,"spe":252}},
+    {"moves":[["Grass Knot"],["Stone Edge"],["Ice Beam","Fire Blast"],["Recover"]],"item":["Meadow Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Arceus-Ground": [
     {"moves":[["Swords Dance"],["Earthquake"],["Stone Edge"],["Recover"]],"item":["Earth Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -103,7 +101,7 @@ setdex.xy.uber = {
     {"moves":[["Psycho Boost"],["Spikes"],["Taunt"],["Counter","Superpower"]],"item":["Chilan Berry"],"ability":["Pressure"],"nature":["Timid","Naive"],"evs":{"def":200,"hp":252,"spe":56}},
   ],
   "Deoxys-Attack": [
-    {"moves":[["Psycho Boost"],["Superpower","Low Kick"],["Knock Off","Ice Beam"],["Extreme Speed","Knock Off","Hidden Power Fire"]],"item":["Life Orb","Focus Sash"],"ability":["Pressure"],"nature":["Naive","Rash"],"evs":{"spa":252,"spe":188,"atk":68}},
+    {"moves":[["Psycho Boost"],["Superpower","Low Kick"],["Ice Beam","Knock Off"],["Extreme Speed","Knock Off"]],"item":["Life Orb","Focus Sash"],"ability":["Pressure"],"nature":["Rash","Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
     {"moves":[["Stealth Rock","Spikes"],["Psycho Boost"],["Knock Off"],["Extreme Speed","Taunt"]],"item":["Focus Sash"],"ability":["Pressure"],"nature":["Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
   ],
   "Deoxys-Defense": [
@@ -158,11 +156,13 @@ setdex.xy.uber = {
     {"moves":[["Toxic Spikes"],["Spikes"],["Taunt"],["Shadow Sneak"]],"item":["Focus Sash"],"ability":["Protean"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Groudon": [
-    {"moves":[["Stealth Rock"],["Earthquake","Precipice Blades"],["Lava Plume","Stone Edge"],["Roar","Thunder Wave","Dragon Tail"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Relaxed"],"evs":{"def":56,"spd":200,"hp":252}},
-    {"moves":[["Rock Polish"],["Precipice Blades"],["Dragon Claw","Swords Dance"],["Stone Edge","Fire Punch"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"spd":96,"hp":104,"spe":56,"atk":252}},
-    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Mild"],"evs":{"spa":252,"spd":104,"spe":56,"atk":96}},
-    {"moves":[["Thunder Wave"],["Swords Dance"],["Precipice Blades"],["Rock Slide","Stone Edge"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"spd":48,"hp":252,"spe":12,"atk":196}},
-    {"moves":[["Stealth Rock"],["Precipice Blades"],["Stone Edge"],["Dragon Tail","Roar"]],"item":["Leftovers"],"ability":["Drought"],"nature":["Impish"],"evs":{"def":248,"hp":248,"spe":12}},
+    {"moves":[["Stealth Rock"],["Precipice Blades"],["Lava Plume","Rock Slide"],["Roar","Thunder Wave","Dragon Tail"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Sassy","Careful"],"evs":{"def":8,"spd":252,"hp":248}},
+    {"moves":[["Stealth Rock"],["Precipice Blades"],["Dragon Tail","Fire Punch"],["Stone Edge","Rock Tomb"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"spd":44,"hp":152,"spe":76,"atk":236}},
+    {"moves":[["Rock Polish"],["Precipice Blades"],["Swords Dance","Dragon Claw"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"spd":32,"hp":168,"spe":56,"atk":252}},
+    {"moves":[["Stealth Rock"],["Swords Dance"],["Precipice Blades"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Jolly"],"evs":{"spd":144,"spe":196,"atk":168}},
+    {"moves":[["Thunder Wave"],["Swords Dance"],["Rock Slide"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"hp":244,"spe":12,"atk":252}},
+    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Mild"],"evs":{"spa":252,"spd":144,"spe":56,"atk":56}},
+    {"moves":[["Rest"],["Sleep Talk"],["Lava Plume"],["Precipice Blades","Roar"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Sassy","Calm"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Gyarados": [
     {"moves":[["Crunch"],["Earthquake"],["Taunt"],["Dragon Dance"]],"item":["Gyaradosite"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

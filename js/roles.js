@@ -85,16 +85,19 @@ const ROLES = {
             return setCanExcludeItem(set, "Choice Scarf");
         },
     },
-    FocusSashLead: {
-        name: "Focus Sash lead",
+    DedicatedLead: {
+        name: "dedicated lead",
         setMatches: function(set) {
-            return setHasItem(set, "Focus Sash") && !setHasAbility(set, "Magic Guard");
+            return (setHasItem(set, "Focus Sash") && !setHasAbility(set, "Magic Guard")) ||
+                    (setHasItem(set, "Custap Berry") && setHasAbility(set, "Sturdy"));
         },
         setCanMatch: function(set) {
-            return setCanIncludeItem(set, "Focus Sash") && setCanExcludeAbility(set, "Magic Guard");
+            return (setCanIncludeItem(set, "Focus Sash") && setCanExcludeAbility(set, "Magic Guard")) ||
+                    (setCanIncludeItem(set, "Custap Berry") && setCanIncludeAbility(set, "Sturdy"));
         },
         setCanAvoidMatch: function(set) {
-            return setCanExcludeItem(set, "Focus Sash") || setCanIncludeAbility(set, "Magic Guard");
+            return (setCanExcludeItem(set, "Focus Sash") || setCanIncludeAbility(set, "Magic Guard")) &&
+                    (setCanExcludeItem(set, "Custap Berry") || setCanExcludeAbility(set, "Sturdy"));
         },
     },
 };

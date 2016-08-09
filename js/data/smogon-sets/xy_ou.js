@@ -73,7 +73,7 @@ setdex.xy.ou = {
     {"moves":[["Leech Seed"],["Drain Punch"],["Spikes"],["Wood Hammer","Spiky Shield"]],"item":["Leftovers"],"ability":["Bulletproof"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Clefable": [
-    {"moves":[["Calm Mind"],["Moonblast"],["Soft-Boiled"],["Thunder Wave","Flamethrower"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
+    {"moves":[["Calm Mind"],["Moonblast"],["Soft-Boiled"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
     {"moves":[["Stealth Rock"],["Moonblast"],["Thunder Wave","Fire Blast"],["Soft-Boiled"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
     {"moves":[["Moonblast"],["Heal Bell","Flamethrower"],["Wish"],["Protect"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Calm Mind"],["Moonblast"],["Moonlight","Wish"],["Heal Bell","Protect","Flamethrower"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
@@ -263,7 +263,7 @@ setdex.xy.ou = {
     {"moves":[["Draco Meteor"],["Psyshock"],["Defog","Hidden Power Fire"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Lopunny": [
-    {"moves":[["High Jump Kick"],["Return"],["Fake Out"],["Power-Up Punch","Ice Punch"]],"item":["Lopunnite"],"ability":["Limber"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["High Jump Kick"],["Return"],["Fake Out"],["Ice Punch","Power-Up Punch"]],"item":["Lopunnite"],"ability":["Limber"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["High Jump Kick"],["Return"],["Substitute"],["Encore","Baton Pass"]],"item":["Lopunnite"],"ability":["Limber"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Lucario": [
@@ -421,7 +421,7 @@ setdex.xy.ou = {
     {"moves":[["Brave Bird"],["Flare Blitz"],["U-turn"],["Steel Wing","Tailwind"]],"item":["Choice Band"],"ability":["Gale Wings"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Tangrowth": [
-    {"moves":[["Sleep Powder"],["Giga Drain"],["Knock Off"],["Hidden Power Fire","Leech Seed"]],"item":["Leftovers","Rocky Helmet"],"ability":["Regenerator"],"nature":["Relaxed"],"evs":{"def":216,"spd":48,"hp":244}},
+    {"moves":[["Sleep Powder"],["Giga Drain"],["Knock Off"],["Hidden Power Fire","Leech Seed"]],"item":["Rocky Helmet","Leftovers"],"ability":["Regenerator"],"nature":["Relaxed"],"evs":{"def":216,"spd":48,"hp":244}},
     {"moves":[["Leaf Storm","Giga Drain"],["Knock Off"],["Earthquake"],["Hidden Power Ice","Hidden Power Fire"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Tentacruel": [

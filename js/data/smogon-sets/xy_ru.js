@@ -195,7 +195,7 @@ setdex.xy.ru = {
     {"moves":[["Hydro Pump"],["Giga Drain"],["Ice Beam"],["Rain Dance"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Magneton": [
-    {"moves":[["Thunderbolt"],["Flash Cannon"],["Magnet Rise"],["Hidden Power Water","Hidden Power Fire"]],"item":["Eviolite"],"ability":["Magnet Pull"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Volt Switch"],["Thunderbolt"],["Flash Cannon"],["Hidden Power Water","Hidden Power Grass"]],"item":["Choice Specs"],"ability":["Analytic","Sturdy"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Malamar": [
     {"moves":[["Superpower"],["Knock Off"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Contrary"],"nature":["Jolly"],"evs":{"spd":108,"hp":248,"spe":152}},
@@ -213,7 +213,7 @@ setdex.xy.ru = {
   "Meloetta": [
     {"moves":[["Substitute"],["Calm Mind"],["Psyshock"],["Focus Blast"]],"item":["Leftovers"],"ability":["Serene Grace"],"nature":["Timid"],"evs":{"def":208,"hp":252,"spe":48}},
     {"moves":[["Hyper Voice"],["Psychic"],["Focus Blast"],["U-turn","Dazzling Gleam"]],"item":["Choice Specs"],"ability":["Serene Grace"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Calm Mind"],["Hyper Voice","Psyshock"],["Dazzling Gleam"],["Focus Blast"]],"item":["Life Orb"],"ability":["Serene Grace"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Calm Mind"],["Psychic"],["Focus Blast"],["Shadow Ball","Dazzling Gleam"]],"item":["Colbur Berry"],"ability":["Serene Grace"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Meowstic-M": [
     {"moves":[["Reflect"],["Light Screen"],["Thunder Wave"],["Psyshock"]],"item":["Light Clay"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":236,"hp":248,"spe":24}},
@@ -240,6 +240,7 @@ setdex.xy.ru = {
   ],
   "Registeel": [
     {"moves":[["Seismic Toss"],["Stealth Rock"],["Toxic"],["Thunder Wave","Protect"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Curse"],["Iron Head"],["Rest"],["Sleep Talk","Toxic"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Rhyperior": [
     {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Roar","Megahorn","Protect"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":228,"hp":252,"atk":28}},
@@ -295,11 +296,9 @@ setdex.xy.ru = {
     {"moves":[["Calm Mind"],["Psycho Shift"],["Roost"],["Air Slash"]],"item":["Flame Orb"],"ability":["Magic Guard"],"nature":["Timid"],"evs":{"spa":4,"hp":252,"spe":252}},
   ],
   "Slowking": [
-    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psyshock","Dragon Tail","Ice Beam"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
-    {"moves":[["Trick Room"],["Scald","Surf"],["Psyshock"],["Fire Blast","Ice Beam","Nasty Plot"]],"item":["Leftovers","Life Orb"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":8,"hp":248},"ivs":{"spe":0}},
-    {"moves":[["Calm Mind","Nasty Plot"],["Scald"],["Psyshock"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":8,"hp":248}},
-    {"moves":[["Scald"],["Psychic","Psyshock"],["Dragon Tail"],["Fire Blast","Ice Beam"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
-    {"moves":[["Surf","Scald"],["Psyshock","Future Sight"],["Fire Blast","Ice Beam"],["Trick"]],"item":["Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
+    {"moves":[["Scald"],["Slack Off"],["Calm Mind"],["Psyshock","Thunder Wave"]],"item":["Leftovers","Colbur Berry"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"hp":248,"spe":8}},
+    {"moves":[["Scald"],["Future Sight"],["Fire Blast"],["Dragon Tail"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"def":92,"spa":168,"hp":248}},
+    {"moves":[["Scald"],["Psychic","Psyshock"],["Trick Room"],["Fire Blast","Nasty Plot"]],"item":["Life Orb","Leftovers"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"def":8,"spa":252,"hp":248},"ivs":{"spe":0}},
   ],
   "Slurpuff": [
     {"moves":[["Belly Drum"],["Play Rough"],["Return","Substitute"],["Drain Punch"]],"item":["Sitrus Berry"],"ability":["Unburden"],"nature":["Jolly"],"evs":{"hp":28,"spe":228,"atk":252}},
@@ -313,6 +312,9 @@ setdex.xy.ru = {
   "Spiritomb": [
     {"moves":[["Sucker Punch"],["Pursuit"],["Taunt"],["Will-O-Wisp"]],"item":["Black Glasses"],"ability":["Infiltrator"],"nature":["Adamant"],"evs":{"hp":212,"spe":44,"atk":252}},
     {"moves":[["Calm Mind"],["Dark Pulse","Snarl"],["Rest"],["Sleep Talk","Will-O-Wisp"]],"item":["Leftovers"],"ability":["Infiltrator"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+  ],
+  "Steelix": [
+    {"moves":[["Stealth Rock"],["Earthquake"],["Toxic"],["Heavy Slam","Gyro Ball"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful","Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Togetic": [
     {"moves":[["Nasty Plot"],["Baton Pass"],["Dazzling Gleam","Fire Blast"],["Roost"]],"item":["Eviolite"],"ability":["Super Luck","Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spe":30}},
@@ -341,5 +343,8 @@ setdex.xy.ru = {
   ],
   "Weezing": [
     {"moves":[["Will-O-Wisp"],["Sludge Bomb"],["Pain Split","Toxic Spikes"],["Taunt","Toxic Spikes"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":28,"spd":228,"hp":252}},
+  ],
+  "Xatu": [
+    {"moves":[["U-turn"],["Roost"],["Night Shade"],["Toxic"]],"item":["Leftovers","Colbur Berry"],"ability":["Magic Bounce"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
 };

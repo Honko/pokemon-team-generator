@@ -100,6 +100,36 @@ const ROLES = {
                     (setCanExcludeItem(set, "Custap Berry") || setCanExcludeAbility(set, "Sturdy"));
         },
     },
+    SunSupporter: {
+        name: "sun supporter",
+        setMatches: function(set) {
+            return setHasItem(set, "Heat Rock") && !setHasMove(set, "Solar Beam");
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeItem(set, "Heat Rock") && setCanExcludeMove(set, "Solar Beam");
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeItem(set, "Heat Rock") || setCanIncludeMove(set, "Solar Beam");
+        },
+    },
+    RainSupporter: {
+        name: "rain supporter",
+        setMatches: function(set) {
+            return setHasItem(set, "Damp Rock") &&
+                    (setHasMove(set, "U-turn") ||
+                            !(setHasAbility(set, "Swift Swim") || setHasAbility(set, "Hydration")));
+        },
+        setCanMatch: function(set) {
+            return setCanIncludeItem(set, "Damp Rock") &&
+                    (setCanIncludeMove(set, "U-turn") ||
+                            (setCanExcludeAbility(set, "Swift Swim") && setCanExcludeAbility(set, "Hydration")));
+        },
+        setCanAvoidMatch: function(set) {
+            return setCanExcludeItem(set, "Damp Rock") ||
+                    (setCanExcludeMove(set, "U-turn") &&
+                            (setCanIncludeAbility(set, "Swift Swim") || setCanIncludeAbility(set, "Hydration")));
+        },
+    },
 };
 
 var setHasMove = function(set, move) {

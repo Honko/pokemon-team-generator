@@ -93,6 +93,10 @@ teamGenerator.controller('GeneratorController', function($scope) {
             ROLES.ChoiceScarf,
             ROLES.DedicatedLead,
         ];
+        var unwantedRoles = [
+            ROLES.SunSupporter,
+            ROLES.RainSupporter,
+        ];
 
         var newTeam = [];
         // do fully locked mons first to count any roles they fill
@@ -105,7 +109,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         for (i = 0; i < 6; i++) {
             if (oldTeam[i] && oldTeam[i].name && oldTeam[i].speciesLocked) {
                 var requiredRole = pickRequiredRole(requiredRoles, newTeam);
-                var filledRoles = getFilledRoles(restrictedRoles, newTeam);
+                var filledRoles = getFilledRoles(restrictedRoles, newTeam).concat(unwantedRoles);
                 var newSet = createRandomSetForSpecies(oldTeam[i].name, filledRoles, requiredRole);
                 if (newSet) {
                     newTeam[i] = newSet;
@@ -119,7 +123,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
         // do new mons last
         for (i = 0; i < 6; i++) {
             if (!newTeam[i]) {
-                newTeam[i] = createRandomSet(excludeSpecies, getFilledRoles(restrictedRoles, newTeam), pickRequiredRole(requiredRoles, newTeam));
+                newTeam[i] = createRandomSet(excludeSpecies, getFilledRoles(restrictedRoles, newTeam).concat(unwantedRoles), pickRequiredRole(requiredRoles, newTeam));
                 if (excludeSpecies.indexOf(newTeam[i].name) === -1) {
                     excludeSpecies.push(newTeam[i].name);
                 }

@@ -241,11 +241,9 @@ setdex.dpp.nu = {
     {"moves":[["Substitute"],["Pain Split"],["Shadow Ball"],["Hidden Power Ground","Thunderbolt"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Hitmonchan": [
-    {"moves":[["Close Combat"],["Mach Punch","Stone Edge"],["Ice Punch"],["Thunder Punch"]],"item":["Choice Scarf"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":12,"spe":244,"atk":252}},
-    {"moves":[["Close Combat","Focus Punch"],["Ice Punch"],["Mach Punch"],["Thunder Punch","Stone Edge"]],"item":["Choice Band"],"ability":["Iron Fist"],"nature":["Adamant","Jolly"],"evs":{"hp":8,"spe":248,"atk":252}},
-    {"moves":[["Agility"],["Close Combat"],["Ice Punch"],["Stone Edge","Substitute"]],"item":["Life Orb"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":168,"spe":88,"atk":252}},
-    {"moves":[["Bulk Up"],["Drain Punch"],["Ice Punch"],["Substitute","Mach Punch","Thunder Punch"]],"item":["Leftovers"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":160,"spe":96,"atk":252}},
-    {"moves":[["Substitute"],["Focus Punch"],["Ice Punch"],["Mach Punch","Thunder Punch","Stone Edge"]],"item":["Fist Plate","Leftovers"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":96,"spe":160,"atk":252}},
+    {"moves":[["Close Combat"],["Mach Punch"],["Ice Punch","Thunder Punch"],["Rapid Spin"]],"item":["Life Orb"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"def":12,"hp":32,"spe":212,"atk":252}},
+    {"moves":[["Bulk Up"],["Drain Punch"],["Ice Punch"],["Rapid Spin"]],"item":["Leftovers"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":168,"spe":88,"atk":252}},
+    {"moves":[["Close Combat"],["Thunder Punch"],["Ice Punch"],["Stone Edge","Earthquake","Rapid Spin"]],"item":["Choice Scarf"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"hp":40,"spe":216,"atk":252}},
   ],
   "Huntail": [
     {"moves":[["Aqua Tail","Waterfall"],["Ice Beam"],["Hydro Pump"],["Hidden Power Grass"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Naughty"],"evs":{"spa":200,"spe":220,"atk":88}},

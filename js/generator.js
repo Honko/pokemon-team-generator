@@ -97,13 +97,13 @@ teamGenerator.controller('GeneratorController', function($scope) {
         var newTeam = [];
         // do fully locked mons first to count any roles they fill
         for (var i = 0; i < 6; i++) {
-            if (oldTeam[i] && oldTeam[i].locked) {
+            if (oldTeam[i] && oldTeam[i].name && oldTeam[i].locked) {
                 newTeam[i] = oldTeam[i];
             }
         }
         // do species-locked mons next to give them priority on restricted roles if needed (e.g. lock a mega-only mon)
         for (i = 0; i < 6; i++) {
-            if (oldTeam[i] && oldTeam[i].speciesLocked) {
+            if (oldTeam[i] && oldTeam[i].name && oldTeam[i].speciesLocked) {
                 var requiredRole = pickRequiredRole(requiredRoles, newTeam);
                 var filledRoles = getFilledRoles(restrictedRoles, newTeam);
                 var newSet = createRandomSetForSpecies(oldTeam[i].name, filledRoles, requiredRole);

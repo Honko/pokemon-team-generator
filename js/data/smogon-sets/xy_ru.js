@@ -282,11 +282,6 @@ setdex.xy.ru = {
     {"moves":[["Stealth Rock"],["Scald"],["Earth Power","Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
     {"moves":[["Substitute"],["Toxic"],["Earth Power"],["Sludge Wave","Hydro Pump"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},
   ],
-  "Shaymin": [
-    {"moves":[["Seed Flare"],["Dazzling Gleam","Earth Power"],["Psychic","Air Slash"],["Synthesis","Rest"]],"item":["Life Orb"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Seed Flare"],["Dazzling Gleam","Earth Power"],["Psychic","Air Slash"],["Healing Wish","Energy Ball"]],"item":["Choice Specs"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Leech Seed"],["Seed Flare"],["Psychic","Air Slash"],["Substitute","Protect"]],"item":["Leftovers"],"ability":["Natural Cure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-  ],
   "Shiftry": [
     {"moves":[["Defog"],["Knock Off"],["Sucker Punch"],["Leaf Storm"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
     {"moves":[["Swords Dance"],["Knock Off"],["Sucker Punch"],["Seed Bomb"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -299,9 +294,6 @@ setdex.xy.ru = {
     {"moves":[["Scald"],["Slack Off"],["Calm Mind"],["Psyshock","Thunder Wave"]],"item":["Leftovers","Colbur Berry"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"hp":248,"spe":8}},
     {"moves":[["Scald"],["Future Sight"],["Fire Blast"],["Dragon Tail"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"def":92,"spa":168,"hp":248}},
     {"moves":[["Scald"],["Psychic","Psyshock"],["Trick Room"],["Fire Blast","Nasty Plot"]],"item":["Life Orb","Leftovers"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"def":8,"spa":252,"hp":248},"ivs":{"spe":0}},
-  ],
-  "Slurpuff": [
-    {"moves":[["Belly Drum"],["Play Rough"],["Return","Substitute"],["Drain Punch"]],"item":["Sitrus Berry"],"ability":["Unburden"],"nature":["Jolly"],"evs":{"hp":28,"spe":228,"atk":252}},
   ],
   "Smeargle": [
     {"moves":[["Spore","Dark Void"],["Stealth Rock"],["Sticky Web"],["Explosion","Whirlwind","Nuzzle"]],"item":["Focus Sash"],"ability":["Own Tempo","Technician"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

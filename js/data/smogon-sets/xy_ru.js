@@ -323,8 +323,8 @@ setdex.xy.ru = {
   ],
   "Venusaur": [
     {"moves":[["Leaf Storm"],["Sludge Bomb"],["Synthesis"],["Sleep Powder","Knock Off"]],"item":["Life Orb"],"ability":["Overgrow","Chlorophyll"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Giga Drain"],["Sludge Bomb"],["Synthesis"],["Knock Off","Leech Seed"]],"item":["Black Sludge"],"ability":["Overgrow"],"nature":["Bold"],"evs":{"def":204,"spa":24,"spd":16,"hp":248,"spe":16}},
     {"moves":[["Growth"],["Giga Drain"],["Sludge Bomb"],["Sleep Powder","Hidden Power Fire","Solar Beam"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Giga Drain"],["Sludge Bomb"],["Synthesis"],["Leech Seed","Knock Off"]],"item":["Black Sludge"],"ability":["Overgrow"],"nature":["Bold"],"evs":{"def":216,"spa":24,"spd":16,"hp":252}},
   ],
   "Virizion": [
     {"moves":[["Swords Dance"],["Close Combat"],["Leaf Blade"],["Stone Edge","Zen Headbutt"]],"item":["Lum Berry","Life Orb"],"ability":["Justified"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

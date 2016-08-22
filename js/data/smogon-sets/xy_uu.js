@@ -214,10 +214,10 @@ setdex.xy.uu = {
     {"moves":[["Rest"],["Sleep Talk"],["Waterfall"],["Roar","Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":184,"spd":60,"hp":216,"spe":48}},
   ],
   "Haxorus": [
-    {"moves":[["Swords Dance"],["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"]],"item":["Lum Berry"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Outrage"],["Earthquake"],["Poison Jab"],["Dragon Claw","Sleep Talk"]],"item":["Choice Band"],"ability":["Mold Breaker"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Dragon Dance"],["Outrage","Dragon Claw"],["Earthquake"],["Taunt","Poison Jab"]],"item":["Life Orb","Lum Berry"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Dragon Dance"],["Outrage","Dragon Claw"],["Earthquake"],["Poison Jab","Iron Tail"]],"item":["Life Orb","Lum Berry"],"ability":["Mold Breaker"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Outrage"],["Earthquake"],["Iron Tail"],["Dragon Claw","Superpower"]],"item":["Choice Band"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Swords Dance"],["Outrage"],["Earthquake"],["Poison Jab"]],"item":["Lum Berry","Life Orb"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Swords Dance"],["Dragon Dance"],["Dragon Claw","Outrage"],["Earthquake"]],"item":["Lum Berry"],"ability":["Mold Breaker"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Heliolisk": [
     {"moves":[["Volt Switch"],["Hyper Voice"],["Grass Knot","Surf","Focus Blast"],["Thunderbolt"]],"item":["Life Orb","Choice Specs"],"ability":["Dry Skin"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -285,8 +285,8 @@ setdex.xy.uu = {
     {"moves":[["Swords Dance"],["Waterfall"],["Seed Bomb","Bullet Seed"],["Ice Punch","Rain Dance","Zen Headbutt"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Adamant","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Machamp": [
-    {"moves":[["Dynamic Punch","Close Combat"],["Knock Off"],["Stone Edge","Ice Punch"],["Heavy Slam","Bullet Punch"]],"item":["Assault Vest"],"ability":["No Guard","Guts"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
-    {"moves":[["Close Combat","Dynamic Punch"],["Knock Off","Ice Punch","Stone Edge"],["Heavy Slam"],["Bullet Punch","Ice Punch"]],"item":["Choice Band"],"ability":["Guts","No Guard"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Dynamic Punch"],["Knock Off"],["Heavy Slam","Bullet Punch"],["Stone Edge","Bullet Punch"]],"item":["Assault Vest"],"ability":["No Guard"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
+    {"moves":[["Dynamic Punch"],["Knock Off"],["Heavy Slam"],["Stone Edge","Bullet Punch"]],"item":["Choice Band"],"ability":["Guts","No Guard"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Magneton": [
     {"moves":[["Thunderbolt"],["Flash Cannon"],["Volt Switch"],["Hidden Power Ice","Hidden Power Grass"]],"item":["Choice Specs"],"ability":["Magnet Pull"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},

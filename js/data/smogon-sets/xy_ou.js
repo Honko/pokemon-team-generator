@@ -106,7 +106,7 @@ setdex.xy.ou = {
     {"moves":[["Earthquake"],["Return"],["Knock Off","Wild Charge"],["U-turn"]],"item":["Choice Scarf"],"ability":["Huge Power"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Ditto": [
-    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter","Limber"],"nature":["Relaxed"],"evs":{"def":252,"spd":8,"hp":248},"ivs":{"spe":0}},
+    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
   "Doublade": [
     {"moves":[["Gyro Ball"],["Toxic"],["Sleep Talk","Sacred Sword","Pursuit"],["Rest"]],"item":["Eviolite"],"ability":["No Guard"],"nature":["Sassy"],"evs":{"spd":252,"hp":252,"atk":4},"ivs":{"spe":0}},
@@ -392,9 +392,6 @@ setdex.xy.ou = {
   "Slowking": [
     {"moves":[["Scald"],["Psychic","Future Sight"],["Fire Blast"],["Ice Beam","Dragon Tail"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},
     {"moves":[["Scald"],["Psyshock","Fire Blast"],["Thunder Wave","Toxic","Dragon Tail"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"def":184,"spd":76,"hp":248}},
-  ],
-  "Smeargle": [
-    {"moves":[["Sticky Web"],["Stealth Rock"],["Spore","Dark Void"],["Magic Coat"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Timid"],"evs":{"def":120,"spd":40,"hp":96,"spe":252}},
   ],
   "Staraptor": [
     {"moves":[["Brave Bird"],["Double-Edge"],["Final Gambit","Close Combat","Quick Attack"],["U-turn"]],"item":["Choice Band"],"ability":["Reckless"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

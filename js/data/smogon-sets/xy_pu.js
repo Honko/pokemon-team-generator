@@ -29,7 +29,7 @@ setdex.xy.pu = {
     {"moves":[["Rapid Spin"],["Recover"],["Avalanche"],["Earthquake","Roar"]],"item":["Leftovers"],"ability":["Sturdy"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Banette": [
-    {"moves":[["Knock Off"],["Will-O-Wisp"],["Shadow Claw"],["Shadow Sneak","Sucker Punch","Destiny Bond"]],"item":["Banettite"],"ability":["Insomnia","Frisk"],"nature":["Adamant"],"evs":{"hp":228,"spe":28,"atk":252}},
+    {"moves":[["Shadow Claw"],["Sucker Punch"],["Dazzling Gleam","Thunderbolt"],["Knock Off","Hidden Power Fighting","Will-O-Wisp"]],"item":["Life Orb"],"ability":["Insomnia"],"nature":["Naughty"],"evs":{"spa":40,"spe":220,"atk":248}},
   ],
   "Basculin": [
     {"moves":[["Waterfall"],["Zen Headbutt"],["Ice Beam"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Adaptability"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
@@ -119,7 +119,7 @@ setdex.xy.pu = {
     {"moves":[["Toxic"],["Protect"],["Surf","Ice Beam"],["Perish Song","Encore"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"spa":8,"spd":252,"hp":248}},
   ],
   "Ditto": [
-    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":8,"hp":248},"ivs":{"spa":30,"spd":30,"spe":1}},
+    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spa":30,"spd":30,"spe":1}},
   ],
   "Dodrio": [
     {"moves":[["Brave Bird"],["Return"],["Knock Off"],["Pursuit","Quick Attack"]],"item":["Choice Band","Life Orb"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -390,7 +390,6 @@ setdex.xy.pu = {
   ],
   "Pelipper": [
     {"moves":[["Defog"],["Roost"],["Scald"],["U-turn","Hurricane"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
-    {"moves":[["Scald"],["Roost"],["U-turn","Hurricane"],["Defog"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":156,"spd":104,"hp":248}},
   ],
   "Persian": [
     {"moves":[["Nasty Plot"],["Hyper Voice"],["Hidden Power Ghost"],["Water Pulse","Substitute"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},

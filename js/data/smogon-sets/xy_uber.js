@@ -21,7 +21,6 @@ setdex.xy.uber = {
   ],
   "Arceus-Dragon": [
     {"moves":[["Judgment"],["Toxic","Will-O-Wisp"],["Recover"],["Defog"]],"item":["Draco Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":204,"hp":248,"spe":56}},
-    {"moves":[["Calm Mind"],["Judgment"],["Fire Blast"],["Recover"]],"item":["Draco Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"def":8,"hp":248,"spe":252}},
     {"moves":[["Swords Dance"],["Outrage"],["Earthquake"],["Iron Tail","Extreme Speed"]],"item":["Draco Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Arceus-Electric": [
@@ -111,9 +110,8 @@ setdex.xy.uber = {
     {"moves":[["Taunt"],["Stealth Rock"],["Skill Swap"],["Magic Coat","Spikes"]],"item":["Rocky Helmet","Focus Sash"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":244,"hp":248,"spe":16}},
   ],
   "Dialga": [
+    {"moves":[["Stealth Rock"],["Draco Meteor"],["Flash Cannon"],["Thunder","Fire Blast"]],"item":["Shuca Berry"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":244,"spe":12}},
     {"moves":[["Stealth Rock"],["Draco Meteor"],["Fire Blast","Flash Cannon"],["Toxic","Roar"]],"item":["Shuca Berry","Leftovers"],"ability":["Pressure"],"nature":["Calm"],"evs":{"spd":252,"hp":244,"spe":12}},
-    {"moves":[["Draco Meteor"],["Fire Blast"],["Flash Cannon"],["Stealth Rock","Thunder"]],"item":["Shuca Berry","Life Orb"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":244,"spe":12}},
-    {"moves":[["Draco Meteor","Dragon Pulse"],["Fire Blast"],["Flash Cannon"],["Thunder","Sleep Talk"]],"item":["Choice Scarf"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Diancie": [
     {"moves":[["Moonblast"],["Diamond Storm"],["Earth Power"],["Protect","Heal Bell","Calm Mind"]],"item":["Diancite"],"ability":["Magic Bounce"],"nature":["Timid","Naive"],"evs":{"spa":252,"spe":176,"atk":80}},
@@ -121,7 +119,7 @@ setdex.xy.uber = {
     {"moves":[["Stealth Rock"],["Trick Room"],["Diamond Storm"],["Explosion"]],"item":["Life Orb"],"ability":["Clear Body"],"nature":["Brave"],"evs":{"def":8,"hp":248,"atk":252},"ivs":{"spe":0}},
   ],
   "Ditto": [
-    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":8,"hp":248},"ivs":{"spe":0}},
+    {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spe":0}},
   ],
   "Excadrill": [
     {"moves":[["Stealth Rock"],["Rapid Spin"],["Toxic"],["Earthquake"]],"item":["Focus Sash"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -137,17 +135,17 @@ setdex.xy.uber = {
     {"moves":[["U-turn"],["Iron Head"],["Ice Beam","Extreme Speed"],["Explosion"]],"item":["Choice Scarf"],"ability":["Download"],"nature":["Naive","Hasty"],"evs":{"spa":8,"spe":252,"atk":248}},
   ],
   "Gengar": [
+    {"moves":[["Hex"],["Focus Blast"],["Protect"],["Will-O-Wisp","Sludge Bomb","Hypnosis"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Destiny Bond"],["Sludge Wave"],["Shadow Ball","Focus Blast"],["Taunt","Protect"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Hex"],["Focus Blast"],["Protect"],["Will-O-Wisp","Sludge Bomb"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
-    {"moves":[["Perish Song"],["Protect"],["Taunt","Disable"],["Substitute","Disable"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":84,"hp":248,"spe":176}},
     {"moves":[["Hypnosis"],["Substitute"],["Hex"],["Sludge Wave","Destiny Bond"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Perish Song"],["Protect"],["Taunt","Disable"],["Substitute","Disable"]],"item":["Gengarite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":84,"hp":248,"spe":176}},
   ],
   "Giratina": [
     {"moves":[["Will-O-Wisp","Toxic"],["Roar","Dragon Tail"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold","Impish"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Giratina-Origin": [
-    {"moves":[["Defog"],["Shadow Sneak"],["Dragon Tail"],["Shadow Force","Earthquake"]],"item":["Griseous Orb"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"def":248,"spe":12,"atk":248}},
     {"moves":[["Hex"],["Draco Meteor"],["Thunder Wave"],["Defog"]],"item":["Griseous Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"def":252,"spa":244,"spe":12}},
+    {"moves":[["Defog"],["Shadow Sneak"],["Dragon Tail"],["Shadow Force","Earthquake"]],"item":["Griseous Orb"],"ability":["Levitate"],"nature":["Adamant"],"evs":{"def":248,"spe":12,"atk":248}},
   ],
   "Gothitelle": [
     {"moves":[["Calm Mind"],["Psyshock"],["Rest"],["Thunder Wave","Tickle"]],"item":["Leftovers"],"ability":["Shadow Tag"],"nature":["Sassy","Calm"],"evs":{"spa":4,"spd":252,"hp":252},"ivs":{"spe":3}},
@@ -168,8 +166,8 @@ setdex.xy.uber = {
     {"moves":[["Crunch"],["Earthquake"],["Taunt"],["Dragon Dance"]],"item":["Gyaradosite"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Ho-Oh": [
-    {"moves":[["Brave Bird"],["Sacred Fire"],["Recover"],["Thunder Wave","Earthquake"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":52,"hp":248,"spe":12,"atk":196}},
     {"moves":[["Brave Bird"],["Sacred Fire"],["Earthquake"],["Sleep Talk"]],"item":["Choice Band"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":52,"hp":248,"spe":12,"atk":196}},
+    {"moves":[["Brave Bird"],["Sacred Fire"],["Recover"],["Thunder Wave","Earthquake"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":52,"hp":248,"spe":12,"atk":196}},
   ],
   "Hoopa-Unbound": [
     {"moves":[["Psyshock"],["Dark Pulse"],["Focus Blast"],["Nasty Plot"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
@@ -185,8 +183,8 @@ setdex.xy.uber = {
     {"moves":[["Spikes"],["Thunder Wave"],["Toxic"],["Play Rough"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},
   ],
   "Kyogre": [
-    {"moves":[["Calm Mind"],["Origin Pulse"],["Blizzard","Ice Beam"],["Thunder","Hidden Power Ground"]],"item":["Blue Orb"],"ability":["Drizzle"],"nature":["Modest"],"evs":{"spa":252,"hp":172,"spe":84}},
     {"moves":[["Rest"],["Sleep Talk"],["Scald"],["Ice Beam","Roar"]],"item":["Blue Orb"],"ability":["Drizzle"],"nature":["Bold"],"evs":{"def":248,"hp":248,"spe":12}},
+    {"moves":[["Calm Mind"],["Origin Pulse"],["Ice Beam"],["Thunder"]],"item":["Blue Orb"],"ability":["Drizzle"],"nature":["Modest"],"evs":{"spa":252,"hp":172,"spe":84}},
     {"moves":[["Waterfall"],["Earthquake"],["Ice Beam"],["Thunder Wave"]],"item":["Blue Orb"],"ability":["Primordial Sea"],"nature":["Adamant","Brave"],"evs":{"spd":8,"hp":248,"atk":252}},
   ],
   "Kyurem-White": [
@@ -282,8 +280,8 @@ setdex.xy.uber = {
   "Xerneas": [
     {"moves":[["Geomancy"],["Moonblast"],["Thunder","Aromatherapy"],["Focus Blast","Hidden Power Ground"]],"item":["Power Herb"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":28,"spa":252,"hp":184,"spe":44}},
     {"moves":[["Moonblast"],["Focus Blast"],["Sleep Talk","Aromatherapy"],["Thunder","Grass Knot"]],"item":["Choice Scarf"],"ability":["Fairy Aura"],"nature":["Modest"],"evs":{"def":32,"spa":252,"spe":224}},
-    {"moves":[["Moonblast"],["Aromatherapy"],["Thunder","Rock Slide"],["Close Combat","Focus Blast"]],"item":["Life Orb","Expert Belt"],"ability":["Fairy Aura"],"nature":["Mild","Rash"],"evs":{"spa":252,"spe":224,"atk":32}},
     {"moves":[["Moonblast"],["Hidden Power Fire","Focus Blast"],["Grass Knot","Thunder"],["Psyshock","Aromatherapy"]],"item":["Choice Specs"],"ability":["Fairy Aura"],"nature":["Modest","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Moonblast"],["Aromatherapy"],["Thunder","Rock Slide"],["Close Combat","Focus Blast"]],"item":["Life Orb","Expert Belt"],"ability":["Fairy Aura"],"nature":["Mild","Rash"],"evs":{"spa":252,"spe":224,"atk":32}},
     {"moves":[["Moonblast"],["Sleep Talk"],["Rest"],["Aromatherapy","Roar"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Calm Mind"],["Sleep Talk"],["Rest"],["Moonblast"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],

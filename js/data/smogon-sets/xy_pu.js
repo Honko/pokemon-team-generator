@@ -57,7 +57,7 @@ setdex.xy.pu = {
     {"moves":[["Curse"],["Waterfall"],["Quick Attack"],["Rest"]],"item":["Chesto Berry"],"ability":["Simple"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
   ],
   "Bouffalant": [
-    {"moves":[["Return"],["Earthquake"],["Pursuit"],["Megahorn"]],"item":["Assault Vest","Leftovers"],"ability":["Sap Sipper"],"nature":["Adamant"],"evs":{"spd":8,"hp":248,"atk":252}},
+    {"moves":[["Return"],["Earthquake"],["Pursuit"],["Facade"]],"item":["Assault Vest","Leftovers"],"ability":["Sap Sipper"],"nature":["Adamant"],"evs":{"spd":8,"hp":248,"atk":252}},
     {"moves":[["Substitute"],["Swords Dance"],["Return"],["Earthquake"]],"item":["Leftovers"],"ability":["Sap Sipper"],"nature":["Adamant"],"evs":{"hp":248,"spe":124,"atk":136}},
     {"moves":[["Head Charge"],["Earthquake"],["Megahorn"],["Pursuit","Stone Edge"]],"item":["Choice Band"],"ability":["Reckless"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
@@ -101,7 +101,8 @@ setdex.xy.pu = {
     {"moves":[["Stealth Rock"],["Recover"],["Scald"],["Toxic"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"spa":4,"spd":252,"hp":252}},
   ],
   "Crustle": [
-    {"moves":[["Stealth Rock"],["Spikes"],["Shell Smash","Knock Off"],["Rock Blast"]],"item":["Custap Berry"],"ability":["Sturdy"],"nature":["Naughty"],"evs":{"def":4,"spe":252,"atk":252},"ivs":{"def":0,"spd":0,"hp":0}},
+    {"moves":[["Stealth Rock"],["Spikes"],["Stone Edge"],["Knock Off"]],"item":["Custap Berry"],"ability":["Sturdy"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Shell Smash"],["Stone Edge"],["Earthquake"],["X-Scissor"]],"item":["White Herb"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Cryogonal": [
     {"moves":[["Freeze-Dry"],["Rapid Spin"],["Recover"],["Hidden Power Fighting"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -122,7 +123,7 @@ setdex.xy.pu = {
     {"moves":[["Transform"]],"item":["Choice Scarf"],"ability":["Imposter"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spa":30,"spd":30,"spe":1}},
   ],
   "Dodrio": [
-    {"moves":[["Brave Bird"],["Return"],["Knock Off"],["Pursuit","Quick Attack"]],"item":["Choice Band","Life Orb"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Brave Bird"],["Return"],["Knock Off"],["Quick Attack","Pursuit"]],"item":["Choice Band","Life Orb"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Brave Bird"],["Return"],["Knock Off"],["Pursuit"]],"item":["Choice Scarf"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Dragonair": [
@@ -315,7 +316,9 @@ setdex.xy.pu = {
     {"moves":[["Quiver Dance"],["Bug Buzz"],["Air Slash"],["Ice Beam","Hydro Pump"]],"item":["Focus Sash"],"ability":["Intimidate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Mawile": [
-    {"moves":[["Play Rough"],["Iron Head"],["Fire Blast"],["Sucker Punch"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Naughty"],"evs":{"spa":4,"spe":252,"atk":252}},
+    {"moves":[["Play Rough"],["Iron Head"],["Sucker Punch"],["Swords Dance"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Play Rough"],["Iron Head"],["Sucker Punch"],["Fire Blast"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Naughty"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Play Rough"],["Stealth Rock"],["Knock Off"],["Toxic"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Meganium": [
     {"moves":[["Aromatherapy"],["Synthesis"],["Giga Drain"],["Dragon Tail","Toxic"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
@@ -386,10 +389,10 @@ setdex.xy.pu = {
     {"moves":[["Spore"],["Synthesis"],["Seed Bomb"],["Knock Off"]],"item":["Leftovers"],"ability":["Dry Skin"],"nature":["Impish"],"evs":{"def":252,"hp":248,"atk":8}},
   ],
   "Pawniard": [
-    {"moves":[["Knock Off"],["Sucker Punch"],["Iron Head"],["Swords Dance","Pursuit"]],"item":["Eviolite"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Knock Off"],["Sucker Punch"],["Iron Head"],["Swords Dance"]],"item":["Eviolite"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Pelipper": [
-    {"moves":[["Defog"],["Roost"],["Scald"],["U-turn","Hurricane"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Defog"],["Roost"],["Scald"],["Hurricane","U-turn"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Persian": [
     {"moves":[["Nasty Plot"],["Hyper Voice"],["Hidden Power Ghost"],["Water Pulse","Substitute"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -564,7 +567,7 @@ setdex.xy.pu = {
     {"moves":[["Tailwind"],["Bug Buzz"],["Air Slash"],["Destiny Bond"]],"item":["Life Orb","Insect Plate"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Vibrava": [
-    {"moves":[["Defog"],["U-turn"],["Roost"],["Earthquake"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Defog"],["U-turn"],["Roost"],["Earthquake"]],"item":["Eviolite"],"ability":["Levitate"],"nature":["Impish"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Volbeat": [
     {"moves":[["Sunny Day","Rain Dance"],["U-turn"],["Encore"],["Thunder Wave"]],"item":["Heat Rock","Damp Rock"],"ability":["Prankster"],"nature":["Relaxed"],"evs":{"def":252,"hp":252,"atk":4},"ivs":{"spe":0}},

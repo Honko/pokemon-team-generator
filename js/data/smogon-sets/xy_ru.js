@@ -80,6 +80,7 @@ setdex.xy.ru = {
   "Diancie": [
     {"moves":[["Stealth Rock"],["Heal Bell"],["Moonblast"],["Diamond Storm"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
     {"moves":[["Trick Room"],["Moonblast"],["Earth Power"],["Psychic","Diamond Storm","Explosion"]],"item":["Life Orb"],"ability":["Clear Body"],"nature":["Quiet"],"evs":{"def":4,"spa":252,"hp":252},"ivs":{"spe":0}},
+    {"moves":[["Stealth Rock"],["Moonblast"],["Diamond Storm"],["Earth Power","Psychic"]],"item":["Shuca Berry"],"ability":["Clear Body"],"nature":["Quiet"],"evs":{"spa":252,"hp":252,"atk":4}},
     {"moves":[["Calm Mind"],["Rest"],["Sleep Talk"],["Moonblast"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
   ],
   "Ditto": [
@@ -96,7 +97,7 @@ setdex.xy.ru = {
     {"moves":[["Glare"],["Dragon Tail","Dragon Claw"],["Rest","Stealth Rock"],["Sleep Talk","Fire Punch"]],"item":["Leftovers","Rocky Helmet"],"ability":["Rough Skin"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Dugtrio": [
-    {"moves":[["Earthquake"],["Stone Edge"],["Sucker Punch"],["Memento"]],"item":["Life Orb","Choice Band"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Earthquake"],["Aerial Ace"],["Stone Edge","Substitute"],["Sucker Punch","Memento","Toxic"]],"item":["Life Orb"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Eelektross": [
     {"moves":[["Volt Switch"],["Flamethrower"],["Giga Drain","Hidden Power Ice"],["Knock Off","Thunderbolt"]],"item":["Assault Vest"],"ability":["Levitate"],"nature":["Quiet","Modest"],"evs":{"spa":252,"hp":252,"atk":4}},
@@ -234,6 +235,9 @@ setdex.xy.ru = {
   "Poliwrath": [
     {"moves":[["Circle Throw"],["Scald"],["Rest","Protect"],["Sleep Talk","Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
+  "Quagsire": [
+    {"moves":[["Scald"],["Recover"],["Earthquake"],["Toxic","Encore"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
+  ],
   "Qwilfish": [
     {"moves":[["Spikes"],["Taunt"],["Scald","Waterfall"],["Thunder Wave","Toxic Spikes"]],"item":["Black Sludge"],"ability":["Intimidate"],"nature":["Timid","Jolly"],"evs":{"def":200,"hp":252,"spe":56}},
     {"moves":[["Spikes"],["Taunt"],["Explosion"],["Scald","Toxic Spikes"]],"item":["Focus Sash"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -275,7 +279,10 @@ setdex.xy.ru = {
     {"moves":[["Leaf Storm"],["Focus Blast"],["Hidden Power Flying","Hidden Power Ice"],["Giga Drain"]],"item":["Life Orb"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Scrafty": [
-    {"moves":[["Dragon Dance"],["High Jump Kick"],["Knock Off"],["Iron Head","Head Smash"]],"item":["Lum Berry","Life Orb"],"ability":["Intimidate","Shed Skin"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Dragon Dance"],["High Jump Kick"],["Knock Off"],["Iron Head","Rest"]],"item":["Life Orb","Leftovers"],"ability":["Shed Skin","Moxie"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+  ],
+  "Scyther": [
+    {"moves":[["U-turn"],["Aerial Ace"],["Knock Off"],["Pursuit"]],"item":["Choice Band"],"ability":["Technician"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Seismitoad": [
     {"moves":[["Stealth Rock"],["Scald","Hydro Pump"],["Earth Power"],["Sludge Wave"]],"item":["Leftovers","Life Orb"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"hp":252}},

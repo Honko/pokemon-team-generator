@@ -254,12 +254,13 @@ setdex.xy.ou = {
     {"moves":[["Earthquake"],["Stone Edge","Smack Down"],["Swords Dance","U-turn","Knock Off"],["Stealth Rock"]],"item":["Earth Plate","Lum Berry"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Latias": [
-    {"moves":[["Thunderbolt"],["Ice Beam"],["Roost"],["Reflect Type","Thunder Wave"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
-    {"moves":[["Draco Meteor"],["Psyshock"],["Healing Wish"],["Defog","Roost"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":184,"hp":72,"spe":252}},
+    {"moves":[["Calm Mind"],["Recover"],["Psyshock","Stored Power"],["Surf","Thunderbolt"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
+    {"moves":[["Thunderbolt"],["Ice Beam"],["Recover"],["Reflect Type","Thunder Wave"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spd":4,"hp":252,"spe":252}},
+    {"moves":[["Draco Meteor"],["Psyshock"],["Healing Wish"],["Defog","Recover"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":184,"hp":72,"spe":252}},
   ],
   "Latios": [
-    {"moves":[["Draco Meteor"],["Psyshock"],["Roost"],["Defog","Surf","Thunderbolt"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
-    {"moves":[["Draco Meteor"],["Psyshock"],["Calm Mind"],["Roost","Surf"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
+    {"moves":[["Draco Meteor"],["Psyshock"],["Recover"],["Defog","Surf","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
+    {"moves":[["Draco Meteor"],["Psyshock"],["Calm Mind"],["Recover","Surf"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
     {"moves":[["Draco Meteor"],["Psyshock"],["Defog","Hidden Power Fire"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Lopunny": [

@@ -154,13 +154,13 @@ setdex.xy.uber = {
     {"moves":[["Toxic Spikes"],["Spikes"],["Taunt"],["Shadow Sneak"]],"item":["Focus Sash"],"ability":["Protean"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Groudon": [
-    {"moves":[["Stealth Rock"],["Precipice Blades"],["Lava Plume","Rock Slide"],["Roar","Thunder Wave","Dragon Tail"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Sassy","Careful"],"evs":{"def":8,"spd":252,"hp":248}},
-    {"moves":[["Stealth Rock"],["Precipice Blades"],["Dragon Tail","Fire Punch"],["Stone Edge","Rock Tomb"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"spd":44,"hp":152,"spe":76,"atk":236}},
-    {"moves":[["Rock Polish"],["Precipice Blades"],["Swords Dance","Dragon Claw"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"spd":32,"hp":168,"spe":56,"atk":252}},
-    {"moves":[["Stealth Rock"],["Swords Dance"],["Precipice Blades"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Jolly"],"evs":{"spd":144,"spe":196,"atk":168}},
-    {"moves":[["Thunder Wave"],["Swords Dance"],["Rock Slide"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Adamant"],"evs":{"hp":244,"spe":12,"atk":252}},
-    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Mild"],"evs":{"spa":252,"spd":144,"spe":56,"atk":56}},
-    {"moves":[["Rest"],["Sleep Talk"],["Lava Plume"],["Precipice Blades","Roar"]],"item":["Red Orb"],"ability":["Desolate Land"],"nature":["Sassy","Calm"],"evs":{"def":8,"spd":252,"hp":248}},
+    {"moves":[["Stealth Rock"],["Precipice Blades"],["Lava Plume","Rock Slide"],["Roar","Thunder Wave","Dragon Tail"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Sassy","Careful"],"evs":{"def":8,"spd":252,"hp":248}},
+    {"moves":[["Stealth Rock"],["Precipice Blades"],["Dragon Tail","Fire Punch"],["Stone Edge","Rock Tomb"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"spd":44,"hp":152,"spe":76,"atk":236}},
+    {"moves":[["Rock Polish"],["Precipice Blades"],["Swords Dance","Dragon Claw"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"spd":32,"hp":168,"spe":56,"atk":252}},
+    {"moves":[["Stealth Rock"],["Swords Dance"],["Precipice Blades"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Jolly"],"evs":{"spd":144,"spe":196,"atk":168}},
+    {"moves":[["Thunder Wave"],["Swords Dance"],["Rock Slide"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"hp":244,"spe":12,"atk":252}},
+    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Mild"],"evs":{"spa":252,"spd":144,"spe":56,"atk":56}},
+    {"moves":[["Rest"],["Sleep Talk"],["Lava Plume"],["Precipice Blades","Roar"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Sassy","Calm"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Gyarados": [
     {"moves":[["Crunch"],["Earthquake"],["Taunt"],["Dragon Dance"]],"item":["Gyaradosite"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -218,9 +218,6 @@ setdex.xy.uber = {
   "Mawile": [
     {"moves":[["Iron Head"],["Play Rough"],["Sucker Punch"],["Baton Pass"]],"item":["Mawilite"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"spd":244,"hp":248,"atk":16}},
   ],
-  "Metagross": [
-    {"moves":[["Meteor Mash"],["Bullet Punch"],["Earthquake"],["Pursuit","Thunder Punch"]],"item":["Metagrossite"],"ability":["Clear Body"],"nature":["Jolly","Adamant"],"evs":{"hp":136,"spe":176,"atk":196}},
-  ],
   "Mewtwo": [
     {"moves":[["Psystrike"],["Focus Blast"],["Ice Beam","Shadow Ball","Electro Ball"],["Fire Blast","Taunt","Calm Mind"]],"item":["Life Orb","Mewtwonite Y"],"ability":["Pressure"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Low Kick"],["Taunt"],["Earthquake"],["Ice Punch","Stone Edge"]],"item":["Mewtwonite X"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":144,"spe":252,"atk":112}},
@@ -265,9 +262,6 @@ setdex.xy.uber = {
   ],
   "Smeargle": [
     {"moves":[["Shell Smash"],["Baton Pass"],["Spore"],["Iron Head"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
-  ],
-  "Tentacruel": [
-    {"moves":[["Scald"],["Toxic Spikes"],["Rapid Spin"],["Toxic","Knock Off"]],"item":["Black Sludge"],"ability":["Liquid Ooze"],"nature":["Calm"],"evs":{"spd":252,"hp":248,"spe":8}},
   ],
   "Tyranitar": [
     {"moves":[["Stealth Rock"],["Pursuit","Low Kick"],["Rock Slide","Stone Edge"],["Thunder Wave","Roar"]],"item":["Shuca Berry","Leftovers"],"ability":["Sand Stream"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},

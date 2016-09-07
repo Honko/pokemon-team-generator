@@ -93,6 +93,7 @@ setdex.xy.uu = {
   "Conkeldurr": [
     {"moves":[["Drain Punch"],["Knock Off"],["Thunder Punch"],["Mach Punch"]],"item":["Assault Vest"],"ability":["Guts"],"nature":["Adamant"],"evs":{"def":4,"spd":252,"atk":252}},
     {"moves":[["Hammer Arm"],["Mach Punch"],["Knock Off"],["Poison Jab","Ice Punch"]],"item":["Choice Band"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Bulk Up"],["Drain Punch"],["Knock Off"],["Mach Punch"]],"item":["Leftovers"],"ability":["Guts"],"nature":["Adamant"],"evs":{"spd":252,"hp":240,"atk":16}},
   ],
   "Crawdaunt": [
     {"moves":[["Swords Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Focus Sash","Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
@@ -311,7 +312,7 @@ setdex.xy.uu = {
     {"moves":[["Meteor Mash"],["Earthquake"],["Zen Headbutt"],["Explosion","Trick"]],"item":["Choice Band"],"ability":["Clear Body"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Mienshao": [
-    {"moves":[["High Jump Kick"],["U-turn"],["Knock Off"],["Stone Edge"]],"item":["Choice Scarf"],"ability":["Reckless","Regenerator"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["High Jump Kick"],["U-turn"],["Knock Off"],["Stone Edge"]],"item":["Choice Scarf"],"ability":["Reckless"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["High Jump Kick"],["Knock Off"],["U-turn"],["Poison Jab","Stone Edge","Fake Out","Hidden Power Ice"]],"item":["Life Orb"],"ability":["Regenerator","Reckless"],"nature":["Jolly","Naive"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Substitute"],["Baton Pass"],["High Jump Kick"],["Stone Edge","Knock Off","Swords Dance"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
@@ -350,9 +351,6 @@ setdex.xy.uu = {
   "Porygon2": [
     {"moves":[["Recover"],["Tri Attack"],["Ice Beam"],["Thunder Wave","Toxic"]],"item":["Eviolite"],"ability":["Trace"],"nature":["Calm"],"evs":{"def":120,"spd":136,"hp":252}},
     {"moves":[["Trick Room"],["Recover"],["Thunderbolt","Tri Attack"],["Ice Beam"]],"item":["Eviolite"],"ability":["Download"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
-  ],
-  "Quagsire": [
-    {"moves":[["Scald"],["Recover"],["Earthquake"],["Toxic","Encore"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Qwilfish": [
     {"moves":[["Spikes","Toxic Spikes"],["Waterfall","Scald"],["Taunt"],["Thunder Wave","Pain Split"]],"item":["Black Sludge"],"ability":["Intimidate"],"nature":["Impish","Bold"],"evs":{"def":252,"spd":8,"hp":248}},

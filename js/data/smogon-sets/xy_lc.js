@@ -144,8 +144,8 @@ setdex.xy.lc = {
     {"moves":[["Flare Blitz"],["U-turn"],["Rock Slide"],["Superpower"]],"item":["Choice Scarf","Choice Band"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"hp":116,"spe":196,"atk":196}},
   ],
   "Deerling": [
-    {"moves":[["Return"],["Seed Bomb"],["Jump Kick"],["Wild Charge","Feint Attack","Synthesis"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Adamant"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
-    {"moves":[["Double-Edge","Return"],["Seed Bomb"],["Jump Kick"],["Wild Charge","Feint Attack"]],"item":["Choice Scarf"],"ability":["Sap Sipper"],"nature":["Adamant","Jolly"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
+    {"moves":[["Return"],["Seed Bomb"],["Jump Kick","Baton Pass"],["Substitute","Wild Charge","Baton Pass"]],"item":["Life Orb"],"ability":["Sap Sipper"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
+    {"moves":[["Return","Seed Bomb"],["Baton Pass"],["Substitute","Return"],["Thunder Wave"]],"item":["Berry Juice"],"ability":["Sap Sipper"],"nature":["Jolly"],"evs":{"spd":196,"hp":36,"spe":236,"atk":36}},
   ],
   "Deino": [
     {"moves":[["Outrage"],["Crunch"],["Superpower"],["Zen Headbutt"]],"item":["Choice Scarf"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":36,"hp":20,"spe":212,"atk":236}},

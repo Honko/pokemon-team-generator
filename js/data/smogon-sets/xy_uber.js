@@ -114,8 +114,8 @@ setdex.xy.uber = {
     {"moves":[["Stealth Rock"],["Draco Meteor"],["Fire Blast","Flash Cannon"],["Toxic","Roar"]],"item":["Shuca Berry","Leftovers"],"ability":["Pressure"],"nature":["Calm"],"evs":{"spd":252,"hp":244,"spe":12}},
   ],
   "Diancie": [
-    {"moves":[["Moonblast"],["Diamond Storm"],["Earth Power"],["Protect","Heal Bell","Calm Mind"]],"item":["Diancite"],"ability":["Magic Bounce"],"nature":["Timid","Naive"],"evs":{"spa":252,"spe":176,"atk":80}},
-    {"moves":[["Protect"],["Diamond Storm"],["Moonblast","Toxic"],["Heal Bell"]],"item":["Diancite"],"ability":["Magic Bounce"],"nature":["Bold","Impish"],"evs":{"def":124,"hp":248,"spe":136}},
+    {"moves":[["Moonblast"],["Diamond Storm"],["Earth Power"],["Protect","Heal Bell","Calm Mind"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Timid","Naive"],"evs":{"spa":252,"spe":176,"atk":80}},
+    {"moves":[["Protect"],["Diamond Storm"],["Moonblast","Toxic"],["Heal Bell"]],"item":["Diancite"],"ability":["Clear Body"],"nature":["Bold","Impish"],"evs":{"def":124,"hp":248,"spe":136}},
     {"moves":[["Stealth Rock"],["Trick Room"],["Diamond Storm"],["Explosion"]],"item":["Life Orb"],"ability":["Clear Body"],"nature":["Brave"],"evs":{"def":8,"hp":248,"atk":252},"ivs":{"spe":0}},
   ],
   "Ditto": [
@@ -261,7 +261,7 @@ setdex.xy.uber = {
     {"moves":[["Slack Off"],["Ice Beam"],["Toxic","Thunder Wave"],["Scald","Iron Defense"]],"item":["Slowbronite"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
   ],
   "Smeargle": [
-    {"moves":[["Shell Smash"],["Baton Pass"],["Spore"],["Iron Head"]],"item":["Focus Sash"],"ability":["Own Tempo"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Shell Smash"],["Baton Pass"],["Spore"],["Hidden Power Steel"]],"item":["Focus Sash"],"ability":["Technician"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Tyranitar": [
     {"moves":[["Stealth Rock"],["Pursuit","Low Kick"],["Rock Slide","Stone Edge"],["Thunder Wave","Roar"]],"item":["Shuca Berry","Leftovers"],"ability":["Sand Stream"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},

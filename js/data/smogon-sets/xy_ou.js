@@ -23,10 +23,6 @@ setdex.xy.ou = {
   "Amoonguss": [
     {"moves":[["Spore"],["Giga Drain"],["Clear Smog","Stun Spore"],["Hidden Power Fire","Sludge Bomb"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":168,"spd":92,"hp":248}},
   ],
-  "Ampharos": [
-    {"moves":[["Volt Switch"],["Dragon Pulse"],["Rest"],["Sleep Talk"]],"item":["Ampharosite"],"ability":["Static"],"nature":["Calm"],"evs":{"spa":28,"spd":232,"hp":248}},
-    {"moves":[["Agility"],["Thunderbolt","Thunder"],["Dragon Pulse"],["Focus Blast"]],"item":["Ampharosite"],"ability":["Static"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-  ],
   "Azelf": [
     {"moves":[["Stealth Rock"],["Explosion"],["Skill Swap","Hidden Power Steel"],["Taunt"]],"item":["Focus Sash"],"ability":["Levitate"],"nature":["Naive"],"evs":{"def":228,"spa":28,"spe":252}},
   ],
@@ -74,7 +70,7 @@ setdex.xy.ou = {
   ],
   "Clefable": [
     {"moves":[["Calm Mind"],["Moonblast"],["Soft-Boiled"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
-    {"moves":[["Stealth Rock"],["Moonblast"],["Thunder Wave","Fire Blast"],["Soft-Boiled"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
+    {"moves":[["Stealth Rock"],["Moonblast"],["Thunder Wave","Knock Off"],["Soft-Boiled"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Calm"],"evs":{"def":172,"spd":84,"hp":252}},
     {"moves":[["Moonblast"],["Heal Bell","Flamethrower"],["Wish"],["Protect"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Calm Mind"],["Moonblast"],["Moonlight","Wish"],["Heal Bell","Protect","Flamethrower"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Moonblast"],["Fire Blast"],["Soft-Boiled"],["Focus Blast","Thunderbolt","Ice Beam"]],"item":["Life Orb"],"ability":["Magic Guard"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"hp":252}},
@@ -92,6 +88,7 @@ setdex.xy.ou = {
   ],
   "Crawdaunt": [
     {"moves":[["Swords Dance"],["Crabhammer"],["Knock Off"],["Aqua Jet"]],"item":["Life Orb"],"ability":["Adaptability"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Knock Off"],["Aqua Jet"],["Crabhammer"],["Crunch"]],"item":["Choice Band"],"ability":["Adaptability"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Cresselia": [
     {"moves":[["Moonlight"],["Psychic"],["Ice Beam","Skill Swap"],["Thunder Wave","Toxic"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Calm"],"evs":{"def":40,"spd":220,"hp":248}},
@@ -117,9 +114,9 @@ setdex.xy.ou = {
     {"moves":[["Draco Meteor"],["Sludge Wave"],["Focus Blast","Hidden Power Fire"],["Scald"]],"item":["Choice Specs"],"ability":["Adaptability"],"nature":["Modest"],"evs":{"spa":252,"hp":228,"spe":28}},
   ],
   "Dragonite": [
+    {"moves":[["Dragon Dance"],["Substitute"],["Roost"],["Fly"]],"item":["Leftovers"],"ability":["Multiscale"],"nature":["Jolly"],"evs":{"def":116,"hp":252,"spe":140}},
     {"moves":[["Dragon Dance"],["Outrage"],["Extreme Speed"],["Earthquake"]],"item":["Lum Berry"],"ability":["Multiscale"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Outrage"],["Extreme Speed"],["Fire Punch"],["Earthquake"]],"item":["Choice Band"],"ability":["Multiscale"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Roost"],["Dragon Claw"],["Extreme Speed"],["Fire Punch","Superpower"]],"item":["Leftovers"],"ability":["Multiscale"],"nature":["Adamant"],"evs":{"spd":228,"hp":216,"atk":64}},
   ],
   "Dugtrio": [
     {"moves":[["Earthquake"],["Reversal"],["Memento","Toxic","Stone Edge","Substitute"],["Stealth Rock"]],"item":["Focus Sash"],"ability":["Arena Trap"],"nature":["Hasty"],"evs":{"spe":252,"atk":252},"ivs":{"def":0,"spd":0,"hp":21}},
@@ -145,7 +142,7 @@ setdex.xy.ou = {
     {"moves":[["Dragon Dance"],["Waterfall"],["Ice Punch","Crunch"],["Crunch","Superpower"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Ferrothorn": [
-    {"moves":[["Stealth Rock","Spikes"],["Leech Seed"],["Gyro Ball","Power Whip"],["Power Whip","Protect","Thunder Wave"]],"item":["Leftovers","Chople Berry"],"ability":["Iron Barbs"],"nature":["Relaxed"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
+    {"moves":[["Spikes","Stealth Rock"],["Leech Seed"],["Gyro Ball","Power Whip"],["Power Whip","Protect","Thunder Wave"]],"item":["Leftovers","Chople Berry"],"ability":["Iron Barbs"],"nature":["Relaxed"],"evs":{"def":88,"spd":168,"hp":252},"ivs":{"spe":0}},
   ],
   "Froslass": [
     {"moves":[["Taunt"],["Spikes"],["Destiny Bond"],["Ice Beam"]],"item":["Focus Sash"],"ability":["Cursed Body"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
@@ -227,10 +224,9 @@ setdex.xy.ou = {
     {"moves":[["Waterfall"],["Stone Edge"],["Swords Dance","Rapid Spin"],["Aqua Jet","Low Kick"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Keldeo": [
-    {"moves":[["Scald"],["Secret Sword"],["Hydro Pump"],["Icy Wind","Hidden Power Bug","Hidden Power Electric"]],"item":["Choice Specs","Life Orb"],"ability":["Justified"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Scald"],["Secret Sword"],["Hydro Pump"],["Icy Wind","Hidden Power Electric"]],"item":["Choice Scarf"],"ability":["Justified"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Substitute"],["Calm Mind"],["Scald"],["Secret Sword"]],"item":["Leftovers"],"ability":["Justified"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Scald"],["Secret Sword"],["Rest"],["Sleep Talk"]],"item":["Rocky Helmet","Leftovers"],"ability":["Justified"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
+    {"moves":[["Scald"],["Secret Sword"],["Hydro Pump"],["Icy Wind","Focus Blast"]],"item":["Choice Specs"],"ability":["Justified"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Scald"],["Hydro Pump"],["Secret Sword"],["Icy Wind","Hidden Power Electric"]],"item":["Choice Scarf"],"ability":["Justified"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Substitute"],["Calm Mind"],["Scald"],["Secret Sword"]],"item":["Leftovers"],"ability":["Justified"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Kingdra": [
     {"moves":[["Hydro Pump"],["Draco Meteor"],["Scald"],["Ice Beam"]],"item":["Choice Specs"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"hp":28,"spe":228}},
@@ -239,6 +235,9 @@ setdex.xy.ou = {
   "Klefki": [
     {"moves":[["Spikes"],["Thunder Wave"],["Magnet Rise","Toxic"],["Play Rough","Foul Play"]],"item":["Leftovers","Sitrus Berry"],"ability":["Prankster"],"nature":["Careful","Calm"],"evs":{"def":4,"spd":252,"hp":252}},
     {"moves":[["Reflect"],["Light Screen"],["Fairy Lock"],["Foul Play"]],"item":["Light Clay"],"ability":["Prankster"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+  ],
+  "Kyurem": [
+    {"moves":[["Ice Beam"],["Draco Meteor"],["Earth Power"],["Hidden Power Fire","Focus Blast"]],"item":["Choice Specs"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Kyurem-Black": [
     {"moves":[["Ice Beam"],["Earth Power"],["Fusion Bolt"],["Roost","Outrage"]],"item":["Life Orb"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":252,"spe":252,"atk":4}},
@@ -391,8 +390,8 @@ setdex.xy.ou = {
     {"moves":[["Scald"],["Slack Off"],["Fire Blast","Psychic"],["Ice Beam","Grass Knot","Psychic"]],"item":["Slowbronite"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"def":36,"spa":136,"spd":80,"hp":252,"spe":4}},
   ],
   "Slowking": [
-    {"moves":[["Scald"],["Psychic","Future Sight"],["Fire Blast"],["Ice Beam","Dragon Tail"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"spd":8,"hp":248}},
-    {"moves":[["Scald"],["Psyshock","Fire Blast"],["Thunder Wave","Toxic","Dragon Tail"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"def":184,"spd":76,"hp":248}},
+    {"moves":[["Calm Mind"],["Scald"],["Psyshock"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"def":188,"spd":68,"hp":252}},
+    {"moves":[["Scald"],["Psyshock","Fire Blast"],["Thunder Wave","Toxic","Dragon Tail"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Calm"],"evs":{"def":180,"spd":76,"hp":252}},
   ],
   "Staraptor": [
     {"moves":[["Brave Bird"],["Double-Edge"],["Final Gambit","Close Combat","Quick Attack"],["U-turn"]],"item":["Choice Band"],"ability":["Reckless"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -404,6 +403,7 @@ setdex.xy.ou = {
   ],
   "Suicune": [
     {"moves":[["Scald"],["Rest"],["Roar"],["Calm Mind","Sleep Talk"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Substitute"],["Calm Mind"],["Scald"],["Protect"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spd":40,"hp":252,"spe":216}},
     {"moves":[["Scald"],["Calm Mind"],["Rest"],["Sleep Talk"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Swampert": [
@@ -474,7 +474,7 @@ setdex.xy.ou = {
     {"moves":[["Steam Eruption"],["Flamethrower","Fire Blast"],["Sludge Bomb","Earth Power"],["Hidden Power Grass","Earth Power"]],"item":["Choice Specs","Leftovers"],"ability":["Water Absorb"],"nature":["Modest","Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
   "Volcarona": [
-    {"moves":[["Quiver Dance"],["Fire Blast"],["Giga Drain"],["Bug Buzz","Hidden Power Ground"]],"item":["Lum Berry","Passho Berry"],"ability":["Flame Body"],"nature":["Timid"],"evs":{"spa":252,"hp":72,"spe":184}},
+    {"moves":[["Quiver Dance"],["Fire Blast"],["Giga Drain"],["Bug Buzz","Hidden Power Ground"]],"item":["Lum Berry","Passho Berry"],"ability":["Flame Body"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Weavile": [
     {"moves":[["Knock Off"],["Icicle Crash"],["Ice Shard"],["Low Kick","Poison Jab","Pursuit"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -483,8 +483,8 @@ setdex.xy.ou = {
     {"moves":[["U-turn"],["Encore"],["Moonblast"],["Stun Spore"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Zapdos": [
-    {"moves":[["Thunderbolt","Volt Switch"],["Roost"],["Defog","Hidden Power Ice"],["Heat Wave","Toxic"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":176,"spa":68,"hp":248,"spe":16}},
-    {"moves":[["Thunderbolt","Volt Switch"],["Roost"],["Hidden Power Ice"],["Defog","Heat Wave"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Calm"],"evs":{"def":64,"spd":180,"hp":248,"spe":16}},
+    {"moves":[["Thunderbolt","Volt Switch"],["Roost"],["Defog","Hidden Power Ice"],["Heat Wave","Toxic"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Bold"],"evs":{"def":172,"spa":68,"hp":252,"spe":16}},
+    {"moves":[["Thunderbolt","Volt Switch"],["Roost"],["Hidden Power Ice"],["Defog","Heat Wave"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Calm"],"evs":{"def":60,"spd":180,"hp":252,"spe":16}},
   ],
   "Zygarde": [
     {"moves":[["Substitute"],["Coil"],["Earthquake"],["Dragon Tail"]],"item":["Leftovers"],"ability":["Aura Break"],"nature":["Careful"],"evs":{"spd":252,"hp":200,"spe":56}},

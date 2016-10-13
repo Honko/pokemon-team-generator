@@ -20,7 +20,7 @@ setdex.xy.pu = {
   ],
   "Articuno": [
     {"moves":[["Substitute"],["Roost"],["Hurricane"],["Ice Beam","Freeze-Dry"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Agility"],["Ice Beam","Freeze-Dry"],["Hurricane"],["Hidden Power Fighting"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":36,"spe":220}},
+    {"moves":[["Agility"],["Ice Beam","Freeze-Dry"],["Hurricane"],["Hidden Power Fighting"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Modest"],"evs":{"spa":252,"hp":28,"spe":228}},
   ],
   "Audino": [
     {"moves":[["Wish"],["Protect"],["Knock Off","Double-Edge"],["Encore","Thunder Wave","Heal Bell"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
@@ -277,7 +277,7 @@ setdex.xy.pu = {
   ],
   "Leafeon": [
     {"moves":[["Swords Dance"],["Leaf Blade"],["Knock Off"],["Return"]],"item":["Yache Berry"],"ability":["Chlorophyll"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Bullet Seed"],["Leaf Blade"],["Knock Off"],["X-Scissor","Baton Pass","Quick Attack"]],"item":["Choice Band"],"ability":["Leaf Guard"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Bullet Seed"],["Leaf Blade"],["Knock Off"],["Double-Edge","Quick Attack"]],"item":["Choice Band"],"ability":["Leaf Guard"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Leavanny": [
     {"moves":[["Sticky Web"],["Leaf Storm"],["Knock Off"],["Electroweb","Magic Coat"]],"item":["Focus Sash"],"ability":["Chlorophyll"],"nature":["Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
@@ -392,7 +392,7 @@ setdex.xy.pu = {
     {"moves":[["Knock Off"],["Sucker Punch"],["Iron Head"],["Swords Dance"]],"item":["Eviolite"],"ability":["Defiant"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Pelipper": [
-    {"moves":[["Defog"],["Roost"],["Scald"],["Hurricane","U-turn"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Scald"],["Defog"],["Roost"],["U-turn"]],"item":["Leftovers"],"ability":["Keen Eye"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Persian": [
     {"moves":[["Nasty Plot"],["Hyper Voice"],["Hidden Power Ghost"],["Water Pulse","Substitute"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},

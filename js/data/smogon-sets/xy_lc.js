@@ -102,7 +102,7 @@ setdex.xy.lc = {
     {"moves":[["Stealth Rock"],["Taunt","Encore"],["Fake Out"],["Fire Blast","Overheat"]],"item":["Focus Sash"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":84,"spa":212,"spd":4,"hp":4,"spe":188}},
   ],
   "Chinchou": [
-    {"moves":[["Volt Switch"],["Scald","Hydro Pump"],["Ice Beam"],["Hidden Power Ground","Thunderbolt","Hydro Pump"]],"item":["Choice Scarf"],"ability":["Volt Absorb"],"nature":["Modest"],"evs":{"def":52,"spa":232,"spe":224}},
+    {"moves":[["Volt Switch"],["Scald","Hydro Pump"],["Ice Beam"],["Hidden Power Ground","Thunderbolt","Hydro Pump"]],"item":["Choice Scarf"],"ability":["Volt Absorb"],"nature":["Timid"],"evs":{"def":52,"spa":232,"spe":224}},
     {"moves":[["Scald","Hydro Pump"],["Volt Switch"],["Ice Beam","Hidden Power Ground"],["Heal Bell","Hidden Power Ground"]],"item":["Berry Juice"],"ability":["Volt Absorb"],"nature":["Bold"],"evs":{"def":212,"spa":152,"hp":76,"spe":60}},
     {"moves":[["Rest"],["Sleep Talk"],["Scald"],["Volt Switch"]],"item":["Eviolite"],"ability":["Volt Absorb"],"nature":["Bold"],"evs":{"def":212,"spd":148,"hp":76,"spe":60}},
   ],
@@ -121,8 +121,8 @@ setdex.xy.lc = {
     {"moves":[["Aqua Jet"],["Crabhammer"],["Knock Off"],["Switcheroo"]],"item":["Choice Band"],"ability":["Adaptability"],"nature":["Adamant"],"evs":{"def":76,"spe":236,"atk":196}},
   ],
   "Cottonee": [
+    {"moves":[["Dazzling Gleam","Giga Drain"],["Hidden Power Fighting"],["Encore","Memento"],["Knock Off","Memento","Stun Spore"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":40,"spa":144,"spd":40,"hp":36,"spe":232}},
     {"moves":[["Encore","Stun Spore"],["Knock Off","Stun Spore","Dazzling Gleam"],["Giga Drain","Dazzling Gleam"],["Memento","Stun Spore","Taunt"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":196,"spd":196,"hp":116}},
-    {"moves":[["Dazzling Gleam","Giga Drain"],["Hidden Power Fighting","Giga Drain"],["Encore"],["Knock Off","Memento","Stun Spore"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":40,"spa":144,"spd":40,"hp":36,"spe":232}},
   ],
   "Cranidos": [
     {"moves":[["Rock Slide"],["Superpower"],["Zen Headbutt"],["Crunch"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spe":212,"atk":236}},
@@ -324,7 +324,7 @@ setdex.xy.lc = {
     {"moves":[["Dynamic Punch"],["Knock Off"],["Rock Slide"],["Poison Jab"]],"item":["Choice Scarf"],"ability":["No Guard"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
   ],
   "Magby": [
-    {"moves":[["Belly Drum"],["Fire Punch"],["Mach Punch"],["Return","Thief"]],"item":["Berry Juice"],"ability":["Vital Spirit","Flame Body"],"nature":["Jolly"],"evs":{"spe":252,"atk":236},"ivs":{"hp":29}},
+    {"moves":[["Belly Drum"],["Fire Punch"],["Mach Punch"],["Return"]],"item":["Berry Juice"],"ability":["Vital Spirit","Flame Body"],"nature":["Jolly"],"evs":{"spe":252,"atk":236},"ivs":{"hp":29}},
     {"moves":[["Flare Blitz"],["Cross Chop"],["Mach Punch"],["Return","Thunder Punch"]],"item":["Life Orb"],"ability":["Vital Spirit","Flame Body"],"nature":["Jolly"],"evs":{"spe":252,"atk":236},"ivs":{"hp":0}},
   ],
   "Magnemite": [
@@ -347,8 +347,8 @@ setdex.xy.lc = {
     {"moves":[["Nasty Plot"],["Round"],["Water Pulse"],["Hidden Power Fire","Thunderbolt"]],"item":["Life Orb"],"ability":["Technician"],"nature":["Modest","Timid"],"evs":{"def":76,"spa":200,"spe":200},"ivs":{"hp":19}},
   ],
   "Mienfoo": [
-    {"moves":[["Drain Punch"],["Knock Off"],["U-turn"],["Taunt","High Jump Kick","Acrobatics","Stone Edge"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"def":196,"spd":36,"spe":236}},
-    {"moves":[["High Jump Kick"],["Knock Off"],["Drain Punch"],["U-turn"]],"item":["Choice Scarf"],"ability":["Regenerator"],"nature":["Adamant"],"evs":{"spd":36,"spe":236,"atk":236}},
+    {"moves":[["Drain Punch","High Jump Kick"],["Knock Off"],["U-turn"],["Taunt","High Jump Kick","Acrobatics","Stone Edge","Poison Jab"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"def":196,"spd":36,"spe":236}},
+    {"moves":[["High Jump Kick"],["Knock Off"],["U-turn"],["Drain Punch","Stone Edge"]],"item":["Choice Scarf"],"ability":["Regenerator"],"nature":["Adamant","Jolly"],"evs":{"spd":36,"spe":236,"atk":236}},
     {"moves":[["High Jump Kick"],["Knock Off"],["U-turn"],["Fake Out","Stone Edge","Poison Jab"]],"item":["Life Orb"],"ability":["Regenerator"],"nature":["Jolly"],"evs":{"def":36,"spe":236,"atk":236}},
     {"moves":[["Baton Pass"],["Swords Dance","Bulk Up","Substitute"],["Drain Punch","High Jump Kick"],["Knock Off","Taunt","Substitute"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Impish","Relaxed"],"evs":{"def":116,"spd":196,"hp":76,"atk":76}},
   ],
@@ -362,7 +362,7 @@ setdex.xy.lc = {
   ],
   "Munchlax": [
     {"moves":[["Body Slam","Return"],["Fire Punch"],["Curse","Earthquake","Toxic"],["Recycle"]],"item":["Berry Juice"],"ability":["Thick Fat"],"nature":["Adamant","Impish"],"evs":{"def":36,"spd":236,"atk":236}},
-    {"moves":[["Body Slam","Return"],["Fire Punch","Curse","Whirlwind"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Adamant","Impish"],"evs":{"def":36,"spd":236,"atk":236}},
+    {"moves":[["Body Slam","Return"],["Fire Punch","Curse","Whirlwind"],["Rest"],["Sleep Talk"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Impish"],"evs":{"def":36,"spd":236,"atk":236}},
   ],
   "Munna": [
     {"moves":[["Baton Pass"],["Calm Mind","Substitute"],["Stored Power"],["Dazzling Gleam","Moonlight"]],"item":["Eviolite"],"ability":["Synchronize"],"nature":["Bold"],"evs":{"def":156,"spd":156,"hp":68,"spe":84}},
@@ -491,7 +491,7 @@ setdex.xy.lc = {
     {"moves":[["Sticky Web"],["Energy Ball"],["Hidden Power Fire","Hidden Power Rock"],["Air Slash"]],"item":["Eviolite"],"ability":["Chlorophyll"],"nature":["Bold"],"evs":{"def":196,"spa":40,"spd":116,"hp":156}},
   ],
   "Shellder": [
-    {"moves":[["Shell Smash"],["Rock Blast"],["Icicle Spear"],["Razor Shell","Ice Shard"]],"item":["Eviolite"],"ability":["Skill Link"],"nature":["Adamant"],"evs":{"def":36,"hp":36,"spe":196,"atk":236}},
+    {"moves":[["Shell Smash"],["Rock Blast"],["Icicle Spear"],["Ice Shard","Razor Shell"]],"item":["Eviolite","Life Orb"],"ability":["Skill Link"],"nature":["Impish","Adamant"],"evs":{"def":36,"hp":36,"spe":196,"atk":236}},
     {"moves":[["Icicle Spear"],["Rock Blast"],["Razor Shell"],["Ice Shard"]],"item":["Choice Scarf"],"ability":["Skill Link"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":196,"atk":236}},
     {"moves":[["Rapid Spin"],["Icicle Spear"],["Razor Shell","Ice Shard"],["Rock Blast","Ice Shard"]],"item":["Eviolite"],"ability":["Skill Link"],"nature":["Jolly"],"evs":{"def":116,"spd":76,"hp":196,"spe":36,"atk":76}},
   ],
@@ -613,7 +613,7 @@ setdex.xy.lc = {
     {"moves":[["Stealth Rock"],["Scald"],["Stone Edge"],["Knock Off","Aqua Jet"]],"item":["Eviolite"],"ability":["Solid Rock"],"nature":["Sassy"],"evs":{"def":252,"spa":12,"spd":156,"hp":84}},
   ],
   "Togepi": [
-    {"moves":[["Baton Pass"],["Nasty Plot","Work Up"],["Wish","Morning Sun"],["Dazzling Gleam"]],"item":["Eviolite"],"ability":["Hustle"],"nature":["Bold"],"evs":{"def":156,"spd":76,"hp":236,"spe":36}},
+    {"moves":[["Baton Pass"],["Nasty Plot"],["Fire Blast"],["Dazzling Gleam"]],"item":["Eviolite","Berry Juice"],"ability":["Serene Grace"],"nature":["Bold"],"evs":{"def":156,"spd":76,"hp":236,"spe":36}},
   ],
   "Torchic": [
     {"moves":[["Protect"],["Curse","Swords Dance"],["Substitute","Flame Charge"],["Baton Pass"]],"item":["Eviolite","Berry Juice"],"ability":["Speed Boost"],"nature":["Impish","Bold"],"evs":{"def":196,"spd":36,"spe":236,"atk":36}},

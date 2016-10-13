@@ -207,8 +207,8 @@ setdex.bw.lc = {
     {"moves":[["Spore"],["Giga Drain"],["Stun Spore"],["Clear Smog","Sludge Bomb"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":156,"spa":76,"spd":76,"hp":124,"spe":76}},
   ],
   "Frillish": [
-    {"moves":[["Surf","Scald"],["Shadow Ball"],["Will-O-Wisp","Toxic"],["Recover"]],"item":["Eviolite"],"ability":["Cursed Body"],"nature":["Calm","Bold"],"evs":{"def":196,"spd":76,"hp":236}},
-    {"moves":[["Hydro Pump"],["Shadow Ball"],["Ice Beam"],["Giga Drain","Water Spout","Trick"]],"item":["Choice Scarf"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":236,"hp":76,"spe":196}},
+    {"moves":[["Scald"],["Shadow Ball"],["Will-O-Wisp","Toxic"],["Recover"]],"item":["Eviolite"],"ability":["Cursed Body"],"nature":["Bold"],"evs":{"def":196,"spd":76,"hp":236}},
+    {"moves":[["Water Spout"],["Shadow Ball"],["Ice Beam"],["Giga Drain","Hydro Pump","Trick"]],"item":["Choice Scarf"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":236,"hp":76,"spe":196}},
   ],
   "Gastly": [
     {"moves":[["Substitute"],["Hypnosis"],["Shadow Ball"],["Sludge Bomb","Hidden Power Fighting"]],"item":["Oran Berry","Life Orb"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"def":40,"spa":200,"hp":68,"spe":200}},
@@ -232,7 +232,7 @@ setdex.bw.lc = {
     {"moves":[["Stealth Rock"],["Earthquake"],["Drain Punch"],["Ice Punch","Toxic"]],"item":["Eviolite"],"ability":["Iron Fist"],"nature":["Adamant"],"evs":{"def":116,"hp":44,"spe":84,"atk":244}},
   ],
   "Gothita": [
-    {"moves":[["Psychic","Psyshock"],["Thunderbolt","Hidden Power Fighting"],["Shadow Ball"],["Substitute","Calm Mind"]],"item":["Life Orb"],"ability":["Frisk","Shadow Tag"],"nature":["Timid"],"evs":{"def":36,"spa":236,"spe":236},"ivs":{"hp":0}},
+    {"moves":[["Psychic","Psyshock"],["Thunderbolt","Hidden Power Fighting"],["Dark Pulse"],["Substitute","Calm Mind"]],"item":["Life Orb"],"ability":["Frisk","Shadow Tag"],"nature":["Timid"],"evs":{"def":36,"spa":236,"spe":236},"ivs":{"hp":0}},
   ],
   "Grimer": [
     {"moves":[["Poison Jab","Gunk Shot"],["Fire Punch"],["Shadow Sneak"],["Pain Split"]],"item":["Eviolite"],"ability":["Sticky Hold"],"nature":["Impish"],"evs":{"def":116,"spd":36,"hp":116,"atk":196}},
@@ -288,9 +288,6 @@ setdex.bw.lc = {
     {"moves":[["Agility"],["Swords Dance"],["Crabhammer"],["Return"]],"item":["Oran Berry","Life Orb"],"ability":["Hyper Cutter"],"nature":["Adamant"],"evs":{"def":36,"hp":36,"spe":196,"atk":236}},
     {"moves":[["Crabhammer"],["Return"],["Superpower"],["X-Scissor"]],"item":["Life Orb"],"ability":["Shell Armor"],"nature":["Adamant"],"evs":{"def":36,"spe":196,"atk":236}},
     {"moves":[["Crabhammer"],["Return"],["Rock Slide"],["X-Scissor"]],"item":["Choice Scarf"],"ability":["Sheer Force"],"nature":["Adamant"],"evs":{"def":36,"hp":36,"spe":196,"atk":236}},
-  ],
-  "Kricketot": [
-    {"moves":[["Bug Bite"],["Mud-Slap"],["Endeavor","Uproar"],["Struggle Bug"]],"item":["Life Orb"],"ability":["Shed Skin"],"nature":["Brave"],"evs":{"def":28,"spa":236,"atk":236},"ivs":{"hp":6}},
   ],
   "Larvesta": [
     {"moves":[["U-turn"],["Flare Blitz"],["Morning Sun"],["Will-O-Wisp","Wild Charge"]],"item":["Eviolite"],"ability":["Flame Body"],"nature":["Adamant"],"evs":{"def":156,"hp":76,"spe":36,"atk":236}},
@@ -363,7 +360,7 @@ setdex.bw.lc = {
     {"moves":[["Shadow Ball"],["Hidden Power Fighting"],["Trick"],["Nasty Plot","Thunderbolt"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":240,"spe":240}},
   ],
   "Munchlax": [
-    {"moves":[["Return"],["Fire Punch"],["Earthquake"],["Pursuit","Focus Punch"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":36,"spd":236,"atk":236}},
+    {"moves":[["Return"],["Fire Punch"],["Earthquake"],["Pursuit"]],"item":["Eviolite"],"ability":["Thick Fat"],"nature":["Adamant"],"evs":{"def":36,"spd":236,"atk":236}},
   ],
   "Munna": [
     {"moves":[["Trick Room"],["Psychic","Psyshock"],["Hidden Power Fighting"],["Yawn","Hypnosis"]],"item":["Eviolite"],"ability":["Synchronize"],"nature":["Relaxed"],"evs":{"def":160,"spd":160,"hp":148},"ivs":{"spe":2}},
@@ -624,8 +621,8 @@ setdex.bw.lc = {
     {"moves":[["Bulk Up"],["Drain Punch"],["Mach Punch"],["Payback"]],"item":["Eviolite"],"ability":["Guts"],"nature":["Careful"],"evs":{"spd":236,"hp":76,"atk":196}},
   ],
   "Tirtouga": [
-    {"moves":[["Shell Smash"],["Aqua Tail"],["Stone Edge"],["Aqua Jet"]],"item":["Splash Plate"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"def":12,"hp":84,"spe":180,"atk":212}},
-    {"moves":[["Shell Smash"],["Stone Edge"],["Waterfall"],["Aqua Jet"]],"item":["Eviolite"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"def":12,"spd":76,"hp":4,"spe":180,"atk":212}},
+    {"moves":[["Shell Smash"],["Aqua Tail","Waterfall"],["Stone Edge"],["Aqua Jet","Earthquake"]],"item":["Splash Plate","Oran Berry"],"ability":["Sturdy"],"nature":["Adamant"],"evs":{"def":12,"hp":84,"spe":180,"atk":212}},
+    {"moves":[["Shell Smash"],["Stone Edge"],["Waterfall"],["Earthquake","Aqua Jet"]],"item":["Eviolite"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"def":12,"spd":76,"hp":4,"spe":180,"atk":212}},
     {"moves":[["Stealth Rock"],["Scald"],["Rock Slide"],["Knock Off","Aqua Jet"]],"item":["Eviolite"],"ability":["Solid Rock"],"nature":["Relaxed"],"evs":{"def":12,"spa":16,"spd":236,"hp":164,"spe":20,"atk":52}},
   ],
   "Torchic": [

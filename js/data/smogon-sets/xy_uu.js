@@ -34,11 +34,6 @@ setdex.xy.uu = {
   "Aromatisse": [
     {"moves":[["Wish"],["Protect"],["Moonblast"],["Aromatherapy"]],"item":["Leftovers"],"ability":["Aroma Veil"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
-  "Azelf": [
-    {"moves":[["Stealth Rock"],["Taunt"],["Flamethrower","Knock Off"],["Explosion"]],"item":["Focus Sash"],"ability":["Levitate"],"nature":["Naive","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Nasty Plot"],["Psyshock"],["Fire Blast"],["Dazzling Gleam","Taunt"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Light Screen"],["Reflect"],["Taunt","Stealth Rock","Knock Off"],["Explosion","U-turn"]],"item":["Light Clay"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"hp":252,"spe":252,"atk":4}},
-  ],
   "Banette": [
     {"moves":[["Taunt"],["Will-O-Wisp","Thunder Wave"],["Shadow Claw","Shadow Sneak","Knock Off"],["Destiny Bond"]],"item":["Banettite"],"ability":["Frisk"],"nature":["Adamant"],"evs":{"spd":4,"hp":252,"atk":252}},
   ],
@@ -237,7 +232,7 @@ setdex.xy.uu = {
   ],
   "Hoopa": [
     {"moves":[["Trick Room"],["Shadow Ball"],["Psyshock","Psychic"],["Focus Blast"]],"item":["Life Orb"],"ability":["Magician"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-    {"moves":[["Shadow Ball"],["Focus Blast"],["Psyshock","Nasty Plot"],["Substitute","Nasty Plot"]],"item":["Salac Berry","Life Orb","Leftovers"],"ability":["Magician"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
+    {"moves":[["Shadow Ball"],["Focus Blast"],["Psyshock","Nasty Plot"],["Substitute","Nasty Plot"]],"item":["Salac Berry","Life Orb","Leftovers"],"ability":["Magician"],"nature":["Timid","Modest"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":30}},
   ],
   "Houndoom": [
     {"moves":[["Nasty Plot"],["Fire Blast","Flamethrower"],["Dark Pulse"],["Taunt","Protect","Destiny Bond","Hidden Power Grass"]],"item":["Houndoominite"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
@@ -408,11 +403,11 @@ setdex.xy.uu = {
     {"moves":[["Sticky Web"],["Stealth Rock"],["Encore"],["Toxic","Knock Off"]],"item":["Mental Herb"],"ability":["Sturdy"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Slowking": [
-    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psyshock","Dragon Tail","Ice Beam"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
-    {"moves":[["Trick Room"],["Scald","Surf"],["Psyshock"],["Fire Blast","Ice Beam","Nasty Plot"]],"item":["Leftovers","Life Orb"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":8,"hp":248},"ivs":{"spe":0}},
-    {"moves":[["Calm Mind","Nasty Plot"],["Scald"],["Psyshock"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":8,"hp":248}},
-    {"moves":[["Scald"],["Psychic","Psyshock"],["Dragon Tail"],["Fire Blast","Ice Beam"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
-    {"moves":[["Surf","Scald"],["Psyshock","Future Sight"],["Fire Blast","Ice Beam"],["Trick"]],"item":["Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":248,"spe":8}},
+    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psyshock","Dragon Tail","Ice Beam"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Trick Room"],["Scald","Surf"],["Psyshock"],["Fire Blast","Ice Beam","Nasty Plot"]],"item":["Leftovers","Life Orb"],"ability":["Regenerator"],"nature":["Quiet"],"evs":{"spa":252,"spd":4,"hp":252},"ivs":{"spe":0}},
+    {"moves":[["Calm Mind","Nasty Plot"],["Scald"],["Psyshock"],["Slack Off"]],"item":["Leftovers"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
+    {"moves":[["Scald"],["Psychic","Psyshock"],["Dragon Tail"],["Fire Blast","Ice Beam"]],"item":["Assault Vest"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":252,"spe":4}},
+    {"moves":[["Surf","Scald"],["Psyshock","Future Sight"],["Fire Blast","Ice Beam"],["Trick"]],"item":["Choice Specs"],"ability":["Regenerator"],"nature":["Modest"],"evs":{"spa":252,"hp":252,"spe":4}},
   ],
   "Slurpuff": [
     {"moves":[["Belly Drum"],["Play Rough"],["Return","Substitute"],["Drain Punch"]],"item":["Sitrus Berry"],"ability":["Unburden"],"nature":["Jolly"],"evs":{"hp":28,"spe":228,"atk":252}},
@@ -472,7 +467,7 @@ setdex.xy.uu = {
     {"moves":[["Rock Polish"],["Head Smash"],["Dragon Claw","Outrage"],["Earthquake"]],"item":["Life Orb","Lum Berry"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Umbreon": [
-    {"moves":[["Wish"],["Protect","Moonlight"],["Heal Bell","Baton Pass"],["Foul Play"]],"item":["Leftovers"],"ability":["Synchronize"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Wish"],["Protect","Moonlight"],["Heal Bell"],["Foul Play"]],"item":["Leftovers"],"ability":["Synchronize"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Uxie": [
     {"moves":[["Psychic","Psyshock"],["U-turn"],["Stealth Rock"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
@@ -504,8 +499,8 @@ setdex.xy.uu = {
     {"moves":[["Psychic","Psyshock"],["Grass Knot"],["Heat Wave"],["Dazzling Gleam","Roost","U-turn"]],"item":["Life Orb","Colbur Berry"],"ability":["Magic Bounce"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Yanmega": [
-    {"moves":[["Bug Buzz"],["Air Slash"],["Giga Drain"],["U-turn","Sleep Talk"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Timid","Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
-    {"moves":[["Protect"],["Bug Buzz"],["Air Slash"],["Ancient Power","Giga Drain"]],"item":["Life Orb"],"ability":["Speed Boost"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Bug Buzz"],["Air Slash"],["Giga Drain"],["U-turn","Sleep Talk"]],"item":["Choice Specs"],"ability":["Tinted Lens"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Protect"],["Bug Buzz"],["Air Slash"],["Giga Drain","Shadow Ball"]],"item":["Life Orb"],"ability":["Speed Boost"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Zoroark": [
     {"moves":[["Dark Pulse","Night Daze"],["Focus Blast"],["Trick"],["Sludge Bomb","Flamethrower","Grass Knot"]],"item":["Choice Specs"],"ability":["Illusion"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},

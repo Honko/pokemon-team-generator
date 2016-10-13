@@ -73,7 +73,7 @@ const VIABILITY_RANKINGS = {
             B: ["Aipom","Dwebble","Hippopotas","Larvesta","Munchlax","Onix","Scraggy","Skrelp","Vulpix","Bellsprout","Bunnelby","Cranidos","Doduo","Elekid","Houndour","Pancham","Pumpkaboo-Super","Riolu","Surskit","Taillow","Torchic","Amaura","Clamperl","Deerling","Honedge","Magby","Shellos","Slowpoke","Stunky","Tentacool","Zigzagoon"],
             C: ["Aron","Anorith","Axew","Buneary","Chespin","Darumaka","Frillish","Kabuto","Lickitung","Lileep","Numel","Rufflet","Sandile","Sandshrew","Snover","Trapinch","Trubbish","Tyrunt","Wynaut","Bulbasaur","Dratini","Exeggcute","Geodude","Inkay","Koffing","Meowth","Natu","Pumpkaboo-Small","Purrloin","Spinarak","Teddiursa","Venipede","Budew","Cubone","Goldeen","Karrablast","Larvitar","Machop","Mankey","Mantyke","Nosepass","Remoraid","Shelmet","Togepi","Wingull","Wooper","Zorua"],
         },
-        dou: {
+        doubles: {
             // http://www.smogon.com/forums/threads/doubles-ou-viability-rankings.3535930/
             S: ["Aegislash", "Amoonguss", "Azumarill", "Charizard", "Diancie", "Gardevoir", "Heatran", "Jirachi", "Kangaskhan", "Landorus-Therian", "Thundurus", "Volcanion"],
             A: ["Hoopa-Unbound", "Hydreigon", "Keldeo", "Kyurem-Black", "Latios", "Rotom-Wash", "Talonflame"],

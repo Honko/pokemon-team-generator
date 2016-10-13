@@ -1,7 +1,7 @@
 ﻿/* License: MIT License */
 const STATS = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"];
 const GENS = ["rby", "gsc", "adv", "dpp", "bw", "xy"];
-const METAS = ["uber", "ou", "uu", "ru", "nu", "pu", "lc"];
+const METAS = ["uber", "ou", "uu", "ru", "nu", "pu", "lc", "doubles"];
 
 var setdex = {
     rby: {},
@@ -80,7 +80,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
     var _generateTeam = function(oldTeam) {
         var excludeSpecies = speciesInTeam(true);
         var requiredRoles = [];
-        if (["dpp","bw","xy"].indexOf($scope.gen) !== -1) {
+        if (["dpp","bw","xy"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
             requiredRoles.push(ROLES.StealthRock);
         }
         var restrictedRoles = [

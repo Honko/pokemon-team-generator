@@ -1,7 +1,23 @@
 ﻿/* License: MIT License */
 const STATS = ["HP", "Atk", "Def", "SpA", "SpD", "Spe"];
-const GENS = ["rby", "gsc", "adv", "dpp", "bw", "xy"];
-const METAS = ["uber", "ou", "uu", "ru", "nu", "pu", "lc", "doubles"];
+const GEN_DISPLAY_NAMES = {
+    rby: "RBY",
+    gsc: "GSC",
+    adv: "ADV",
+    dpp: "DPP",
+    bw: "B/W",
+    xy: "X/Y",
+};
+const META_DISPLAY_NAMES = {
+    uber: "Uber",
+    ou: "OU",
+    uu: "UU",
+    ru: "RU",
+    nu: "NU",
+    pu: "PU",
+    lc: "LC",
+    doubles: "Doubles",
+};
 
 var setdex = {
     rby: {},
@@ -12,12 +28,8 @@ var setdex = {
     xy: {},
 };
 
-var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap']);
+var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap', 'nya.bootstrap.select']);
 teamGenerator.controller('GeneratorController', function($scope) {
-
-    $scope.validMeta = function(meta) {
-        return !!setdex[$scope.gen][meta];
-    };
 
     $scope.availablePokemon = function() {
         return speciesInMeta().filter(function(species) { return formesInTeam().indexOf(species) === -1; });
@@ -210,7 +222,6 @@ teamGenerator.controller('GeneratorController', function($scope) {
             possibleSets = possibleSets.filter(requiredRole.setCanMatch);
         }
         filledRoles.forEach(function(role) {
-            console.log("Already filled role: " + role.name);
             possibleSets = possibleSets.filter(role.setCanAvoidMatch);
         });
         if (possibleSets.length === 0) {
@@ -246,8 +257,13 @@ teamGenerator.controller('GeneratorController', function($scope) {
         _generateTeam($scope.team);
     };
 
+    $scope.updateGen = function() {
+        $scope.validMetas = getValidMetas();
+        $scope.generateNewTeam();
+    };
+
     $scope.generateNewTeam = function() {
-        if (!$scope.validMeta($scope.meta)) {
+        if ($scope.validMetas.indexOf($scope.meta) === -1) {
             $scope.meta = "ou";
         }
         _generateTeam([]);
@@ -263,8 +279,23 @@ teamGenerator.controller('GeneratorController', function($scope) {
         $scope.teamExportReadOnly = true;
     };
 
+    $scope.validGens = Object.keys(GEN_DISPLAY_NAMES);
+    $scope.genDisplayName = function(gen) {
+        return GEN_DISPLAY_NAMES[gen];
+    };
     $scope.gen = "xy";
+
+    var getValidMetas = function() {
+        return Object.keys(META_DISPLAY_NAMES).filter(function(meta) {
+            return Object.keys(setdex[$scope.gen]).indexOf(meta) !== -1;
+        });
+    };
+    $scope.validMetas = getValidMetas();
+    $scope.metaDisplayName = function(meta) {
+        return META_DISPLAY_NAMES[meta];
+    };
     $scope.meta = "ou";
+
     $scope.viability = "+";
     $scope.generateNewTeam();
 

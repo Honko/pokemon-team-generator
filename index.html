@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" href="third-party/css/bootstrap.min.css">
     <link rel="stylesheet" href="third-party/css/bootstrap_ms.css">
+    <link rel="stylesheet" href="third-party/css/nya-bs-select.min.css">
     <link rel="stylesheet" href="css/generator.css" />
 
     <script>
@@ -29,26 +30,12 @@
     <div class="text-center">
         <h3>Random Pok&eacute;mon Team Generator<br /><small>created by Honko</small></h3>
         <p>
-            <div class="btn-group">
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'rby'" ng-change="generateNewTeam()">RBY</label>
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'gsc'" ng-change="generateNewTeam()">GSC</label>
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'adv'" ng-change="generateNewTeam()">ADV</label>
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'dpp'" ng-change="generateNewTeam()">DPP</label>
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'bw'" ng-change="generateNewTeam()">B/W</label>
-                <label class="btn btn-default" ng-model="gen" uib-btn-radio="'xy'" ng-change="generateNewTeam()">X/Y</label>
-            </div>
-        </p>
-        <p>
-            <div class="btn-group">
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uber'" ng-change="generateNewTeam()" ng-show="validMeta('uber')">Uber</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ou'" ng-change="generateNewTeam()" ng-show="validMeta('ou')">OU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'uu'" ng-change="generateNewTeam()" ng-show="validMeta('uu')">UU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'ru'" ng-change="generateNewTeam()" ng-show="validMeta('ru')">RU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'nu'" ng-change="generateNewTeam()" ng-show="validMeta('nu')">NU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'pu'" ng-change="generateNewTeam()" ng-show="validMeta('pu')">PU</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'lc'" ng-change="generateNewTeam()" ng-show="validMeta('lc')">LC</label>
-                <label class="btn btn-default" ng-model="meta" uib-btn-radio="'doubles'" ng-change="generateNewTeam()" ng-show="validMeta('doubles')">Doubles</label>
-            </div>
+            <ol id="gen-select" class="nya-bs-select" ng-model="gen" ng-selected="xy" ng-change="updateGen()">
+                <li nya-bs-option="gen in validGens"><a>{{genDisplayName(gen)}}</a></li>
+            </ol>
+            <ol id="meta-select" class="nya-bs-select" ng-model="meta" ng-selected="ou" ng-change="generateNewTeam()">
+                <li nya-bs-option="meta in validMetas"><a>{{metaDisplayName(meta)}}</a></li>
+            </ol>
         </p>
         <p>
             <div class="btn-group">
@@ -120,6 +107,7 @@
     <script src="third-party/js/angular.min.js"></script>
     <script src="third-party/js/jquery-2.2.2.min.js"></script>
     <script src="third-party/js/bootstrap.min.js"></script>
+    <script src="third-party/js/nya-bs-select.min.js"></script>
     <script src="third-party/js/ui-bootstrap-custom-tpls-1.2.5.min.js"></script>
 
     <script src="js/generator.js"></script>

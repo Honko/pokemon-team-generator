@@ -24,3 +24,9 @@ textarea {
 .no-pad-left {
     padding-left: 0;
 }
+#gen-select {
+    width: 100px;
+}
+#meta-select {
+    width: 100px;
+}

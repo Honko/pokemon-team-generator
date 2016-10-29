@@ -30,20 +30,20 @@
     <div class="text-center">
         <h3>Random Pok&eacute;mon Team Generator<br /><small>created by Honko</small></h3>
         <p>
-            <ol id="gen-select" class="nya-bs-select" ng-model="gen" ng-selected="xy" ng-change="updateGen()">
+            <ol class="nya-bs-select" ng-model="gen" ng-selected="xy" ng-change="updateGen()">
                 <li nya-bs-option="gen in validGens"><a>{{genDisplayName(gen)}}</a></li>
             </ol>
-            <ol id="meta-select" class="nya-bs-select" ng-model="meta" ng-selected="ou" ng-change="generateNewTeam()">
+            <ol class="nya-bs-select" ng-model="meta" ng-selected="ou" ng-change="generateNewTeam()">
                 <li nya-bs-option="meta in validMetas"><a>{{metaDisplayName(meta)}}</a></li>
             </ol>
         </p>
         <p>
-            <div class="btn-group">
-                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'++'" ng-change="generateTeam()" title="Strong weighting in favor of the most standard Pokemon">++</label>
-                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'+'" ng-change="generateTeam()" title="Slight weighting in favor of standard Pokemon">+</label>
-                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'='" ng-change="generateTeam()" title="No weighting">=</label>
-                <label class="btn btn-default" ng-model="viability" uib-btn-radio="'-'" ng-change="generateTeam()" title="Slight weighting in favor of non-standard Pokemon">-</label>
-            </div>
+            <ol class="nya-bs-select" ng-model="viability" ng-selected="+" ng-change="generateTeam()">
+                <li class="nya-bs-option" data-value="++" title="++"><a>Strong weighting in favor of the most standard Pokemon (++)</a></li>
+                <li class="nya-bs-option" data-value="+" title="+"><a>Slight weighting in favor of standard Pokemon (+)</a></li>
+                <li class="nya-bs-option" data-value="=" title="="><a>No weighting (=)</a></li>
+                <li class="nya-bs-option" data-value="-" title="-"><a>Slight weighting in favor of non-standard Pokemon (-)</a></li>
+            </ol>
         </p>
         <p>
             <div class="btn-group">

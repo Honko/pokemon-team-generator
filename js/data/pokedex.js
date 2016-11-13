@@ -1465,7 +1465,7 @@ var pokedex = {
     spriteName: "meowsticf",
   },
   "Meowstic-M": {
-    spriteName: "meowsticm",
+    spriteName: "meowstic",
   },
   "Meowth": {
     spriteName: "meowth",

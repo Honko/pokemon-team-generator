@@ -1462,7 +1462,7 @@ var pokedex = {
     spriteName: "meloetta",
   },
   "Meowstic-F": {
-    spriteName: "meowsticf",
+    spriteName: "meowstic-f",
   },
   "Meowstic-M": {
     spriteName: "meowstic",

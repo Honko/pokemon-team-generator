@@ -163,8 +163,8 @@ setdex.dpp.lc = {
   ],
   "Drowzee": [
     {"moves":[["Substitute"],["Focus Punch"],["Zen Headbutt"],["Ice Punch","Reflect","Hypnosis"]],"item":["Oran Berry"],"ability":["Insomnia"],"nature":["Jolly","Adamant"],"evs":{"def":76,"spd":196,"spe":20,"atk":212}},
-    {"moves":[["Zen Headbutt","Psycho Cut"],["Thunder Punch"],["Ice Punch"],["Brick Break"]],"item":["Choice Scarf"],"ability":["Forewarn","Insomnia"],"nature":["Jolly","Adamant"],"evs":{"spd":116,"spe":180,"atk":212}},
-    {"moves":[["Trick Room"],["Zen Headbutt"],["Fire Punch","Ice Punch","Brick Break"],["Thunder Punch","Hypnosis"]],"item":["Oran Berry"],"ability":["Forewarn","Insomnia"],"nature":["Brave"],"evs":{"def":236,"spd":36,"atk":212},"ivs":{"spe":0}},
+    {"moves":[["Zen Headbutt","Psycho Cut"],["Thunder Punch"],["Ice Punch"],["Brick Break"]],"item":["Choice Scarf"],"ability":["Insomnia"],"nature":["Jolly","Adamant"],"evs":{"spd":116,"spe":180,"atk":212}},
+    {"moves":[["Trick Room"],["Zen Headbutt"],["Fire Punch","Ice Punch","Brick Break"],["Thunder Punch","Hypnosis"]],"item":["Oran Berry"],"ability":["Insomnia"],"nature":["Brave"],"evs":{"def":236,"spd":36,"atk":212},"ivs":{"spe":0}},
   ],
   "Duskull": [
     {"moves":[["Will-O-Wisp"],["Shadow Sneak"],["Return","Ice Beam"],["Pain Split"]],"item":["Oran Berry"],"ability":["Levitate"],"nature":["Relaxed"],"evs":{"def":36,"spd":116,"hp":196,"atk":116}},

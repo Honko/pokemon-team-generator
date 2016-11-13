@@ -128,7 +128,6 @@ setdex.xy.doubles = {
   ],
   "Heatran": [
     {"moves":[["Substitute"],["Heat Wave"],["Earth Power"],["Protect"]],"item":["Leftovers"],"ability":["Flash Fire"],"nature":["Modest","Timid"],"evs":{"spa":232,"hp":24,"spe":252}},
-    {"moves":[["Heat Wave"],["Earth Power"],["Flash Cannon"],["Protect"]],"item":["Life Orb","Shuca Berry"],"ability":["Flash Fire"],"nature":["Modest"],"evs":{"spa":252,"hp":56,"spe":200}},
   ],
   "Heracross": [
     {"moves":[["Close Combat"],["Pin Missile"],["Rock Blast"],["Protect"]],"item":["Heracronite"],"ability":["Guts"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -145,7 +144,7 @@ setdex.xy.doubles = {
     {"moves":[["Roost"],["Draco Meteor"],["Dark Pulse"],["Protect"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":152,"spd":16,"hp":216,"spe":124}},
   ],
   "Infernape": [
-    {"moves":[["Overheat"],["Close Combat"],["Fake Out"],["Encore","Protect"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive"],"evs":{"spa":220,"spe":252,"atk":36}},
+    {"moves":[["Overheat"],["Close Combat"],["Fake Out"],["Encore","Protect"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive"],"evs":{"spa":224,"spe":252,"atk":32}},
   ],
   "Jellicent": [
     {"moves":[["Trick Room"],["Hydro Pump","Scald"],["Will-O-Wisp"],["Protect","Recover"]],"item":["Safety Goggles","Sitrus Berry"],"ability":["Water Absorb","Cursed Body"],"nature":["Relaxed"],"evs":{"def":204,"spd":52,"hp":252},"ivs":{"spe":0}},
@@ -212,8 +211,8 @@ setdex.xy.doubles = {
     {"moves":[["Fake Out"],["Transform"],["Will-O-Wisp","Tailwind"],["Protect","Tailwind"]],"item":["Sitrus Berry","Leftovers"],"ability":["Synchronize"],"nature":["Jolly"],"evs":{"spd":4,"hp":252,"spe":252}},
   ],
   "Milotic": [
-    {"moves":[["Hydro Pump"],["Ice Beam"],["Recover"],["Protect"]],"item":["Life Orb"],"ability":["Competitive"],"nature":["Modest"],"evs":{"def":80,"spa":188,"hp":72,"spe":168}},
     {"moves":[["Scald"],["Icy Wind","Ice Beam"],["Recover"],["Protect"]],"item":["Sitrus Berry","Leftovers","Safety Goggles"],"ability":["Competitive"],"nature":["Bold"],"evs":{"def":188,"spa":24,"hp":252,"spe":44}},
+    {"moves":[["Hydro Pump"],["Ice Beam"],["Recover"],["Protect"]],"item":["Life Orb"],"ability":["Competitive"],"nature":["Modest"],"evs":{"def":80,"spa":188,"hp":72,"spe":168}},
   ],
   "Pinsir": [
     {"moves":[["Return"],["Feint"],["Close Combat"],["Protect"]],"item":["Pinsirite"],"ability":["Hyper Cutter"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -300,8 +299,8 @@ setdex.xy.doubles = {
     {"moves":[["Rock Slide"],["Crunch"],["Dragon Dance"],["Protect"]],"item":["Tyranitarite"],"ability":["Sand Stream"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Venusaur": [
+    {"moves":[["Giga Drain"],["Sludge Bomb"],["Sleep Powder","Leech Seed"],["Protect","Synthesis"]],"item":["Venusaurite"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"def":132,"spa":72,"hp":252,"spe":52}},
     {"moves":[["Giga Drain","Leaf Storm"],["Sludge Bomb"],["Sleep Powder"],["Protect"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"spa":252,"hp":112,"spe":144}},
-    {"moves":[["Giga Drain"],["Sludge Bomb"],["Sleep Powder","Leech Seed","Synthesis"],["Protect"]],"item":["Venusaurite"],"ability":["Chlorophyll"],"nature":["Modest"],"evs":{"def":132,"spa":72,"hp":252,"spe":52}},
   ],
   "Victini": [
     {"moves":[["V-create"],["Bolt Strike"],["U-turn"],["Final Gambit","Zen Headbutt"]],"item":["Choice Scarf"],"ability":["Victory Star"],"nature":["Jolly"],"evs":{"hp":36,"spe":220,"atk":252}},
@@ -326,7 +325,7 @@ setdex.xy.doubles = {
     {"moves":[["Moonblast","Energy Ball"],["Encore"],["Tailwind"],["Protect","Fake Tears","Taunt"]],"item":["Focus Sash"],"ability":["Prankster"],"nature":["Timid"],"evs":{"spa":96,"hp":196,"spe":216}},
   ],
   "Zapdos": [
-    {"moves":[["Thunderbolt"],["Tailwind"],["Hidden Power Ice","Heat Wave"],["Roost"]],"item":["Rocky Helmet","Sitrus Berry"],"ability":["Static"],"nature":["Modest"],"evs":{"def":36,"spa":80,"spd":124,"hp":252,"spe":16}},
+    {"moves":[["Thunderbolt"],["Tailwind"],["Hidden Power Ice"],["Roost"]],"item":["Rocky Helmet","Sitrus Berry"],"ability":["Static"],"nature":["Modest"],"evs":{"def":36,"spa":80,"spd":124,"hp":252,"spe":16}},
   ],
   "Zygarde": [
     {"moves":[["Land\u0027s Wrath"],["Stone Edge"],["Glare"],["Protect"]],"item":["Sitrus Berry"],"ability":["Aura Break"],"nature":["Adamant"],"evs":{"def":52,"hp":220,"spe":148,"atk":88}},

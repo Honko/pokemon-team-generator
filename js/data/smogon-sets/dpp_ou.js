@@ -8,7 +8,7 @@ setdex.dpp.ou = {
   "Aerodactyl": [
     {"moves":[["Stealth Rock"],["Taunt"],["Rock Slide","Stone Edge"],["Earthquake"]],"item":["Focus Sash"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Stone Edge"],["Earthquake"],["Taunt"],["Roost"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Substitute"],["Roost"],["Taunt","Whirlwind"],["Rock Slide","Whirlwind"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Adamant"],"evs":{"hp":248,"spe":240,"atk":20}},
+    {"moves":[["Substitute"],["Roost"],["Taunt","Whirlwind"],["Rock Slide","Whirlwind"]],"item":["Leftovers"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"def":28,"hp":248,"spe":112,"atk":120}},
   ],
   "Aggron": [
     {"moves":[["Head Smash"],["Earthquake"],["Aqua Tail"],["Ice Punch"]],"item":["Choice Band"],"ability":["Rock Head"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
@@ -203,7 +203,7 @@ setdex.dpp.ou = {
   ],
   "Infernape": [
     {"moves":[["Close Combat"],["U-turn","Grass Knot"],["Stone Edge","Mach Punch"],["Overheat"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive","Hasty"],"evs":{"spa":64,"spe":192,"atk":252}},
-    {"moves":[["Nasty Plot"],["Fire Blast","Flamethrower"],["Focus Blast","Close Combat"],["Grass Knot","Vacuum Wave"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Nasty Plot"],["Fire Blast","Flamethrower"],["Focus Blast","Close Combat"],["Grass Knot","Vacuum Wave"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Timid","Naive"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Fire Blast","Flamethrower"],["Close Combat"],["Grass Knot"],["Hidden Power Ice"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive"],"evs":{"spa":252,"spe":192,"atk":64}},
     {"moves":[["Fake Out"],["Stealth Rock"],["Fire Blast"],["Close Combat"]],"item":["Focus Sash"],"ability":["Blaze"],"nature":["Naive","Hasty"],"evs":{"spa":252,"spe":192,"atk":64}},
     {"moves":[["Stealth Rock"],["Endeavor"],["Vacuum Wave"],["Overheat","Fire Blast"]],"item":["Focus Sash"],"ability":["Blaze"],"nature":["Naive","Hasty"],"evs":{"spa":252,"spe":252},"ivs":{"def":0,"spd":0,"hp":0}},

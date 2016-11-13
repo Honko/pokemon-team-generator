@@ -119,7 +119,7 @@ setdex.xy.ou = {
     {"moves":[["Outrage"],["Extreme Speed"],["Fire Punch"],["Earthquake"]],"item":["Choice Band"],"ability":["Multiscale"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Dugtrio": [
-    {"moves":[["Earthquake"],["Reversal"],["Memento","Toxic","Stone Edge","Substitute"],["Stealth Rock"]],"item":["Focus Sash"],"ability":["Arena Trap"],"nature":["Hasty"],"evs":{"spe":252,"atk":252},"ivs":{"def":0,"spd":0,"hp":21}},
+    {"moves":[["Earthquake"],["Reversal"],["Screech"],["Memento","Stealth Rock","Toxic"]],"item":["Focus Sash"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252},"ivs":{"hp":28}},
   ],
   "Emboar": [
     {"moves":[["Flare Blitz"],["Superpower"],["Wild Charge"],["Sucker Punch","Head Smash"]],"item":["Life Orb","Choice Band"],"ability":["Reckless"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -135,9 +135,6 @@ setdex.xy.ou = {
     {"moves":[["Earthquake"],["Iron Head"],["Rapid Spin"],["Toxic","Stealth Rock"]],"item":["Leftovers"],"ability":["Mold Breaker"],"nature":["Careful"],"evs":{"spd":252,"hp":252,"atk":4}},
     {"moves":[["Earthquake"],["Iron Head"],["Rock Slide"],["Rapid Spin"]],"item":["Choice Scarf"],"ability":["Mold Breaker"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
-  "Exploud": [
-    {"moves":[["Boomburst"],["Overheat"],["Focus Blast"],["Flamethrower","Surf"]],"item":["Choice Specs"],"ability":["Scrappy"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
-  ],
   "Feraligatr": [
     {"moves":[["Dragon Dance"],["Waterfall"],["Ice Punch","Crunch"],["Crunch","Superpower"]],"item":["Life Orb"],"ability":["Sheer Force"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
@@ -151,8 +148,9 @@ setdex.xy.ou = {
     {"moves":[["Swords Dance"],["Drain Punch","Close Combat"],["Ice Punch","Knock Off","Shadow Sneak"],["Zen Headbutt"]],"item":["Galladite"],"ability":["Justified"],"nature":["Jolly","Adamant"],"evs":{"hp":4,"spe":252,"atk":252}},
   ],
   "Garchomp": [
-    {"moves":[["Stealth Rock"],["Earthquake"],["Dragon Tail"],["Fire Blast","Toxic"]],"item":["Rocky Helmet"],"ability":["Rough Skin"],"nature":["Impish"],"evs":{"def":176,"hp":240,"spe":92}},
+    {"moves":[["Swords Dance"],["Dragon Claw","Outrage"],["Earthquake"],["Fire Fang"]],"item":["Life Orb"],"ability":["Rough Skin"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Stealth Rock"],["Earthquake"],["Dragon Claw","Outrage"],["Swords Dance","Fire Blast"]],"item":["Lum Berry","Focus Sash"],"ability":["Rough Skin"],"nature":["Jolly","Naive"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["Dragon Tail"],["Fire Blast","Toxic"]],"item":["Rocky Helmet"],"ability":["Rough Skin"],"nature":["Impish"],"evs":{"def":176,"hp":240,"spe":92}},
     {"moves":[["Swords Dance"],["Earthquake"],["Dragon Claw"],["Substitute"]],"item":["Salac Berry","Leftovers"],"ability":["Rough Skin"],"nature":["Jolly"],"evs":{"hp":12,"spe":252,"atk":244}},
     {"moves":[["Swords Dance"],["Earthquake"],["Dragon Claw"],["Fire Blast"]],"item":["Garchompite"],"ability":["Rough Skin"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Draco Meteor"],["Earthquake"],["Fire Blast"],["Stealth Rock","Stone Edge"]],"item":["Life Orb","Garchompite"],"ability":["Rough Skin"],"nature":["Naive"],"evs":{"spa":252,"spe":252,"atk":4}},
@@ -206,6 +204,7 @@ setdex.xy.ou = {
     {"moves":[["Nasty Plot"],["Fire Blast"],["Dark Pulse"],["Will-O-Wisp","Taunt"]],"item":["Houndoominite"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":8,"spa":208,"hp":40,"spe":252}},
   ],
   "Hydreigon": [
+    {"moves":[["Dark Pulse"],["Draco Meteor"],["Flash Cannon"],["Flamethrower","Fire Blast"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Draco Meteor"],["Flash Cannon"],["Dark Pulse","Roost"],["Fire Blast"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
     {"moves":[["Draco Meteor"],["Dark Pulse"],["Earth Power","Fire Blast"],["U-turn"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
@@ -295,7 +294,7 @@ setdex.xy.ou = {
     {"moves":[["Volt Switch"],["Thunderbolt"],["Flamethrower","Overheat"],["Hidden Power Ice"]],"item":["Manectite"],"ability":["Lightning Rod"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Medicham": [
-    {"moves":[["High Jump Kick"],["Ice Punch"],["Fake Out"],["Zen Headbutt","Bullet Punch","Thunder Punch"]],"item":["Medichamite"],"ability":["Pure Power"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["High Jump Kick"],["Ice Punch"],["Fake Out"],["Thunder Punch","Zen Headbutt","Bullet Punch"]],"item":["Medichamite"],"ability":["Pure Power"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Metagross": [
     {"moves":[["Meteor Mash"],["Zen Headbutt","Thunder Punch"],["Hammer Arm"],["Ice Punch","Bullet Punch","Pursuit"]],"item":["Metagrossite"],"ability":["Clear Body"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -337,7 +336,7 @@ setdex.xy.ou = {
     {"moves":[["Thunderbolt"],["Volt Switch"],["Hidden Power Ice"],["Shadow Ball","Extrasensory"]],"item":["Assault Vest"],"ability":["Pressure"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Reuniclus": [
-    {"moves":[["Calm Mind"],["Psyshock"],["Focus Blast","Shadow Ball"],["Recover"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Bold"],"evs":{"def":200,"spd":56,"hp":252}},
+    {"moves":[["Calm Mind"],["Psyshock"],["Focus Blast"],["Recover"]],"item":["Leftovers"],"ability":["Magic Guard"],"nature":["Bold"],"evs":{"def":200,"spd":56,"hp":252}},
   ],
   "Rhyperior": [
     {"moves":[["Stealth Rock"],["Earthquake"],["Stone Edge","Rock Blast"],["Ice Punch","Toxic"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"def":252,"hp":212,"atk":44}},
@@ -434,7 +433,6 @@ setdex.xy.ou = {
     {"moves":[["Thunder Wave"],["Thunderbolt"],["Hidden Power Ice","Grass Knot"],["Focus Blast","Grass Knot"]],"item":["Life Orb"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Nasty Plot"],["Thunderbolt"],["Hidden Power Ice"],["Focus Blast","Thunder Wave"]],"item":["Leftovers","Life Orb"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Thunderbolt"],["Knock Off"],["Superpower"],["Hidden Power Ice","Grass Knot"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Naive"],"evs":{"spa":188,"spe":252,"atk":68}},
-    {"moves":[["Volt Switch"],["Hidden Power Ice","Grass Knot"],["Taunt"],["Thunder Wave"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Thundurus-Therian": [
     {"moves":[["Agility"],["Thunderbolt"],["Focus Blast"],["Hidden Power Ice"]],"item":["Leftovers","Life Orb"],"ability":["Volt Absorb"],"nature":["Modest","Timid"],"evs":{"spa":252,"spd":4,"spe":252}},

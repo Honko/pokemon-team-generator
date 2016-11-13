@@ -203,6 +203,9 @@ setdex.xy.lc = {
   "Finneon": [
     {"moves":[["Defog"],["Scald"],["U-turn"],["Hidden Power Fighting"]],"item":["Berry Juice"],"ability":["Storm Drain"],"nature":["Timid"],"evs":{"def":152,"spa":48,"spd":232,"hp":44}},
   ],
+  "Flabebe": [
+    {"moves":[["Calm Mind"],["Synthesis"],["Moonblast"],["Psychic","Hidden Power Fire","Hidden Power Ground"]],"item":["Eviolite"],"ability":["Flower Veil"],"nature":["Bold","Modest"],"evs":{"def":204,"spa":108,"hp":164,"spe":20}},
+  ],
   "Fletchling": [
     {"moves":[["Acrobatics"],["U-turn"],["Swords Dance"],["Roost"]],"item":[],"ability":["Gale Wings"],"nature":["Adamant"],"evs":{"def":92,"spd":52,"hp":156,"atk":196}},
     {"moves":[["Acrobatics"],["Overheat","Hidden Power Grass"],["U-turn","Roost"],["Swords Dance","Roost"]],"item":[],"ability":["Gale Wings"],"nature":["Naughty"],"evs":{"def":12,"spa":40,"hp":76,"spe":180,"atk":200}},
@@ -407,6 +410,10 @@ setdex.xy.lc = {
   "Panpour": [
     {"moves":[["Nasty Plot"],["Hydro Pump"],["Ice Beam"],["Hidden Power Grass","Knock Off"]],"item":["Berry Juice","Eviolite"],"ability":["Torrent"],"nature":["Modest","Timid"],"evs":{"def":52,"spa":176,"hp":36,"spe":244},"ivs":{"spa":30,"atk":30}},
   ],
+  "Pansear": [
+    {"moves":[["Recycle"],["Will-O-Wisp"],["Flame Charge"],["Substitute"]],"item":["Berry Juice"],"ability":["Blaze"],"nature":["Jolly"],"evs":{"def":212,"spd":212,"spe":84}},
+    {"moves":[["Nasty Plot"],["Fire Blast"],["Hidden Power Grass"],["Flame Charge","Substitute"]],"item":["Eviolite","Life Orb"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":52,"spa":176,"spe":244},"ivs":{"spa":30,"atk":0}},
+  ],
   "Paras": [
     {"moves":[["Spore"],["Knock Off"],["Bullet Seed","Aromatherapy"],["Synthesis"]],"item":["Eviolite"],"ability":["Dry Skin"],"nature":["Impish"],"evs":{"def":236,"spd":156,"hp":76,"atk":36}},
   ],
@@ -524,7 +531,7 @@ setdex.xy.lc = {
     {"moves":[["Toxic Spikes"],["Taunt"],["Poison Jab"],["Knock Off"]],"item":["Eviolite"],"ability":["Battle Armor"],"nature":["Jolly"],"evs":{"def":36,"hp":196,"spe":236,"atk":36}},
   ],
   "Skrelp": [
-    {"moves":[["Sludge Wave","Sludge Bomb"],["Hydro Pump"],["Hidden Power Fire","Hidden Power Psychic"],["Scald"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Modest"],"evs":{"def":116,"spa":200,"spd":116,"hp":36,"spe":40}},
+    {"moves":[["Sludge Wave","Sludge Bomb"],["Hydro Pump"],["Hidden Power Fire","Hidden Power Psychic"],["Scald","Toxic Spikes"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Modest"],"evs":{"def":116,"spa":200,"spd":116,"hp":36,"spe":40}},
     {"moves":[["Rest"],["Sleep Talk"],["Scald"],["Sludge Wave","Sludge Bomb"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Bold"],"evs":{"def":196,"spa":36,"spd":116,"hp":116,"spe":36}},
   ],
   "Slowpoke": [

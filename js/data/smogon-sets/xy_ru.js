@@ -117,10 +117,9 @@ setdex.xy.ru = {
     {"moves":[["Swords Dance"],["Acrobatics"],["Will-O-Wisp"],["Roost"]],"item":[],"ability":["Gale Wings"],"nature":["Adamant"],"evs":{"def":76,"spd":28,"hp":152,"atk":252}},
   ],
   "Flygon": [
-    {"moves":[["Draco Meteor"],["Earth Power"],["Defog"],["Fire Blast","Roost","U-turn"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid","Naive"],"evs":{"def":4,"spa":252,"spe":252}},
-    {"moves":[["Defog"],["Roost"],["Earthquake"],["U-turn","Toxic","Dragon Tail"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Careful"],"evs":{"def":116,"spd":116,"hp":252,"spe":24}},
-    {"moves":[["Outrage"],["Earthquake"],["U-turn"],["Defog","Fire Punch"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Outrage"],["Earthquake"],["U-turn"],["Iron Tail"]],"item":["Choice Band"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Earthquake"],["Outrage"],["U-turn"],["Dragon Claw"]],"item":["Choice Band"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Defog"],["Roost"],["Earthquake"],["U-turn","Dragon Claw"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"hp":112,"spe":252,"atk":144}},
+    {"moves":[["Earthquake"],["U-turn"],["Outrage"],["Aerial Ace","Tailwind","Defog"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Gallade": [
     {"moves":[["Swords Dance"],["Close Combat"],["Zen Headbutt"],["Knock Off"]],"item":["Life Orb","Lum Berry"],"ability":["Justified"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -140,7 +139,7 @@ setdex.xy.ru = {
     {"moves":[["Substitute"],["Leech Seed"],["Will-O-Wisp"],["Protect","Phantom Force"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Jolly"],"evs":{"def":132,"hp":152,"spe":224}},
   ],
   "Gourgeist-Super": [
-    {"moves":[["Will-O-Wisp"],["Seed Bomb"],["Synthesis"],["Rock Slide"]],"item":["Leftovers"],"ability":["Frisk"],"nature":["Impish"],"evs":{"def":252,"spd":8,"hp":248}},
+    {"moves":[["Will-O-Wisp"],["Synthesis"],["Foul Play"],["Leech Seed","Seed Bomb"]],"item":["Leftovers","Colbur Berry"],"ability":["Frisk"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Granbull": [
     {"moves":[["Play Rough"],["Earthquake"],["Heal Bell"],["Roar","Thunder Wave"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":252,"hp":248,"atk":8}},

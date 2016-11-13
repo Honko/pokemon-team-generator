@@ -10,7 +10,7 @@ setdex.xy.uber = {
   ],
   "Arceus": [
     {"moves":[["Swords Dance"],["Extreme Speed"],["Shadow Claw","Stone Edge"],["Earthquake"]],"item":["Life Orb"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
-    {"moves":[["Refresh"],["Swords Dance"],["Extreme Speed"],["Shadow Claw"]],"item":["Silk Scarf"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
+    {"moves":[["Swords Dance"],["Extreme Speed"],["Shadow Claw"],["Recover","Earthquake"]],"item":["Life Orb","Silk Scarf"],"ability":["Multitype"],"nature":["Adamant"],"evs":{"hp":132,"spe":124,"atk":252}},
   ],
   "Arceus-Bug": [
     {"moves":[["Swords Dance"],["X-Scissor"],["Earthquake"],["Stone Edge"]],"item":["Insect Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -69,7 +69,7 @@ setdex.xy.uber = {
     {"moves":[["Swords Dance"],["Iron Head"],["Earthquake"],["Stone Edge","Extreme Speed","Recover"]],"item":["Iron Plate"],"ability":["Multitype"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Arceus-Water": [
-    {"moves":[["Recover"],["Toxic"],["Ice Beam","Defog"],["Judgment","Defog"]],"item":["Splash Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":200,"hp":252,"spe":56}},
+    {"moves":[["Judgment","Defog"],["Ice Beam","Judgment"],["Recover"],["Toxic"]],"item":["Splash Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":240,"hp":252,"spe":16}},
   ],
   "Blaziken": [
     {"moves":[["Protect","Swords Dance"],["Flare Blitz"],["Low Kick"],["Stone Edge","Knock Off"]],"item":["Blazikenite","Life Orb"],"ability":["Speed Boost"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -280,6 +280,7 @@ setdex.xy.uber = {
     {"moves":[["Calm Mind"],["Sleep Talk"],["Rest"],["Moonblast"]],"item":["Leftovers"],"ability":["Fairy Aura"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Yveltal": [
+    {"moves":[["Knock Off"],["U-turn"],["Foul Play"],["Sucker Punch","Steel Wing"]],"item":["Choice Band"],"ability":["Dark Aura"],"nature":["Adamant"],"evs":{"def":32,"spe":224,"atk":252}},
     {"moves":[["Dark Pulse"],["Oblivion Wing"],["Sucker Punch"],["Heat Wave","Focus Blast"]],"item":["Life Orb","Black Glasses"],"ability":["Dark Aura"],"nature":["Rash"],"evs":{"spa":252,"hp":132,"spe":96,"atk":28}},
     {"moves":[["Foul Play"],["Roost"],["Toxic","Sucker Punch"],["Taunt"]],"item":["Leftovers","Charti Berry"],"ability":["Dark Aura"],"nature":["Bold","Impish"],"evs":{"def":252,"spd":8,"hp":248}},
     {"moves":[["Foul Play"],["Dark Pulse"],["Oblivion Wing"],["U-turn"]],"item":["Choice Scarf"],"ability":["Dark Aura"],"nature":["Modest"],"evs":{"def":4,"spa":248,"hp":32,"spe":224}},

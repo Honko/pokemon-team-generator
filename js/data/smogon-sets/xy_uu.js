@@ -126,9 +126,6 @@ setdex.xy.uu = {
   "Druddigon": [
     {"moves":[["Stealth Rock"],["Dragon Claw"],["Fire Punch","Earthquake"],["Gunk Shot","Glare","Sucker Punch"]],"item":["Roseli Berry","Leftovers","Life Orb"],"ability":["Sheer Force","Mold Breaker"],"nature":["Adamant"],"evs":{"hp":236,"spe":20,"atk":252}},
   ],
-  "Dugtrio": [
-    {"moves":[["Earthquake"],["Stone Edge"],["Aerial Ace"],["Memento","Sucker Punch"]],"item":["Choice Band","Life Orb"],"ability":["Arena Trap"],"nature":["Jolly","Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
-  ],
   "Durant": [
     {"moves":[["Iron Head"],["X-Scissor"],["Rock Slide","Thunder Fang"],["Superpower"]],"item":["Life Orb","Choice Band"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Hone Claws"],["Iron Head"],["X-Scissor"],["Superpower"]],"item":["Life Orb","Lum Berry"],"ability":["Hustle"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
@@ -242,6 +239,7 @@ setdex.xy.uu = {
     {"moves":[["Draco Meteor"],["Dark Pulse"],["Superpower","Fire Blast"],["Roost","Iron Tail"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Hasty","Timid"],"evs":{"spa":252,"spe":252,"atk":4}},
     {"moves":[["Draco Meteor"],["Dark Pulse"],["Fire Blast","Dragon Pulse"],["U-turn"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Taunt"],["Roost"],["Dark Pulse"],["Dragon Pulse","Fire Blast","Draco Meteor"]],"item":["Life Orb","Leftovers"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
+    {"moves":[["Draco Meteor"],["Dark Pulse"],["Flash Cannon"],["Focus Blast"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Infernape": [
     {"moves":[["Nasty Plot"],["Fire Blast"],["Close Combat","Vacuum Wave"],["Grass Knot"]],"item":["Life Orb"],"ability":["Blaze"],"nature":["Naive"],"evs":{"spa":120,"spe":252,"atk":136}},
@@ -260,6 +258,10 @@ setdex.xy.uu = {
     {"moves":[["Focus Energy"],["Draco Meteor"],["Hydro Pump"],["Agility"]],"item":["Scope Lens"],"ability":["Sniper"],"nature":["Modest","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Dragon Dance"],["Waterfall"],["Outrage"],["Substitute"]],"item":["Lum Berry"],"ability":["Sniper"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Rain Dance"],["Hydro Pump"],["Draco Meteor"],["Surf","Dragon Pulse","Ice Beam"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"spa":252,"hp":40,"spe":216}},
+  ],
+  "Klefki": [
+    {"moves":[["Spikes"],["Thunder Wave"],["Magnet Rise","Toxic"],["Play Rough","Foul Play"]],"item":["Leftovers","Sitrus Berry"],"ability":["Prankster"],"nature":["Careful","Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Reflect"],["Light Screen"],["Fairy Lock"],["Foul Play"]],"item":["Light Clay"],"ability":["Prankster"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Krookodile": [
     {"moves":[["Earthquake"],["Knock Off"],["Stone Edge","Superpower"],["Pursuit","Superpower"]],"item":["Choice Band"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},

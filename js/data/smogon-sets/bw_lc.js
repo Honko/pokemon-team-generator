@@ -144,8 +144,8 @@ setdex.bw.lc = {
     {"moves":[["Earthquake"],["Rock Slide"],["Sucker Punch"],["Memento","Substitute"]],"item":["Life Orb"],"ability":["Arena Trap"],"nature":["Jolly"],"evs":{"hp":36,"spe":236,"atk":236}},
   ],
   "Doduo": [
-    {"moves":[["Brave Bird"],["Return","Double-Edge"],["Pursuit"],["Toxic","Roost"]],"item":["Choice Scarf"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"spe":236,"atk":236}},
-    {"moves":[["Work Up"],["Brave Bird","Drill Peck"],["Return","Double-Edge"],["Hidden Power Ground","Hidden Power Grass"]],"item":["Life Orb"],"ability":["Early Bird"],"nature":["Naive"],"evs":{"spe":236,"atk":236}},
+    {"moves":[["Brave Bird"],["Return"],["Pursuit"],["Hidden Power Fighting","Hidden Power Grass","Sleep Talk"]],"item":["Choice Scarf"],"ability":["Early Bird"],"nature":["Jolly"],"evs":{"spe":240,"atk":240}},
+    {"moves":[["Brave Bird"],["Return"],["Quick Attack"],["Hidden Power Fighting","Hidden Power Grass"]],"item":["Life Orb"],"ability":["Early Bird"],"nature":["Naive"],"evs":{"spe":240,"atk":240}},
   ],
   "Dratini": [
     {"moves":[["Dragon Dance"],["Outrage"],["Extreme Speed"],["Fire Blast"]],"item":["Life Orb","Eviolite"],"ability":["Shed Skin"],"nature":["Lonely","Hasty"],"evs":{"spa":36,"spe":196,"atk":244},"ivs":{"hp":0}},
@@ -315,7 +315,7 @@ setdex.bw.lc = {
     {"moves":[["Rain Dance"],["Surf"],["Giga Drain"],["Ice Beam"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Timid","Modest"],"evs":{"def":36,"spa":196,"spd":36,"spe":196},"ivs":{"hp":0}},
   ],
   "Machop": [
-    {"moves":[["Dynamic Punch"],["Payback"],["Ice Punch"],["Thunder Punch","Rock Slide"]],"item":["Choice Scarf"],"ability":["No Guard"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
+    {"moves":[["Dynamic Punch"],["Payback"],["Ice Punch"],["Rock Slide"]],"item":["Choice Scarf"],"ability":["No Guard"],"nature":["Jolly"],"evs":{"def":36,"hp":36,"spe":236,"atk":196}},
   ],
   "Magby": [
     {"moves":[["Flare Blitz"],["Mach Punch"],["Thunder Punch"],["Overheat"]],"item":["Life Orb"],"ability":["Flame Body"],"nature":["Hasty","Lonely"],"evs":{"spe":252,"atk":236},"ivs":{"hp":0}},
@@ -414,6 +414,7 @@ setdex.bw.lc = {
   "Pawniard": [
     {"moves":[["Swords Dance"],["Sucker Punch"],["Brick Break","Pursuit"],["Iron Head","Night Slash"]],"item":["Eviolite"],"ability":["Defiant"],"nature":["Jolly"],"evs":{"def":36,"spd":116,"spe":196,"atk":156}},
     {"moves":[["Swords Dance"],["Sucker Punch"],["Brick Break"],["Iron Head","Night Slash"]],"item":["Life Orb"],"ability":["Defiant"],"nature":["Jolly"],"evs":{"def":36,"spd":36,"spe":196,"atk":236},"ivs":{"hp":0}},
+    {"moves":[["Pursuit"],["Iron Head"],["Night Slash"],["Brick Break","Sucker Punch"]],"item":["Choice Scarf"],"ability":["Defiant"],"nature":["Jolly","Adamant"],"evs":{"def":36,"spd":36,"spe":196,"atk":236}},
   ],
   "Petilil": [
     {"moves":[["Sunny Day"],["Solar Beam","Giga Drain"],["Hidden Power Fire"],["Sleep Powder","Growth"]],"item":["Eviolite","Life Orb"],"ability":["Chlorophyll"],"nature":["Timid"],"evs":{"def":36,"spa":200,"spd":36,"spe":200}},

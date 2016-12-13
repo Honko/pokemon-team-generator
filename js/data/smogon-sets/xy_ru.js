@@ -78,7 +78,7 @@ setdex.xy.ru = {
     {"moves":[["Fire Blast"],["Psychic"],["Dazzling Gleam"],["Trick"]],"item":["Choice Scarf"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Diancie": [
-    {"moves":[["Stealth Rock"],["Heal Bell"],["Moonblast"],["Diamond Storm"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Sassy"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Stealth Rock"],["Moonblast"],["Diamond Storm"],["Heal Bell","Toxic"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Sassy"],"evs":{"spa":36,"spd":220,"hp":252}},
     {"moves":[["Trick Room"],["Moonblast"],["Earth Power"],["Psychic","Diamond Storm","Explosion"]],"item":["Life Orb"],"ability":["Clear Body"],"nature":["Quiet"],"evs":{"def":4,"spa":252,"hp":252},"ivs":{"spe":0}},
     {"moves":[["Stealth Rock"],["Moonblast"],["Diamond Storm"],["Earth Power","Psychic"]],"item":["Shuca Berry"],"ability":["Clear Body"],"nature":["Quiet"],"evs":{"spa":252,"hp":252,"atk":4}},
     {"moves":[["Calm Mind"],["Rest"],["Sleep Talk"],["Moonblast"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Bold"],"evs":{"def":252,"spa":4,"hp":252}},
@@ -124,6 +124,9 @@ setdex.xy.ru = {
   "Gallade": [
     {"moves":[["Swords Dance"],["Close Combat"],["Zen Headbutt"],["Knock Off"]],"item":["Life Orb","Lum Berry"],"ability":["Justified"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Bulk Up"],["Drain Punch"],["Knock Off"],["Substitute","Safeguard"]],"item":["Leftovers"],"ability":["Justified"],"nature":["Careful"],"evs":{"spd":96,"hp":248,"spe":164}},
+  ],
+  "Garbodor": [
+    {"moves":[["Spikes"],["Toxic Spikes","Toxic"],["Gunk Shot"],["Toxic","Pain Split"]],"item":["Rocky Helmet"],"ability":["Aftermath"],"nature":["Impish"],"evs":{"def":164,"spd":92,"hp":252}},
   ],
   "Gastrodon": [
     {"moves":[["Scald"],["Recover"],["Toxic","Clear Smog","Ice Beam"],["Earth Power"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Bold"],"evs":{"def":244,"hp":252,"spe":12}},
@@ -237,13 +240,12 @@ setdex.xy.ru = {
     {"moves":[["Spikes"],["Taunt"],["Explosion"],["Scald","Toxic Spikes"]],"item":["Focus Sash"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Registeel": [
-    {"moves":[["Seismic Toss"],["Stealth Rock"],["Toxic"],["Thunder Wave","Protect"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Seismic Toss"],["Stealth Rock"],["Toxic"],["Protect","Thunderbolt"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Calm"],"evs":{"spa":24,"spd":236,"hp":252}},
     {"moves":[["Curse"],["Iron Head"],["Rest"],["Sleep Talk","Toxic"]],"item":["Leftovers"],"ability":["Clear Body"],"nature":["Careful"],"evs":{"def":4,"spd":252,"hp":252}},
   ],
   "Rhyperior": [
-    {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Roar","Megahorn","Protect"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":228,"hp":252,"atk":28}},
-    {"moves":[["Earthquake"],["Stone Edge"],["Megahorn"],["Rock Blast"]],"item":["Choice Band"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
-    {"moves":[["Rock Polish"],["Earthquake"],["Stone Edge"],["Megahorn"]],"item":["Life Orb"],"ability":["Solid Rock"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["Rock Blast"],["Ice Punch","Toxic"]],"item":["Leftovers"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":244,"hp":248,"atk":16}},
+    {"moves":[["Stone Edge"],["Earthquake"],["Megahorn"],["Ice Punch","Rock Blast"]],"item":["Choice Band"],"ability":["Solid Rock"],"nature":["Adamant"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Roselia": [
     {"moves":[["Spikes"],["Synthesis"],["Giga Drain"],["Sludge Bomb"]],"item":["Eviolite"],"ability":["Natural Cure"],"nature":["Calm"],"evs":{"def":172,"spd":88,"hp":248}},
@@ -279,9 +281,8 @@ setdex.xy.ru = {
     {"moves":[["U-turn"],["Aerial Ace"],["Knock Off"],["Pursuit"]],"item":["Choice Band"],"ability":["Technician"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Seismitoad": [
-    {"moves":[["Stealth Rock"],["Scald","Hydro Pump"],["Earth Power"],["Sludge Wave"]],"item":["Leftovers","Life Orb"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"hp":252}},
-    {"moves":[["Stealth Rock"],["Scald"],["Earth Power","Earthquake"],["Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Bold","Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
-    {"moves":[["Substitute"],["Toxic"],["Earth Power"],["Sludge Wave","Hydro Pump"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"spa":248,"hp":8,"spe":252}},
+    {"moves":[["Stealth Rock"],["Scald"],["Earthquake","Toxic"],["Knock Off","Toxic"]],"item":["Leftovers"],"ability":["Water Absorb"],"nature":["Relaxed","Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+    {"moves":[["Scald"],["Earth Power"],["Substitute"],["Toxic","Endeavor"]],"item":["Leftovers","Salac Berry"],"ability":["Water Absorb"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],
   "Shiftry": [
     {"moves":[["Defog"],["Knock Off"],["Sucker Punch"],["Leaf Storm"]],"item":["Life Orb"],"ability":["Chlorophyll"],"nature":["Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
@@ -312,6 +313,9 @@ setdex.xy.ru = {
   "Togetic": [
     {"moves":[["Nasty Plot"],["Baton Pass"],["Dazzling Gleam","Fire Blast"],["Roost"]],"item":["Eviolite"],"ability":["Super Luck","Serene Grace"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252},"ivs":{"spe":30}},
     {"moves":[["Roost"],["Thunder Wave"],["Dazzling Gleam"],["Heal Bell","Baton Pass"]],"item":["Eviolite"],"ability":["Super Luck"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
+  ],
+  "Torterra": [
+    {"moves":[["Wood Hammer"],["Earthquake"],["Swords Dance"],["Synthesis"]],"item":["Leftovers"],"ability":["Overgrow"],"nature":["Careful"],"evs":{"spd":180,"hp":252,"spe":76}},
   ],
   "Typhlosion": [
     {"moves":[["Eruption"],["Fire Blast"],["Hidden Power Grass"],["Focus Blast"]],"item":["Choice Specs"],"ability":["Flash Fire"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},

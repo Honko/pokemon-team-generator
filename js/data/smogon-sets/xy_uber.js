@@ -54,8 +54,7 @@ setdex.xy.uber = {
     {"moves":[["Calm Mind"],["Judgment"],["Recover"],["Thunder","Fire Blast"]],"item":["Icicle Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":8,"hp":248,"spe":252}},
   ],
   "Arceus-Poison": [
-    {"moves":[["Calm Mind"],["Recover"],["Earth Power"],["Sludge Bomb","Judgment"]],"item":["Toxic Plate"],"ability":["Multitype"],"nature":["Timid"],"evs":{"spa":84,"hp":248,"spe":176}},
-    {"moves":[["Defog"],["Recover"],["Poison Jab"],["Thunder Wave","Will-O-Wisp"]],"item":["Toxic Plate"],"ability":["Multitype"],"nature":["Impish"],"evs":{"def":204,"hp":248,"spe":56}},
+    {"moves":[["Swords Dance"],["Poison Jab"],["Earthquake"],["Recover","Extreme Speed"]],"item":["Toxic Plate"],"ability":["Multitype"],"nature":["Adamant"],"evs":{"hp":80,"spe":176,"atk":252}},
   ],
   "Arceus-Psychic": [
     {"moves":[["Fire Blast","Payback"],["Ice Beam"],["Toxic"],["Recover"]],"item":["Mind Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":200,"hp":252,"spe":56}},
@@ -72,7 +71,7 @@ setdex.xy.uber = {
     {"moves":[["Judgment","Defog"],["Ice Beam","Judgment"],["Recover"],["Toxic"]],"item":["Splash Plate"],"ability":["Multitype"],"nature":["Bold"],"evs":{"def":240,"hp":252,"spe":16}},
   ],
   "Blaziken": [
-    {"moves":[["Protect","Swords Dance"],["Flare Blitz"],["Low Kick"],["Stone Edge","Knock Off"]],"item":["Blazikenite","Life Orb"],"ability":["Speed Boost"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Flare Blitz"],["Protect","Swords Dance"],["High Jump Kick","Low Kick"],["Hidden Power Ice","Stone Edge"]],"item":["Life Orb"],"ability":["Speed Boost"],"nature":["Naughty","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Blissey": [
     {"moves":[["Toxic"],["Seismic Toss","Ice Beam","Snatch"],["Wish","Soft-Boiled"],["Protect","Heal Bell"]],"item":["Shed Shell","Leftovers"],"ability":["Natural Cure"],"nature":["Calm"],"evs":{"def":252,"spd":252,"spe":4}},
@@ -159,7 +158,7 @@ setdex.xy.uber = {
     {"moves":[["Rock Polish"],["Precipice Blades"],["Swords Dance","Dragon Claw"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"spd":32,"hp":168,"spe":56,"atk":252}},
     {"moves":[["Stealth Rock"],["Swords Dance"],["Precipice Blades"],["Stone Edge","Rock Slide"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Jolly"],"evs":{"spd":144,"spe":196,"atk":168}},
     {"moves":[["Thunder Wave"],["Swords Dance"],["Rock Slide"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Adamant"],"evs":{"hp":244,"spe":12,"atk":252}},
-    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Mild"],"evs":{"spa":252,"spd":144,"spe":56,"atk":56}},
+    {"moves":[["Rock Polish"],["Fire Blast"],["Dragon Pulse"],["Precipice Blades"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Mild"],"evs":{"spa":252,"spd":144,"spe":56,"atk":72}},
     {"moves":[["Rest"],["Sleep Talk"],["Lava Plume"],["Precipice Blades","Roar"]],"item":["Red Orb"],"ability":["Drought"],"nature":["Sassy","Calm"],"evs":{"def":8,"spd":252,"hp":248}},
   ],
   "Gyarados": [
@@ -177,7 +176,7 @@ setdex.xy.uber = {
     {"moves":[["Wish"],["Thunder Wave","Body Slam"],["Iron Head"],["Protect","U-turn","Toxic"]],"item":["Leftovers"],"ability":["Serene Grace"],"nature":["Careful"],"evs":{"spd":224,"hp":252,"spe":32}},
   ],
   "Kangaskhan": [
-    {"moves":[["Fake Out"],["Earthquake"],["Sucker Punch","Crunch"],["Return","Double-Edge","Body Slam"]],"item":["Kangaskhanite"],"ability":["Scrappy"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Fake Out"],["Return","Body Slam"],["Crunch"],["Power-Up Punch","Seismic Toss"]],"item":["Kangaskhanite"],"ability":["Scrappy"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Klefki": [
     {"moves":[["Spikes"],["Thunder Wave"],["Toxic"],["Play Rough"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Careful"],"evs":{"spd":252,"hp":248,"atk":8}},
@@ -238,9 +237,7 @@ setdex.xy.uber = {
     {"moves":[["Foul Play"],["Will-O-Wisp"],["Recover"],["Fake Out","Protect"]],"item":["Sablenite"],"ability":["Prankster"],"nature":["Impish","Bold"],"evs":{"def":252,"spd":8,"hp":248}},
   ],
   "Salamence": [
-    {"moves":[["Dragon Dance"],["Roost"],["Double-Edge","Return"],["Earthquake","Substitute","Refresh"]],"item":["Salamencite"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"hp":80,"spe":176,"atk":252}},
-    {"moves":[["Dragon Dance"],["Roost"],["Return"],["Refresh"]],"item":["Salamencite"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":136,"hp":248,"spe":124}},
-    {"moves":[["Dragon Tail"],["Roost"],["Body Slam"],["Defog"]],"item":["Salamencite"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":204,"hp":248,"spe":56}},
+    {"moves":[["Double-Edge","Return"],["Roost"],["Facade","Earthquake","Refresh"],["Dragon Dance"]],"item":["Salamencite"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"hp":248,"spe":136,"atk":124}},
   ],
   "Scizor": [
     {"moves":[["Bullet Punch"],["Roost"],["Pursuit"],["Toxic","U-turn"]],"item":["Scizorite"],"ability":["Technician"],"nature":["Adamant"],"evs":{"spd":200,"hp":248,"atk":60}},
@@ -265,8 +262,8 @@ setdex.xy.uber = {
   ],
   "Tyranitar": [
     {"moves":[["Stealth Rock"],["Pursuit","Low Kick"],["Rock Slide","Stone Edge"],["Thunder Wave","Roar"]],"item":["Shuca Berry","Leftovers"],"ability":["Sand Stream"],"nature":["Careful"],"evs":{"def":8,"spd":252,"hp":248}},
+    {"moves":[["Stone Edge"],["Crunch"],["Pursuit"],["Earthquake"]],"item":["Choice Band"],"ability":["Sand Stream"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
     {"moves":[["Dragon Dance"],["Stone Edge"],["Earthquake"],["Crunch","Taunt"]],"item":["Tyranitarite"],"ability":["Sand Stream"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Stealth Rock"],["Pursuit","Crunch"],["Stone Edge"],["Thunder Wave","Roar"]],"item":["Tyranitarite"],"ability":["Sand Stream"],"nature":["Impish"],"evs":{"def":168,"spd":92,"hp":248}},
   ],
   "Wobbuffet": [
     {"moves":[["Encore"],["Mirror Coat"],["Counter"],["Destiny Bond","Safeguard"]],"item":["Custap Berry"],"ability":["Shadow Tag"],"nature":["Calm"],"evs":{"def":176,"spd":252,"hp":80}},

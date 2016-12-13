@@ -236,6 +236,7 @@ setdex.xy.pu = {
     {"moves":[["Will-O-Wisp"],["Synthesis"],["Foul Play"],["Leech Seed"]],"item":["Colbur Berry","Leftovers"],"ability":["Frisk"],"nature":["Impish"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Grumpig": [
+    {"moves":[["Substitute"],["Calm Mind"],["Psyshock","Psychic"],["Focus Blast"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Timid"],"evs":{"spa":252,"hp":80,"spe":176}},
     {"moves":[["Psychic"],["Focus Blast"],["Shadow Ball"],["Taunt","Thunder Wave"]],"item":["Colbur Berry","Leftovers"],"ability":["Thick Fat"],"nature":["Timid"],"evs":{"spa":252,"hp":80,"spe":176}},
     {"moves":[["Psychic"],["Focus Blast"],["Thunder Wave","Toxic"],["Taunt","Protect","Toxic"]],"item":["Leftovers"],"ability":["Thick Fat"],"nature":["Calm"],"evs":{"def":36,"spd":224,"hp":248}},
   ],
@@ -249,7 +250,7 @@ setdex.xy.pu = {
     {"moves":[["Shell Smash"],["Waterfall"],["Sucker Punch"],["Ice Beam","Double-Edge"]],"item":["White Herb","Wacan Berry"],"ability":["Water Veil","Swift Swim"],"nature":["Naughty","Adamant"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Hypno": [
-    {"moves":[["Wish"],["Protect"],["Thunder Wave","Toxic"],["Seismic Toss"]],"item":["Leftovers"],"ability":["Insomnia"],"nature":["Calm"],"evs":{"def":4,"spd":252,"hp":252}},
+    {"moves":[["Nasty Plot"],["Baton Pass"],["Substitute"],["Psychic"]],"item":["Leftovers","Colbur Berry"],"ability":["Insomnia"],"nature":["Calm"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Illumise": [
     {"moves":[["Substitute"],["Baton Pass"],["Encore"],["Bug Buzz"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":252,"spd":8,"hp":248}},
@@ -273,9 +274,6 @@ setdex.xy.pu = {
   ],
   "Krokorok": [
     {"moves":[["Stealth Rock"],["Taunt"],["Knock Off"],["Earthquake"]],"item":["Eviolite"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
-  ],
-  "Lampent": [
-    {"moves":[["Trick Room"],["Fire Blast"],["Shadow Ball"],["Energy Ball"]],"item":["Life Orb"],"ability":["Flash Fire"],"nature":["Quiet"],"evs":{"def":4,"spa":252,"hp":252},"ivs":{"spe":0}},
   ],
   "Lapras": [
     {"moves":[["Freeze-Dry"],["Ice Beam"],["Hydro Pump"],["Surf"]],"item":["Choice Specs"],"ability":["Water Absorb"],"nature":["Modest"],"evs":{"spa":252,"hp":120,"spe":136}},
@@ -425,9 +423,6 @@ setdex.xy.pu = {
   ],
   "Purugly": [
     {"moves":[["Fake Out"],["Return"],["Sucker Punch"],["Knock Off","U-turn"]],"item":["Life Orb","Silk Scarf"],"ability":["Defiant"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
-  ],
-  "Quagsire": [
-    {"moves":[["Earthquake"],["Scald"],["Recover"],["Toxic","Curse"]],"item":["Leftovers"],"ability":["Unaware"],"nature":["Relaxed"],"evs":{"def":252,"spd":4,"hp":252}},
   ],
   "Quilladin": [
     {"moves":[["Spikes"],["Taunt"],["Wood Hammer"],["Zen Headbutt","Drain Punch"]],"item":["Eviolite"],"ability":["Bulletproof"],"nature":["Jolly","Adamant"],"evs":{"def":4,"spe":252,"atk":252}},

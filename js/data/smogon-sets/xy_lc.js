@@ -225,7 +225,7 @@ setdex.xy.lc = {
   ],
   "Gastly": [
     {"moves":[["Shadow Ball"],["Sludge Bomb"],["Hidden Power Fighting","Dazzling Gleam"],["Substitute","Destiny Bond"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":200,"spd":80,"spe":200}},
-    {"moves":[["Hex"],["Will-O-Wisp"],["Substitute"],["Sludge Bomb","Dazzling Gleam"]],"item":["Berry Juice"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":40,"spa":120,"spd":80,"hp":36,"spe":200}},
+    {"moves":[["Hex"],["Will-O-Wisp"],["Substitute"],["Sludge Bomb","Dazzling Gleam"]],"item":["Berry Juice"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":36,"spa":116,"spd":76,"hp":36,"spe":196}},
     {"moves":[["Shadow Ball"],["Sludge Bomb"],["Hidden Power Fighting","Destiny Bond","Dazzling Gleam"],["Trick","Destiny Bond"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid","Modest"],"evs":{"spa":200,"spd":80,"spe":200}},
   ],
   "Geodude": [
@@ -410,6 +410,9 @@ setdex.xy.lc = {
   "Panpour": [
     {"moves":[["Nasty Plot"],["Hydro Pump"],["Ice Beam"],["Hidden Power Grass","Knock Off"]],"item":["Berry Juice","Eviolite"],"ability":["Torrent"],"nature":["Modest","Timid"],"evs":{"def":52,"spa":176,"hp":36,"spe":244},"ivs":{"spa":30,"atk":30}},
   ],
+  "Pansage": [
+    {"moves":[["Bullet Seed"],["Knock Off"],["Low Sweep"],["Rock Tomb","Gunk Shot"]],"item":["Life Orb"],"ability":["Overgrow"],"nature":["Jolly"],"evs":{"spe":244,"atk":252}},
+  ],
   "Pansear": [
     {"moves":[["Recycle"],["Will-O-Wisp"],["Flame Charge"],["Substitute"]],"item":["Berry Juice"],"ability":["Blaze"],"nature":["Jolly"],"evs":{"def":212,"spd":212,"spe":84}},
     {"moves":[["Nasty Plot"],["Fire Blast"],["Hidden Power Grass"],["Flame Charge","Substitute"]],"item":["Eviolite","Life Orb"],"ability":["Blaze"],"nature":["Timid"],"evs":{"def":52,"spa":176,"spe":244},"ivs":{"spa":30,"atk":0}},
@@ -456,7 +459,7 @@ setdex.xy.lc = {
     {"moves":[["Bullet Seed"],["Fire Blast"],["Shadow Sneak"],["Rock Slide","Destiny Bond"]],"item":["Life Orb"],"ability":["Frisk"],"nature":["Naughty","Naive"],"evs":{"def":36,"spa":4,"spe":228,"atk":228},"ivs":{"hp":0}},
   ],
   "Pumpkaboo-Super": [
-    {"moves":[["Bullet Seed"],["Synthesis"],["Will-O-Wisp"],["Shadow Sneak","Fire Blast"]],"item":["Eviolite"],"ability":["Frisk"],"nature":["Careful","Sassy"],"evs":{"def":36,"spd":236,"hp":204,"spe":28}},
+    {"moves":[["Bullet Seed"],["Synthesis"],["Will-O-Wisp"],["Shadow Sneak","Fire Blast"]],"item":["Eviolite"],"ability":["Frisk"],"nature":["Careful","Sassy"],"evs":{"def":36,"spa":4,"spd":236,"hp":204,"spe":28}},
     {"moves":[["Trick Room"],["Bullet Seed"],["Will-O-Wisp"],["Destiny Bond","Explosion"]],"item":["Eviolite"],"ability":["Frisk"],"nature":["Brave"],"evs":{"def":196,"spd":156,"hp":44,"atk":68},"ivs":{"spe":0}},
   ],
   "Purrloin": [
@@ -535,7 +538,7 @@ setdex.xy.lc = {
     {"moves":[["Rest"],["Sleep Talk"],["Scald"],["Sludge Wave","Sludge Bomb"]],"item":["Eviolite"],"ability":["Adaptability"],"nature":["Bold"],"evs":{"def":196,"spa":36,"spd":116,"hp":116,"spe":36}},
   ],
   "Slowpoke": [
-    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psychic","Fire Blast"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":236,"spa":36,"spd":116,"hp":116}},
+    {"moves":[["Scald"],["Slack Off"],["Thunder Wave"],["Psychic","Fire Blast"]],"item":["Eviolite"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":156,"spa":116,"spd":116,"hp":116}},
   ],
   "Slugma": [
     {"moves":[["Recover"],["Fire Blast","Lava Plume"],["Earth Power","Acid Armor","Memento"],["Will-O-Wisp","Toxic","Memento"]],"item":["Eviolite"],"ability":["Flame Body"],"nature":["Bold"],"evs":{"def":196,"spd":116,"hp":196}},
@@ -639,6 +642,9 @@ setdex.xy.lc = {
   "Trubbish": [
     {"moves":[["Spikes"],["Recycle"],["Gunk Shot"],["Drain Punch"]],"item":["Berry Juice"],"ability":["Sticky Hold"],"nature":["Jolly"],"evs":{"def":100,"spd":20,"hp":116,"spe":236,"atk":36}},
   ],
+  "Turtwig": [
+    {"moves":[["Stealth Rock"],["Synthesis"],["Bullet Seed"],["Superpower","Crunch"]],"item":["Eviolite"],"ability":["Overgrow"],"nature":["Careful"],"evs":{"def":244,"spd":236,"spe":28}},
+  ],
   "Tympole": [
     {"moves":[["Hydro Pump"],["Sludge Bomb"],["Earth Power"],["Rain Dance"]],"item":["Life Orb"],"ability":["Swift Swim"],"nature":["Modest"],"evs":{"def":116,"spa":196,"spd":36,"hp":36,"spe":84}},
   ],
@@ -653,7 +659,7 @@ setdex.xy.lc = {
     {"moves":[["Spikes"],["Toxic Spikes"],["Protect"],["Endeavor","Pin Missile"]],"item":["Eviolite","Focus Sash"],"ability":["Speed Boost"],"nature":["Jolly"],"evs":{"def":44,"spe":220,"atk":236}},
   ],
   "Venonat": [
-    {"moves":[["Baton Pass"],["Agility","Substitute"],["Sleep Powder"],["Bug Bite","Substitute","Morning Sun","Protect"]],"item":["Eviolite","Berry Juice","Focus Sash"],"ability":["Compound Eyes"],"nature":["Jolly"],"evs":{"def":36,"hp":116,"spe":236,"atk":76}},
+    {"moves":[["Toxic Spikes"],["Sleep Powder"],["Signal Beam","Giga Drain"],["Morning Sun","Thief","Giga Drain"]],"item":["Eviolite","Berry Juice"],"ability":["Compound Eyes","Tinted Lens"],"nature":["Timid"],"evs":{"def":116,"spa":36,"spd":76,"hp":36,"spe":236}},
   ],
   "Voltorb": [
     {"moves":[["Rain Dance"],["Thunder"],["Volt Switch"],["Taunt","Thunder Wave"]],"item":["Damp Rock","Eviolite"],"ability":["Static","Aftermath"],"nature":["Timid"],"evs":{"def":36,"spa":236,"hp":36,"spe":196}},

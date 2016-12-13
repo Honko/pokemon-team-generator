@@ -364,7 +364,7 @@ setdex.bw.ou = {
     {"moves":[["Dragon Claw","Outrage"],["Fusion Bolt"],["Ice Beam"],["Hidden Power Fire","Roost","Earth Power"]],"item":["Life Orb"],"ability":["Teravolt"],"nature":["Lonely","Hasty"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Landorus-Therian": [
-    {"moves":[["Stealth Rock"],["Earthquake"],["U-turn"],["Hidden Power Ice"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Naive"],"evs":{"def":172,"hp":248,"spe":88}},
+    {"moves":[["Stealth Rock"],["Earthquake"],["U-turn"],["Hidden Power Ice"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Naive"],"evs":{"def":176,"hp":244,"spe":88}},
     {"moves":[["Swords Dance"],["Rock Polish"],["Earthquake"],["Stone Edge"]],"item":["Leftovers"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"hp":48,"spe":208,"atk":252}},
     {"moves":[["Earthquake"],["U-turn"],["Stone Edge"],["Hidden Power Ice","Superpower"]],"item":["Choice Scarf"],"ability":["Intimidate"],"nature":["Naive","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},
     {"moves":[["Gravity"],["Earthquake"],["Stone Edge"],["Hidden Power Ice","U-turn"]],"item":["Life Orb"],"ability":["Intimidate"],"nature":["Naive","Jolly"],"evs":{"hp":4,"spe":252,"atk":252}},

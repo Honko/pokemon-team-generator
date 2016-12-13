@@ -474,7 +474,8 @@ setdex.bw.lc = {
     {"moves":[["Earthquake"],["Rock Blast"],["Aqua Tail","Fire Fang"],["Megahorn"]],"item":["Life Orb"],"ability":["Lightning Rod","Reckless","Rock Head"],"nature":["Adamant"],"evs":{"spd":36,"hp":156,"spe":76,"atk":236}},
   ],
   "Riolu": [
-    {"moves":[["Copycat"],["Protect"],["Drain Punch"],["Crunch","Toxic"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Impish"],"evs":{"def":196,"spd":116,"hp":196}},
+    {"moves":[["Drain Punch"],["Copycat"],["Protect"],["Roar","Toxic"]],"item":["Eviolite"],"ability":["Prankster"],"nature":["Impish"],"evs":{"def":196,"spd":116,"hp":196}},
+    {"moves":[["High Jump Kick"],["Crunch"],["Copycat"],["Swords Dance"]],"item":["Eviolite","Life Orb"],"ability":["Prankster"],"nature":["Adamant"],"evs":{"spd":116,"hp":196,"atk":196}},
   ],
   "Roggenrola": [
     {"moves":[["Autotomize"],["Stone Edge","Rock Blast"],["Earthquake"],["Explosion"]],"item":["Oran Berry","Life Orb"],"ability":["Sand Force"],"nature":["Jolly"],"evs":{"spe":236,"atk":236}},

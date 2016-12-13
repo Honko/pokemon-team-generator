@@ -24,7 +24,7 @@ setdex.xy.ou = {
     {"moves":[["Spore"],["Giga Drain"],["Clear Smog","Stun Spore"],["Hidden Power Fire","Sludge Bomb"]],"item":["Black Sludge"],"ability":["Regenerator"],"nature":["Bold"],"evs":{"def":168,"spd":92,"hp":248}},
   ],
   "Azelf": [
-    {"moves":[["Stealth Rock"],["Explosion"],["Skill Swap","Hidden Power Steel"],["Taunt"]],"item":["Focus Sash"],"ability":["Levitate"],"nature":["Naive"],"evs":{"def":228,"spa":28,"spe":252}},
+    {"moves":[["Stealth Rock"],["Explosion"],["Skill Swap","Hidden Power Steel","Iron Tail"],["Taunt"]],"item":["Focus Sash"],"ability":["Levitate"],"nature":["Naive"],"evs":{"def":228,"spa":28,"spe":252}},
   ],
   "Azumarill": [
     {"moves":[["Play Rough"],["Waterfall"],["Aqua Jet"],["Superpower","Knock Off"]],"item":["Choice Band"],"ability":["Huge Power"],"nature":["Adamant"],"evs":{"hp":172,"spe":84,"atk":252}},
@@ -241,15 +241,14 @@ setdex.xy.ou = {
   "Kyurem-Black": [
     {"moves":[["Ice Beam"],["Earth Power"],["Fusion Bolt"],["Roost","Outrage"]],"item":["Life Orb"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":252,"spe":252,"atk":4}},
     {"moves":[["Outrage"],["Fusion Bolt"],["Iron Head"],["Dragon Claw"]],"item":["Choice Band"],"ability":["Teravolt"],"nature":["Adamant","Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-    {"moves":[["Ice Beam"],["Draco Meteor"],["Earth Power"],["Hidden Power Fire","Focus Blast"]],"item":["Choice Specs"],"ability":["Teravolt"],"nature":["Modest"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Substitute"],["Ice Beam"],["Fusion Bolt"],["Earth Power","Roost"]],"item":["Leftovers"],"ability":["Teravolt"],"nature":["Mild"],"evs":{"spa":200,"hp":56,"spe":252}},
     {"moves":[["Ice Beam"],["Outrage"],["Fusion Bolt"],["Dragon Claw","Iron Head"]],"item":["Choice Scarf"],"ability":["Teravolt"],"nature":["Naive"],"evs":{"spa":4,"spe":252,"atk":252}},
   ],
   "Landorus-Therian": [
-    {"moves":[["Earthquake"],["Stealth Rock"],["U-turn","Swords Dance"],["Stone Edge"]],"item":["Rocky Helmet","Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":244,"spd":8,"hp":248,"spe":8}},
+    {"moves":[["Earthquake"],["Stealth Rock"],["U-turn","Swords Dance"],["Stone Edge"]],"item":["Rocky Helmet","Leftovers"],"ability":["Intimidate"],"nature":["Impish"],"evs":{"def":240,"spd":8,"hp":252,"spe":8}},
     {"moves":[["Earthquake"],["U-turn"],["Stone Edge"],["Knock Off","Explosion","Superpower"]],"item":["Choice Scarf"],"ability":["Intimidate"],"nature":["Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
     {"moves":[["Earthquake"],["Stone Edge"],["Swords Dance"],["Rock Polish"]],"item":["Earth Plate","Lum Berry"],"ability":["Intimidate"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Earthquake"],["Stone Edge","Smack Down"],["Swords Dance","U-turn","Knock Off"],["Stealth Rock"]],"item":["Earth Plate","Lum Berry"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Earthquake"],["Stone Edge","Smack Down"],["Swords Dance","U-turn","Knock Off"],["Stealth Rock"]],"item":["Earth Plate"],"ability":["Intimidate"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
   ],
   "Latias": [
     {"moves":[["Calm Mind"],["Recover"],["Psyshock","Stored Power"],["Surf","Thunderbolt"]],"item":["Latiasite"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"hp":252,"spe":252}},
@@ -258,6 +257,7 @@ setdex.xy.ou = {
   ],
   "Latios": [
     {"moves":[["Draco Meteor"],["Psyshock"],["Recover"],["Defog","Surf","Hidden Power Fire"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
+    {"moves":[["Draco Meteor"],["Psychic","Psyshock"],["Surf","Hidden Power Fire"],["Trick"]],"item":["Choice Specs"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
     {"moves":[["Draco Meteor"],["Psyshock"],["Calm Mind"],["Recover","Surf"]],"item":["Life Orb"],"ability":["Levitate"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252},"ivs":{"hp":29}},
     {"moves":[["Draco Meteor"],["Psyshock"],["Defog","Hidden Power Fire"],["Trick"]],"item":["Choice Scarf"],"ability":["Levitate"],"nature":["Timid"],"evs":{"spa":252,"hp":4,"spe":252}},
   ],
@@ -347,19 +347,14 @@ setdex.xy.ou = {
   "Rotom-Wash": [
     {"moves":[["Volt Switch"],["Hydro Pump"],["Will-O-Wisp"],["Pain Split"]],"item":["Leftovers"],"ability":["Levitate"],"nature":["Bold"],"evs":{"def":252,"hp":248,"spe":8}},
   ],
-  "Sableye": [
-    {"moves":[["Knock Off","Foul Play"],["Will-O-Wisp"],["Recover"],["Fake Out","Toxic"]],"item":["Sablenite"],"ability":["Prankster"],"nature":["Careful"],"evs":{"def":112,"spd":144,"hp":252}},
-    {"moves":[["Calm Mind"],["Shadow Ball"],["Recover"],["Will-O-Wisp"]],"item":["Sablenite"],"ability":["Prankster"],"nature":["Bold"],"evs":{"def":252,"spd":4,"hp":252}},
-  ],
   "Sceptile": [
     {"moves":[["Leaf Storm"],["Dragon Pulse"],["Earthquake"],["Hidden Power Fire","Focus Blast"]],"item":["Sceptilite"],"ability":["Overgrow"],"nature":["Naive","Timid"],"evs":{"def":4,"spa":252,"spe":252}},
     {"moves":[["Dragon Pulse"],["Giga Drain"],["Focus Blast"],["Substitute"]],"item":["Sceptilite"],"ability":["Overgrow"],"nature":["Timid"],"evs":{"spa":252,"spd":4,"spe":252}},
   ],
   "Scizor": [
-    {"moves":[["Swords Dance"],["Roost"],["Bullet Punch"],["U-turn","Knock Off","Superpower"]],"item":["Scizorite"],"ability":["Light Metal"],"nature":["Impish"],"evs":{"def":16,"spd":200,"hp":248,"atk":44}},
-    {"moves":[["Swords Dance"],["Bullet Punch"],["Superpower"],["Bug Bite"]],"item":["Scizorite","Life Orb"],"ability":["Technician"],"nature":["Adamant"],"evs":{"def":4,"spe":252,"atk":252}},
-    {"moves":[["Bullet Punch"],["U-turn"],["Superpower"],["Pursuit","Knock Off"]],"item":["Choice Band"],"ability":["Technician"],"nature":["Adamant"],"evs":{"spd":8,"hp":248,"atk":252}},
-    {"moves":[["Defog"],["Roost"],["Bullet Punch"],["U-turn","Superpower"]],"item":["Scizorite"],"ability":["Light Metal"],"nature":["Impish"],"evs":{"def":60,"spd":200,"hp":248}},
+    {"moves":[["Swords Dance"],["Roost"],["Bullet Punch"],["Bug Bite","U-turn"]],"item":["Scizorite"],"ability":["Light Metal"],"nature":["Adamant"],"evs":{"def":60,"spd":124,"hp":248,"spe":60,"atk":16}},
+    {"moves":[["Swords Dance"],["Bullet Punch"],["Bug Bite"],["Superpower"]],"item":["Scizorite","Life Orb"],"ability":["Technician"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252}},
+    {"moves":[["Pursuit"],["Bullet Punch"],["U-turn"],["Roost"]],"item":["Scizorite"],"ability":["Light Metal"],"nature":["Adamant"],"evs":{"spd":176,"hp":248,"atk":84}},
   ],
   "Scolipede": [
     {"moves":[["Megahorn"],["Aqua Tail","Earthquake"],["Poison Jab","Rock Slide"],["Protect","Swords Dance","Baton Pass"]],"item":["Life Orb"],"ability":["Speed Boost"],"nature":["Adamant","Jolly"],"evs":{"def":4,"spe":252,"atk":252},"ivs":{"hp":29}},

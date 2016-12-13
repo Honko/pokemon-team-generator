@@ -7,6 +7,7 @@ const GEN_DISPLAY_NAMES = {
     dpp: "DPP",
     bw: "B/W",
     xy: "X/Y",
+    sm: "S/M",
 };
 const META_DISPLAY_NAMES = {
     uber: "Uber",
@@ -26,6 +27,7 @@ var setdex = {
     dpp: {},
     bw: {},
     xy: {},
+    sm: {},
 };
 
 var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap', 'nya.bootstrap.select']);
@@ -92,7 +94,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
     var _generateTeam = function(oldTeam) {
         var excludeSpecies = speciesInTeam(true);
         var requiredRoles = [];
-        if (["dpp","bw","xy"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
+        if (["dpp","bw","xy","sm"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
             requiredRoles.push(ROLES.StealthRock);
         }
         var restrictedRoles = [
@@ -283,7 +285,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
     $scope.genDisplayName = function(gen) {
         return GEN_DISPLAY_NAMES[gen];
     };
-    $scope.gen = "xy";
+    $scope.gen = "sm";
 
     var getValidMetas = function() {
         return Object.keys(META_DISPLAY_NAMES).filter(function(meta) {

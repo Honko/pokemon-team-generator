@@ -30,7 +30,7 @@
     <div class="text-center">
         <h3>Random Pok&eacute;mon Team Generator<br /><small>created by Honko</small></h3>
         <p>
-            <ol class="nya-bs-select" ng-model="gen" ng-selected="xy" ng-change="updateGen()">
+            <ol class="nya-bs-select" ng-model="gen" ng-selected="sm" ng-change="updateGen()">
                 <li nya-bs-option="gen in validGens"><a>{{genDisplayName(gen)}}</a></li>
             </ol>
             <ol class="nya-bs-select" ng-model="meta" ng-selected="ou" ng-change="generateNewTeam()">
@@ -115,6 +115,11 @@
     <script src="js/data/pokedex.js"></script>
     <script src="js/data/itemdex.js"></script>
     <script src="js/data/viability.js"></script>
+    <script src="js/data/smogon-sets/sm_uber.js"></script>
+    <script src="js/data/smogon-sets/sm_ou.js"></script>
+    <script src="js/data/smogon-sets/sm_uu.js"></script>
+    <script src="js/data/smogon-sets/sm_lc.js"></script>
+    <script src="js/data/smogon-sets/sm_doubles.js"></script>
     <script src="js/data/smogon-sets/xy_uber.js"></script>
     <script src="js/data/smogon-sets/xy_ou.js"></script>
     <script src="js/data/smogon-sets/xy_uu.js"></script>

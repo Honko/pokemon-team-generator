@@ -23,6 +23,43 @@
 };
 
 const VIABILITY_RANKINGS = {
+    sm: {
+        uber: {
+            // http://www.smogon.com/forums/threads/sm-ubers-viability-ranking-thread-preliminary.3591388/
+            S: ["Groudon","Xerneas","Gengar","Yveltal"],
+            A: ["Salamence","Arceus","Deoxys-Attack","Giratina-Origin","Ho-Oh","Arceus-Water","Arceus-Dark","Arceus-Ground","Lunala","Kyogre","Zygarde","Lucario","Arceus-Ghost"],
+            B: ["Deoxys-Speed","Celesteela","Ferrothorn","Rayquaza","Excadrill","Dialga","Sableye","Lugia","Arceus-Dragon","Klefki","Blissey","Arceus-Rock","Arceus-Fairy","Tyranitar","Magearna","Bronzong","Tapu Lele","Pheromosa","Darkrai","Arceus-Ice","Muk-Alola","Zekrom","Palkia","Cloyster","Tapu Koko","Mewtwo","Toxapex","Clefable","Skarmory","Solgaleo","Scizor"],
+            C: ["Dugtrio","Wobbuffet","Buzzwole","Chansey","Xurkitree","Landorus-Therian","Shuckle","Aegislash","Shaymin-Sky","Ditto","Slowbro","Blaziken","Arceus-Steel","Arceus-Poison","Kangaskhan","Kyurem-White","Smeargle","Reshiram","Arceus-Grass","Arceus-Electric","Giratina"],
+        },
+        ou: {
+            // http://www.smogon.com/forums/threads/sm-ou-viability-ranking-thread-preliminary.3590726/ with C filled in with all other Pokemon with >1% usage
+            S: ["Genesect","Tapu Lele"],
+            A: ["Greninja","Celesteela","Heatran","Landorus-Therian","Magearna","Metagross","Tapu Koko","Buzzwole","Charizard","Excadrill","Ferrothorn","Garchomp","Hoopa-Unbound","Manaphy","Pheromosa","Rotom-Wash","Scizor","Tapu Bulu","Tapu Fini","Venusaur","Zygarde","Alakazam","Amoonguss","Jirachi","Latios","Magnezone","Marowak-Alola","Nihilego","Pinsir","Sableye","Skarmory","Tornadus-Therian","Tyranitar","Weavile"],
+            B: ["Bisharp","Chansey","Clefable","Dugtrio","Gengar","Gyarados","Kartana","Keldeo","Kingdra","Kyurem-Black","Latias","Mantine","Pelipper","Salamence","Slowbro","Tangrowth","Terrakion","Thundurus","Toxapex","Volcarona","Zapdos","Dragonite","Hippowdon","Mamoswine","Mimikyu","Muk-Alola","Porygon-Z","Serperior","Sharpedo","Starmie","Suicune","Volcanion"],
+            C: ["Xurkitree","Mandibuzz","Necrozma","Ninetales-Alola","Scolipede","Azelf","Gliscor","Quagsire","Araquanid","Azumarill","Togekiss","Hydreigon","Decidueye","Alomomola","Seismitoad","Shedinja","Dhelmise","Salazzle","Mew","Ditto","Golisopod","Raichu-Alola","Breloom","Shuckle","Tentacruel","Primarina","Persian-Alola","Smeargle","Espeon"],
+        },
+        uu: {
+            // from usage stats: top 5; >5%, >2%, >1%
+            S: ["Scizor","Latias","Dragonite","Weavile","Keldeo"],
+            A: ["Mandibuzz","Porygon-Z","Bisharp","Hippowdon","Azumarill","Azelf","Terrakion","Aerodactyl","Forretress","Salamence","Raikou","Zygarde","Gliscor","Primarina","Serperior","Starmie","Blastoise","Gengar","Tentacruel","Breloom","Slowbro","Volcarona","Krookodile","Thundurus","Necrozma","Mew","Blissey","Sharpedo","Gyarados","Tsareena","Tornadus-Therian","Decidueye","Dhelmise","Victini","Magneton"],
+            B: ["Volcanion","Thundurus-Therian","Sylveon","Empoleon","Diggersby","Bewear","Cobalion","Hydreigon","Staraptor","Gigalith","Amoonguss","Infernape","Conkeldurr","Swampert","Togekiss","Araquanid","Ninetales-Alola","Kommo-o","Swellow","Lycanroc","Crobat","Absol","Entei","Salazzle","Doublade","Golisopod","Chandelure","Flygon","Celebi","Arcanine","Metagross","Persian-Alola","Politoed","Rotom-Heat","Lucario","Klefki","Porygon2","Quagsire","Nidoqueen","Scolipede","Donphan"],
+            C: ["Alomomola","Bronzong","Suicune","Snorlax","Minior","Comfey","Florges","Nidoking","Whimsicott","Sandslash-Alola","Crawdaunt","Alakazam","Roserade","Umbreon","Espeon","Mienshao","Silvally","Goodra","Golem-Alola","Galvantula","Mudsdale","Cresselia","Chesnaught","Bruxish","Darmanitan","Venusaur","Vikavolt","Diancie","Tornadus","Stoutland","Kabutops","Pyukumuku","Milotic"],
+        },
+        lc: {
+            // http://www.smogon.com/forums/threads/lc-sumo-viability-rankings.3587565/
+            S: ["Mienfoo","Timburr","Vullaby"],
+            A: ["Diglett","Magnemite","Mudbray","Pawniard","Shellder","Staryu","Abra","Carvanha","Foongus","Gastly","Ponyta","Scraggy","Snivy","Chinchou","Corphish","Cottonee","Doduo","Dewbble","Ferroseed","Mareanie","Munchlax","Onix","Pumpkaboo-Super","Rufflet","Snubbull"],
+            B: ["Bellsprout","Drilbur","Grimer-Alola","Croagunk","Hippopotas","Omanyte","Spritzee","Slowpoke","Tirtouga","Torchic","Vulpix","Aipom","Archen","Amaura","Cranidos","Elekid","Houndour","Pancham","Riolu","Sandshrew-Alola","Skrelp","Surskit","Zigzagoon","Buneary","Bunnelby","Clamperl","Deerling","Dewpider","Frillish","Honedge","Larvesta","Magby","Shellos","Snover","Stunky","Taillow","Vulpix-Alola"],
+            C: ["Anorith","Bronzor","Darumaka","Fletchling","Kabuto","Lickitung","Lileep","Morellul","Numel","Pikipek","Sandile","Sandshrew","Spinarak","Stufful","Tentacool","Trapinch","Trubbish","Tyrunt","Wynaut","Aron","Axew","Bulbasaur","Chespin","Crabrawler","Cubchoo","Dratini","Exeggcute","Geodude","Goldeen","Inkay","Koffing","Meowth","Natu","Pumpkaboo-Small","Purrloin","Rowlet","Salandit","Teddiursa","Venipede","Meowth-Alola","Geodude-Alola","Budew","Cubone","Karrablast","Larvitar","Machop","Mankey","Mantyke","Nosepass","Remoraid","Shelmet","Togepi","Wimpod","Wingull","Wooper","Yungoos","Zorua"],
+        },
+        doubles: {
+            // from usage stats: top 5; >5%, >2%, >1%
+            S: ["Tapu Lele","Landorus-Therian","Tapu Koko","Salamence","Charizard"],
+            A: ["Celesteela","Marowak-Alola","Heatran","Tapu Bulu","Aegislash","Oranguru","Jirachi","Pelipper","Kangaskhan","Deoxys-Attack","Metagross","Tyranitar","Ninetales-Alola","Kingdra","Volcanion","Garchomp","Hoopa-Unbound","Milotic","Araquanid","Raichu-Alola","Amoonguss","Gengar","Gastrodon","Porygon2"],
+            B: ["Excadrill","Zapdos","Shaymin-Sky","Xurkitree","Kartana","Muk-Alola","Torkoal","Politoed","Arcanine","Mimikyu","Landorus","Rotom-Wash","Tapu Fini","Ferrothorn","Pheromosa","Cresselia","Gyarados","Diancie","Weavile","Hydreigon","Drampa","Nihilego","Azumarill","Togekiss","Zygarde","Mamoswine","Necrozma","Comfey","Scrafty","Golisopod","Sylveon","Thundurus","Whimsicott","Volcarona","Venusaur","Snorlax","Greninja","Gigalith","Terrakion","Genesect","Buzzwole","Vikavolt","Sandslash-Alola","Suicune","Aerodactyl","Kyurem-Black","Mudsdale","Hitmontop","Hariyama","Wishiwashi"],
+            C: ["Ludicolo","Toxapex","Rotom-Heat","Porygon-Z","Raichu","Victini","Scizor","Salazzle","Lucario","Mew","Thundurus-Therian","Breloom","Alakazam","Serperior","Exeggutor-Alola","Cradily","Primarina","Dusclops","Dragonite","Oricorio","Meloetta","Staraptor","Chandelure","Krookodile","Talonflame","Dhelmise","Crabominable","Reuniclus","Rimbombee","Lilligant","Eevee","Golem-Alola","Clefable","Hippowdon","Machamp","Heliolisk","Typhlosion","Blaziken","Latios","Bronzong","Conkeldurr","Tsareena","Slowbro","Magnezone","Smeargle","Incineroar"],
+        },
+    },
     xy: {
         uber: {
             // http://www.smogon.com/forums/threads/oras-ubers-viability-ranking-thread-last-updated-post-918.3535106/

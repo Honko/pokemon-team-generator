@@ -32,11 +32,11 @@ const VIABILITY_RANKINGS = {
             C: ["Dugtrio","Wobbuffet","Buzzwole","Chansey","Xurkitree","Landorus-Therian","Shuckle","Aegislash","Shaymin-Sky","Ditto","Slowbro","Blaziken","Arceus-Steel","Arceus-Poison","Kangaskhan","Kyurem-White","Smeargle","Reshiram","Arceus-Grass","Arceus-Electric","Giratina"],
         },
         ou: {
-            // http://www.smogon.com/forums/threads/sm-ou-viability-ranking-thread-preliminary.3590726/ with C filled in with all other Pokemon with >1% usage
-            S: ["Genesect","Tapu Lele"],
-            A: ["Greninja","Celesteela","Heatran","Landorus-Therian","Magearna","Metagross","Tapu Koko","Buzzwole","Charizard","Excadrill","Ferrothorn","Garchomp","Hoopa-Unbound","Manaphy","Pheromosa","Rotom-Wash","Scizor","Tapu Bulu","Tapu Fini","Venusaur","Zygarde","Alakazam","Amoonguss","Jirachi","Latios","Magnezone","Marowak-Alola","Nihilego","Pinsir","Sableye","Skarmory","Tornadus-Therian","Tyranitar","Weavile"],
-            B: ["Bisharp","Chansey","Clefable","Dugtrio","Gengar","Gyarados","Kartana","Keldeo","Kingdra","Kyurem-Black","Latias","Mantine","Pelipper","Salamence","Slowbro","Tangrowth","Terrakion","Thundurus","Toxapex","Volcarona","Zapdos","Dragonite","Hippowdon","Mamoswine","Mimikyu","Muk-Alola","Porygon-Z","Serperior","Sharpedo","Starmie","Suicune","Volcanion"],
-            C: ["Xurkitree","Mandibuzz","Necrozma","Ninetales-Alola","Scolipede","Azelf","Gliscor","Quagsire","Araquanid","Azumarill","Togekiss","Hydreigon","Decidueye","Alomomola","Seismitoad","Shedinja","Dhelmise","Salazzle","Mew","Ditto","Golisopod","Raichu-Alola","Breloom","Shuckle","Tentacruel","Primarina","Persian-Alola","Smeargle","Espeon"],
+            // http://www.smogon.com/forums/threads/sm-ou-viability-ranking-thread-preliminary.3590726/
+            S: ["Landorus-Therian","Tapu Lele"],
+            A: ["Greninja","Celesteela","Heatran","Magearna","Metagross","Tapu Fini","Tapu Koko","Buzzwole","Charizard","Excadrill","Ferrothorn","Garchomp","Hoopa-Unbound","Manaphy","Pheromosa","Rotom-Wash","Scizor","Tapu Bulu","Venusaur","Zygarde","Alakazam","Amoonguss","Jirachi","Latios","Magnezone","Marowak-Alola","Nihilego","Pinsir","Sableye","Skarmory","Tornadus-Therian","Tyranitar","Weavile"],
+            B: ["Bisharp","Chansey","Clefable","Dugtrio","Gengar","Keldeo","Kyurem-Black","Salamence","Serperior","Tangrowth","Terrakion","Thundurus","Toxapex","Volcarona","Zapdos","Dragonite","Gliscor","Gyarados","Kartana","Kingdra","Mantine","Pelipper","Porygon-Z","Scolipede","Slowbro","Starmie","Volcanion","Aerodactyl","Breloom","Kabutops","Latias","Mew","Omastar","Sharpedo","Suicune","Slowking","Togekiss"],
+            C: ["Azumarill","Crawdaunt","Diggersby","Klefki","Hippowdon","Mamoswine","Mimikyu","Muk-Alola","Minior","Necrozma","Nidoking","Ninetales-Alola","Shedinja","Whimsicott","Xurkitree","Azelf","Dragalge","Empoleon","Gastrodon","Kyurem","Mandibuzz","Reuniclus","Shuckle","Smeargle","Thundurus-Therian","Absol","Bewear","Decidueye","Feraligatr","Hawlucha","Hydreigon","Kommo-o","Primarina","Seismitoad","Talonflame","Tentacruel","Torkoal","Victini"],
         },
         uu: {
             // from usage stats: top 5; >5%, >2%, >1%

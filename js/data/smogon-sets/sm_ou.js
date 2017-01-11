@@ -324,9 +324,6 @@ setdex.sm.ou = {
   "Gastrodon": [
     {"moves":[["Scald"],["Recover"],["Toxic","Earthquake","Earth Power"],["Toxic","Earthquake","Earth Power","Curse","Ice Beam"]],"item":["Leftovers"],"ability":["Storm Drain"],"nature":["Sassy"],"evs":{"hp":252,"def":112,"spd":144}},
   ],
-  "Genesect": [
-    {"moves":[["U-turn"],["Flamethrower","Iron Head","Ice Beam","Thunderbolt"],["Flamethrower","Iron Head","Ice Beam","Thunderbolt"],["Flamethrower","Iron Head","Ice Beam","Thunderbolt","Extreme Speed","Blaze Kick"]],"item":["Choice Scarf","Choice Band"],"ability":["Download"],"nature":["Hasty"],"evs":{"atk":252,"spd":4,"spe":252}},
-  ],
   "Gengar": [
     {"moves":[["Shadow Ball"],["Sludge Wave"],["Focus Blast"],["Taunt","Thunderbolt"]],"item":["Life Orb"],"ability":["Cursed Body"],"nature":["Timid"],"evs":{"def":4,"spa":252,"spe":252}},
   ],

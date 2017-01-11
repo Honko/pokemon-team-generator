@@ -245,9 +245,6 @@ setdex.sm.uu = {
   "Dragonair": [
     {"moves":[["Rest"],["Thunder Wave"],["Wrap","Substitute"],["Wrap","Substitute","Dragon Pulse","Thunderbolt","Fire Blast"]],"item":["Flame Orb","Eviolite"],"ability":["Marvel Scale","Shed Skin"],"nature":["Impish"],"evs":{"hp":252,"atk":4,"def":252}},
   ],
-  "Dragonite": [
-    {"moves":[["Extreme Speed"],["Dragon Dance"],["Dragon Claw","Fire Punch","Earthquake"],["Dragon Claw","Fire Punch","Earthquake","Outrage","Fly"]],"item":["Weakness Policy","Flyinium Z","Lum Berry"],"ability":["Multiscale"],"nature":["Adamant"],"evs":{"atk":252,"spd":4,"spe":252}},
-  ],
   "Drampa": [
     {"moves":[["Flamethrower","Draco Meteor","Roost","Hyper Voice","Dragon Pulse"],["Flamethrower","Draco Meteor","Roost","Hyper Voice","Dragon Pulse"],["Flamethrower","Draco Meteor","Roost","Hyper Voice","Dragon Pulse"],["Flamethrower","Draco Meteor","Roost","Hyper Voice","Dragon Pulse","Calm Mind","Fire Blast","Thunderbolt"]],"item":["Leftovers"],"ability":["Berserk"],"nature":["Bold"],"evs":{"hp":252,"def":252,"spa":4}},
   ],
@@ -817,9 +814,6 @@ setdex.sm.uu = {
   "Sableye": [
     {"moves":[["Taunt"],["Will-O-Wisp"],["Recover"],["Knock Off","Foul Play","Toxic"]],"item":["Leftovers"],"ability":["Prankster"],"nature":["Calm"],"evs":{"hp":252,"def":4,"spd":252}},
   ],
-  "Salamence": [
-    {"moves":[["Dragon Dance"],["Fly"],["Outrage"],["Earthquake"]],"item":["Flyinium Z"],"ability":["Moxie"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
-  ],
   "Salandit": [
     {"moves":[["Flamethrower"],["Toxic"],["Sludge Wave"],["Substitute"]],"item":["Eviolite"],"ability":["Corrosion"],"nature":["Timid"],"evs":{"hp":216,"def":40,"spd":252}},
   ],
@@ -1122,9 +1116,6 @@ setdex.sm.uu = {
   ],
   "Walrein": [
     {"moves":[["Toxic","Super Fang"],["Toxic","Super Fang"],["Toxic","Super Fang"],["Toxic","Super Fang","Surf","Rest","Encore","Earthquake","Ice Fang","Belly Drum","Sleep Talk","Blizzard"]],"item":["Leftovers"],"ability":["Ice Body","Thick Fat"],"nature":["Calm"],"evs":{"hp":252,"def":4,"spd":252}},
-  ],
-  "Weavile": [
-    {"moves":[["Knock Off"],["Icicle Crash"],["Ice Shard"],["Poison Jab","Swords Dance","Pursuit"]],"item":["Life Orb"],"ability":["Pressure"],"nature":["Jolly"],"evs":{"spd":4,"spe":252,"atk":252}},
   ],
   "Weezing": [
     {"moves":[["Sludge Bomb"],["Pain Split"],["Will-O-Wisp"],["Toxic Spikes","Flamethrower"]],"item":["Black Sludge"],"ability":["Levitate"],"nature":["Bold"],"evs":{"hp":252,"def":252,"spa":4}},

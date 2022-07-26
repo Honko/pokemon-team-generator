@@ -23,7 +23,47 @@
 };
 
 const VIABILITY_RANKINGS = {
+    ss: {
+        ag: {
+            // https://www.smogon.com/forums/threads/ag-viability-rankings.3672899/
+            S: ["Calyrex-Shadow","Yveltal","Eternatus","Kygore","Necrozma-Dusk-Mane","Zacian-Crowned","Zygarde-Complete"],
+            A: ["Ditto","Groudon","Xerneas","Ferrothorn","Gothitelle","Ho-Oh","Marshadow","Lunala","Zekrom"],
+            B: ["Blissey","Landorus-Therian","Slurpuff","Dracovish","Giratina-Origin","Tyranitar","Calyrex-Ice","Excadrill","Grimmsnarl","Mewtwo"],
+            C: ["Butterfree","Kyurem-White","Rayquaza","Shuckle","Urshifu","Zacian","Chansey","Cloyster","Darmanitan-Galar","Giratina","Quagsire","Regieleki","Kyurem-Black","Pheromosa","Shedinja","Toxapex"],
+            D: ["Dialga","Dugtrio","Galvantula","Heatran","Lycanroc","Magearna","Palkia","Porygon2","Reshiram","Skarmory","Tapu Fini"],
+        },
+        uber: {
+            // https://www.smogon.com/forums/threads/crown-tundra-ss-ubers-viability-rankings.3675194/
+            S: ["Yveltal","Eternatus","Necrozma-Dusk-Mane","Calyrex-Shadow","Kyogre","Groudon"],
+            A: ["Zygarde-Complete","Marshadow","Xerneas","Ho-Oh","Ferrothorn","Darmanitan-Galar","Landorus-Therian","Lunala","Zekrom","Rayquaza"],
+            B: ["Blissey","Dracovish","Weavile","Buzzwole","Ditto","Giratina-Origin","Landorus-Incarnate","Magnezone","Mewtwo","Shuckle","Slurpuff","Toxapex","Urshifu","Aerodactyl","Calyrex-Ice","Clefable","Cloyster","Giratina","Heatran","Tyranitar","Zamazenta-Crowned","Zarude"],
+            C: ["Dialga","Excadrill","Grimmsnarl","Pheromosa","Chansey","Froslass","Garchomp","Gastrodon","Hydreigon","Magearna","Palkia","Regieleki","Shedinja","Solgaleo","Tangrowth","Tapu Fini","Dugtrio","Galvantula","Mew","Reshiram","Skarmory","Xatu"], 
+            D: ["Cinderace","Genesect","Kyurem","Kyurem-Black","Kyurem-White","Lugia","Naganadel","Necrozma-Dawn-Wings","Spectrier","Zamzenta"],
+        },
+        uu: {
+            // https://www.smogon.com/forums/threads/ss-uu-crown-tundra-viability-ranking-thread.3674793/
+            S: ["Scizor","Hippowdown"],
+            A: ["Amoonguss","Celesteela","Cobalion","Salamance","Thundurus-Therian","Primarina","Zarude","Azelf","Diggersby","Excadrill","Hydreigon","Keldeo","Nihilego","Skarmory","Slowking","Tangrowth","Zygarde-10%","Chansey","Mamoswine","Mandibuzz","Moltres","Rotom-Wash","Swampert","Tentacruel","Azumarill","Conkeldurr","Crobat","Gyarados","Hatterene","Jirachi","Nidoking","Nidoqueen","Noivern","Rotom-Heat","Slowbro-Galar","Starmie","Togekiss"],
+            B: ["Chandelure","Cloyster","Dhelmise","Entei","Krookodile","Lycanroc","Necrozma","Raikou","Registeel","Reuniclus","Rhyperior","Tapu Bulu","Umbreon"],
+            C: ["Articuno","Crawdunt","Cresselia","Darmanitan","Inteleon","Marowak-Alola","Porygon2","Quagsire","Roserade","Salazzle","Seismitoad","Scolipede","Suicune","Torkoal","Tornadus","Vanilluxe","Venusaur","Ditto","Flygon","Froslass","Gastrodon","Jellicent","Magneton","Regidrago","Rimbombee","Sigilyph","Toxtricity"],
+        },
+        lc: {
+            // https://www.smogon.com/forums/threads/swsh-lc-viability-rankings-update-in-post-202.3657374/
+            S: ["Mienfoo"],
+            A: ["Diglett","Ferroseed","Koffing","Natu","Pawniard","Porygon","Abra","Carvanha","Grookey","Mareanie","Frillish","Ponyta","Staryu","Trapinch","Tyrunt"],
+            B: ["Dwebble","Larvesta","Mudbray","Onix","Archen","Charmander","Drillbur","Foongus","Magby","Magnemite","Munchlax","Shellos","Timburr","Vulpix","Morelull","Sandshrew-Alola","Slowpoke","Snover","Stunky"],
+            C: ["Bunnelby","Cottonee","Croagunk","Elekid","Farfetch'd-Galar","Pancham","Ponyta-Galar","Shellder","Sinistea","Trubbish","Venipede","Wingull"],
+            D: ["Amaura","Anorith","Chinchou","Dewpider","Golett","Lileep","Meowth","Minccino","Omanyte","Salandit","Scorbunny","Skrelp","Tirtouga","Topegi","Treecko","Wynaut","Zorua"],
+        },
+    },
     sm: {
+        ag: {
+            // https://www.smogon.com/forums/threads/usum-ag-viability-rankings.3591711/
+            S: ["Rayquaza","Necrozma-Ultra"],
+            A: ["Gengar-Mega","Groudon","Ho-Oh","Marshadow","Zygarde-Complete","Arceus","Arceus-Fairy","Arceus-Ground","Necrozma-Dusk-Mane","Xerneas","Arceus-Dark","Arceus-Poison","Arceus-Water","Ferrothorn","Kyogre-Primal","Lunala","Yveltal"],
+            B: ["Arceus-Rock","Arceus-Steel","Celesteela","Giratina","Mewtwo","Sableye-Mega","Skarmory","Smeargle","Tyranitar","Chansey","Excadrill","Gothitelle","Lugia","Mewtwo-Mega-Y","Naganadel","Vivillion","Arceus-Flying","Arceus-Ghost","Deoxys-Speed","Ditto","Kyogre","Magearna","Mewtwo-Mega-X","Shuckle"],
+            C: ["Arceus-Dragon","Arceus-Grass","Blissey","Deoxys-Attack","Toxapex"],
+        },
         uber: {
             // http://www.smogon.com/forums/threads/sm-ubers-viability-ranking-thread.3591388/
             S: ["Groudon","Xerneas","Gengar"],

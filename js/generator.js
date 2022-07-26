@@ -8,8 +8,10 @@ const GEN_DISPLAY_NAMES = {
     bw: "B/W",
     xy: "X/Y",
     sm: "S/M",
+    ss: "S/S",
 };
 const META_DISPLAY_NAMES = {
+    ag: "AG",
     uber: "Uber",
     ou: "OU",
     uu: "UU",
@@ -28,6 +30,7 @@ var setdex = {
     bw: {},
     xy: {},
     sm: {},
+    ss: {},
 };
 
 var teamGenerator = angular.module('teamGenerator', ['ui.bootstrap', 'nya.bootstrap.select']);
@@ -92,9 +95,15 @@ teamGenerator.controller('GeneratorController', function($scope) {
     };
 
     var _generateTeam = function(oldTeam) {
-        var excludeSpecies = speciesInTeam(true);
+        // if meta is "ag", then speciecInTeam will be false
+        var agmeta = Object.keys(META_DISPLAY_NAMES).indexOf($scope.meta) == 0;
+        if ($scope.meta === agmeta) {
+            excludeSpecies = speciesInTeam(false);
+        } else {
+            excludeSpecies = speciesInTeam(true);
+        }
         var requiredRoles = [];
-        if (["dpp","bw","xy","sm"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
+        if (["dpp","bw","xy","sm","ss"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
             requiredRoles.push(ROLES.StealthRock);
         }
         var restrictedRoles = [
@@ -285,7 +294,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
     $scope.genDisplayName = function(gen) {
         return GEN_DISPLAY_NAMES[gen];
     };
-    $scope.gen = "sm";
+    $scope.gen = "ss";
 
     var getValidMetas = function() {
         return Object.keys(META_DISPLAY_NAMES).filter(function(meta) {

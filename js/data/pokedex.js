@@ -368,6 +368,18 @@ var pokedex = {
   "Cacturne": {
     spriteName: "cacturne",
   },
+  "Calyrex": {
+    spriteName: "calyrex",
+    formes: ["Calyrex","Calyrex-Ice","Calyrex-Shadow"],
+  },
+  "Calyrex-Ice": {
+    spriteName: "calyrex-ice",
+    formes: ["Calyrex","Calyrex-Ice","Calyrex-Shadow"],
+  },
+  "Calyrex-Shadow": {
+    spriteName: "calyrex-shadow",
+    formes: ["Calyrex","Calyrex-Ice","Calyrex-Shadow"],
+  },
   "Camerupt": {
     spriteName: "camerupt",
     alts: {
@@ -570,6 +582,9 @@ var pokedex = {
   "Darmanitan": {
     spriteName: "darmanitan",
   },
+  "Darmanitan-Galar": {
+    spriteName: "darmanitan-galar",
+  },
   "Dartrix": {
     spriteName: "dartrix",
   },
@@ -659,6 +674,9 @@ var pokedex = {
   },
   "Doublade": {
     spriteName: "doublade",
+  },
+  "Dracovish": {
+    spriteName: "dracovish",
   },
   "Dragalge": {
     spriteName: "dragalge",
@@ -1104,6 +1122,9 @@ var pokedex = {
   },
   "Hariyama": {
     spriteName: "hariyama",
+  },
+  "Hatterene": {
+    spriteName: "hatterene",
   },
   "Haunter": {
     spriteName: "haunter",
@@ -1725,6 +1746,25 @@ var pokedex = {
   },
   "Necrozma": {
     spriteName: "necrozma",
+    formes: ["Necrozma","Necrozma-Dusk-Mane","Necrozma-Dawn-Wings"],
+  },
+  "Necrozma-Dusk-Mane": {
+    spriteName: "necrozma-dusk-mane",
+    alts: {
+      "Ultra": {
+        spriteName: "necrozma-ultra",
+      },
+    },
+    formes: ["Necrozma","Necrozma-Dusk-Mane","Necrozma-Dawn-Wings"],
+  },
+  "Necrozma-Dawn-Wings": {
+    spriteName: "necrozma-dawn-wings",
+    alts: {
+      "Ultra": {
+        spriteName: "necrozma-ultra",
+      },
+    },
+    formes: ["Necrozma","Necrozma-Dusk-Mane","Necrozma-Dawn-Wings"],
   },
   "Nidoking": {
     spriteName: "nidoking",
@@ -2053,6 +2093,9 @@ var pokedex = {
   },
   "Regice": {
     spriteName: "regice",
+  },
+  "Regieleki": {
+    spriteName: "regieleki",
   },
   "Regigigas": {
     spriteName: "regigigas",
@@ -2404,8 +2447,14 @@ var pokedex = {
       },
     },
   },
+  "Slowbro-Galar": {
+    spriteName: "slowbro-galar",
+  },
   "Slowking": {
     spriteName: "slowking",
+  },
+  "Slowking-Galar": {
+    spriteName: "slowking-galar",
   },
   "Slowpoke": {
     spriteName: "slowpoke",
@@ -2741,6 +2790,14 @@ var pokedex = {
   "Ursaring": {
     spriteName: "ursaring",
   },
+  "Urshifu": {
+    spriteName: "urshifu",
+    formes: ["Urshifu","Urshifu-Rapid-Strike"],
+  },
+  "Urshifu-Rapid-Strike": {
+    spriteName: "urshifu-rapid-strike",
+    formes: ["Urshifu","Urshifu-Rapid-Strike"],
+  },
   "Uxie": {
     spriteName: "uxie",
   },
@@ -2923,6 +2980,22 @@ var pokedex = {
   "Yveltal": {
     spriteName: "yveltal",
   },
+  "Zacian": {
+    spriteName: "zacian",
+    formes: ["Zacian","Zacian-Crowned"],
+  },
+  "Zacian-Crowned": {
+    spriteName: "zacian-crowned",
+    formes: ["Zacian","Zacian-Crowned"],
+  },
+  "Zamazenta": {
+    spriteName: "zamazenta",
+    formes: ["Zamazenta","Zamazenta-Crowned"],
+  },
+  "Zamazenta-Crowned": {
+    spriteName: "zamazenta-crowned",
+    formes: ["Zamazenta","Zamazenta-Crowned"],
+  },
   "Zangoose": {
     spriteName: "zangoose",
   },
@@ -2952,5 +3025,14 @@ var pokedex = {
   },
   "Zygarde": {
     spriteName: "zygarde",
+    formes: ["Zygarde-10%","Zygarde-Complete"],
+  },
+  "Zygarde-10%": {
+    spriteName: "zygarde-10%",
+    formes: ["Zygarde","Zygarde-Complete"],
+  },
+  "Zygarde-Complete": {
+    spriteName: "zygarde-complete",
+    formes: ["Zygarde","Zygarde-10%"],
   },
 };

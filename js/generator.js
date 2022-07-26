@@ -96,12 +96,7 @@ teamGenerator.controller('GeneratorController', function($scope) {
 
     var _generateTeam = function(oldTeam) {
         // if meta is "ag", then speciecInTeam will be false
-        var agmeta = Object.keys(META_DISPLAY_NAMES).indexOf($scope.meta) == 0;
-        if ($scope.meta === agmeta) {
-            excludeSpecies = speciesInTeam(false);
-        } else {
-            excludeSpecies = speciesInTeam(true);
-        }
+        var excludeSpecies = speciesInTeam(true);
         var requiredRoles = [];
         if (["dpp","bw","xy","sm","ss"].indexOf($scope.gen) !== -1 && ["doubles"].indexOf($scope.meta) === -1) {
             requiredRoles.push(ROLES.StealthRock);
